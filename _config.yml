@@ -6,6 +6,7 @@ twitter_username: cssu
 github_username:  cssu
 
 # Build settings
+exclude: ['README.md']
 markdown: kramdown
 permalink: pretty
 
