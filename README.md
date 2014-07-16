@@ -1,5 +1,5 @@
-cssu.github.io
-==============
+cssu.cdf.toronto.edu
+====================
 
 University of Toronto Computer Science Student Union Website
 
