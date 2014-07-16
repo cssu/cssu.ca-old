@@ -25,13 +25,15 @@ git push cdf master  # This will trigger a hook to build & serve the site on CDF
 ssh -t g4name@dbsrv1.cdf.toronto.edu "sudo -u cssuwww /bin/bash"
 ```
 
+(Where _g4name_ is your actual CDF username)
+
 ##### Install ruby via [rbenv](https://github.com/sstephenson/rbenv)
 
 ```bash
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
-echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bashrc
 source ~/.bashrc
 rbenv install 2.1.2
 ```
