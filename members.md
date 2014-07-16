@@ -28,7 +28,7 @@ Jr. Internal Liaison: Felipe Vicencio-Heap
 Sr. Graphic Designer: Eugene Cheung
 Jr. Graphic Designer: Amrutha Krishnan
 
-Sr. Webmaster: Spencer Elliot
+Sr. Webmaster: Spencer Elliott
 Jr. Webmaster: Eric Bannatyne
 
 Sr. Academic Consultant: Alexander Biggs
@@ -68,4 +68,3 @@ Xi(Zoe) Wang
 Steffi Choi
 Amanda Bell
 Ben Shaft
-
