@@ -17,7 +17,6 @@ git remote add cdf cssuwww@dbsrv1.cdf.toronto.edu:cssu.cdf.toronto.edu.git
 git push cdf master  # This will trigger a hook to build & serve the site on CDF
 ```
 
-
 ### Deploying from scratch
 
 ##### Login to CDF as _cssuwww_
@@ -65,10 +64,11 @@ Paste into `~/cssu.cdf.toronto.edu.git/hooks/post-receive`:
 #!/bin/bash -l
 GIT_REPO=$HOME/cssu.cdf.toronto.edu.git
 TMP_GIT_CLONE=$HOME/tmp/cssu.cdf.toronto.edu
-PUBLIC_WWW=/i/cssuwww/www
+PUBLIC_WWW=/space/data/www/cssu/htdocs
 
 git clone $GIT_REPO $TMP_GIT_CLONE
-jekyll build --source $TMP_GIT_CLONE --destination $PUBLIC_WWW
+jekyll build --source $TMP_GIT_CLONE --destination $TMP_GIT_CLONE/_site
+cp -r $TMP_GIT_CLONE/_site/* $PUBLIC_WWW
 rm -rf $TMP_GIT_CLONE
 exit
 ```
@@ -78,3 +78,5 @@ exit
 ```bash
 chmod u+x ~/cssu.cdf.toronto.edu.git/hooks/post-receive
 ```
+
+Then see [Deploying](#deploying) to deploy from your local machine.
