@@ -9,13 +9,28 @@ This is a standard [Jekyll](http://jekyllrb.com/) static site.
 
 ### Deploying
 
-Clone this repository and add a remote to deploy to CDF:
+##### Login to CDF as _cssuwww_
+
+```bash
+ssh -t g4name@dbsrv1.cdf.toronto.edu "sudo -u cssuwww /bin/bash"
+```
+
+##### Add your public SSH key to `authorized_keys`
+
+```bash
+nano ~cssuwww/.ssh/authorized_keys
+# Paste your public key into a new line in the file
+```
+
+##### Clone this repository and add a remote to deploy to CDF
 
 ```bash
 git clone git@github.com:cssu/cssu.cdf.toronto.edu.git
 git remote add cdf cssuwww@dbsrv1.cdf.toronto.edu:cssu.cdf.toronto.edu.git
 git push cdf master  # This will trigger a hook to build & serve the site on CDF
 ```
+
+_Bonus: Now that you've added your SSH key to the cssuwww account, you can log in via SSH by simply running_ `ssh cssuwww@dbsrv1.cdf.toronto.edu`
 
 ### Deploying from scratch
 
@@ -42,13 +57,6 @@ rbenv install 2.1.2
 
 ```bash
 gem install jekyll
-```
-
-##### Add your public SSH key to `authorized_keys`
-
-```bash
-nano ~cssuwww/.ssh/authorized_keys
-# Paste your public key into a new line in the file
 ```
 
 ##### Set up the remote repository
