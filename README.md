@@ -76,10 +76,18 @@ GIT_REPO=$HOME/cssu.cdf.toronto.edu.git
 TMP_GIT_CLONE=$HOME/tmp/cssu.cdf.toronto.edu
 PUBLIC_WWW=/space/data/www/cssu/htdocs
 
+# Clone the bare repo into a temporary repo with a working copy
 git clone $GIT_REPO $TMP_GIT_CLONE
+
+# Use Jekyll to generate the static site
 jekyll build --source $TMP_GIT_CLONE --destination $TMP_GIT_CLONE/_site
+
+# Copy the static site to htdocs, overwriting existing files
 cp -r $TMP_GIT_CLONE/_site/* $PUBLIC_WWW
+
+# Remove the temporary repo
 rm -rf $TMP_GIT_CLONE
+
 exit
 ```
 
