@@ -1,0 +1,10 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    wdm (0.1.0)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  wdm (~> 0.1.0)
