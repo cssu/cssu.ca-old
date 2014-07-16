@@ -9,11 +9,15 @@ This is a standard [Jekyll](http://jekyllrb.com/) static site.
 
 ### Deploying
 
+If you've already added your public key to `authorized_keys`, skip to [Clone this repository and add a remote to deploy to CDF](#clone-this-repository-and-add-a-remote-to-deploy-to-cdf)
+
 ##### Login to CDF as _cssuwww_
 
 ```bash
 ssh -t g4name@dbsrv1.cdf.toronto.edu "sudo -u cssuwww /bin/bash"
 ```
+
+(Where _g4name_ is your actual CDF username)
 
 ##### Add your public SSH key to `authorized_keys`
 
@@ -23,6 +27,8 @@ nano ~cssuwww/.ssh/authorized_keys
 ```
 
 ##### Clone this repository and add a remote to deploy to CDF
+
+On your local machine:
 
 ```bash
 git clone git@github.com:cssu/cssu.cdf.toronto.edu.git
