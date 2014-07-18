@@ -332,6 +332,8 @@ a:visited { color: #205caa; }
     padding: 20px;
 
     li + li { margin-top: 20px; }
+
+    a { color: $grey; }
   }
 }
 
@@ -365,6 +367,28 @@ a:visited { color: #205caa; }
   .members {
     background-color: #e1e1e1;
     padding: 20px;
+    text-align: center;
+
+    a { color: $grey; }
+
+    li {
+      display: inline-block;
+      vertical-align: top;
+      width: 10em;
+
+      img {
+        background-color: #eee;
+        border-radius: 50%;
+        display: block;
+        height: 5.5em;
+        width: 5.5em;
+        margin: 0 auto 0.5em;
+      }
+
+      .member-name { font-weight: 600; }
+
+      .member-role { font-weight: 300; }
+    }
   }
 }
 

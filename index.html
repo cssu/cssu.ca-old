@@ -18,8 +18,10 @@ title: Computer Science Student Union
         <ul class="posts">
           {% for post in site.categories['news'] limit:4 %}
             <li>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                <p class="post-link">{{ post.title }}</p>
+                <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
+              </a>
             </li>
           {% endfor %}
         </ul>
@@ -30,12 +32,14 @@ title: Computer Science Student Union
         <ul class="posts">
           {% for post in site.categories['events'] limit:4 %}
             <li>
-              <div class="event-date">
-                <p class="event-month">{{ post.date | date: "%b" }}</p>
-                <p class="event-day">{{ post.date | date: "%-d" }}</p>
-              </div>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              <p>{{ post.description | strip_html | truncatewords: 25 }}</p>
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                <div class="event-date">
+                  <p class="event-month">{{ post.date | date: "%b" }}</p>
+                  <p class="event-day">{{ post.date | date: "%-d" }}</p>
+                </div>
+                <p class="post-link">{{ post.title }}</p>
+                <p>{{ post.description | strip_html | truncatewords: 25 }}</p>
+              </a>
             </li>
           {% endfor %}
         </ul>
@@ -48,7 +52,15 @@ title: Computer Science Student Union
   <div id="home-members">
     <a href="/members/"><h1>Members</h1></a>
     <ul class="members">
-      Something
+      {% for member in site.data.members %}
+        <li>
+          <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
+            <img src="/member_photos/{{ member.pic }}" alt="Photo of {{ member.name }}">
+            <p class="member-name">{{ member.name }}</p>
+            <p class="member-role">{{ member.role }}</p>
+          </a>
+        </li>
+      {% endfor %}
     </ul>
   </div>
 
