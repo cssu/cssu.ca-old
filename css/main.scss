@@ -329,23 +329,33 @@ a:visited { color: #205caa; }
 
   .posts {
     background-color: #e1e1e1;
-    list-style-type: none;
     padding: 20px;
 
     li + li { margin-top: 20px; }
-
-    .post-link {
-      color: $grey;
-      display: block;
-      font-size: 24px;
-      line-height: 1;
-      margin-bottom: 0.5em;
-    }
-
-    p {
-      font-size: 0.9em;
-    }
   }
+}
+
+.posts {
+  list-style-type: none;
+
+  li + li { margin-top: 1.5em; }
+
+  .post-link {
+    color: $grey;
+    display: block;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
+
+.page-list {
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 #home-members {

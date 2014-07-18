@@ -31,8 +31,8 @@ title: Computer Science Student Union
           {% for post in site.categories['events'] limit:4 %}
             <li>
               <div class="event-date">
-                <p class="event-month">{{ post.month }}</p>
-                <p class="event-day">{{ post.day }}</p>
+                <p class="event-month">{{ post.date | date: "%b" }}</p>
+                <p class="event-day">{{ post.date | date: "%-d" }}</p>
               </div>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               <p>{{ post.description | strip_html | truncatewords: 25 }}</p>

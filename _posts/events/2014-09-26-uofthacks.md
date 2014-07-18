@@ -2,9 +2,7 @@
 layout: post
 title:  "UofTHacks"
 description: "The most unapologetically Canadian hackathon, eh?"
-month:  "Sept"
-day:    26
-date:   2014-07-07 19:25:39
+date:   2014-09-26
 categories: events
 ---
 

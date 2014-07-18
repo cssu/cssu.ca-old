@@ -2,9 +2,7 @@
 layout: post
 title:  "First year brunch"
 description: "Come for the food, stay for the info."
-month:  "Sept"
-day:    12
-date:   2014-07-17 19:25:39
+date:   2014-09-12
 categories: events
 ---
 
