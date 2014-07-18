@@ -25,7 +25,7 @@ function init_map() {
   map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
   marker = new google.maps.Marker({ map: map, position: homeLatLng });
   infowindow = new google.maps.InfoWindow({ content:"<b>CSSU</b><br/>BA 2283" });
-  google.maps.event.addListener(marker, "click", function(){ infowindow.open(map,marker); });
+  google.maps.event.addListener(marker, "click", function(){ infowindow.open(map, marker); });
 }
 
 google.maps.event.addDomListener(window, "resize", function(){ map.setCenter(homeLatLng); });

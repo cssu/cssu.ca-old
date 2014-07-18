@@ -14,9 +14,9 @@ title: Computer Science Student Union
     <div id="home-row-inner">
 
       <div id="home-news">
-        <h1>News</h1>
+        <a href="/news/"><h1>News</h1></a>
         <ul class="posts">
-          {% for post in site.categories['news'] %}
+          {% for post in site.categories['news'] limit:4 %}
             <li>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
@@ -26,9 +26,9 @@ title: Computer Science Student Union
       </div>
 
       <div id="home-events">
-        <h1>Events</h1>
+        <a href="/events/"><h1>Events</h1></a>
         <ul class="posts">
-          {% for post in site.categories['events'] %}
+          {% for post in site.categories['events'] limit:4 %}
             <li>
               <div class="event-date">
                 <p class="event-month">{{ post.month }}</p>
@@ -46,7 +46,7 @@ title: Computer Science Student Union
   </div>
 
   <div id="home-members">
-    <h1>Members</h1>
+    <a href="/members/"><h1>Members</h1></a>
     <ul class="members">
       Something
     </ul>
