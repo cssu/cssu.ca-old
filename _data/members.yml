@@ -1,12 +1,12 @@
 - name: Jonathan Webb
   role: President
-  email:
-  pic:
+  email: jonathan.webb@mail.utoronto.ca
+  pic: jon.jpg
 
 - name: Nicholas Goh
   role: Vice President
   email:
-  pic:
+  pic: nick.png
 
 - name: Jason Harrison
   role: Treasurer
@@ -20,7 +20,7 @@
 
 - name: Chris Long
   role: Sr. Social Assistant
-  email:
+  email: chris.long@mail.utoronto.ca
   pic:
 
 - name: Wenting Pan
@@ -50,7 +50,7 @@
 
 - name: Francesco Gramano
   role: Sr. Internal Liaison
-  email:
+  email: fran.gramano@mail.utoronto.ca
   pic:
 
 - name: Felipe Vicencio-Heap
@@ -71,7 +71,7 @@
 - name: Spencer Elliott
   role: Sr. Webmaster
   email:
-  pic:
+  pic: spencer.jpg
 
 - name: Eric Bannatyne
   role: Jr. Webmaster
@@ -90,7 +90,7 @@
 
 - name: Hanchen Wang
   role: Jr. Academic Consultant
-  email:
+  email: hanchen.wang@mail.utoronto.ca
   pic:
 
 - name: Thanasi Karachotzitis
@@ -145,7 +145,7 @@
 
 - name: Martin Petkov
   role: Jr. Office Administrator
-  email:
+  email: martin.petkov@mail.utoronto.ca
   pic:
 
 - name: Milind Shah
@@ -160,7 +160,7 @@
 
 - name: Christina Chen
   role: Jr. Social Assistants
-  email:
+  email: xtina.chen@mail.utoronto.ca
   pic:
 
 - name: Alec Brunelle
@@ -200,5 +200,5 @@
 
 - name: Ben Shaft
   role: Jr. Social Assistants
-  email:
+  email: ben.shaft@mail.utoronto.ca
   pic:

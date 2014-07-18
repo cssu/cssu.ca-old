@@ -366,13 +366,21 @@ a:visited { color: #205caa; }
 
   .members {
     background-color: #e1e1e1;
-    padding: 20px;
     text-align: center;
+
+    ul {
+      font-size: 0; // for horizontal scrolling
+      overflow: auto;
+      padding: 20px;
+      white-space: nowrap;
+      width: auto;
+    }
 
     a { color: $grey; }
 
     li {
       display: inline-block;
+      font-size: 16px;
       vertical-align: top;
       width: 10em;
 
