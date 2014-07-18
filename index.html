@@ -16,9 +16,10 @@ title: Computer Science Student Union
       <div id="home-news">
         <h1>News</h1>
         <ul class="posts">
-          {% for post in site.posts %}
+          {% for post in site.categories['news'] %}
             <li>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
             </li>
           {% endfor %}
         </ul>
@@ -27,9 +28,14 @@ title: Computer Science Student Union
       <div id="home-events">
         <h1>Events</h1>
         <ul class="posts">
-          {% for post in site.posts %}
+          {% for post in site.categories['events'] %}
             <li>
+              <div class="event-date">
+                <p class="event-month">{{ post.month }}</p>
+                <p class="event-day">{{ post.day }}</p>
+              </div>
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              <p>{{ post.description | strip_html | truncatewords: 25 }}</p>
             </li>
           {% endfor %}
         </ul>

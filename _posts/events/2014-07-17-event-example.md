@@ -1,8 +1,11 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2014-07-07 19:25:39
-categories: jekyll update
+title:  "First year brunch"
+description: "Come for the food, stay for the info."
+month:  "Sept"
+day:    12
+date:   2014-07-17 19:25:39
+categories: events
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!

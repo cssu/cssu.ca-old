@@ -155,7 +155,14 @@ a:visited { color: #205caa; }
     line-height: 2em;
     margin-bottom: 2em;
     text-align: center;
+    text-decoration: none;
+    transition: border-color 0.3s, color 0.3s;
     width: 2em;
+
+    &:hover {
+      border-color: #fff;
+      color: #fff;
+    }
   }
 
   .footer-heading {
@@ -297,6 +304,27 @@ a:visited { color: #205caa; }
 
   #home-events {
     padding-left: 15px;
+
+    li { min-height: 5em; }
+
+    .event-date {
+      background-color: $grey;
+      color: #fff;
+      float: left;
+      height: 5em;
+      margin-right: 15px;
+      text-align: center;
+      padding: 10px;
+      width: 5em;
+
+      .event-month {
+        font-size: 1em;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+      }
+
+      .event-day { font-size: 2.25em; }
+    }
   }
 
   .posts {
@@ -304,12 +332,18 @@ a:visited { color: #205caa; }
     list-style-type: none;
     padding: 20px;
 
-    li { margin-bottom: 30px; }
+    li + li { margin-top: 20px; }
 
     .post-link {
+      color: $grey;
+      display: block;
       font-size: 24px;
-      letter-spacing: -1px;
       line-height: 1;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 0.9em;
     }
   }
 }

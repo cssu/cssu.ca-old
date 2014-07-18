@@ -8,7 +8,7 @@ github_username:  cssu
 # Build settings
 exclude: ['README.md']
 markdown: kramdown
-permalink: pretty
+permalink: /:categories/:title
 
 # kramdown settings
 kramdown:
