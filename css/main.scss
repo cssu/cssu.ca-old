@@ -406,6 +406,11 @@ a:visited { color: #205caa; }
 
   a { color: $grey; }
 
+  ul {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
   li {
     display: inline-block;
     font-size: 16px;
