@@ -2,6 +2,7 @@
 layout: page
 title: Members
 permalink: /members/
+nav: true
 ---
 
 President: Jonathan Webb

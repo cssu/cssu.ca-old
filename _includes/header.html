@@ -1,8 +1,8 @@
 <header class="site-header">
-
   <div class="wrap">
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <p class="site-subtitle">University of Toronto Computer Science Student Union</p>
 
     <nav class="site-nav">
       <a href="#" class="menu-icon">
@@ -18,11 +18,11 @@
       </a>
       <div class="trigger">
         {% for page in site.pages %}
-          {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+          {% if page.nav %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
         {% endfor %}
+        <a class="page-link" href="http://cssu.cdf.toronto.edu/w/">Wiki</a>
       </div>
     </nav>
 
   </div>
-
 </header>
