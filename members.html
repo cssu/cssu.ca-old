@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Members
+permalink: /members/
 nav: true
 ---
 
@@ -9,7 +10,7 @@ nav: true
     {% for member in site.data.members %}
       <li>
         <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
-          <img src="/member_photos/{{ member.pic }}" alt="Photo of {{ member.name }}">
+          <img src="/img/member_photos/{{ member.pic }}" alt="Photo of {{ member.name }}">
           <p class="member-name">{{ member.name }}</p>
           <p class="member-role">{{ member.role }}</p>
         </a>
