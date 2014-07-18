@@ -1,0 +1,19 @@
+---
+layout: page
+title: Members
+nav: true
+---
+
+<div class="members-page">
+  <ul>
+    {% for member in site.data.members %}
+      <li>
+        <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
+          <img src="/member_photos/{{ member.pic }}" alt="Photo of {{ member.name }}">
+          <p class="member-name">{{ member.name }}</p>
+          <p class="member-role">{{ member.role }}</p>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

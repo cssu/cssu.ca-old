@@ -381,8 +381,9 @@ a:visited { color: #205caa; }
     li {
       display: inline-block;
       font-size: 16px;
+      min-width: 10em;
+      padding: 0 0.75em;
       vertical-align: top;
-      width: 10em;
 
       img {
         background-color: #eee;
@@ -400,6 +401,32 @@ a:visited { color: #205caa; }
   }
 }
 
+.members-page {
+  text-align: center;
+
+  a { color: $grey; }
+
+  li {
+    display: inline-block;
+    font-size: 16px;
+    margin: 1em;
+    vertical-align: top;
+    width: 11em;
+
+    img {
+      background-color: #eee;
+      border-radius: 50%;
+      display: block;
+      height: 5.5em;
+      width: 5.5em;
+      margin: 0 auto 0.5em;
+    }
+
+    .member-name { font-weight: 600; }
+
+    .member-role { font-weight: 300; }
+  }
+}
 
 /* Post styles */
 /* ----------------------------------------------------------*/
