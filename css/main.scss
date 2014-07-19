@@ -182,20 +182,13 @@ a:visited { color: #205caa; }
     margin: 1.5em 0 3.5em 0;
 
     li {
-      list-style: none;
-
-      a {
-        color: #fff;
-      }
-    }
-
-    .github-icon-svg,
-    .twitter-icon-svg {
+      border: 1px solid #fff;
+      border-radius: 50%;
       display: inline-block;
-      width: 16px;
-      height: 16px;
-      position: relative;
-      top: 3px;
+      height: 42px;
+      list-style: none;
+      margin-right: 0.5em;
+      width: 42px;
     }
   }
 
@@ -414,9 +407,12 @@ a:visited { color: #205caa; }
   li {
     display: inline-block;
     font-size: 16px;
-    margin: 1em;
+    padding: 1em;
+    transition: background-color 0.3s;
     vertical-align: top;
-    width: 11em;
+    width: 12em;
+
+    &:hover { background-color: #eee; }
 
     img {
       background-color: #eee;

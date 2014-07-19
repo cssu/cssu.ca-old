@@ -2,8 +2,9 @@
 title: CSSU
 email: contact@cssu.io
 description: "University of Toronto Computer Science Student Union"
-twitter_username: cssu
-github_username:  cssu
+twitter_username:  cssu
+github_username:   cssu
+facebook_username: UofTCSSU
 
 # Build settings
 exclude: ['README.md']
