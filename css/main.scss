@@ -186,13 +186,19 @@ a:visited { color: #205caa; }
       height: 42px;
       list-style: none;
       margin-right: 0.5em;
+      transition: background-color 0.3s;
       width: 42px;
+
+      &:hover {
+        background-color: lighten(#18191a, 10%);
+      }
     }
   }
 
   .footer-uoft a {
     color: #575758;
     font: 1.25em Centaur, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
     text-transform: uppercase;
     transition: color 0.3s;
 
@@ -287,6 +293,10 @@ a:visited { color: #205caa; }
     display: table-cell;
     vertical-align: top;
     width: 50%;
+
+    & > a:hover {
+      text-decoration: none;
+    }
   }
 
   #home-news {
@@ -354,6 +364,10 @@ a:visited { color: #205caa; }
 #home-members {
   margin-top: 30px;
   width: 100%;
+
+  & > a:hover {
+    text-decoration: none;
+  }
 
   .members {
     background-color: #e1e1e1;
