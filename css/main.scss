@@ -415,6 +415,10 @@ a:visited { color: #205caa; }
   ul {
     margin: 0 !important;
     padding: 0 !important;
+
+    & + h2 {
+      margin-top: 2em;
+    }
   }
 
   li {

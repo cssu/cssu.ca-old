@@ -1,5 +1,7 @@
 /** Google Map in footer */
 
+var homeLatLng = new google.maps.LatLng(43.6594888, -79.39761349999998);
+
 function init_map() {
   var style = [
     {
@@ -14,7 +16,6 @@ function init_map() {
       ]
     }
   ];
-  var homeLatLng = new google.maps.LatLng(43.6594888, -79.39761349999998);
   var myOptions = {
     disableDefaultUI: true,
     zoom: 17,

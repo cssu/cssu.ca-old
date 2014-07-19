@@ -1,86 +1,21 @@
-- name:  Jonathan Webb
-  role:  President
-  email: jonathan.webb@mail.utoronto.ca
-  pic:   jon
-
-- name:  Nicholas Goh
-  role:  Vice President
-  email:
-  pic:   nick
-
-- name:  Jason Harrison
-  role:  Treasurer
-  email: jason_harrison@live.ca
-  pic:
-
-- name:  Zoe Song
-  role:  Sr. Social Director
-  email: zoe.song@mail.utoronto.ca
-  pic:   zoe
-
-- name:  Chris Long
-  role:  Sr. Social Assistant
-  email: chris.long@mail.utoronto.ca
-  pic:   chris
-
-- name:  Wenting Pan
-  role:  Sr. Social Assistant
-  email: wenting.pan@mail.utoronto.ca
-  pic:
-
-- name:  Ian Hibbert
-  role:  Sr. External Liaisons
-  email: ian.hibbert@mail.utoronto.ca
-  pic:
-
-- name:  Mohammad Durrani
-  role:  Sr. External Liaison
-  email: mohammad.durrani@mail.utoronto.ca
-  pic:   moe
-
 - name:  Matt Kim
   role:  Jr. External Liaison
   email: mtt.kim@mail.utoronto.ca
   pic:   matt
-
-- name:  Ehsan Ghandhari
-  role:  Sr. Internal Liaison
-  email: ehs.ghan@gmail.com
-  pic:
-
-- name:  Francesco Gramano
-  role:  Sr. Internal Liaison
-  email: fran.gramano@mail.utoronto.ca
-  pic:
 
 - name:  Felipe Vicencio-Heap
   role:  Jr. Internal Liaison
   email:
   pic:
 
-- name:  Eugene Cheung
-  role:  Sr. Graphic Designer
-  email: ey.cheung@mail.utoronto.ca
-  pic:   eugene
-
 - name:  Amrutha Krishnan
   role:  Jr. Graphic Designer
   email: amrutha.krishnan@mail.utoronto.ca
   pic:
 
-- name:  Spencer Elliott
-  role:  Sr. Webmaster
-  email: me@elliottsj.com
-  pic:   spencer
-
 - name:  Eric Bannatyne
   role:  Jr. Webmaster
   email: eric.bannatyne@mail.utoronto.ca
-  pic:
-
-- name:  Alexander Biggs
-  role:  Sr. Academic Consultant
-  email: alexanderkbiggs@gmail.com
   pic:
 
 - name:  Maxwell Huang-Hobbs
@@ -96,36 +31,6 @@
 - name:  Thanasi Karachotzitis
   role:  Jr. Academic Consultant
   email:
-  pic:
-
-- name:  Abrar Hussian
-  role:  Sr. First Year Liaison
-  email: abrar.a.hussian@gmail.com
-  pic:
-
-- name:  Binuri Walpitagamage
-  role:  Sr. First Year Liaison
-  email: binuri.walpitagamage@mail.utoronto.ca
-  pic:
-
-- name:  Yuze Zhang
-  role:  Photographer and Videographer
-  email: yuze.zhang@mail.utoronto.ca
-  pic:
-
-- name:  Blaise Calaycay
-  role:  Photographer and Videographer
-  email: blaise.calaycay@mail.utoronto.ca
-  pic:
-
-- name:  Fiona Leung
-  role:  Secretary
-  email: fionaw.leung@mail.utoronto.ca
-  pic:
-
-- name:  Victoria Bukta
-  role:  Sr. Office Administrator
-  email: victoria.bukta@mail.utoronto.ca
   pic:
 
 - name:  Artur Kink
