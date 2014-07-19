@@ -20,6 +20,8 @@ git merge draft
 git push cdf master
 ```
 
+_IMPORTANT: It's okay for commits on_ `draft` _to contain bugs/issues, but_ `master` _should always point to a commit that is ready to be published._
+
 ### Deploying
 
 If you've already added your public key to `authorized_keys`, skip to [Clone this repository and add a remote to deploy to CDF](#clone-this-repository-and-add-a-remote-to-deploy-to-cdf)
