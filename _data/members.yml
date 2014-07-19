@@ -1,12 +1,12 @@
 - name: Jonathan Webb
   role: President
   email: jonathan.webb@mail.utoronto.ca
-  pic: jon.jpg
+  pic: jon
 
 - name: Nicholas Goh
   role: Vice President
   email:
-  pic: nick.jpg
+  pic: nick
 
 - name: Jason Harrison
   role: Treasurer
@@ -16,12 +16,12 @@
 - name: Zoe Song
   role: Sr. Social Director
   email: zoe.song@mail.utoronto.ca
-  pic: zoe.jpg
+  pic: zoe
 
 - name: Chris Long
   role: Sr. Social Assistant
   email: chris.long@mail.utoronto.ca
-  pic: chris.jpg
+  pic: chris
 
 - name: Wenting Pan
   role: Sr. Social Assistant
@@ -36,7 +36,7 @@
 - name: Mohammad Durrani
   role: Sr. External Liaison
   email: mohammad.durrani@mail.utoronto.ca
-  pic: moe.jpg
+  pic: moe
 
 - name: Matt Kim
   role: Jr. External Liaison
@@ -45,7 +45,7 @@
 
 - name: Ehsan Ghandhari
   role: Sr. Internal Liaison
-  email:
+  email: ehs.ghan@gmail.com
   pic:
 
 - name: Francesco Gramano
@@ -61,7 +61,7 @@
 - name: Eugene Cheung
   role: Sr. Graphic Designer
   email: ey.cheung@mail.utoronto.ca
-  pic: eugene.png
+  pic: eugene
 
 - name: Amrutha Krishnan
   role: Jr. Graphic Designer
@@ -70,8 +70,8 @@
 
 - name: Spencer Elliott
   role: Sr. Webmaster
-  email:
-  pic: spencer.jpg
+  email: me@elliottsj.com
+  pic: spencer
 
 - name: Eric Bannatyne
   role: Jr. Webmaster
@@ -85,13 +85,13 @@
 
 - name: Maxwell Huang-Hobbs
   role: Jr. Academic Consultant
-  email:
+  email: maxwell.huang.hobbs@mail.utoronto.ca
   pic:
 
 - name: Hanchen Wang
   role: Jr. Academic Consultant
   email: hanchen.wang@mail.utoronto.ca
-  pic: hanchen.jpg
+  pic: hanchen
 
 - name: Thanasi Karachotzitis
   role: Jr. Academic Consultant
@@ -130,7 +130,7 @@
 
 - name: Artur Kink
   role: Jr. Office Administrator
-  email:
+  email: artur.kink@gmail.com
   pic:
 
 - name: Adrian Paulozza
@@ -146,12 +146,12 @@
 - name: Martin Petkov
   role: Jr. Office Administrator
   email: martin.petkov@mail.utoronto.ca
-  pic: martin.jpg
+  pic: martin
 
 - name: Milind Shah
   role: Jr. Office Administrator
   email: milind.shah@mail.utoronto.ca
-  pic: miland.jpg
+  pic: miland
 
 - name: Ryan Fan
   role: Jr. Office Administrator
@@ -201,4 +201,4 @@
 - name: Ben Shaft
   role: Jr. Social Assistant
   email: ben.shaft@mail.utoronto.ca
-  pic: ben.jpg
+  pic: ben
