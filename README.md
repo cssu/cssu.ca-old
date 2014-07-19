@@ -7,6 +7,21 @@ University of Toronto Computer Science Student Union Website
 
 This is a standard [Jekyll](http://jekyllrb.com/) static site.
 
+### Development
+
+Use the `draft` branch to make any updates to the website. Whenever you want to publish your changes to the website, merge `draft` into `master` and then deploy:
+
+```bash
+# After making updates, merge `draft` into `master`
+git checkout master
+git merge draft
+
+# Deploy to CDF (see 'Deploying' below for steps to set up the cdf remote)
+git push cdf master
+```
+
+_IMPORTANT: It's okay for commits on_ `draft` _to contain bugs/issues, but_ `master` _should always point to a commit that is ready to be published._
+
 ### Deploying
 
 If you've already added your public key to `authorized_keys`, skip to [Clone this repository and add a remote to deploy to CDF](#clone-this-repository-and-add-a-remote-to-deploy-to-cdf)
@@ -33,6 +48,11 @@ On your local machine:
 ```bash
 git clone git@github.com:cssu/cssu.cdf.toronto.edu.git
 git remote add cdf cssuwww@dbsrv1.cdf.toronto.edu:cssu.cdf.toronto.edu.git
+```
+
+Finally, to deploy the site, push your changes to the `cdf` remote:
+
+```bash
 git push cdf master  # This will trigger a hook to build & serve the site on CDF
 ```
 
@@ -80,18 +100,23 @@ Paste into `~/cssu.cdf.toronto.edu.git/hooks/post-receive`:
 #!/bin/bash -l
 GIT_REPO=$HOME/cssu.cdf.toronto.edu.git
 TMP_GIT_CLONE=$HOME/tmp/cssu.cdf.toronto.edu
+BACKUP_DIR=$HOME/htdocs_backup
 PUBLIC_WWW=/space/data/www/cssu/htdocs
 
 # Clone the bare repo into a temporary repo with a working copy
 git clone $GIT_REPO $TMP_GIT_CLONE
 
-# Use Jekyll to generate the static site
-jekyll build --source $TMP_GIT_CLONE --destination $TMP_GIT_CLONE/_site
+# Enter the working directory
+cd $TMP_GIT_CLONE
 
-# Copy the static site to htdocs, overwriting existing files
-cp -r $TMP_GIT_CLONE/_site/* $PUBLIC_WWW
+# Use Jekyll to generate the static site
+jekyll build
+
+# Copy the static site to htdocs, ignoring specific files
+rsync --archive --delete --exclude-from=.rsyncexclude --verbose _site/ $PUBLIC_WWW
 
 # Remove the temporary repo
+cd ~
 rm -rf $TMP_GIT_CLONE
 
 exit
