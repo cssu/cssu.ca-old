@@ -1,0 +1,10 @@
+# Files ignored by rsync when copying the site to htdocs.
+# All files in htdocs will be DELETED except for the files listed below.
+
+# Files ignored from _site/
+/Gemfile
+/Gemfile.lock
+
+# Files preserved in htdocs
+/gallery/
+/w/

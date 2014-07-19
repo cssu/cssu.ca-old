@@ -1,5 +1,6 @@
 # Jekyll-generated site
 _site
 
-# Windows junk
+# OS Files
 Thumbs.db
+.DS_Store
