@@ -1,5 +1,4 @@
-$dark-grey: #0d1117;
-$grey: #242424;
+@import 'core';
 
 /* Base */
 /* ----------------------------------------------------------*/
@@ -146,22 +145,21 @@ a:visited { color: #205caa; }
   vertical-align: middle;
 
   .top {
-    border-radius: 50%;
-    border: 1px solid #575758;
-    color: #575758;
+    @include border-radius(50%);
+    border: 1px solid #fff;
+    color: #fff;
     display: block;
     font-size: 0.9em;
     height: 2em;
-    line-height: 2em;
     margin-bottom: 2em;
+    opacity: 0.4;
     text-align: center;
     text-decoration: none;
-    transition: border-color 0.3s, color 0.3s;
+    transition: opacity 0.3s;
     width: 2em;
 
     &:hover {
-      border-color: #fff;
-      color: #fff;
+      opacity: 1;
     }
   }
 
@@ -182,8 +180,8 @@ a:visited { color: #205caa; }
     margin: 1.5em 0 3.5em 0;
 
     li {
+      @include border-radius(50%);
       border: 1px solid #fff;
-      border-radius: 50%;
       display: inline-block;
       height: 42px;
       list-style: none;
@@ -379,8 +377,8 @@ a:visited { color: #205caa; }
       vertical-align: top;
 
       img {
+        @include border-radius(50%);
         background-color: #eee;
-        border-radius: 50%;
         display: block;
         height: 5.5em;
         width: 5.5em;
@@ -415,8 +413,8 @@ a:visited { color: #205caa; }
     &:hover { background-color: #eee; }
 
     img {
+      @include border-radius(50%);
       background-color: #eee;
-      border-radius: 50%;
       display: block;
       height: 5.5em;
       width: 5.5em;
@@ -495,12 +493,10 @@ a:visited { color: #205caa; }
 
 .post pre,
 .post code {
+  @include border-radius(3px);
   border: 1px solid #d5d5e9;
   background-color: #eef;
   padding: 8px 12px;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
   font-size: 15px;
   overflow:scroll;
 }
@@ -518,12 +514,10 @@ a:visited { color: #205caa; }
 
 /* terminal */
 .post pre.terminal {
+  @include border-radius(3px);
   border: 1px solid #000;
   background-color: #333;
-  color: #FFF;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  color: #fff;
 }
 
 .post pre.terminal code { background-color: #333; }
@@ -619,32 +613,30 @@ a:visited { color: #205caa; }
   .wrap { padding: 0 12px; }
 
   .site-nav {
+    background-color: #fff;
+    border: 1px solid lighten($dark-grey, 50%);
     position: fixed;
+    right: 8px;
+    top: 14px;
     z-index: 10;
-    top: 14px; right: 8px;
-    background-color: white;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #e8e8e8;
   }
 
   .site-nav .menu-icon {
+    color: $dark-grey;
     display: block;
-    font-size: 24px;
-    color: #505050;
     float: right;
-    width: 36px;
-    text-align: center;
+    font-size: 24px;
     line-height: 36px;
+    text-align: center;
+    width: 36px;
   }
 
   .site-nav .menu-icon svg { width: 18px; height: 16px; }
 
   .site-nav .trigger {
     clear: both;
-    margin-bottom: 5px;
     display: none;
+    margin-bottom: 5px;
   }
 
   .site-nav:hover .trigger { display: block; }
@@ -654,7 +646,7 @@ a:visited { color: #205caa; }
     color: #000;
     text-align: right;
     line-height: 1.25;
-    padding: 5px 10px;
+    padding: 5px 10px 5px 20px;
     margin: 0;
   }
 

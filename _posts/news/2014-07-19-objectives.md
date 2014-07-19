@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "It's a new year and a new CSSU!"
+author: "Jonathan Webb"
 date:   2014-07-19 12:00:00
 categories: news
 ---
