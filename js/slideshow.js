@@ -11,21 +11,38 @@ var next      = document.getElementById('slideshow-next');
 for (var i = 0; i < cards.length; i++) {
   cards[i].onclick = (function(index) {
     return function() {
-      slideshow.classList.remove('slide-' + slide);
+      slideshow.removeClass('slide-' + slide);
       slide = index + 1;
-      slideshow.classList.add('slide-' + slide);
+      slideshow.addClass('slide-' + slide);
     };
   })(i);
 }
 
 prev.onclick = function() {
-  slideshow.classList.remove('slide-' + slide);
+  slideshow.removeClass('slide-' + slide);
   slide = slide - 1 > 0 ? slide - 1 : 4;
-  slideshow.classList.add('slide-' + slide);
+  slideshow.addClass('slide-' + slide);
 };
 
 next.onclick = function() {
-  slideshow.classList.remove('slide-' + slide);
+  slideshow.removeClass('slide-' + slide);
   slide = slide + 1 < 5 ? slide + 1 : 1;
-  slideshow.classList.add('slide-' + slide);
+  slideshow.addClass('slide-' + slide);
 };
+
+
+/* These are for IE support. */
+
+Element.prototype.addClass = function(className) {
+  if (this.classList)
+    this.classList.add(className);
+  else
+    this.className += ' ' + className;
+}
+
+Element.prototype.removeClass = function(className) {
+  if (this.classList)
+    this.classList.remove(className);
+  else
+    this.className = this.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+}

@@ -30,10 +30,10 @@ $grey: #242424;
 }
 
 
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-       -o-border-radius: $radius;
-          border-radius: $radius;
+@mixin v($prop, $args) {
+  -webkit-#{$prop}: $args;
+     -moz-#{$prop}: $args;
+      -ms-#{$prop}: $args;
+       -o-#{$prop}: $args;
+          #{$prop}: $args;
 }

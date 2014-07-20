@@ -133,7 +133,8 @@ th, tr:nth-child(even) {
   vertical-align: middle;
 
   .top {
-    @include border-radius(50%);
+    @include v(border-radius, 50%);
+    @include v(transition, opacity 0.3s);
     border: 1px solid #fff;
     color: #fff;
     display: block;
@@ -143,7 +144,6 @@ th, tr:nth-child(even) {
     opacity: 0.4;
     text-align: center;
     text-decoration: none;
-    transition: opacity 0.3s;
     width: 2em;
 
     &:hover {
@@ -168,13 +168,13 @@ th, tr:nth-child(even) {
     margin: 1.5em 0 3.5em 0;
 
     li {
-      @include border-radius(50%);
+      @include v(border-radius, 50%);
+      @include v(transition, background-color 0.3s);
       border: 1px solid #fff;
       display: inline-block;
       height: 42px;
       list-style: none;
       margin-right: 0.5em;
-      transition: background-color 0.3s;
       width: 42px;
 
       &:hover {
@@ -184,11 +184,11 @@ th, tr:nth-child(even) {
   }
 
   .footer-uoft a {
+    @include v(transition, color 0.3s);
     color: #575758;
     font: 1.25em Centaur, 'Times New Roman', Times, serif;
     letter-spacing: 1px;
     text-transform: uppercase;
-    transition: color 0.3s;
 
     &:hover {
       color: #fff;
@@ -241,11 +241,11 @@ section.slideshow {
 }
 
 .slideshow-nav {
+  @include v(transition, opacity 0.3s);
   cursor: pointer;
   display: table-cell;
   opacity: 0.5;
   text-align: center;
-  transition: opacity 0.3s;
   vertical-align: middle;
   width: 30px;
 
@@ -261,11 +261,11 @@ ul.slideshow-slides {
   height: 450px;
 
   li {
+    @include v(transition, opacity 0.3s);
     opacity: 0;
     height: calc(100% - 3.5em);
     position: absolute;
     list-style: none;
-    transition: opacity 0.3s;
     width: calc(100% - 60px);
     z-index: 0;
 
@@ -306,7 +306,7 @@ ul.slideshow-slides {
           vertical-align: middle;
 
           .slide-arrow {
-            @include border-radius(50%);
+            @include v(border-radius, 50%);
             border: 1px solid #fff;
             height: 2em;
             padding-left: 0.75em;
@@ -492,15 +492,15 @@ ul.members-list {
   a { color: $grey; }
 
   li {
+    @include v(transition, background-color 0.3s);
     display: inline-block;
-    transition: background-color 0.3s;
     padding: 0.75em;
     vertical-align: top;
 
     &:hover { background-color: #eee; }
 
     img {
-      @include border-radius(50%);
+      @include v(border-radius, 50%);
       background-color: #eee;
       border: none;
       display: block;
@@ -625,7 +625,7 @@ ul.members-list {
 
 .post pre,
 .post code {
-  @include border-radius(3px);
+  @include v(border-radius, 3px);
   border: 1px solid #d5d5e9;
   background-color: #eef;
   padding: 8px 12px;
@@ -646,7 +646,7 @@ ul.members-list {
 
 /* terminal */
 .post pre.terminal {
-  @include border-radius(3px);
+  @include v(border-radius, 3px);
   border: 1px solid #000;
   background-color: #333;
   color: #fff;
