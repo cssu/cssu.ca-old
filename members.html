@@ -7,7 +7,7 @@ nav: true
 
 <div class="members-page">
   <h2>Executive team</h2>
-  <ul>
+  <ul class="members-list">
     {% for member in site.data.members-exec %}
       <li>
         <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
@@ -24,7 +24,7 @@ nav: true
   </ul>
 
   <h2>Senior team</h2>
-  <ul>
+  <ul class="members-list">
     {% for member in site.data.members-senior %}
       <li>
         <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
@@ -41,7 +41,7 @@ nav: true
   </ul>
 
   <h2>Junior team</h2>
-  <ul>
+  <ul class="members-list">
     {% for member in site.data.members-junior %}
       <li>
         <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
@@ -58,7 +58,7 @@ nav: true
   </ul>
 
   <h2>Media team</h2>
-  <ul>
+  <ul class="members-list">
     {% for member in site.data.members-media %}
       <li>
         <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">

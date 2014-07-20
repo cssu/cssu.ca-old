@@ -361,6 +361,32 @@ a:visited { color: #205caa; }
   padding: 0 !important;
 }
 
+ul.members-list {
+  a { color: $grey; }
+
+  li {
+    display: inline-block;
+    transition: background-color 0.3s;
+    vertical-align: top;
+
+    &:hover { background-color: #eee; }
+
+    img {
+      @include border-radius(50%);
+      background-color: #eee;
+      border: none;
+      display: block;
+      height: 5.5em;
+      width: 5.5em;
+      margin: 0 auto 0.5em;
+    }
+
+    .member-name { font-weight: 600; }
+
+    .member-role { font-weight: 300; }
+  }
+}
+
 #home-members {
   margin-top: 30px;
   width: 100%;
@@ -382,26 +408,9 @@ a:visited { color: #205caa; }
       width: auto;
     }
 
-    a { color: $grey; }
-
     li {
-      display: inline-block;
       min-width: 10em;
       padding: 0 0.75em;
-      vertical-align: top;
-
-      img {
-        @include border-radius(50%);
-        background-color: #eee;
-        display: block;
-        height: 5.5em;
-        width: 5.5em;
-        margin: 0 auto 0.5em;
-      }
-
-      .member-name { font-weight: 600; }
-
-      .member-role { font-weight: 300; }
     }
   }
 }
@@ -418,37 +427,18 @@ a:visited { color: #205caa; }
     & + h2 {
       margin-top: 2em;
     }
-  }
 
-  li {
-    display: inline-block;
-    font-size: 16px;
-    padding: 1em;
-    transition: background-color 0.3s;
-    vertical-align: top;
-    width: 12em;
-
-    &:hover { background-color: #eee; }
-
-    img {
-      @include border-radius(50%);
-      background-color: #eee;
-      display: block;
-      height: 5.5em;
-      width: 5.5em;
-      margin: 0 auto 0.5em;
+    li {
+      margin: 0.75em;
+      width: 11em;
     }
-
-    .member-name { font-weight: 600; }
-
-    .member-role { font-weight: 300; }
   }
 }
 
 /* Post styles */
 /* ----------------------------------------------------------*/
 
-.post { padding-top: 1.5em; }
+.post { padding: 1.5em; }
 
 .post-header { margin: 10px 0 30px; }
 
@@ -464,8 +454,6 @@ a:visited { color: #205caa; }
   color: #818181;
   margin-top: 5px;
 }
-
-.post-content { margin: 0 0 30px; }
 
 .post-content > * { margin: 20px 0; }
 
