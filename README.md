@@ -5,9 +5,36 @@ University of Toronto Computer Science Student Union Website
 
 ### Overview
 
-This is a standard [Jekyll](http://jekyllrb.com/) static site.
+This is a standard [Jekyll][jekyll] static site.
+
+### Viewing the site locally
+
+You should have Ruby 2.1.x and Python 2.7.x (for [Pygments][pygments]) installed. I recommend using [rbenv][] and [pyenv][] to manage your Ruby & Python installations.
+
+First, you'll need to install Jekyll:
+
+```bash
+gem install jekyll
+```
+
+Then clone this repository and serve the site locally:
+
+```bash
+git clone git@github.com:cssu/cssu.cdf.toronto.edu.git
+cd cssu.cdf.toronto.edu/
+jekyll serve
+```
 
 ### Development
+
+You can use the `watch` flag when developing to instantly see the changes that you've made.
+
+```bash
+cd cssu.cdf.toronto.edu/
+jekyll serve -w
+```
+
+_NOTE: Changes to `config.yml` will not be instantly applies; you'll need to restart the server._
 
 Use the `draft` branch to make any updates to the website. Whenever you want to publish your changes to the website, merge `draft` into `master` and then deploy:
 
@@ -129,3 +156,8 @@ chmod u+x ~/cssu.cdf.toronto.edu.git/hooks/post-receive
 ```
 
 Then see [Deploying](#deploying) to deploy from your local machine.
+
+[jekyll]:   http://jekyllrb.com/ "Jekyll"
+[pygments]: http://pygments.org/ "Pygments"
+[rbenv]:    https://github.com/sstephenson/rbenv
+[pyenv]:    https://github.com/yyuu/pyenv

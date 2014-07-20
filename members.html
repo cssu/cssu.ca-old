@@ -8,28 +8,28 @@ nav: true
 <div class="members-page">
   <h2>Executive team</h2>
   <ul class="members-list">
-    {% for member in site.data.members-exec %}
+    {% for member in site.data.members.execs %}
       {% include member.html %}
     {% endfor %}
   </ul>
 
   <h2>Senior team</h2>
   <ul class="members-list">
-    {% for member in site.data.members-senior %}
+    {% for member in site.data.members.seniors %}
       {% include member.html %}
     {% endfor %}
   </ul>
 
   <h2>Junior team</h2>
   <ul class="members-list">
-    {% for member in site.data.members-junior %}
+    {% for member in site.data.members.juniors %}
       {% include member.html %}
     {% endfor %}
   </ul>
 
   <h2>Media team</h2>
   <ul class="members-list">
-    {% for member in site.data.members-media %}
+    {% for member in site.data.members.media %}
       {% include member.html %}
     {% endfor %}
   </ul>

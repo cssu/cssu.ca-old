@@ -1,0 +1,208 @@
+execs:
+  - name:  Jonathan Webb
+    role:  President
+    email: jonathan.webb@mail.utoronto.ca
+    pic:   jon
+
+  - name:  Nicholas Goh
+    role:  Vice President
+    email: nicholas.goh@mail.utoronto.ca
+    pic:   nick
+
+  - name:  Jason Harrison
+    role:  Treasurer
+    email: jason_harrison@live.ca
+    pic:   jason
+
+seniors:
+  - name:  Zoe Song
+    role:  Sr. Social Director
+    email: zoe.song@mail.utoronto.ca
+    pic:   zoe
+
+  - name:  Chris Long
+    role:  Sr. Social Assistant
+    email: chris.long@mail.utoronto.ca
+    pic:   chris
+
+  - name:  Wenting Pan
+    role:  Sr. Social Assistant
+    email: wenting.pan@mail.utoronto.ca
+    pic:   wenting
+
+  - name:  Ian Hibbert
+    role:  Sr. External Liaisons
+    email: ian.hibbert@mail.utoronto.ca
+    pic:
+
+  - name:  Mohammad Durrani
+    role:  Sr. External Liaison
+    email: mohammad.durrani@mail.utoronto.ca
+    pic:   moe
+
+  - name:  Ehsan Ghandhari
+    role:  Sr. Internal Liaison
+    email: ehs.ghan@gmail.com
+    pic:   ehsan
+
+  - name:  Francesco Gramano
+    role:  Sr. Internal Liaison
+    email: fran.gramano@mail.utoronto.ca
+    pic:   fran
+
+  - name:  Eugene Cheung
+    role:  Sr. Graphic Designer
+    email: ey.cheung@mail.utoronto.ca
+    pic:   eugene
+
+  - name:  Spencer Elliott
+    role:  Sr. Webmaster
+    email: me@elliottsj.com
+    pic:   spencer
+
+  - name:  Alexander Biggs
+    role:  Sr. Academic Consultant
+    email: alexanderkbiggs@gmail.com
+    pic:   biggs
+
+  - name:  Abrar Hussian
+    role:  Sr. First Year Liaison
+    email: abrar.a.hussian@gmail.com
+    pic:
+
+  - name:  Binuri Walpitagamage
+    role:  Sr. First Year Liaison
+    email: binuri.walpitagamage@mail.utoronto.ca
+    pic:   binuri
+
+  - name:  Victoria Bukta
+    role:  Sr. Office Administrator
+    email: victoria.bukta@mail.utoronto.ca
+    pic:
+
+  - name:  Fiona Leung
+    role:  Secretary
+    email: fionaw.leung@mail.utoronto.ca
+    pic:   fiona
+
+juniors:
+  - name:  Matt Kim
+    role:  Jr. External Liaison
+    email: mtt.kim@mail.utoronto.ca
+    pic:   matt
+
+  - name:  Felipe Vicencio-Heap
+    role:  Jr. Internal Liaison
+    email:
+    pic:
+
+  - name:  Amrutha Krishnan
+    role:  Jr. Graphic Designer
+    email: amrutha.krishnan@mail.utoronto.ca
+    pic:   amrutha
+
+  - name:  Eric Bannatyne
+    role:  Jr. Webmaster
+    email: eric.bannatyne@mail.utoronto.ca
+    pic:   eric
+
+  - name:  Maxwell Huang-Hobbs
+    role:  Jr. Academic Consultant
+    email: maxwell.huang.hobbs@mail.utoronto.ca
+    pic:
+
+  - name:  Hanchen Wang
+    role:  Jr. Academic Consultant
+    email: hanchen.wang@mail.utoronto.ca
+    pic:   hanchen
+
+  - name:  Thanasi Karachotzitis
+    role:  Jr. Academic Consultant
+    email:
+    pic:
+
+  - name:  Artur Kink
+    role:  Jr. Office Administrator
+    email: artur.kink@gmail.com
+    pic:   artur
+
+  - name:  Adrian Paulozza
+    role:  Jr. Office Administrator
+    email:
+    pic:
+
+  - name:  Peter Lu
+    role:  Jr. Office Administrator
+    email: peterlu94@gmail.com
+    pic:   peter
+
+  - name:  Martin Petkov
+    role:  Jr. Office Administrator
+    email: martin.petkov@mail.utoronto.ca
+    pic:   martin
+
+  - name:  Milind Shah
+    role:  Jr. Office Administrator
+    email: milind.shah@mail.utoronto.ca
+    pic:   miland
+
+  - name:  Ryan Fan
+    role:  Jr. Office Administrator
+    email: ryan.fan@mail.utoronto.ca
+    pic:   ryan
+
+  - name:  Christina Chen
+    role:  Jr. Social Assistant
+    email: xtina.chen@mail.utoronto.ca
+    pic:   christina
+
+  - name:  Alec Brunelle
+    role:  Jr. Social Assistant
+    email: moteygo@gmail.com
+    pic:
+
+  - name:  Sharon Hogan
+    role:  Jr. Social Assistant
+    email: sharon.hogan@mail.utoronto.ca
+    pic:   sharon
+
+  - name:  Xin Ran (Cindy) Wu
+    role:  Jr. Social Assistant
+    email:
+    pic:
+
+  - name:  David London
+    role:  Jr. Social Assistant
+    email:
+    pic:
+
+  - name:  Xi (Zoe) Wang
+    role:  Jr. Social Assistant
+    email: zoexi.wang@mail.utoronto.ca
+    pic:   zoewang
+
+  - name:  Steffi Choi
+    role:  Jr. Social Assistant
+    email: steffi.choi@mail.utoronto.ca
+    pic:
+
+  - name:  Amanda Bell
+    role:  Jr. Social Assistant
+    email: amandaj.bell@mail.utoronto.ca
+    pic:
+
+  - name:  Ben Shaft
+    role:  Jr. Social Assistant
+    email: ben.shaft@mail.utoronto.ca
+    pic:   ben
+
+media:
+  - name:  Yuze Zhang
+    role:  Photographer and Videographer
+    email: yuze.zhang@mail.utoronto.ca
+    pic:
+
+  - name:  Blaise Calaycay
+    role:  Photographer and Videographer
+    email: blaise.calaycay@mail.utoronto.ca
+    pic:

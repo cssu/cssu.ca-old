@@ -57,20 +57,21 @@ title: Computer Science Student Union
     <a href="/members/"><h1>Your 2014 - 2015 team</h1></a>
     <div class="members">
       <ul class="members-list">
-        {% for member in site.data.members-exec %}
+        {% for member in site.data.members.execs %}
           {% include member.html %}
         {% endfor %}
 
-        {% for member in site.data.members-senior %}
+        {% for member in site.data.members.seniors %}
           {% include member.html %}
         {% endfor %}
 
-        {% for member in site.data.members-junior %}
+        {% for member in site.data.members.juniors %}
           {% include member.html %}
         {% endfor %}
 
-        {% for member in site.data.members-media %}
-          {% include member.html %}        {% endfor %}
+        {% for member in site.data.members.media %}
+          {% include member.html %}
+        {% endfor %}
       </ul>
     </div>
   </div>

@@ -29,6 +29,20 @@ a:hover   { color: #000; text-decoration: underline; }
 a:visited { color: #205caa; }
 
 
+/* Tables */
+
+th, td {
+  border: 1px solid lighten($grey, 50%);
+  padding: 0.25em 0.5em;
+}
+
+th { border-bottom-width: 2px; }
+
+th, tr:nth-child(even) {
+  background-color: lighten($grey, 80%);
+}
+
+
 /* Utility */
 
 .wrap {
@@ -53,7 +67,8 @@ a:visited { color: #205caa; }
 
   .wrap {
     min-height: 150px;
-    padding: 3.5em 30px;
+    padding-bottom: 3.5em;
+    padding-top: 3.5em;
   }
 }
 
@@ -593,14 +608,15 @@ ul.members-list {
 
 @media screen and (max-width: 600px) {
 
-  .wrap { padding: 0 12px; }
+  .wrap { padding-left: 12px; padding-right: 12px; }
 
   .site-nav {
     background-color: #fff;
     border: 1px solid lighten($dark-grey, 50%);
+    margin-top: 0;
     position: fixed;
     right: 8px;
-    top: 14px;
+    top: 8px;
     z-index: 10;
   }
 
@@ -641,7 +657,11 @@ ul.members-list {
   .post-content ul,
   .post-content ol { padding-left: 10px; }
 
-  .footer-info { width: 100%; }
+  .footer-info {
+    padding: 3.5em 12px;
+    width: 100%;
+  }
+
   .footer-map { display: none; }
 
 }
