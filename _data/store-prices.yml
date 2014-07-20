@@ -13,6 +13,8 @@ drinks:
     price: $1.00
   - name: Arizona Iced Tea
     price: $1.50
+  - name: Redbull
+    price: $2.50
 
 snacks:
   - name: Chocolate Bar
