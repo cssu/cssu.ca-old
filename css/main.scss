@@ -280,20 +280,43 @@ ul.slideshow-slides {
         background-color: $grey;
         bottom: 2em;
         color: #fff;
+        display: table;
         padding: 1.5em;
         position: absolute;
         right: 2em;
         width: 40%;
 
-        h1 {
-          font-size: 1.75em;
-          font-weight: 300;
-          margin-bottom: 1em;
+        hgroup {
+          display: table-cell;
+
+          h1 {
+            font-size: 1.75em;
+            font-weight: 300;
+            margin-bottom: 1em;
+          }
+
+          h2 {
+            font-size: 1.25em;
+            font-weight: 300;
+          }
         }
 
-        h2 {
-          font-size: 1.25em;
-          font-weight: 300;
+        .slide-link {
+          display: table-cell;
+          vertical-align: middle;
+
+          .slide-arrow {
+            @include border-radius(50%);
+            border: 1px solid #fff;
+            height: 2em;
+            padding-left: 0.75em;
+            padding-top: 0.15em;
+            width: 2em;
+
+            svg {
+              margin: 0 auto;
+            }
+          }
         }
       }
     }
