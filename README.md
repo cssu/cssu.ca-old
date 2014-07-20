@@ -35,6 +35,8 @@ jekyll serve --watch
 
 _NOTE: Changes to `config.yml` will not be instantly applied; you'll need to restart the server._
 
+##### Branching
+
 Use the `draft` branch to make any updates to the website. Whenever you want to publish your changes to the website, merge `draft` into `master` and then deploy:
 
 ```bash
