@@ -1,0 +1,23 @@
+drinks:
+  - name: Coca-Cola
+    price: $0.75
+  - name: Diet Coke
+    price: $0.75
+  - name: Coke Zero
+    price: $0.75
+  - name: Sprite
+    price: $0.75
+  - name: Nestea
+    price: $1.00
+  - name: Nestea Zero
+    price: $1.00
+  - name: Arizona Iced Tea
+    price: $1.50
+
+snacks:
+  - name: Chocolate Bar
+    price: $1.00
+  - name: Pocky
+    price: $0.75
+  - name: Chips
+    price: $0.75

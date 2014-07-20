@@ -1,0 +1,42 @@
+---
+layout: page
+title: Store
+permalink: /store/
+nav: true
+---
+
+<p>Come by the CSSU office to check out our wide selection of drinks and snacks!<p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Drink</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for drink in site.data.store-prices.drinks %}
+    <tr>
+      <td>{{ drink.name }}</td>
+      <td>{{ drink.price }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>Snack</th>
+      <th>Price</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for snack in site.data.store-prices.snacks %}
+    <tr>
+      <td>{{ snack.name }}</td>
+      <td>{{ snack.price }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
