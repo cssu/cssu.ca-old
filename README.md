@@ -9,7 +9,7 @@ This is a standard [Jekyll][jekyll] static site.
 
 ### Viewing the site locally
 
-You should have Ruby 2.1.x and Python 2.7.x (for [Pygments][pygments]) installed. I recomment using [rbenv][] and [pyenv][] to manage your Ruby & Python installations.
+You should have Ruby 2.1.x and Python 2.7.x (for [Pygments][pygments]) installed. I recommend using [rbenv][] and [pyenv][] to manage your Ruby & Python installations.
 
 First, you'll need to install Jekyll:
 
