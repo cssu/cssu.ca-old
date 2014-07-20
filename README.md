@@ -27,6 +27,15 @@ jekyll serve
 
 ### Development
 
+You can use the `watch` flag when developing to instantly see the changes that you've made.
+
+```bash
+cd cssu.cdf.toronto.edu/
+jekyll serve -w
+```
+
+_NOTE: Changes to the `config.yml` will not be instantly applies; you'll need to restart the server._
+
 Use the `draft` branch to make any updates to the website. Whenever you want to publish your changes to the website, merge `draft` into `master` and then deploy:
 
 ```bash
