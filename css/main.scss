@@ -129,7 +129,7 @@ th, tr:nth-child(even) {
 }
 
 .footer-info {
-  padding: 3.5em 30px;
+  padding: 3em 30px;
   vertical-align: middle;
 
   .top {
@@ -165,7 +165,7 @@ th, tr:nth-child(even) {
   }
 
   .footer-social {
-    margin: 1.5em 0 3.5em 0;
+    margin: 1.5em 0 3em 0;
 
     li {
       @include v(border-radius, 50%);
