@@ -5,7 +5,7 @@ permalink: /about/
 nav: true
 ---
 
-The Computer Science Student Union, or CSSU for short, represents over 1200 computer science students who are either taking a computer science course or have a computer science degreee posted at the University of Toronto St. George campus.
+The Computer Science Student Union, or CSSU for short, represents over 1200 Computer Science students who are either taking a Computer Science course or are part of a Computer Science POSt at the University of Toronto St. George campus.
 
 We offer a variety of services and events. We sell drinks and snacks out of our office in BA2283 and run events including our popular Games Night where students have the oppertunity to socialize with classmates over games, of all kinds, all night long.
 
