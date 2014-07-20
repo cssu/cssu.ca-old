@@ -5,4 +5,16 @@ permalink: /store/
 nav: true
 ---
 
-The Computer Science Student Union, or CSSU for short, represents all Computer Science students at the University of Toronto St. George.
+Come by the CSSU office to check out our wide selection of drinks and snacks!
+
+| Drink           | Price |
+|-----------------|-------|
+| Coca-Cola       | $0.75 |
+| Nestea          | $1.00 |
+| Arizona Ice Tea | $1.50 |
+
+| Snack           | Price |
+|-----------------|-------|
+| Coca-Cola       | $0.75 |
+| Nestea          | $1.00 |
+| Arizona Ice Tea | $1.50 |
