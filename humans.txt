@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Eugene Cheung -- Web Developer & Designer -- @arkon
+    Spencer Elliott -- Web Developer & Ops -- @spe_
+    Jonathan Webb -- CSSU President -- @jwebbed
+    Nicholas Goh -- CSSU Vice President -- @NickGoh_
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Jekyll, Markdown
+    Apache httpd
