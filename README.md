@@ -34,7 +34,7 @@ cd cssu.cdf.toronto.edu/
 jekyll serve -w
 ```
 
-_NOTE: Changes to the `config.yml` will not be instantly applies; you'll need to restart the server._
+_NOTE: Changes to `config.yml` will not be instantly applies; you'll need to restart the server._
 
 Use the `draft` branch to make any updates to the website. Whenever you want to publish your changes to the website, merge `draft` into `master` and then deploy:
 
