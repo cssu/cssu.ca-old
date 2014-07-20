@@ -9,68 +9,28 @@ nav: true
   <h2>Executive team</h2>
   <ul class="members-list">
     {% for member in site.data.members-exec %}
-      <li>
-        <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
-          {% if member.pic %}
-            <img src="/img/member_photos/{{ member.pic }}.jpg" alt="Photo of {{ member.name }}">
-          {% else %}
-            <img src="http://placehold.it/176.jpg&amp;text={{ member.name | truncatewords:1,'' }}" alt="Photo of {{ member.name }}">
-          {% endif %}
-          <p class="member-name">{{ member.name }}</p>
-          <p class="member-role">{{ member.role }}</p>
-        </a>
-      </li>
+      {% include member.html %}
     {% endfor %}
   </ul>
 
   <h2>Senior team</h2>
   <ul class="members-list">
     {% for member in site.data.members-senior %}
-      <li>
-        <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
-          {% if member.pic %}
-            <img src="/img/member_photos/{{ member.pic }}.jpg" alt="Photo of {{ member.name }}">
-          {% else %}
-            <img src="http://placehold.it/176.jpg&amp;text={{ member.name | truncatewords:1,'' }}" alt="Photo of {{ member.name }}">
-          {% endif %}
-          <p class="member-name">{{ member.name }}</p>
-          <p class="member-role">{{ member.role }}</p>
-        </a>
-      </li>
+      {% include member.html %}
     {% endfor %}
   </ul>
 
   <h2>Junior team</h2>
   <ul class="members-list">
     {% for member in site.data.members-junior %}
-      <li>
-        <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
-          {% if member.pic %}
-            <img src="/img/member_photos/{{ member.pic }}.jpg" alt="Photo of {{ member.name }}">
-          {% else %}
-            <img src="http://placehold.it/176.jpg&amp;text={{ member.name | truncatewords:1,'' }}" alt="Photo of {{ member.name }}">
-          {% endif %}
-          <p class="member-name">{{ member.name }}</p>
-          <p class="member-role">{{ member.role }}</p>
-        </a>
-      </li>
+      {% include member.html %}
     {% endfor %}
   </ul>
 
   <h2>Media team</h2>
   <ul class="members-list">
     {% for member in site.data.members-media %}
-      <li>
-        <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
-          {% if member.pic %}
-            <img src="/img/member_photos/{{ member.pic }}.jpg" alt="Photo of {{ member.name }}">
-          {% else %}
-            <img src="http://placehold.it/176.jpg&amp;text={{ member.name | truncatewords:1,'' }}" alt="Photo of {{ member.name }}">
-          {% endif %}
-          <p class="member-name">{{ member.name }}</p>
-          <p class="member-role">{{ member.role }}</p>
-        </a>
-      </li>
+      {% include member.html %}
     {% endfor %}
   </ul>
 </div>

@@ -30,18 +30,22 @@ title: Computer Science Student Union
       <div id="home-events">
         <a href="/events/"><h1>Events</h1></a>
         <ul class="posts">
-          {% for post in site.categories['events'] limit:4 %}
-            <li>
-              <a href="{{ post.url | prepend: site.baseurl }}">
-                <div class="event-date">
-                  <p class="event-month">{{ post.date | date: "%b" }}</p>
-                  <p class="event-day">{{ post.date | date: "%-d" }}</p>
-                </div>
-                <p class="post-link">{{ post.title }}</p>
-                <p>{{ post.description | strip_html | truncatewords: 25 }}</p>
-              </a>
-            </li>
-          {% endfor %}
+          {% if site.categories['events'] %}
+            {% for post in site.categories['events'] limit:4 %}
+              <li>
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                  <div class="event-date">
+                    <p class="event-month">{{ post.date | date: "%b" }}</p>
+                    <p class="event-day">{{ post.date | date: "%-d" }}</p>
+                  </div>
+                  <p class="post-link">{{ post.title }}</p>
+                  <p>{{ post.description | strip_html | truncatewords: 25 }}</p>
+                </a>
+              </li>
+            {% endfor %}
+          {% else %}
+            <li class="empty">No upcoming events</li>
+          {% endif %}
         </ul>
       </div>
 
@@ -54,60 +58,19 @@ title: Computer Science Student Union
     <div class="members">
       <ul class="members-list">
         {% for member in site.data.members-exec %}
-          <li>
-            <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
-              {% if member.pic %}
-                <img src="/img/member_photos/{{ member.pic }}.jpg" alt="Photo of {{ member.name }}">
-              {% else %}
-                <img src="http://placehold.it/176.jpg&amp;text={{ member.name | truncatewords:1,'' }}" alt="Photo of {{ member.name }}">
-              {% endif %}
-              <p class="member-name">{{ member.name }}</p>
-              <p class="member-role">{{ member.role }}</p>
-            </a>
-          </li>
+          {% include member.html %}
         {% endfor %}
 
         {% for member in site.data.members-senior %}
-          <li>
-            <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
-              {% if member.pic %}
-                <img src="/img/member_photos/{{ member.pic }}.jpg" alt="Photo of {{ member.name }}">
-              {% else %}
-                <img src="http://placehold.it/176.jpg&amp;text={{ member.name | truncatewords:1,'' }}" alt="Photo of {{ member.name }}">
-              {% endif %}
-              <p class="member-name">{{ member.name }}</p>
-              <p class="member-role">{{ member.role }}</p>
-            </a>
-          </li>
+          {% include member.html %}
         {% endfor %}
 
         {% for member in site.data.members-junior %}
-          <li>
-            <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
-              {% if member.pic %}
-                <img src="/img/member_photos/{{ member.pic }}.jpg" alt="Photo of {{ member.name }}">
-              {% else %}
-                <img src="http://placehold.it/176.jpg&amp;text={{ member.name | truncatewords:1,'' }}" alt="Photo of {{ member.name }}">
-              {% endif %}
-              <p class="member-name">{{ member.name }}</p>
-              <p class="member-role">{{ member.role }}</p>
-            </a>
-          </li>
+          {% include member.html %}
         {% endfor %}
 
         {% for member in site.data.members-media %}
-          <li>
-            <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
-              {% if member.pic %}
-                <img src="/img/member_photos/{{ member.pic }}.jpg" alt="Photo of {{ member.name }}">
-              {% else %}
-                <img src="http://placehold.it/176.jpg&amp;text={{ member.name | truncatewords:1,'' }}" alt="Photo of {{ member.name }}">
-              {% endif %}
-              <p class="member-name">{{ member.name }}</p>
-              <p class="member-role">{{ member.role }}</p>
-            </a>
-          </li>
-        {% endfor %}
+          {% include member.html %}        {% endfor %}
       </ul>
     </div>
   </div>

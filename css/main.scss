@@ -270,6 +270,11 @@ a:visited { color: #205caa; }
     & > a:hover {
       text-decoration: none;
     }
+
+    .empty {
+      min-height: 0 !important;
+      text-align: center;
+    }
   }
 
   #home-news {
