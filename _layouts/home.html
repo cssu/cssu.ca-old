@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+
+    <div class="slideshow-content">
+      {% include slideshow.html %}
+    </div>
+
+    <div id="hero-text">
+      <span>We're here for <strong>you</strong>.</span>
+    </div>
+
+    <div class="page-content">
+      <div class="wrap">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+  </body>
+</html>

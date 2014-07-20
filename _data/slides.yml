@@ -1,0 +1,21 @@
+# There should only be 4 slides
+
+- title: UofTHacks
+  text:  The most unapologetically Canadian hackathon, eh?
+  link:  /events/uofthacks
+  pic:   slide1
+
+- title: Chocolate Bar
+  text:  $1.00
+  link:  /events/
+  pic:   slide2
+
+- title: wow
+  text:  much slide
+  link:  /events/
+  pic:   slide3
+
+- title: awraw
+  text:  atnaknta
+  link:  /events/
+  pic:   slide4
