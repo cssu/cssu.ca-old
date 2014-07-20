@@ -6,14 +6,14 @@
   link:  /events/uofthacks
   pic:   slide1
 
-- title: Chocolate Bar
-  text:  $1.00
-  link:  /events/
+- title: CSSU Wiki
+  text:  Learn about academic and social life around the department!
+  link:  /w/
   pic:   slide2
 
-- title: wow
-  text:  much slide
-  link:  /events/
+- title: 50th Anniversary
+  text:  It's the Department of Computer Science's 50th anniversary!
+  link:  http://www.cs.toronto.edu/
   pic:   slide3
 
 - title: awraw
