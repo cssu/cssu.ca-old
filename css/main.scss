@@ -99,12 +99,24 @@ th, tr:nth-child(even) {
 .site-nav .menu-icon { display: none; }
 
 .site-nav .page-link {
+  @include v(transition, border-color 0.3s);
+  border-bottom: 1px solid transparent;
   color: #fff;
   font-size: 1.25em;
   font-weight: 300;
   margin-right: 20px;
   padding: 0.25em 0;
+
+  &:hover {
+    border-color: #fff;
+    text-decoration: none;
+  }
 }
+
+.site-nav .current {
+  border-color: #fff;
+}
+
 
 /* Site footer */
 
@@ -390,16 +402,35 @@ ul.slideshow-cards {
 
 #hero-text {
   background-color: #e1e1e1;
-  font-size: 2.25em;
-  font-weight: 300;
-  padding: 1.5em 0;
   margin: 0 auto;
   max-width: 2000px;
+  padding: 3.5em 1em;
   text-align: center;
   width: 85%;
 
-  strong {
-    font-weight: 600;
+  span {
+    display: block;
+    font-size: 2.25em;
+    font-weight: 300;
+    margin-bottom:  1.5em;
+
+    strong {
+      font-weight: 600;
+    }
+  }
+
+  p {
+    a {
+      border-bottom: 1px dotted $dark-grey;
+      color: $dark-grey;
+      font-weight: 600;
+
+      &:hover { text-decoration: none; }
+    }
+
+    & + p {
+      margin-top: 1em;
+    }
   }
 }
 

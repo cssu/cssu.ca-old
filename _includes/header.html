@@ -19,10 +19,14 @@
         </svg>
       </a>
       <div class="trigger">
-        {% for page in site.pages %}
-          {% if page.nav %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
+        {% for link in site.navigation %}
+          {% assign current = nil %}
+          {% if page.url contains link.url %}
+            {% assign current = 'current' %}
+          {% endif %}
+
+          <a class="page-link {{ current }}" href="{{ link.url | prepend: site.baseurl }}">{{ link.title }}</a>
         {% endfor %}
-        <a class="page-link" href="http://cssu.cdf.toronto.edu/w/">Wiki</a>
       </div>
     </nav>
 

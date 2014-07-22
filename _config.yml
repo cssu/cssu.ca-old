@@ -17,3 +17,18 @@ kramdown:
   use_coderay: true
   coderay:
     coderay_line_numbers: nil
+
+# Site nav
+navigation:
+ - title: About
+   url: /about/
+ - title: Events
+   url: /events/
+ - title: Members
+   url: /members/
+ - title: News
+   url: /news/
+ - title: Store
+   url: /store/
+ - title: Wiki
+   url: /w/
