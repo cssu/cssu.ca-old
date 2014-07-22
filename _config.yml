@@ -20,15 +20,15 @@ kramdown:
 
 # Site nav
 navigation:
- - title: About
-   url: /about/
  - title: Events
    url: /events/
- - title: Members
-   url: /members/
  - title: News
    url: /news/
  - title: Store
    url: /store/
+ - title: About
+   url: /about/
+ - title: Members
+   url: /members/
  - title: Wiki
    url: /w/
