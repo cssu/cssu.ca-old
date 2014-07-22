@@ -24,11 +24,28 @@ prev.onclick = function() {
   slideshow.addClass('slide-' + slide);
 };
 
-next.onclick = function() {
+next.onclick = nextSlide;
+
+function nextSlide() {
   slideshow.removeClass('slide-' + slide);
   slide = slide + 1 < 5 ? slide + 1 : 1;
   slideshow.addClass('slide-' + slide);
-};
+}
+
+
+// Auto-slideshow
+var interval = null;
+function startSlideshow() {
+  interval = setInterval(nextSlide, 3500);
+}
+
+startSlideshow();
+
+slideshow.onmouseover = function() {
+  clearInterval(interval);
+}
+
+slideshow.onmouseout = startSlideshow;
 
 
 /* These are for IE support. */
