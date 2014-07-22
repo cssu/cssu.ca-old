@@ -118,8 +118,8 @@ juniors:
 
   - name:  Thanasi Karachotzitis
     role:  Jr. Academic Consultant
-    email:
-    pic:
+    email: thanasi.karachotzitis@mail.utoronto.ca
+    pic:   thanasi
 
   - name:  Artur Kink
     role:  Jr. Office Administrator
@@ -197,10 +197,10 @@ juniors:
     pic:   ben
 
 media:
-  - name:  Yuze Zhang
+  - name:  Allen Zhang
     role:  Photographer and Videographer
     email: yuze.zhang@mail.utoronto.ca
-    pic:
+    pic:   yuze
 
   - name:  Blaise Calaycay
     role:  Photographer and Videographer
