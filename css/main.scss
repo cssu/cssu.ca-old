@@ -523,7 +523,11 @@ ul.slideshow-cards {
 }
 
 ul.members-list {
-  a { color: $grey; }
+  a {
+    color: $grey;
+
+    &:hover { text-decoration: none; }
+  }
 
   li {
     @include v(transition, background-color 0.3s);

@@ -35,11 +35,10 @@ function nextSlide() {
 
 // Auto-slideshow
 var interval = null;
-function startSlideshow() {
-  interval = setInterval(nextSlide, 3500);
-}
 
-startSlideshow();
+(function startSlideshow() {
+  interval = setInterval(nextSlide, 3500);
+})();
 
 slideshow.onmouseover = function() {
   clearInterval(interval);
