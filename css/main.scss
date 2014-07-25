@@ -67,8 +67,8 @@ th, tr:nth-child(even) {
 
   .wrap {
     min-height: 150px;
-    padding-bottom: 3.5em;
-    padding-top: 3.5em;
+    padding-bottom: 3em;
+    padding-top: 3em;
   }
 }
 
@@ -93,18 +93,30 @@ th, tr:nth-child(even) {
 }
 
 .site-nav {
-  line-height: 56px;
   margin-top: 2em;
 }
 
 .site-nav .menu-icon { display: none; }
 
 .site-nav .page-link {
+  @include v(transition, border-color 0.3s);
+  border-bottom: 1px solid transparent;
   color: #fff;
   font-size: 1.25em;
   font-weight: 300;
   margin-right: 20px;
+  padding: 0.25em 0;
+
+  &:hover {
+    border-color: #fff;
+    text-decoration: none;
+  }
 }
+
+.site-nav .current {
+  border-color: #fff;
+}
+
 
 /* Site footer */
 
@@ -129,11 +141,12 @@ th, tr:nth-child(even) {
 }
 
 .footer-info {
-  padding: 3.5em 30px;
+  padding: 3em 30px;
   vertical-align: middle;
 
   .top {
-    @include border-radius(50%);
+    @include v(border-radius, 50%);
+    @include v(transition, opacity 0.3s);
     border: 1px solid #fff;
     color: #fff;
     display: block;
@@ -143,7 +156,6 @@ th, tr:nth-child(even) {
     opacity: 0.4;
     text-align: center;
     text-decoration: none;
-    transition: opacity 0.3s;
     width: 2em;
 
     &:hover {
@@ -165,16 +177,16 @@ th, tr:nth-child(even) {
   }
 
   .footer-social {
-    margin: 1.5em 0 3.5em 0;
+    margin: 1.5em 0 3em 0;
 
     li {
-      @include border-radius(50%);
+      @include v(border-radius, 50%);
+      @include v(transition, background-color 0.3s);
       border: 1px solid #fff;
       display: inline-block;
       height: 42px;
       list-style: none;
       margin-right: 0.5em;
-      transition: background-color 0.3s;
       width: 42px;
 
       &:hover {
@@ -184,11 +196,11 @@ th, tr:nth-child(even) {
   }
 
   .footer-uoft a {
+    @include v(transition, color 0.3s);
     color: #575758;
     font: 1.25em Centaur, 'Times New Roman', Times, serif;
     letter-spacing: 1px;
     text-transform: uppercase;
-    transition: color 0.3s;
 
     &:hover {
       color: #fff;
@@ -222,6 +234,141 @@ th, tr:nth-child(even) {
     width: 100%;
   }
 }
+
+
+/* Slideshow styles */
+/* ----------------------------------------------------------*/
+
+.slideshow-content {
+  background-color: $grey;
+}
+
+section.slideshow {
+  display: table;
+  height: 500px;
+  margin: 0 auto;
+  max-width: 2060px;
+  position: relative;
+  width: calc(85% + 60px);
+}
+
+.slideshow-nav {
+  @include v(transition, opacity 0.3s);
+  cursor: pointer;
+  display: table-cell;
+  opacity: 0.5;
+  text-align: center;
+  vertical-align: middle;
+  width: 30px;
+
+  &:hover { opacity: 1; }
+}
+
+#slides {
+  display: table-cell;
+  width: calc(100% + 60px);
+}
+
+ul.slideshow-slides {
+  height: 450px;
+
+  li {
+    @include v(transition, opacity 0.3s);
+    opacity: 0;
+    height: calc(100% - 3.5em);
+    position: absolute;
+    list-style: none;
+    width: calc(100% - 60px);
+    z-index: 0;
+
+    a {
+      background-position: center center;
+      background-size: cover;
+      display: block;
+      height: 100%;
+      position: absolute;
+      width: 100%;
+
+      aside {
+        background-color: $grey;
+        bottom: 2em;
+        color: #fff;
+        max-width: 40%;
+        padding: 1.5em;
+        position: absolute;
+        right: 2em;
+
+        hgroup {
+          display: table-cell;
+          padding-right: 2em;
+
+          h1 {
+            font-size: 1.75em;
+            font-weight: 300;
+            line-height: 1.25em;
+            margin-bottom: 0.5em;
+          }
+
+          h2 {
+            font-size: 1.25em;
+            font-weight: 300;
+            line-height: 1.4em;
+          }
+        }
+
+        .slide-link {
+          display: table-cell;
+          vertical-align: middle;
+
+          .slide-arrow {
+            @include v(border-radius, 50%);
+            border: 1px solid #fff;
+            height: 2em;
+            padding-left: 0.75em;
+            padding-top: 0.15em;
+            width: 2em;
+
+            svg {
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+ul.slideshow-cards {
+  display: table;
+  width: 100%;
+
+  li {
+    background-color: $grey;
+    border: 1px solid $dark-grey;
+    color: #fff;
+    cursor: pointer;
+    display: table-cell;
+    font-weight: 300;
+    height: 3.5em;
+    list-style: none;
+    padding: 1em 0.75em;
+    width: 25%;
+  }
+}
+
+@for $i from 1 through 4 {
+  .slide-#{$i} {
+    .slideshow-slides li:nth-child(#{$i}) {
+      opacity: 1;
+      z-index: 100;
+    }
+
+    .slideshow-cards li:nth-child(#{$i}) {
+      background-color: $dark-grey;
+    }
+  }
+}
+
 
 /* Page Content styles */
 /* ----------------------------------------------------------*/
@@ -270,6 +417,7 @@ th, tr:nth-child(even) {
 
 #home-row {
   display: table;
+  padding-top: 1.5em;
   width: 100%;
 
   #home-row-inner {
@@ -355,18 +503,22 @@ th, tr:nth-child(even) {
 }
 
 ul.members-list {
-  a { color: $grey; }
+  a {
+    color: $grey;
+
+    &:hover { text-decoration: none; }
+  }
 
   li {
+    @include v(transition, background-color 0.3s);
     display: inline-block;
-    transition: background-color 0.3s;
     padding: 0.75em;
     vertical-align: top;
 
     &:hover { background-color: #eee; }
 
     img {
-      @include border-radius(50%);
+      @include v(border-radius, 50%);
       background-color: #eee;
       border: none;
       display: block;
@@ -491,7 +643,7 @@ ul.members-list {
 
 .post pre,
 .post code {
-  @include border-radius(3px);
+  @include v(border-radius, 3px);
   border: 1px solid #d5d5e9;
   background-color: #eef;
   padding: 8px 12px;
@@ -512,7 +664,7 @@ ul.members-list {
 
 /* terminal */
 .post pre.terminal {
-  @include border-radius(3px);
+  @include v(border-radius, 3px);
   border: 1px solid #000;
   background-color: #333;
   color: #fff;
@@ -591,7 +743,7 @@ ul.members-list {
 
 @media screen and (max-width: 750px) {
 
-  .wrap { width: 100%; }
+  .wrap, #hero-text { width: 100%; }
 
   #home-news,
   #home-events {
@@ -648,6 +800,8 @@ ul.members-list {
     padding: 5px 10px 5px 20px;
     margin: 0;
   }
+
+  .slideshow-content { display: none; }
 
   .post-header h1 { font-size: 36px; }
   .post-content h2 { font-size: 28px; }

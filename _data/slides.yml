@@ -1,0 +1,22 @@
+# There should only be 4 slides!
+# Pictures go in /img/slides/ and should be .jpg files.
+
+- title: UofTHacks
+  text:  The most unapologetically Canadian hackathon, eh?
+  link:  /events/uofthacks
+  pic:   slide1
+
+- title: CSSU Wiki
+  text:  Learn about academic and social life around the department!
+  link:  /w/
+  pic:   slide2
+
+- title: 50th Anniversary
+  text:  It's the Department of Computer Science's 50th anniversary!
+  link:  http://www.cs.toronto.edu/
+  pic:   slide3
+
+- title: CDF Labs app
+  text:  Check the availability of CDF machines right from your Android device!
+  link:  https://play.google.com/store/apps/details?id=me.echeung.cdflabs
+  pic:   slide4
