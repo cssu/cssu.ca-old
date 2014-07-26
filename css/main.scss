@@ -69,6 +69,8 @@ th, tr:nth-child(even) {
   width: 100%;
 
   .wrap {
+    background: transparent url(/img/logo.png) no-repeat right 30px center;
+    background-size: 165px 165px;
     min-height: 150px;
     padding-bottom: 3em;
     padding-top: 3em;
@@ -295,7 +297,14 @@ ul.slideshow-slides {
       position: absolute;
       width: 100%;
 
+      &:hover {
+        aside {
+          transform: translateX(1em);
+        }
+      }
+
       aside {
+        @include v(transition, transform 0.25s);
         background-color: $grey;
         bottom: 2em;
         color: #fff;
@@ -346,7 +355,9 @@ ul.slideshow-slides {
 
 ul.slideshow-cards {
   display: table;
+  position: relative;
   width: 100%;
+  z-index: 1000;
 
   li {
     background-color: $grey;
@@ -782,11 +793,19 @@ ul.members-list {
     margin-bottom: 30px;
   }
 
+  ul.slideshow-slides li a aside {
+    max-width: 65%;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
 
   .wrap { padding-left: 12px; padding-right: 12px; }
+
+  .site-header .wrap {
+    background-position: left 12px center;
+  }
 
   .site-nav {
     background-color: #fff;
