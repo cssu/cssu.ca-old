@@ -32,3 +32,8 @@ navigation:
    url: /members/
  - title: Wiki
    url: /w/
+
+# Sass
+sass:
+  sass_dir: css
+  style: :compressed
