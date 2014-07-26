@@ -5,7 +5,7 @@ permalink: "/events/"
 ---
 
 <ul class="posts page-list">
-  {% for post in site.categories['events'] %}
+  {% for post in site.categories['events'] reversed %}
     <li>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       {% if post.datestart and post.dateend %}
