@@ -199,14 +199,16 @@ th, tr:nth-child(even) {
   }
 
   .footer-uoft a {
-    @include v(transition, color 0.3s);
-    color: #575758;
-    font: 1.25em Centaur, 'Times New Roman', Times, serif;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    @include v(transition, opacity 0.3s);
+    background: transparent url(/img/uoft.png) no-repeat;
+    background-size: 275px 18px;
+    display: block;
+    height: 18px;
+    opacity: 0.4;
+    width: 275px;
 
     &:hover {
-      color: #fff;
+      opacity: 1;
       text-decoration: none;
     }
   }
@@ -841,4 +843,15 @@ ul.members-list {
 
   .footer-map { display: none; }
 
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (   min--moz-device-pixel-ratio: 2),
+       only screen and (     -o-min-device-pixel-ratio: 2/1),
+       only screen and (        min-device-pixel-ratio: 2),
+       only screen and (                min-resolution: 192dpi),
+       only screen and (                min-resolution: 2dppx) {
+  .footer-uoft a {
+    background-image: url(/img/uoft@2x.png) !important;
+  }
 }
