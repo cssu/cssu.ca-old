@@ -871,7 +871,13 @@ ul.members-list {
        only screen and (        min-device-pixel-ratio: 2),
        only screen and (                min-resolution: 192dpi),
        only screen and (                min-resolution: 2dppx) {
+
+  .side-header .wrap {
+    background-image: url(/img/logo@2x.png) !important;
+  }
+
   .footer-uoft a {
     background-image: url(/img/uoft@2x.png) !important;
   }
+
 }
