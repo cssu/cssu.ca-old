@@ -30,6 +30,8 @@ navigation:
    url: /about/
  - title: Members
    url: /members/
+ - title: Partners
+   url: /partners/
  - title: Wiki
    url: /w/
 
