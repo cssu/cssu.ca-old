@@ -27,7 +27,7 @@ title: Computer Science Student Union
         <a href="/events/"><h1>Events</h1></a>
         <ul class="posts">
           {% if site.categories['events'] %}
-            {% for post in site.categories['events'] limit:4 %}
+            {% for post in site.categories['events'] reversed limit:4 %}
               <li>
                 <a href="{{ post.url | prepend: site.baseurl }}">
                   <div class="event-date">

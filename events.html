@@ -5,10 +5,14 @@ permalink: "/events/"
 ---
 
 <ul class="posts page-list">
-  {% for post in site.categories['events'] %}
+  {% for post in site.categories['events'] reversed %}
     <li>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <p>{{ post.date | date: "%b %-d" }}</p>
+      {% if post.datestart and post.dateend %}
+        <p>{{ post.datestart | date: "%b %-d" }} - {{ post.dateend | date: "%b %-d" }}</p>
+      {% elsif post.date %}
+        <p>{{ post.date | date: "%b %-d" }}</p>
+      {% endif %}
       <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
     </li>
   {% endfor %}

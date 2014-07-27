@@ -69,6 +69,8 @@ th, tr:nth-child(even) {
   width: 100%;
 
   .wrap {
+    background: transparent url(/img/logo.png) no-repeat right 30px center;
+    background-size: 165px 165px;
     min-height: 150px;
     padding-bottom: 3em;
     padding-top: 3em;
@@ -199,14 +201,17 @@ th, tr:nth-child(even) {
   }
 
   .footer-uoft a {
-    @include v(transition, color 0.3s);
-    color: #575758;
-    font: 1.25em Centaur, 'Times New Roman', Times, serif;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+    @include v(transition, opacity 0.3s);
+    background: transparent url(/img/uoft.png) no-repeat;
+    background-size: 275px 18px;
+    display: block;
+    height: 18px;
+    opacity: 0.4;
+    text-indent: -10000em;
+    width: 275px;
 
     &:hover {
-      color: #fff;
+      opacity: 1;
       text-decoration: none;
     }
   }
@@ -292,7 +297,14 @@ ul.slideshow-slides {
       position: absolute;
       width: 100%;
 
+      &:hover {
+        aside {
+          transform: translateX(1em);
+        }
+      }
+
       aside {
+        @include v(transition, transform 0.25s);
         background-color: $grey;
         bottom: 2em;
         color: #fff;
@@ -343,7 +355,9 @@ ul.slideshow-slides {
 
 ul.slideshow-cards {
   display: table;
+  position: relative;
   width: 100%;
+  z-index: 1000;
 
   li {
     background-color: $grey;
@@ -779,11 +793,19 @@ ul.members-list {
     margin-bottom: 30px;
   }
 
+  ul.slideshow-slides li a aside {
+    max-width: 65%;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
 
   .wrap { padding-left: 12px; padding-right: 12px; }
+
+  .site-header .wrap {
+    background-position: left 12px center;
+  }
 
   .site-nav {
     background-color: #fff;
@@ -840,5 +862,22 @@ ul.members-list {
   }
 
   .footer-map { display: none; }
+
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+       only screen and (   min--moz-device-pixel-ratio: 2),
+       only screen and (     -o-min-device-pixel-ratio: 2/1),
+       only screen and (        min-device-pixel-ratio: 2),
+       only screen and (                min-resolution: 192dpi),
+       only screen and (                min-resolution: 2dppx) {
+
+  .side-header .wrap {
+    background-image: url(/img/logo@2x.png) !important;
+  }
+
+  .footer-uoft a {
+    background-image: url(/img/uoft@2x.png) !important;
+  }
 
 }

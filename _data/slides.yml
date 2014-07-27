@@ -2,21 +2,21 @@
 # Pictures go in /img/slides/ and should be .jpg files.
 
 - title: SmartWeek 2014
-  text:  An industry focused IoT conference being held right here at UofT
+  text:  An industry-focused IoT conference being held right here at UofT
   link:  /events/smartweek
   pic:   smartweek_banner
 
 - title: CSSU Wiki
-  text:  Learn about academic and social life around the department!
+  text:  Learn about academic and social life around the department
   link:  /w/
-  pic:   slide2
+  pic:   wiki
 
 - title: 50th Anniversary
   text:  It's the Department of Computer Science's 50th anniversary!
   link:  http://www.cs.toronto.edu/
-  pic:   slide3
+  pic:   bahen
 
 - title: CDF Labs app
   text:  Check the availability of CDF machines right from your Android device!
   link:  https://play.google.com/store/apps/details?id=me.echeung.cdflabs
-  pic:   slide4
+  pic:   app
