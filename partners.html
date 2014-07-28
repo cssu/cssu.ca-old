@@ -9,11 +9,9 @@ permalink: /sponsors/
   <ul class="partners-list">
     {% for partner in site.data.partners.partners %}
       {% if partner.img %}
-        {% if partner.link %}
-          <img src="../img/partners/{{ partner.img }}.jpg" href="{{ partner.link }}"></img>
-        {% else %}
-          <img src="../img/partners/{{ partner.img }}.jpg"></img>
-        {% endif %}
+        <a href="{{ partner.link }}">
+          <img src="../img/partners/{{ partner.img }}.jpg" href="{{ partner.link }}">
+        </a>
       {% endif %}
     {% endfor %}
   </ul>
