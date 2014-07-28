@@ -7,8 +7,14 @@ permalink: /sponsors/
 <div class="partners-page">
   <h2>Partners</h2>
   <ul class="partners-list">
-    {% for member in site.data.partners %}
-
+    {% for partner in site.data.partners.partners %}
+      {% if partner.img %}
+        {% if partner.link %}
+          <img src="../img/partners/{{ partner.img }}.jpg" href="{{ partner.link }}"></img>
+        {% else %}
+          <img src="../img/partners/{{ partner.img }}.jpg"></img>
+        {% endif %}
+      {% endif %}
     {% endfor %}
   </ul>
 
