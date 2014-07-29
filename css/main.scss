@@ -430,6 +430,7 @@ ul.slideshow-cards {
     display: block;
     font-size: 2.25em;
     font-weight: 300;
+    line-height: 1.2em;
     margin-bottom:  1.5em;
 
     strong {
@@ -804,7 +805,7 @@ ul.members-list {
   .wrap { padding-left: 12px; padding-right: 12px; }
 
   .site-header .wrap {
-    background-position: left 12px center;
+    background-image: none;
   }
 
   .site-nav {
@@ -890,4 +891,6 @@ ul.members-list {
   display: block;
   position: relative;
   background-color: white;
+  margin-bottom: 15px;
+  margin-right: 15px;
 }
