@@ -6,8 +6,17 @@ permalink: /sponsors/
 
 <div class="partners-page">
   <h2>Partners</h2>
-  <ul class="partners-list">
+  <ul class="partners-list" style="display: block">
     {% for partner in site.data.partners.partners %}
+        <a href="{{ partner.link }}">
+          <img src="../img/partners/{{ partner.img }}.jpg">
+        </a>
+    {% endfor %}
+  </ul>
+
+  <h2>Sponsors</h2>
+  <ul class="partners-list">
+    {% for partner in site.data.partners.Sponsors %}
         <a href="{{ partner.link }}">
           <img src="../img/partners/{{ partner.img }}.jpg">
         </a>
