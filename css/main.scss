@@ -854,15 +854,13 @@ ul.members-list {
       vertical-align: middle;
     }
 
-    span {
-      margin-right: 0.5em;
-    }
+    span { margin-right: 0.5em; }
 
     svg { width: 18px; height: 15px; }
   }
 
   .site-nav .trigger {
-    border-top: 1px solid $grey;
+    border-top: 1px solid lighten($dark-grey, 50%);
     clear: both;
     display: none;
     margin-bottom: 5px;
