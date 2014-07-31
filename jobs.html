@@ -1,0 +1,15 @@
+---
+layout: page
+title: Opportunities
+permalink: "/jobs/"
+---
+
+<ul class="posts page-list">
+  {% for post in site.categories['jobs'] %}
+    <li>
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+    </li>
+  {% endfor %}
+</ul>
