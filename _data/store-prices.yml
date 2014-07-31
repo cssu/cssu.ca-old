@@ -17,7 +17,11 @@ drinks:
     price: $2.50
 
 snacks:
-  - name: Chocolate Bar
+  - name: Caramilk
+    price: $1.00
+  - name: KitKat
+    price: $1.00
+  - name: Mini Eggs
     price: $1.00
   - name: Pocky
     price: $1.50
