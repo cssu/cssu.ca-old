@@ -13,7 +13,7 @@ drinks:
     price: $1.00
   - name: Arizona Iced Tea
     price: $1.50
-  - name: Redbull
+  - name: Red Bull
     price: $2.50
 
 snacks:
@@ -25,4 +25,3 @@ snacks:
     price: $0.75
   - name: Sour Key
     price: $0.25
-	
