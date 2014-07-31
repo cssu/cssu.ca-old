@@ -634,6 +634,25 @@ ul.members-list {
 }
 
 
+/* Job listings */
+/* ----------------------------------------------------------*/
+
+.jobs-list {
+  font-size: 0;
+
+  li {
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 2em;
+    width: 50%;
+
+    & + li {
+      margin-top: 0;
+    }
+  }
+}
+
+
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 

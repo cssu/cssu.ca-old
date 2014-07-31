@@ -4,12 +4,12 @@ title: Opportunities
 permalink: "/jobs/"
 ---
 
-<ul class="posts page-list">
-  {% for post in site.categories['jobs'] %}
+<ul class="posts page-list jobs-list">
+  {% for post in site.categories['jobs'] reversed %}
     <li>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+      <p>Posted on: {{ post.date | date: "%b %-d, %Y" }} • Location: {{ post.location }}</p>
+      <p>Type: {{ post.type }} • Number of Openings: {{ post.openings }}</p>
     </li>
   {% endfor %}
 </ul>
