@@ -23,3 +23,6 @@ snacks:
     price: $1.50
   - name: Chips
     price: $0.75
+  - name: Sour Key
+    price: $0.25
+	
