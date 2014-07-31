@@ -18,7 +18,7 @@ drinks:
 
 snacks:
   - name: Chocolate Bar
-    price: $1.25
+    price: $1.00
   - name: Pocky
     price: $1.50
   - name: Chips
