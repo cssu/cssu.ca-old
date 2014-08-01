@@ -2,18 +2,18 @@
 
   <a class="slideshow-nav" id="slideshow-prev">
     <svg width="6px" height="10px" xmlns="http://www.w3.org/2000/svg">
-      <line id="svg_1" y2="0" x2="6" y1="5" x1="0" stroke-width="1" stroke="#FFFFFF" fill="none"/>
-      <line id="svg_2" y2="10" x2="6" y1="5" x1="0" stroke-linecap="null" stroke-linejoin="null" stroke-width="1" stroke="#FFFFFF" fill="none"/>
+      <line y2="0" x2="6" y1="5" x1="0" stroke-width="1" stroke="#FFFFFF" fill="none"/>
+      <line y2="10" x2="6" y1="5" x1="0" stroke-linecap="null" stroke-linejoin="null" stroke-width="1" stroke="#FFFFFF" fill="none"/>
     </svg>
   </a>
 
   <div id="slides">
 
-    <ul class="slideshow-slides">
+    <ul id="slideshow-slides">
       {% for slide in site.data.slides %}
-        <li>
-          <a href="{{ slide.link }}" style="background-image: url('/img/slides/{{ slide.pic }}.jpg')">
-            <aside>
+        <li class="slideshow-slide">
+          <a class="slideshow-slide-content" href="{{ slide.link }}" style="background-image: url('/img/slides/{{ slide.pic }}.jpg')">
+            <aside class="slideshow-slide-info">
               <hgroup>
                 <h1>{{ slide.title }}</h1>
                 <h2>{{ slide.text }}</h2>
@@ -21,8 +21,8 @@
               <div class="slide-link">
                 <div class="slide-arrow">
                   <svg width="6px" height="10px" xmlns="http://www.w3.org/2000/svg">
-                    <line id="svg_3" y2="5" x2="6" y1="0" x1="0" stroke-width="1" stroke="#FFFFFF" fill="none"/>
-                    <line id="svg_4" y2="10" x2="0" y1="5" x1="6" stroke-linecap="null" stroke-linejoin="null" stroke-width="1" stroke="#FFFFFF" fill="none"/>
+                    <line y2="5" x2="6" y1="0" x1="0" stroke-width="1" stroke="#FFFFFF" fill="none"/>
+                    <line y2="10" x2="0" y1="5" x1="6" stroke-linecap="null" stroke-linejoin="null" stroke-width="1" stroke="#FFFFFF" fill="none"/>
                   </svg>
                 </div>
               </div>
@@ -32,9 +32,9 @@
       {% endfor %}
     </ul>
 
-    <ul class="slideshow-cards">
+    <ul id="slideshow-cards">
       {% for slide in site.data.slides %}
-        <li>{{ slide.title }}</li>
+        <li class="slideshow-card">{{ slide.title }}</li>
       {% endfor %}
     </ul>
 
@@ -42,8 +42,8 @@
 
   <a class="slideshow-nav" id="slideshow-next">
     <svg width="6px" height="10px" xmlns="http://www.w3.org/2000/svg">
-      <line id="svg_3" y2="5" x2="6" y1="0" x1="0" stroke-width="1" stroke="#FFFFFF" fill="none"/>
-      <line id="svg_4" y2="10" x2="0" y1="5" x1="6" stroke-linecap="null" stroke-linejoin="null" stroke-width="1" stroke="#FFFFFF" fill="none"/>
+      <line y2="5" x2="6" y1="0" x1="0" stroke-width="1" stroke="#FFFFFF" fill="none"/>
+      <line y2="10" x2="0" y1="5" x1="6" stroke-linecap="null" stroke-linejoin="null" stroke-width="1" stroke="#FFFFFF" fill="none"/>
     </svg>
   </a>
 

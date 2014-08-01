@@ -1,12 +1,15 @@
 // To keep track of which slide we're on
 var slide = 1;
 
+// For the automatic slideshow
+var interval = null;
+
 // The DOM elements
-var slideshow = document.getElementsByClassName('slideshow')[0];
-var slides    = document.getElementsByClassName('slideshow-slides')[0].getElementsByTagName('li');
-var cards     = document.getElementsByClassName('slideshow-cards')[0].getElementsByTagName('li');
-var prev      = document.getElementById('slideshow-prev');
-var next      = document.getElementById('slideshow-next');
+var slideshow = document.getElementsByClassName('slideshow')[0],
+    slides    = document.getElementsByClassName('slideshow-slide'),
+    cards     = document.getElementsByClassName('slideshow-card'),
+    prev      = document.getElementById('slideshow-prev'),
+    next      = document.getElementById('slideshow-next');
 
 for (var i = 0; i < cards.length; i++) {
   cards[i].onclick = (function(index) {
@@ -34,17 +37,17 @@ function nextSlide() {
 
 
 // Auto-slideshow
-var interval = null;
-
-(function startSlideshow() {
+function startSlideshow() {
   interval = setInterval(nextSlide, 3500);
-})();
+}
 
 slideshow.onmouseover = function() {
   clearInterval(interval);
 }
 
 slideshow.onmouseout = startSlideshow;
+
+startSlideshow();
 
 
 /* These are for IE support. */
