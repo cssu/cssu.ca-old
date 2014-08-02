@@ -187,7 +187,7 @@ th, tr:nth-child(even) {
 
     li {
       @include v(border-radius, 50%);
-      @include v(transition, background-color 0.3s);
+      @include v(transition, background-color 0.4s ease);
       border: 1px solid #fff;
       display: inline-block;
       height: 42px;
@@ -202,46 +202,46 @@ th, tr:nth-child(even) {
 
     a {
       position: relative;
-    }
 
-    a::after {
-      @include v(transition, all 0.4s ease);
-      content: attr(title);
-      position: absolute;
-      bottom: 300%;
-      left: 0;
-      background: #242424;
-      padding: 5px 15px;
-      color: #fff;
-      white-space: nowrap;
-      opacity: 0;
-      z-index: 1000;
-    }
+      &::after {
+        @include v(transition, all 0.4s ease);
+        content: attr(title);
+        position: absolute;
+        bottom: 300%;
+        left: 0;
+        background: #242424;
+        padding: 5px 15px;
+        color: #fff;
+        white-space: nowrap;
+        opacity: 0;
+      }
 
-    a::before {
-      @include v(transition, all 0.4s ease);
-      content: "";
-      position: absolute;
-      width: 0;
-      height: 0;
-      border-top: 20px solid #242424;
-      border-left: 20px solid transparent;
-      border-right: 20px solid transparent;
-      opacity: 0;
-      left: 0;
-      bottom: 300%;
-    }
+      &::before {
+        @include v(transition, all 0.4s ease);
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 20px solid #242424;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        opacity: 0;
+        left: 0;
+        bottom: 300%;
+      }
 
-    a:hover:after {
-      bottom: 250%;
-    }
+      &:hover:after {
+        bottom: 250%;
+      }
 
-    a:hover:before {
-      bottom: 210%;
-    }
+      &:hover:before {
+        bottom: 210%;
+      }
 
-    a:hover:after, a:hover:before {
-      opacity: 1;
+      &:hover:after,
+      &:hover:before {
+        opacity: 1;
+      }
     }
   }
 
