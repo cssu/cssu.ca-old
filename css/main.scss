@@ -199,6 +199,50 @@ th, tr:nth-child(even) {
         background-color: lighten(#18191a, 10%);
       }
     }
+
+    a {
+      position: relative;
+    }
+
+    a::after {
+      @include v(transition, all 0.4s ease);
+      content: attr(title);
+      position: absolute;
+      bottom: 300%;
+      left: 0;
+      background: #242424;
+      padding: 5px 15px;
+      color: #fff;
+      white-space: nowrap;
+      opacity: 0;
+      z-index: 1000;
+    }
+
+    a::before {
+      @include v(transition, all 0.4s ease);
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 0;
+      border-top: 20px solid #242424;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      opacity: 0;
+      left: 0;
+      bottom: 300%;
+    }
+
+    a:hover:after {
+      bottom: 250%;
+    }
+
+    a:hover:before {
+      bottom: 210%;
+    }
+
+    a:hover:after, a:hover:before {
+      opacity: 1;
+    }
   }
 
   .footer-uoft a {
