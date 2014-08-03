@@ -2,6 +2,9 @@ partners:
   - name: SmartWeek 2014
     img: smartweek
     link: http://www.smartweek2014.com/
+  - name: MADLab
+    img: MADLab
+    link: http://mobile.utoronto.ca/madlab
 
 sponsors:
   - name: Twitter
