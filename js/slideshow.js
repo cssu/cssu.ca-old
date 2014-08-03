@@ -1,13 +1,18 @@
-// To keep track of which slide we're on
+// To keep track of which slide we're on (1 through 4)
 var slide = 1;
 
-// The DOM elements
-var slideshow = document.getElementsByClassName('slideshow')[0];
-var slides    = document.getElementsByClassName('slideshow-slides')[0].getElementsByTagName('li');
-var cards     = document.getElementsByClassName('slideshow-cards')[0].getElementsByTagName('li');
-var prev      = document.getElementById('slideshow-prev');
-var next      = document.getElementById('slideshow-next');
+// For the auto-rotating slideshow
+var interval;
 
+// The DOM elements
+var slideshow = document.getElementById('slideshow'),
+    slides    = document.getElementsByClassName('slideshow-slide'),
+    cards     = document.getElementsByClassName('slideshow-card'),
+    prev      = document.getElementById('slideshow-prev'),
+    next      = document.getElementById('slideshow-next');
+
+// Handle the cards -- show the respective card using the CSS classes
+// .slide-1 would show the first slide, slide-2 for the second, and so on.
 for (var i = 0; i < cards.length; i++) {
   cards[i].onclick = (function(index) {
     return function() {
@@ -18,37 +23,37 @@ for (var i = 0; i < cards.length; i++) {
   })(i);
 }
 
+// Handle the navigation buttons, again manipulating the CSS classes
 prev.onclick = function() {
   slideshow.removeClass('slide-' + slide);
   slide = slide - 1 > 0 ? slide - 1 : 4;
   slideshow.addClass('slide-' + slide);
 };
 
-next.onclick = nextSlide;
-
+// This is a separate function so it can be used for the auto-rotating function
 function nextSlide() {
   slideshow.removeClass('slide-' + slide);
   slide = slide + 1 < 5 ? slide + 1 : 1;
   slideshow.addClass('slide-' + slide);
 }
 
+next.onclick = nextSlide;
 
-// Auto-slideshow
-var interval = null;
+// Handle the auto-rotating functionality of the slideshow
+function startSlideshow() {
+  interval = setInterval(nextSlide, 3750);
+}
 
-(function startSlideshow() {
-  interval = setInterval(nextSlide, 3500);
-})();
-
+// Stop the auto-rotating on mouse hover
 slideshow.onmouseover = function() {
   clearInterval(interval);
 }
-
 slideshow.onmouseout = startSlideshow;
 
+startSlideshow();
 
-/* These are for IE support. */
 
+// These are for IE support
 Element.prototype.addClass = function(className) {
   if (this.classList)
     this.classList.add(className);
