@@ -5,18 +5,18 @@ permalink: /sponsors/
 ---
 
 <div class="partners-page">
-  <h2>Sponsors</h2>
+  <h2>Partners</h2>
   <ul class="sponsor-grid">
-    {% for partner in site.data.partners.sponsors %}
+    {% for partner in site.data.partners.partners %}
       <a href="{{ partner.link }}">
         <img src="../img/partners/{{ partner.img }}.jpg">
       </a>
     {% endfor %}
   </ul>
-
-  <h2>Partners</h2>
+  
+  <h2>Sponsors</h2>
   <ul class="sponsor-grid">
-    {% for partner in site.data.partners.partners %}
+    {% for partner in site.data.partners.sponsors %}
       <a href="{{ partner.link }}">
         <img src="../img/partners/{{ partner.img }}.jpg">
       </a>
