@@ -616,9 +616,6 @@ ul.members-list {
 /* Sponsor styles */
 /* ----------------------------------------------------------*/
 
-.sponsor-img {
-  height: 168px;
-}
 
 .sponsor-grid {
   background-color: #fff;
@@ -626,6 +623,13 @@ ul.members-list {
   margin-bottom: 15px;
   margin-right: 15px;
   position: relative;
+  a { vertical-align: middle;
+      display: inline-block;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      padding-right: 15px;
+      padding-left: 15px;
+  }
 }
 
 

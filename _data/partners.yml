@@ -5,6 +5,9 @@ partners:
   - name: Department of Computer Science
     img: copmsci_ublue_sm
     link: http://web.cs.toronto.edu/
+  - name: MADLab
+    img: MADLab
+    link: http://mobile.utoronto.ca/madlab
 
 sponsors:
   - name: Twitter
