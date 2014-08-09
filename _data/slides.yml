@@ -6,15 +6,15 @@
   link:  /events/smartweek
   pic:   smartweek_banner
 
+- title: 50th Anniversary
+  text:  It's the Department of Computer Science's 50th anniversary!
+  link:  http://web.cs.toronto.edu/news/dcsturns50.htm
+  pic:   dcs50
+
 - title: CSSU Wiki
   text:  Learn about academic and social life around the department
   link:  /w/
   pic:   wiki
-
-- title: 50th Anniversary
-  text:  It's the Department of Computer Science's 50th anniversary!
-  link:  http://www.cs.toronto.edu/
-  pic:   bahen
 
 - title: CDF Labs app
   text:  Check the availability of CDF machines right from your Android device!
