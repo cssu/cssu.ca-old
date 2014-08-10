@@ -892,12 +892,14 @@ ul.members-list {
 .shirt-form {
   display: block;
   margin: 0 auto;
+  padding: 0;
+  border: 0;
   width: 500px;
   height: 700px;
 }
 
 .bitpay-form {
-  input[type="image"] {
+  input.bitpay-logo {
     display: block;
     margin: 0 auto;
   }
