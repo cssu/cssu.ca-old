@@ -879,6 +879,8 @@ ul.members-list {
 
 .store-left table {
   width: 100%;
+  margin-bottom: 2em;
+  table-layout: fixed;
 }
 
 .store-left, .store-right {
@@ -890,4 +892,13 @@ ul.members-list {
 .shirt-form {
   display: block;
   margin: 0 auto;
+  width: 500px;
+  height: 750px;
+}
+
+.bitpay-form {
+  input[type="image"] {
+    display: block;
+    margin: 0 auto;
+  }
 }
