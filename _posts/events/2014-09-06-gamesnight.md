@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Games Night"
-description: "The first Games Night of the Year"
+description: "The first Games Night of the year"
 date:   2014-09-06
 categories: events
 ---
