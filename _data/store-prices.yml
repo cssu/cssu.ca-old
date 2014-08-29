@@ -7,6 +7,10 @@ drinks:
     price: $0.75
   - name: Sprite
     price: $0.75
+  - name: Fanta
+    price: $0.75
+  - name: Root Beer
+    price: $0.75
   - name: Nestea
     price: $1.00
   - name: Nestea Zero
