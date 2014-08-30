@@ -27,7 +27,10 @@ title: Computer Science Student Union
         <a href="/events/"><h1>Events</h1></a>
         <ul class="posts">
           {% if site.categories['events'] %}
+          {% assign curr_time = site.time | date: "%s" %}
             {% for post in site.categories['events'] reversed limit:4 %}
+            {% assign expires = post.date | date: "%s" | plus: 86400 | date: "%s" %}
+              {% if expires > curr_time %}
               <li>
                 <a href="{{ post.url | prepend: site.baseurl }}">
                   <div class="event-date">
@@ -38,6 +41,7 @@ title: Computer Science Student Union
                   <p>{{ post.description | strip_html | truncatewords: 25 }}</p>
                 </a>
               </li>
+              {% endif %}
             {% endfor %}
           {% else %}
             <li class="empty">No upcoming events</li>
