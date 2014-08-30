@@ -3,6 +3,7 @@ layout: post
 title:  "Games Night"
 description: "The first Games Night of the year"
 date:   2014-09-06
+expiry_date: 2014-09-07
 categories: events
 ---
 
