@@ -8,6 +8,9 @@ partners:
   - name: MADLab
     img:  MADLab
     link: http://mobile.utoronto.ca/madlab
+  - name: UofTDev
+    img: uoftdev
+    link: http://www.uoftdev.ca/
 
 sponsors:
   - name: Twitter
