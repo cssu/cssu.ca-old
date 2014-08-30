@@ -6,8 +6,8 @@ permalink: "/events/"
 {% assign curr_time = site.time | date: "%s" %}
 <ul class="posts page-list">
   {% for post in site.categories['events'] reversed %}
-  {% assign expires = post.date | date: "%s" | plus: 7776000 | date: "%s" %}
-    {% if expires < curr_time %}
+  {% assign expires = post.date | date: "%s" | plus: 86400 | date: "%s" %}
+    {% if expires > curr_time %}
       <li>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         {% if post.datestart and post.dateend %}
