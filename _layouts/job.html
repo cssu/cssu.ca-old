@@ -6,7 +6,16 @@ layout: default
   <header class="post-header">
     <h1>{{ page.title }}</h1>
     <p class="meta">
-      Posted: {{ page.date | date: "%b %-d, %Y" }}
+      Posted: {{ page.post_date | date: "%b %-d, %Y" }}
+    </p>
+    <p class="meta">
+      Apply By: {{ page.apply_date | date: "%b %-d, %Y" }}
+    </p>
+    <p class="meta">
+      Start Work Term: {{ page.start_date | date: "%b %-d, %Y" }}
+    </p>
+    <p class="meta">
+      End Work Term: {{ page.end_date | date: "%b %-d, %Y" }}
     </p>
     <p class="meta">
       Location: {{ page.location }}

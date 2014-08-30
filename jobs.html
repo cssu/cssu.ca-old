@@ -8,7 +8,7 @@ permalink: "/jobs/"
   {% for post in site.categories['jobs'] reversed %}
     <li>
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <p>Posted on: {{ post.date | date: "%b %-d, %Y" }} • Location: {{ post.location }}</p>
+      <p>Posted on: {{ post.post_date | date: "%b %-d, %Y" }} • Location: {{ post.location }}</p>
       <p>Type: {{ post.type }} • Number of Openings: {{ post.openings }}</p>
     </li>
   {% endfor %}
