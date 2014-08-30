@@ -621,6 +621,9 @@ ul.members-list {
 /* Sponsor styles */
 /* ----------------------------------------------------------*/
 
+.partners-page {
+  text-align: center;
+}
 
 .sponsor-grid {
   background-color: #fff;
@@ -636,6 +639,11 @@ ul.members-list {
       padding-left: 15px;
   }
 }
+
+  .partner-logo {
+    max-height: 150px;
+    max-width: 325px;
+  }
 
 
 /* Job listings */
