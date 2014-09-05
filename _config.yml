@@ -27,16 +27,14 @@ navigation:
    url: /news/
  - title: Store
    url: /store/
- - title: About
-   url: /about/
- - title: Members
-   url: /members/
  - title: Opportunities
    url: /jobs/
  - title: Sponsors
    url: /sponsors/
  - title: Wiki
    url: /w/
+ - title: About
+   url: /about/
 
 # Sass
 sass:
