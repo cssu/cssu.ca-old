@@ -3,6 +3,7 @@ layout: post
 title:  "SmartWeek 2014"
 description: "An industry focused IoT conference being held right here at UofT"
 date:   2014-10-25
+expiry_date: 2014-10-26
 categories: events
 ---
 

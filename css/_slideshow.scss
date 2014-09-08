@@ -116,6 +116,7 @@
 #slideshow-cards {
   display: table;
   position: relative;
+  table-layout: fixed;
   width: 100%;
   z-index: 1000;
 }
@@ -131,7 +132,6 @@
   height: 3.5em;
   list-style: none;
   padding: 1em 0.75em;
-  width: 25%;
 }
 
 // Handles the current state

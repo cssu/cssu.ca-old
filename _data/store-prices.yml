@@ -1,35 +1,35 @@
 drinks:
-  - name: Coca-Cola
+  - name:  Coca-Cola
     price: $0.75
-  - name: Diet Coke
+  - name:  Diet Coke
     price: $0.75
-  - name: Coke Zero
+  - name:  Coke Zero
     price: $0.75
-  - name: Sprite
+  - name:  Sprite
     price: $0.75
-  - name: Fanta
+  - name:  Fanta
     price: $0.75
-  - name: Root Beer
+  - name:  Root Beer
     price: $0.75
-  - name: Nestea
+  - name:  Nestea
     price: $1.00
-  - name: Nestea Zero
+  - name:  Nestea Zero
     price: $1.00
-  - name: Arizona Iced Tea
+  - name:  Arizona Iced Tea
     price: $1.50
-  - name: Red Bull
+  - name:  Red Bull
     price: $2.50
 
 snacks:
-  - name: Caramilk
+  - name:  Caramilk
     price: $1.00
-  - name: KitKat
+  - name:  KitKat
     price: $1.00
-  - name: Mini Eggs
+  - name:  Mini Eggs
     price: $1.00
-  - name: Pocky
+  - name:  Pocky
     price: $1.50
-  - name: Chips
+  - name:  Chips
     price: $0.75
-  - name: Sour Key
+  - name:  Sour Key
     price: $0.25

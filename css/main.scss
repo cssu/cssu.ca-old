@@ -1,8 +1,12 @@
 ---
 ---
 
+// We're using BEM syntax for naming things:
+// http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+
 @import 'core';
 @import 'slideshow';
+
 
 /* Base */
 /* ----------------------------------------------------------*/
@@ -86,17 +90,17 @@ th, tr:nth-child(even) {
   text-decoration: none;
 }
 
-.site-title {
-  font-family: 'Nexa Light';
-  font-size: 46px;
-  line-height: 56px;
-  letter-spacing: 4px;
-  z-index: 1;
-}
+  .site-logo__title {
+    font-family: 'Nexa Light';
+    font-size: 46px;
+    line-height: 56px;
+    letter-spacing: 4px;
+    z-index: 1;
+  }
 
-.site-subtitle {
-  color: #bebfbf;
-}
+  .site-logo__subtitle {
+    color: #bebfbf;
+  }
 
 .site-nav {
   margin-top: 2em;
@@ -529,9 +533,10 @@ ul.members-list {
 
 .post-header h1 {
   font-size: 42px;
+  font-weight: 300;
   letter-spacing: -1.75px;
   line-height: 1;
-  font-weight: 300;
+  margin-bottom: 0.4em;
 }
 
 .post-header .meta {
@@ -616,6 +621,9 @@ ul.members-list {
 /* Sponsor styles */
 /* ----------------------------------------------------------*/
 
+.partners-page {
+  text-align: center;
+}
 
 .sponsor-grid {
   background-color: #fff;
@@ -629,6 +637,31 @@ ul.members-list {
       padding-bottom: 15px;
       padding-right: 15px;
       padding-left: 15px;
+  }
+}
+
+  .partner-logo {
+    max-height: 150px;
+    max-width: 325px;
+  }
+
+
+/* Job listings */
+/* ----------------------------------------------------------*/
+
+.jobs-list {
+  font-size: 0;
+
+  li {
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 3em;
+    width: 500px;
+    vertical-align: top;
+
+    & + li {
+      margin-top: 0;
+    }
   }
 }
 
@@ -817,12 +850,3 @@ ul.members-list {
   }
 
 }
-
-.frosh-form {
-  border: none;
-  display: block;
-  height: 700px;
-  margin: 0 auto;
-  width: 760px;
-}
-
