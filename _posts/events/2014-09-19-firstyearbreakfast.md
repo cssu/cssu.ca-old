@@ -2,8 +2,8 @@
 layout: post
 title:  "First-Year Breakfast"
 description: "Free Pancakes and Coffee at Bahen"
-date:   2014-09-17
-expiry_date: 2014-09-18
+date:   2014-09-19
+expiry_date: 2014-09-20
 categories: events
 ---
 
