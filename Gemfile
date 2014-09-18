@@ -16,3 +16,6 @@ gem 'uglifier'
 
 # Use rake to simplify tasks
 gem 'rake'
+
+# Tag cloud and per-tag pages
+gem 'jekyll-tagging'
