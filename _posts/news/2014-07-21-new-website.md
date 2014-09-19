@@ -4,6 +4,7 @@ title:  "Welcome to the shiny new website!"
 author: "Eugene Cheung"
 date:   2014-07-21 12:00:00
 categories: news
+tags: cssu dev
 ---
 
 There's a good chance that you're here because you've heard there's a shiny new CSSU website. If so, hello there! If not, welcome to the website, I hope you like it!
