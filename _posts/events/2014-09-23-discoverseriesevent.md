@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Discovery Series Event"
-description: "An opportunity to connect with entrepreneurs and professionals, and learn about the future of technology!"
+description: "An opportunity to connect with industry professionals, and learn about the future of technology!"
 date:   2014-09-23
 expiry_date: 2014-09-24
 categories: events
