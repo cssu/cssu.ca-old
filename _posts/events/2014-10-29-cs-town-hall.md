@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CS Town Hall"
-description: ""
+description: "Give feedback about anything CS-related"
 date:   2014-10-29
 expiry_date: 2014-10-30
 categories: events
