@@ -12,12 +12,9 @@ exclude: ['README.md']
 markdown: kramdown
 permalink: /:categories/:title
 
-# kramdown settings
-kramdown:
-  input: GFM
-  use_coderay: true
-  coderay:
-    coderay_line_numbers: nil
+# redcarpet settings
+redcarpet:
+  extensions: []
 
 # Site nav
 navigation:
