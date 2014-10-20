@@ -1,5 +1,7 @@
-module ExcludeExpired
-  class Generator < Jekyll::Generator
+module Jekyll
+  class ExpiredExcluder < Generator
+    safe true
+    priority :high
 
     def generate(site)
 
