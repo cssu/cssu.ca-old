@@ -1,5 +1,5 @@
-cssu.cdf.toronto.edu
-====================
+cssu.ca
+=======
 
 University of Toronto Computer Science Student Union Website
 
