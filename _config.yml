@@ -8,7 +8,7 @@ github_username:   cssu
 facebook_username: UofTCSSU
 
 # Build settings
-exclude: ['README.md']
+exclude: ['README.md', 'vendor']
 markdown: kramdown
 permalink: /:categories/:title
 

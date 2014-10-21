@@ -10,4 +10,5 @@ gem 'wdm', '~> 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
 # Jekyll static site generator
 gem 'jekyll', require: false
 
+# Use rake to simplify tasks
 gem 'rake'
