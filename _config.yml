@@ -10,7 +10,7 @@ facebook_username: UofTCSSU
 # Build settings
 exclude: ['README.md', 'vendor']
 markdown: redcarpet
-permalink: /:categories/:title
+permalink: pretty
 
 # redcarpet settings
 redcarpet:
