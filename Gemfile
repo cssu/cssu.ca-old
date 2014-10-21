@@ -12,9 +12,3 @@ gem 'jekyll', require: false
 
 # Use rake to simplify tasks
 gem 'rake'
-
-# Use rack-jekyll to serve on Heroku
-gem 'rack-jekyll'
-
-# Use puma web server
-gem 'puma'

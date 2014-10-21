@@ -5,7 +5,6 @@
 /Gemfile
 /Gemfile.lock
 /Rakefile
-/config.ru
 /Procfile
 
 # Files preserved in htdocs
