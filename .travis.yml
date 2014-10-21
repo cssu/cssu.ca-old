@@ -8,5 +8,5 @@ deploy:
   app: cssu
   strategy: api
   on:
-    all_branches: true
+    branch: draft
     repo: cssu/cssu.ca
