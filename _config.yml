@@ -1,7 +1,7 @@
 # Site settings
 title: CSSU
 email: cssu@cdf.toronto.edu
-url: http://cssu.ca
+url: https://cssu.ca
 description: "University of Toronto Computer Science Student Union"
 twitter_username:  cssu
 github_username:   cssu
@@ -9,8 +9,8 @@ facebook_username: UofTCSSU
 
 # Build settings
 exclude: ['README.md', 'vendor']
-markdown: kramdown
-permalink: /:categories/:title
+markdown: redcarpet
+permalink: pretty
 
 # redcarpet settings
 redcarpet:
