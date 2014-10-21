@@ -1,0 +1,7 @@
+language: ruby
+rvm:
+  - 2.1.3
+  - 2.1.2
+
+# Just test that the site builds
+script: bundle exec jekyll build
