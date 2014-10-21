@@ -633,6 +633,31 @@ ul.members-list {
 }
 
 
+/* Tag clouds */
+
+.page-list {
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
+}
+
+.tag-cloud {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  width: 20%;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  a {
+    display: block;
+    padding: 0.25em 0;
+  }
+}
+
+
 /* Sponsor styles */
 /* ----------------------------------------------------------*/
 
