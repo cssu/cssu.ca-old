@@ -10,4 +10,11 @@ gem 'wdm', '~> 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
 # Jekyll static site generator
 gem 'jekyll', require: false
 
+# Use rake to simplify tasks
 gem 'rake'
+
+# Use rack-jekyll to serve on Heroku
+gem 'rack-jekyll'
+
+# Use puma web server
+gem 'puma'
