@@ -1,7 +1,4 @@
 language: ruby
-rvm:
-- 2.1.3
-- 2.1.2
 script: bundle exec jekyll build
 
 deploy:
@@ -9,7 +6,7 @@ deploy:
   api_key:
     secure: kjEOnUD0Ny9VrrS6o96c6pyl7uSHsNMNar28RImo0+a4CJKiN4Kj6b+5TjTxMdo8pp4ppwT3+9/6ydmEPjsffWT8iOYc4MzXhq3ex+WH0u2hRI6bXDJg8zwBSRKGmCxg8Cza2ImChqARo6y8FrMaTLxZrFZtadN+H2O7U4rRCyo=
   app: cssu
-  strategy: git
+  strategy: api
   on:
     all_branches: true
     repo: cssu/cssu.ca
