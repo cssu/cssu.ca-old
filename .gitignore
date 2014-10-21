@@ -10,3 +10,7 @@ Thumbs.db
 
 # IDE files
 .idea
+
+# Bundler
+/.bundle/
+/vendor/
