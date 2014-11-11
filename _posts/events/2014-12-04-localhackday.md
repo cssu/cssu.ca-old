@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Games Night"
-description: "The first Games Night of the year"
+title:  "Local Hack Day"
+description: "Local Hack Day right here at UofT"
 date:   2014-09-21
 expiry_date: 2014-11-22
 categories: events
