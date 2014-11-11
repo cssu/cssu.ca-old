@@ -2,8 +2,8 @@
 layout: post
 title:  "Local Hack Day"
 description: "A 12 Hour global event celebrating the Hacker community right at UofT"
-date:   2014-12-04
-expiry_date: 2014-12-04
+date:   2014-12-06
+expiry_date: 2014-12-07
 categories: events
 ---
 
