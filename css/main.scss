@@ -306,6 +306,12 @@ th, tr:nth-child(even) {
   }
 }
 
+.responsive-iframe {
+  border-width: 0;
+  width: 100%;
+  height: 600px;
+}
+
 
 /* Home styles */
 /* ----------------------------------------------------------*/
@@ -734,6 +740,13 @@ ul.members-list {
 /* Media queries */
 /* ----------------------------------------------------------*/
 
+@media screen and (max-width: 1200px) {
+  .store-left, .store-right {
+    display: block !important;
+    width: auto !important;
+  }
+}
+
 @media screen and (max-width: 750px) {
 
   .wrap, #hero-text { width: 100%; }
@@ -849,4 +862,51 @@ ul.members-list {
     background-image: url(/img/uoft@2x.png) !important;
   }
 
+}
+
+/* Individual styles */
+/* ----------------------------------------------------------*/
+
+.frosh-form {
+  border: none;
+  display: block;
+  height: 500px;
+  margin: 0 auto;
+  width: 760px;
+}
+
+.frosh-leader-form {
+  border: none;
+  display: block;
+  height: 1100px;
+  margin: 0 auto;
+  width: 760px;
+}
+
+.store-left table {
+  width: 100%;
+  margin-bottom: 2em;
+  table-layout: fixed;
+}
+
+.store-left, .store-right {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+.shirt-form {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  width: 500px;
+  height: 700px;
+}
+
+.bitpay-form {
+  input.bitpay-logo {
+    display: block;
+    margin: 0 auto;
+  }
 }
