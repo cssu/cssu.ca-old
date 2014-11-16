@@ -11,3 +11,5 @@ categories: events
 Come out and enjoy some free food and play some video/board games.
 
 Games Night runs from 7pm to 7am.
+
+[Check out a map of the event](/downloads/games-night-map.png)
