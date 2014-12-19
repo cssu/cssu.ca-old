@@ -11,18 +11,26 @@ drinks:
     price: $0.75
   - name:  Fanta
     price: $0.75
+  - name:  Crush
+    price: $0.75
+  - name:  Dr. Pepper
+    price: $0.75
   - name:  Root Beer
     price: $0.75
+  - name:  Arizona Iced Tea
+    price: $0.75
+  - name:  Orange Juice
+    price: $1.00
+  - name:  Apple Juice
+    price: $1.00
   - name:  Nestea
     price: $1.00
-  - name:  Arizona Iced Tea
-    price: $1.50
   - name:  Red Bull
     price: $2.50
 
 snacks:
   - name:  Chocolate
-    price: $1.00
+    price: $1.25
   - name:  Candies
     price: $1.00
   - name:  Chips
