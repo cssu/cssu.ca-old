@@ -21,6 +21,14 @@ html { box-sizing: border-box; }
   padding: 0;
 }
 
+::selection {
+  background-color: #fff;
+}
+
+::-moz-selection {
+  background-color: #fff;
+}
+
 html, body { height: 100%; }
 
 body {
@@ -218,6 +226,7 @@ th, tr:nth-child(even) {
         color: #fff;
         white-space: nowrap;
         opacity: 0;
+        z-index: -1;
       }
 
       &::before {
@@ -232,19 +241,21 @@ th, tr:nth-child(even) {
         opacity: 0;
         left: 0;
         bottom: 300%;
+        z-index: -1;
       }
 
-      &:hover:after {
+      &:hover::after {
         bottom: 250%;
       }
 
-      &:hover:before {
+      &:hover::before {
         bottom: 210%;
       }
 
-      &:hover:after,
-      &:hover:before {
+      &:hover::after,
+      &:hover::before {
         opacity: 1;
+        z-index: 0;
       }
     }
   }
@@ -652,26 +663,6 @@ ul.members-list {
   }
 
 
-/* Job listings */
-/* ----------------------------------------------------------*/
-
-.jobs-list {
-  font-size: 0;
-
-  li {
-    display: inline-block;
-    font-size: 16px;
-    margin-bottom: 3em;
-    width: 500px;
-    vertical-align: top;
-
-    & + li {
-      margin-top: 0;
-    }
-  }
-}
-
-
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 
@@ -741,7 +732,8 @@ ul.members-list {
 /* ----------------------------------------------------------*/
 
 @media screen and (max-width: 1200px) {
-  .store-left, .store-right {
+  .store-left,
+  .store-right {
     display: block !important;
     width: auto !important;
   }
@@ -830,7 +822,7 @@ ul.members-list {
 
   .slideshow-content { display: none; }
 
-  .post-header h1 { font-size: 36px; }
+  .post-header  h1 { font-size: 36px; }
   .post-content h2 { font-size: 28px; }
   .post-content h3 { font-size: 22px; }
   .post-content h4 { font-size: 18px; }
