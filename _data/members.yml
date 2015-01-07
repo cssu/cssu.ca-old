@@ -30,10 +30,10 @@ seniors:
     email: wenting.pan@mail.utoronto.ca
     pic:   wenting
 
-  - name:  Ian Hibbert
+  - name:  Matt Kim
     role:  Sr. External Liaison
-    email: ian.hibbert@mail.utoronto.ca
-    pic:   ian
+    email: mtt.kim@mail.utoronto.ca
+    pic:   matt
 
   - name:  Taher Jafferjee
     role:  Sr. External Liaison
@@ -91,16 +91,6 @@ seniors:
     pic:   fiona
 
 juniors:
-  - name:  Matt Kim
-    role:  Jr. External Liaison
-    email: mtt.kim@mail.utoronto.ca
-    pic:   matt
-
-  - name:  Mohammad Durrani
-    role:  Jr. External Liaison
-    email: mohammad.durrani@mail.utoronto.ca
-    pic:   moe
-
   - name:  Felipe Vicencio-Heap
     role:  Jr. Internal Liaison
     email: felipe.estevan@gmail.com
@@ -130,11 +120,6 @@ juniors:
     role:  Jr. Academic Consultant
     email: thanasi.karachotzitis@mail.utoronto.ca
     pic:   thanasi
-
-  - name:  Artur Kink
-    role:  Jr. Office Administrator
-    email: artur.kink@gmail.com
-    pic:   artur
 
   - name:  Peter Lu
     role:  Jr. Office Administrator
