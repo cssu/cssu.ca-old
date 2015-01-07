@@ -7,29 +7,31 @@ drinks:
     price: $0.75
   - name:  Sprite
     price: $0.75
+  - name:  Canada Dry
+    price: $0.75
   - name:  Fanta
+    price: $0.75
+  - name:  Crush
+    price: $0.75
+  - name:  Dr. Pepper
     price: $0.75
   - name:  Root Beer
     price: $0.75
+  - name:  Arizona Iced Tea
+    price: $0.75
+  - name:  Orange Juice
+    price: $1.00
+  - name:  Apple Juice
+    price: $1.00
   - name:  Nestea
     price: $1.00
-  - name:  Nestea Zero
-    price: $1.00
-  - name:  Arizona Iced Tea
-    price: $1.50
   - name:  Red Bull
     price: $2.50
 
 snacks:
-  - name:  Caramilk
+  - name:  Chocolate
+    price: $1.25
+  - name:  Candies
     price: $1.00
-  - name:  KitKat
-    price: $1.00
-  - name:  Mini Eggs
-    price: $1.00
-  - name:  Pocky
-    price: $1.50
   - name:  Chips
     price: $0.75
-  - name:  Sour Key
-    price: $0.25
