@@ -15,20 +15,25 @@ execs:
     pic:   jason
 
 seniors:
-  - name:  Zoe Song
-    role:  Sr. Social Director
-    email: zoe.song@mail.utoronto.ca
-    pic:   zoe
-
   - name:  Chris Long
-    role:  Sr. Social Assistant
+    role:  Sr. Social Director
     email: chris.long@mail.utoronto.ca
     pic:   chris
+
+  - name:  Zoe Song
+    role:  Sr. Social Assistant
+    email: zoe.song@mail.utoronto.ca
+    pic:   zoe
 
   - name:  Wenting Pan
     role:  Sr. Social Assistant
     email: wenting.pan@mail.utoronto.ca
     pic:   wenting
+
+  - name:  Amanda Bell
+    role:  Sr. Social Assistant
+    email: amandaj.bell@mail.utoronto.ca
+    pic:   amanda
 
   - name:  Matt Kim
     role:  Sr. External Liaison
@@ -180,11 +185,6 @@ juniors:
     role:  Jr. Social Assistant
     email: steffi.choi@mail.utoronto.ca
     pic:   steffi
-
-  - name:  Amanda Bell
-    role:  Jr. Social Assistant
-    email: amandaj.bell@mail.utoronto.ca
-    pic:   amanda
 
   - name:  Ben Shaft
     role:  Jr. Social Assistant
