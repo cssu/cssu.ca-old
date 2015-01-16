@@ -1,7 +1,7 @@
 <li>
   <a href="mailto:{{ member.email }}" title="Email {{ member.name }}">
     {% if member.pic %}
-      <img src="/img/member_photos/{{ member.pic }}.jpg" alt="Photo of {{ member.name }}">
+      <img src="{{ 'member_photos/' | append: member.pic | append: '.jpg' | asset_path }}" alt="Photo of {{ member.name }}">
     {% else %}
       <img src="http://placehold.it/176.jpg&amp;text={{ member.name | truncatewords:1,'' }}" alt="Photo of {{ member.name }}">
     {% endif %}
