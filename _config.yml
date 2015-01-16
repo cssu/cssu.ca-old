@@ -33,7 +33,7 @@ navigation:
  - title: About
    url: /about/
 
-# Sass
-sass:
-  sass_dir: css
-  style: :compressed
+# Assets
+assets:
+  js_compressor:  uglifier
+  css_compressor: sass
