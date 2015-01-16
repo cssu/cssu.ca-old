@@ -6,10 +6,11 @@ permalink: "/news/"
 
 <ul class="posts page-list">
   {% for post in site.categories['news'] %}
-    <li>
-      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-      <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
-    </li>
+    {% include post-item.html %}
   {% endfor %}
 </ul>
+
+<div class="tag-cloud">
+  <h3>Tags</h3>
+  {% category_tag_cloud news %}
+</div>

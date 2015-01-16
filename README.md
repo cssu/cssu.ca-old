@@ -9,10 +9,10 @@ This is a standard [Jekyll][jekyll] static site.
 
 ### Development
 
-See <https://github.com/cssu/cssu.cdf.toronto.edu/wiki/Development>
+See <https://github.com/cssu/cssu.ca/wiki/Development>
 
 ### Deploying
 
-See <https://github.com/cssu/cssu.cdf.toronto.edu/wiki/Deploying>
+See <https://github.com/cssu/cssu.ca/wiki/Deploying>
 
 [jekyll]: http://jekyllrb.com/ "Jekyll"

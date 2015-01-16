@@ -543,93 +543,119 @@ ul.members-list {
 
 .post { padding: 1.5em 0; }
 
-.post-header { margin: 10px 0 30px; }
+.post-header {
+  margin: 10px 0 30px;
 
-.post-header h1 {
-  font-size: 42px;
-  font-weight: 300;
-  letter-spacing: -1.75px;
-  line-height: 1;
-  margin-bottom: 0.4em;
+  h1 {
+    font-size: 42px;
+    font-weight: 300;
+    letter-spacing: -1.75px;
+    line-height: 1;
+    margin-bottom: 0.4em;
+  }
+
+  .meta {
+    font-size: 15px;
+    color: #818181;
+    margin-top: 5px;
+  }
 }
 
-.post-header .meta {
-  font-size: 15px;
-  color: #818181;
-  margin-top: 5px;
+.post-content {
+  position: relative;
+
+  > * { margin: 20px 0; }
+
+  h1, h2, h3, h4, h5, h6 {
+    line-height: 1;
+    font-weight: 300;
+    margin: 40px 0 20px;
+  }
+
+  h2 {
+    font-size: 32px;
+    letter-spacing: -1.25px;
+  }
+
+  h3 {
+    font-size: 26px;
+    letter-spacing: -1px;
+  }
+
+  h4 {
+    font-size: 20px;
+    letter-spacing: -1px;
+  }
+
+  blockquote {
+    border-left: 4px solid #e8e8e8;
+    padding-left: 20px;
+    font-size: 18px;
+    opacity: .6;
+    letter-spacing: -1px;
+    font-style: italic;
+    margin: 30px 0;
+  }
+
+  ul,
+  ol { padding-left: 20px; }
 }
 
-.post-content > * { margin: 20px 0; }
+.post {
+  pre, code {
+    @include v(border-radius, 3px);
+    border: 1px solid #d5d5e9;
+    background-color: #eef;
+    padding: 8px 12px;
+    font-size: 15px;
+    overflow: scroll;
+  }
 
-.post-content h1,
-.post-content h2,
-.post-content h3,
-.post-content h4,
-.post-content h5,
-.post-content h6 {
-  line-height: 1;
-  font-weight: 300;
-  margin: 40px 0 20px;
+  code { padding: 1px 5px; }
+
+  ul, ol { margin-left: 1.35em; }
+
+  pre code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* terminal */
+  pre.terminal {
+    @include v(border-radius, 3px);
+    border: 1px solid #000;
+    background-color: #333;
+    color: #fff;
+  }
+
+  pre.terminal code { background-color: #333; }
 }
 
-.post-content h2 {
-  font-size: 32px;
-  letter-spacing: -1.25px;
+
+/* Tag clouds */
+
+.page-list {
+  display: inline-block;
+  vertical-align: top;
+  width: 75%;
 }
 
-.post-content h3 {
-  font-size: 26px;
-  letter-spacing: -1px;
+.tag-cloud {
+  display: inline-block;
+  margin: 0;
+  vertical-align: top;
+  width: 20%;
+
+  h3 {
+    margin-top: 0;
+  }
+
+  a {
+    display: block;
+    padding: 0.25em 0;
+  }
 }
-
-.post-content h4 {
-  font-size: 20px;
-  letter-spacing: -1px;
-}
-
-.post-content blockquote {
-  border-left: 4px solid #e8e8e8;
-  padding-left: 20px;
-  font-size: 18px;
-  opacity: .6;
-  letter-spacing: -1px;
-  font-style: italic;
-  margin: 30px 0;
-}
-
-.post-content ul,
-.post-content ol { padding-left: 20px; }
-
-.post pre,
-.post code {
-  @include v(border-radius, 3px);
-  border: 1px solid #d5d5e9;
-  background-color: #eef;
-  padding: 8px 12px;
-  font-size: 15px;
-  overflow: scroll;
-}
-
-.post code { padding: 1px 5px; }
-
-.post ul,
-.post ol { margin-left: 1.35em; }
-
-.post pre code {
-  border: 0;
-  padding-right: 0;
-  padding-left: 0;
-}
-
-/* terminal */
-.post pre.terminal {
-  @include v(border-radius, 3px);
-  border: 1px solid #000;
-  background-color: #333;
-  color: #fff;
-}
-
-.post pre.terminal code { background-color: #333; }
 
 
 /* Sponsor styles */
@@ -645,12 +671,11 @@ ul.members-list {
   margin-bottom: 15px;
   margin-right: 15px;
   position: relative;
-  a { vertical-align: middle;
-      display: inline-block;
-      padding-top: 15px;
-      padding-bottom: 15px;
-      padding-right: 15px;
-      padding-left: 15px;
+
+  a {
+    vertical-align: middle;
+    display: inline-block;
+    padding: 15px;
   }
 }
 

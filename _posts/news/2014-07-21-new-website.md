@@ -4,6 +4,7 @@ title:  "Welcome to the shiny new website!"
 author: "Eugene Cheung"
 date:   2014-07-21 12:00:00
 categories: news
+tags: cssu dev
 ---
 
 There's a good chance that you're here because you've heard there's a shiny new CSSU website. If so, hello there! If not, welcome to the website, I hope you like it!
@@ -24,4 +25,4 @@ Honestly, WordPress was a bit more than what we really needed for this website. 
 Spencer Elliott (the Senior Webmaster) and I are constantly working to improve the website and get new, useful information on it for CS students (like you, probably). Don't like something? Have a question or suggestion? You can get in touch with me at <ey.cheung@mail.utoronto.ca>.
 
 ### Okay, but I just want to see the stuff this is made of
-You're in luck! All of the source code for this website is [available on our GitHub](https://github.com/cssu/cssu.cdf.toronto.edu), so go ahead and poke around!
+You're in luck! All of the source code for this website is [available on our GitHub](https://github.com/cssu/cssu.ca), so go ahead and poke around!
