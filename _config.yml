@@ -33,7 +33,10 @@ navigation:
  - title: About
    url: /about/
 
-# Assets
+# Enable asset processing
 assets:
   js_compressor:  uglifier
   css_compressor: sass
+
+# Disable asset concatenation
+debug: true
