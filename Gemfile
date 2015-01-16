@@ -12,6 +12,7 @@ gem 'jekyll', require: false
 
 # Asset pipeline for minification/cache-busting
 gem 'jekyll-assets'
+gem 'uglifier'
 
 # Use rake to simplify tasks
 gem 'rake'
