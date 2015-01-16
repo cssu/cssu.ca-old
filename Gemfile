@@ -10,5 +10,8 @@ gem 'wdm', '~> 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
 # Jekyll static site generator
 gem 'jekyll', require: false
 
+# Asset pipeline for minification/cache-busting
+gem 'jekyll-assets'
+
 # Use rake to simplify tasks
 gem 'rake'
