@@ -17,11 +17,11 @@ function init_map() {
     }
   ];
 
-  var url  = '/img/pin.png';
+  var url  = '<%= asset_path 'pin.png' %>';
   var size = new google.maps.Size(32, 38);
 
   if (window.devicePixelRatio > 1.5) {
-    url  = '/img/pin@2x.png';
+    url  = '<%= asset_path 'pin@2x.png' %>';
     size = new google.maps.Size(64, 76);
   }
 
@@ -52,7 +52,7 @@ function init_map() {
 
   infowindow = new google.maps.InfoWindow({ content:'<b>CSSU</b><br/>BA 2283' });
   google.maps.event.addListener(marker, 'click', function() { infowindow.open(map, marker); });
+  google.maps.event.addDomListener(window, 'resize', function() { map.setCenter(homeLatLng); });
 }
 
-google.maps.event.addDomListener(window, 'resize', function() { map.setCenter(homeLatLng); });
 google.maps.event.addDomListener(window, 'load', init_map);

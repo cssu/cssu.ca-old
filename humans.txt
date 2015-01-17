@@ -11,5 +11,5 @@
 # TECHNOLOGY COLOPHON
 
     CSS3, HTML5
-    Jekyll, Markdown
+    Ruby, Jekyll, Markdown, Rake
     Apache httpd

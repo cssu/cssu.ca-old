@@ -1,0 +1,14 @@
+<li>
+  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  {% if post.datestart and post.dateend %}
+    <p>{{ post.datestart | date: "%b %-d" }} - {{ post.dateend | date: "%b %-d" }}</p>
+  {% elsif post.date %}
+    <p>{{ post.date | date: "%b %-d" }}</p>
+  {% endif %}
+  {% if post.categories contains 'jobs' %}
+    <p>Posted on: {{ post.post_date | date: "%b %-d, %Y" }} • Location: {{ post.location }}</p>
+    <p>Type: {{ post.type }} • Number of Openings: {{ post.openings }}</p>
+  {% else %}
+    <p>{{ post.content | strip_html | truncatewords: 50 }}</p>
+  {% endif %}
+</li>

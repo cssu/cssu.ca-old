@@ -12,12 +12,12 @@
     <ul id="slideshow-slides">
       {% for slide in site.data.slides %}
         <li class="slideshow-slide">
-          <a class="slideshow-slide-content" href="{{ slide.link }}" style="background-image: url('/img/slides/{{ slide.pic }}.jpg')">
+          <a class="slideshow-slide-content" href="{{ slide.link }}" style="background-image: url({{ 'slides/' | append: slide.pic | append: '.jpg' | asset_path }})">
             <aside class="slideshow-slide-info">
-              <hgroup>
+              <div class="slide-title">
                 <h1>{{ slide.title }}</h1>
                 <h2>{{ slide.text }}</h2>
-              </hgroup>
+              </div>
               <div class="slide-link">
                 <div class="slide-arrow">
                   <svg width="6px" height="10px" xmlns="http://www.w3.org/2000/svg">
@@ -49,4 +49,4 @@
 
 </section>
 
-<script src="/js/slideshow.min.js"></script>
+{% javascript slideshow %}

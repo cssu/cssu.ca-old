@@ -17,11 +17,11 @@
 
 // Previous/next buttons
 .slideshow-nav {
-  @include v(transition, opacity 0.3s);
   cursor: pointer;
   display: table-cell;
   opacity: 0.5;
   text-align: center;
+  transition: opacity 0.3s;
   vertical-align: middle;
   width: 30px;
 
@@ -40,11 +40,11 @@
 
 // The individual slide
 .slideshow-slide {
-  @include v(transition, opacity 0.3s);
-  opacity: 0;
   height: calc(100% - 3.5em);
-  position: absolute;
   list-style: none;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.3s;
   width: calc(100% - 60px);
   z-index: 0;
 }
@@ -66,7 +66,6 @@
 }
 
 .slideshow-slide-info {
-  @include v(transition, transform 0.25s);
   background-color: $grey;
   bottom: 2em;
   color: #fff;
@@ -74,8 +73,9 @@
   padding: 1.5em;
   position: absolute;
   right: 2em;
+  transition: transform 0.25s;
 
-  hgroup {
+  .slide-title {
     display: table-cell;
     padding-right: 2em;
 
@@ -98,7 +98,7 @@
     vertical-align: middle;
 
     .slide-arrow {
-      @include v(border-radius, 50%);
+      border-radius: 50%;
       border: 1px solid #fff;
       height: 2em;
       padding-left: 0.75em;

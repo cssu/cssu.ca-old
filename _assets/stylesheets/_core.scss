@@ -1,0 +1,34 @@
+$dark-grey : #0d1117;
+$grey      : #242424;
+
+
+@font-face {
+  font-family: 'Nexa Light';
+  src: local('Nexa Light'),
+       local('Nexa-Light'),
+       url('../../fonts/NexaLight.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 400;
+  src: local('OpenSans Regular'),
+       local('OpenSans-Regular'),
+       url('../../fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  src: local('OpenSans Light'),
+       local('OpenSans-Light'),
+       url('../../fonts/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: 600;
+  src: local('OpenSans Semibold'),
+       local('OpenSans-Semibold'),
+       url('../../fonts/OpenSans-Semibold.ttf') format('truetype');
+}

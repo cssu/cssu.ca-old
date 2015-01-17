@@ -4,6 +4,7 @@ title:  "Open Source Merch"
 author: "Jonathan Webb"
 date:   2014-07-29 12:00:00
 categories: news
+tags: sponsor
 ---
 
 [Open Source Merch](http://opensourcemerch.com) is a new small business started by Lia Zheng, a fellow student in the UofT CS department.

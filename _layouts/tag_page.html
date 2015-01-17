@@ -1,16 +1,14 @@
 ---
 layout: page
-title: News
-permalink: "/news/"
 ---
 
 <ul class="posts page-list">
-  {% for post in site.categories['news'] %}
+  {% for post in page.posts %}
     {% include post-item.html %}
   {% endfor %}
 </ul>
 
 <div class="tag-cloud">
   <h3>Tags</h3>
-  {% category_tag_cloud news %}
+  {{ site | tag_cloud }}
 </div>

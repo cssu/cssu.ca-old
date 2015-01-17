@@ -33,7 +33,12 @@ navigation:
  - title: About
    url: /about/
 
-# Sass
-sass:
-  sass_dir: css
-  style: :compressed
+# Enable asset processing
+assets:
+  js_compressor:  uglifier
+  css_compressor: sass
+
+# Tag pages
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty

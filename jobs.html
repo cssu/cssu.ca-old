@@ -1,0 +1,15 @@
+---
+layout: page
+title: Opportunities
+permalink: "/jobs/"
+---
+
+<ul class="posts page-list jobs-list">
+  {% for post in site.categories['jobs'] reversed %}
+    {% include post-item.html %}
+  {% endfor %}
+</ul>
+
+<div class="tag-cloud">
+  {% category_tag_cloud jobs %}
+</div>
