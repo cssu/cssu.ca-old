@@ -1,6 +1,3 @@
-// We're using BEM syntax for naming things:
-// http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
-
 @import 'core';
 @import 'slideshow';
 
@@ -114,13 +111,13 @@ th, tr:nth-child(even) {
 .site-nav .menu-icon { display: none; }
 
 .site-nav .page-link {
-  @include v(transition, border-color 0.3s);
   border-bottom: 1px solid transparent;
   color: #fff;
   font-size: 1.25em;
   font-weight: 300;
   margin-right: 20px;
   padding: 0.25em 0;
+  transition: border-color 0.3s;
 
   &:hover {
     border-color: #fff;
@@ -160,8 +157,7 @@ th, tr:nth-child(even) {
   vertical-align: middle;
 
   .top {
-    @include v(border-radius, 50%);
-    @include v(transition, opacity 0.3s);
+    border-radius: 50%;
     border: 1px solid #fff;
     color: #fff;
     display: block;
@@ -171,6 +167,7 @@ th, tr:nth-child(even) {
     opacity: 0.4;
     text-align: center;
     text-decoration: none;
+    transition: opacity 0.3s;
     width: 2em;
 
     &:hover {
@@ -195,13 +192,13 @@ th, tr:nth-child(even) {
     margin: 1.5em 0 3em 0;
 
     li {
-      @include v(border-radius, 50%);
-      @include v(transition, background-color 0.4s ease);
+      border-radius: 50%;
       border: 1px solid #fff;
       display: inline-block;
       height: 42px;
       list-style: none;
       margin-right: 0.5em;
+      transition: background-color 0.4s ease;
       width: 42px;
 
       &:hover {
@@ -213,31 +210,31 @@ th, tr:nth-child(even) {
       position: relative;
 
       &::after {
-        @include v(transition, all 0.4s ease);
-        content: attr(title);
-        position: absolute;
-        bottom: 300%;
-        left: 0;
         background: #242424;
-        padding: 5px 15px;
+        bottom: 300%;
         color: #fff;
+        content: attr(title);
+        left: 0;
+        padding: 5px 15px;
+        position: absolute;
+        transition: all 0.4s ease;
         white-space: nowrap;
         opacity: 0;
         z-index: -1;
       }
 
       &::before {
-        @include v(transition, all 0.4s ease);
-        content: "";
-        position: absolute;
-        width: 0;
-        height: 0;
-        border-top: 20px solid #242424;
         border-left: 20px solid transparent;
         border-right: 20px solid transparent;
-        opacity: 0;
-        left: 0;
+        border-top: 20px solid #242424;
         bottom: 300%;
+        content: "";
+        height: 0;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        transition: all 0.4s ease;
+        width: 0;
         z-index: -1;
       }
 
@@ -258,12 +255,12 @@ th, tr:nth-child(even) {
   }
 
   .footer-uoft a {
-    @include v(transition, opacity 0.3s);
-    background: transparent image-url('uoft.png') no-repeat;
     background-size: 275px 18px;
+    background: transparent image-url('uoft.png') no-repeat;
     display: block;
     height: 18px;
     opacity: 0.4;
+    transition: opacity 0.3s;
     text-indent: -10000em;
     width: 275px;
 
@@ -468,16 +465,16 @@ ul.members-list {
   }
 
   li {
-    @include v(transition, background-color 0.3s);
     display: inline-block;
     padding: 0.75em;
+    transition: background-color 0.3s;
     vertical-align: top;
 
     &:hover { background-color: #eee; }
 
     img {
-      @include v(border-radius, 50%);
       background-color: #eee;
+      border-radius: 50%;
       border: none;
       display: block;
       height: 5.5em;
@@ -603,7 +600,7 @@ ul.members-list {
 
 .post {
   pre, code {
-    @include v(border-radius, 3px);
+    border-radius: 3px;
     border: 1px solid #d5d5e9;
     background-color: #eef;
     padding: 8px 12px;
@@ -623,7 +620,7 @@ ul.members-list {
 
   /* terminal */
   pre.terminal {
-    @include v(border-radius, 3px);
+    border-radius: 3px;
     border: 1px solid #000;
     background-color: #333;
     color: #fff;

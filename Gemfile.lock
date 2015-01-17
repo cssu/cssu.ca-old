@@ -1,7 +1,9 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     addressable (2.3.6)
+    autoprefixer-rails (5.0.0.1)
+      execjs
     blankslate (2.1.2.4)
     celluloid (0.16.0)
       timers (~> 4.0.0)
@@ -101,6 +103,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  autoprefixer-rails
   jekyll
   jekyll-assets
   jekyll-tagging
