@@ -884,24 +884,8 @@ ul.members-list {
 
 }
 
-/* Individual styles */
+/* Store */
 /* ----------------------------------------------------------*/
-
-.frosh-form {
-  border: none;
-  display: block;
-  height: 500px;
-  margin: 0 auto;
-  width: 760px;
-}
-
-.frosh-leader-form {
-  border: none;
-  display: block;
-  height: 1100px;
-  margin: 0 auto;
-  width: 760px;
-}
 
 .store-left table {
   width: 100%;
@@ -909,7 +893,8 @@ ul.members-list {
   table-layout: fixed;
 }
 
-.store-left, .store-right {
+.store-left,
+.store-right {
   display: inline-block;
   width: 49%;
   vertical-align: top;
