@@ -32,12 +32,3 @@ $grey      : #242424;
        local('OpenSans-Semibold'),
        url('../../fonts/OpenSans-Semibold.ttf') format('truetype');
 }
-
-
-@mixin v($prop, $args) {
-  -webkit-#{$prop}: $args;
-     -moz-#{$prop}: $args;
-      -ms-#{$prop}: $args;
-       -o-#{$prop}: $args;
-          #{$prop}: $args;
-}
