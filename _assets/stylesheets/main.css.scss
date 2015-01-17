@@ -654,6 +654,20 @@ ul.members-list {
   }
 }
 
+@media screen and (max-width: 600px) {
+
+  .page-list,
+  .tag-cloud {
+    display: block;
+    width: 100%;
+  }
+
+  .tag-cloud {
+    margin-top: 2em;
+  }
+
+}
+
 
 /* Sponsor styles */
 /* ----------------------------------------------------------*/
@@ -858,12 +872,7 @@ ul.members-list {
 
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-       only screen and (   min--moz-device-pixel-ratio: 2),
-       only screen and (     -o-min-device-pixel-ratio: 2/1),
-       only screen and (        min-device-pixel-ratio: 2),
-       only screen and (                min-resolution: 192dpi),
-       only screen and (                min-resolution: 2dppx) {
+@media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
 
   .side-header .wrap {
     background-image: image-url('logo@2x.png') !important;
