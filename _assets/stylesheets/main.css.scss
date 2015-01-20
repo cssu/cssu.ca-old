@@ -138,7 +138,7 @@ th, tr:nth-child(even) {
   width: 100%;
 
   .wrap {
-    background-color: #18191a;
+    background-color: $mid-grey;
     color: #fff;
     display: table;
     height: 100%;
@@ -203,7 +203,7 @@ th, tr:nth-child(even) {
       width: 42px;
 
       &:hover {
-        background-color: lighten(#18191a, 10%);
+        background-color: lighten($mid-grey, 10%);
       }
     }
 
@@ -693,6 +693,29 @@ ul.members-list {
   .partner-logo {
     max-height: 150px;
     max-width: 325px;
+  }
+
+
+/* Style guide */
+/* ----------------------------------------------------------*/
+
+.style-colour {
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+  width: 10em;
+}
+
+  #style-colour__dark-grey {
+    background-color: $dark-grey;
+  }
+
+  #style-colour__mid-grey {
+    background-color: $mid-grey;
+  }
+
+  #style-colour__grey {
+    background-color: $grey;
   }
 
 
