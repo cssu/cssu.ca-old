@@ -719,6 +719,39 @@ ul.members-list {
   }
 
 
+/* Store */
+/* ----------------------------------------------------------*/
+
+.store-left table {
+  width: 100%;
+  margin-bottom: 2em;
+  table-layout: fixed;
+}
+
+.store-left,
+.store-right {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+
+.shirt-form {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  width: 500px;
+  height: 700px;
+}
+
+.bitpay-form {
+  input.bitpay-logo {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+
 /* Syntax highlighting styles */
 /* ----------------------------------------------------------*/
 
@@ -788,11 +821,13 @@ ul.members-list {
 /* ----------------------------------------------------------*/
 
 @media screen and (max-width: 1200px) {
+
   .store-left,
   .store-right {
     display: block !important;
     width: auto !important;
   }
+
 }
 
 @media screen and (max-width: 750px) {
@@ -887,11 +922,16 @@ ul.members-list {
   .post-content ol { padding-left: 10px; }
 
   .footer-info {
-    padding: 3.5em 12px;
+    display: block;
+    padding: 3.5em 12px 2em;
     width: 100%;
   }
 
-  .footer-map { display: none; }
+  .footer-map {
+    display: block;
+    height: 300px;
+    width: 100%;
+  }
 
 }
 
@@ -905,36 +945,4 @@ ul.members-list {
     background-image: image-url('uoft@2x.png') !important;
   }
 
-}
-
-/* Store */
-/* ----------------------------------------------------------*/
-
-.store-left table {
-  width: 100%;
-  margin-bottom: 2em;
-  table-layout: fixed;
-}
-
-.store-left,
-.store-right {
-  display: inline-block;
-  width: 49%;
-  vertical-align: top;
-}
-
-.shirt-form {
-  display: block;
-  margin: 0 auto;
-  padding: 0;
-  border: 0;
-  width: 500px;
-  height: 700px;
-}
-
-.bitpay-form {
-  input.bitpay-logo {
-    display: block;
-    margin: 0 auto;
-  }
 }
