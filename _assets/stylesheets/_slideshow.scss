@@ -60,20 +60,21 @@
 
   &:hover {
     .slideshow-slide-info {
+      background-color: $grey;
       transform: translateX(1em);
     }
   }
 }
 
 .slideshow-slide-info {
-  background-color: $grey;
+  background-color: rgba($grey, 0.8);
   bottom: 2em;
   color: #fff;
   max-width: 40%;
   padding: 1.5em;
   position: absolute;
   right: 2em;
-  transition: transform 0.25s;
+  transition: background-color 0.25s, transform 0.25s;
 
   .slide-title {
     display: table-cell;
