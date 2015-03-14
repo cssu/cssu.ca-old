@@ -3,6 +3,7 @@ layout: post
 title:  "Games Night"
 description: "Hey CS, get excited for another Games Night!"
 date:   2015-03-27
+expiry_date: 2015-03-28
 categories: events
 ---
 
