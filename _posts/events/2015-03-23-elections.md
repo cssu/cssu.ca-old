@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CSSU Executive Elections + Teacher Awards"
-description: "The most anticipated Super Smash Bros Tournament hosted by the CSSU"
+description: "Vote for next year's exec team and your favourite teaching staff!"
 date:   2015-03-23
 expiry_date: 2015-03-24
 categories: events
