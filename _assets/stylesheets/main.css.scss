@@ -595,7 +595,15 @@ ul.members-list {
   }
 
   ul,
-  ol { padding-left: 20px; }
+  ol {
+    padding-left: 20px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
 }
 
 .post {
