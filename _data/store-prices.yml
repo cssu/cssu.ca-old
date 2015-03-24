@@ -1,8 +1,6 @@
 drinks:
   - name:  Coca-Cola
     price: $0.75
-  - name:  Diet Coke
-    price: $0.75
   - name:  Coke Zero
     price: $0.75
   - name:  Sprite
@@ -11,14 +9,10 @@ drinks:
     price: $0.75
   - name:  Fanta
     price: $0.75
-  - name:  Crush
-    price: $0.75
-  - name:  Dr. Pepper
-    price: $0.75
   - name:  Root Beer
     price: $0.75
   - name:  Arizona Iced Tea
-    price: $0.75
+    price: $1.00
   - name:  Orange Juice
     price: $1.00
   - name:  Apple Juice
@@ -35,3 +29,5 @@ snacks:
     price: $1.00
   - name:  Chips
     price: $0.75
+  - name:  Ice cream sandwiches
+    price: $0.50
