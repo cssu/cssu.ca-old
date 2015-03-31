@@ -1,15 +1,15 @@
 # There should only be 4 slides!
 # Pictures go in /img/slides/ and should be .jpg files.
 
-- title: DCS + CSSU Apparel
-  text:  Order your DCS hoodies and CSSU tees today!
-  link:  /news/2015/03/24/apparel/
-  pic:   clothes
-
 - title: Amongst the best
   text:  UofT DCS is one of the top 10 in the world
   link:  http://web.cs.toronto.edu/news/current/DCSTop10.htm
   pic:   awesome
+
+- title: 50th Anniversary
+  text:  It's the Department of Computer Science's 50th anniversary!
+  link:  http://web.cs.toronto.edu/news/dcsturns50.htm
+  pic:   dcs50
 
 - title: CSSU Wiki
   text:  Learn about academic and social life around the department
