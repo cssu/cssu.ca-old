@@ -730,7 +730,7 @@ ul.members-list {
 /* Store */
 /* ----------------------------------------------------------*/
 
-.store-left table {
+#store table {
   width: 100%;
   margin-bottom: 2em;
   table-layout: fixed;
@@ -740,20 +740,11 @@ ul.members-list {
 .store-right {
   display: inline-block;
   vertical-align: top;
-}
-
-.store-left {
-  width: 29%;
+  width: 49%;
 }
 
 .store-right {
-  width: 70%;
-}
-
-#store-shirt-form {
-  border-width: 0;
-  width: 100%;
-  height: 2210px;
+  padding-left: 1%;
 }
 
 
@@ -825,16 +816,6 @@ ul.members-list {
 /* Media queries */
 /* ----------------------------------------------------------*/
 
-@media screen and (max-width: 1200px) {
-
-  .store-left,
-  .store-right {
-    display: block !important;
-    width: auto !important;
-  }
-
-}
-
 @media screen and (max-width: 750px) {
 
   .wrap, #hero-text { width: 100%; }
@@ -852,6 +833,13 @@ ul.members-list {
 
   ul.slideshow-slides li a aside {
     max-width: 65%;
+  }
+
+  .store-left,
+  .store-right {
+    display: block;
+    padding: 0 !important;
+    width: 100%;
   }
 
 }
