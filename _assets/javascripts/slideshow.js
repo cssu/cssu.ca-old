@@ -2,12 +2,13 @@
 var slide = 1;
 
 // For the auto-rotating slideshow
-var interval;
+var interval = null;
 
 // The DOM elements
 var slideshow = document.getElementById('slideshow'),
     slides    = document.getElementsByClassName('slideshow-slide'),
     cards     = document.getElementsByClassName('slideshow-card'),
+    pause     = document.getElementById('slideshow-pause'),
     prev      = document.getElementById('slideshow-prev'),
     next      = document.getElementById('slideshow-next');
 
@@ -44,11 +45,17 @@ function startSlideshow() {
   interval = setInterval(nextSlide, 3750);
 }
 
-// Stop the auto-rotating on mouse hover
-slideshow.onmouseover = function() {
-  clearInterval(interval);
+// Handle play/pause button
+pause.onclick = function() {
+  if (interval) {
+    clearInterval(interval);
+    interval = null;
+    this.addClass('paused');
+  } else {
+    startSlideshow();
+    this.removeClass('paused');
+  }
 };
-slideshow.onmouseout = startSlideshow;
 
 startSlideshow();
 
