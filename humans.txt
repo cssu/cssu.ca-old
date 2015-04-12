@@ -13,5 +13,3 @@
     CSS3, HTML5
     Ruby, Jekyll, Markdown, Rake
     Apache httpd
-
-test
