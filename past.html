@@ -1,0 +1,37 @@
+---
+layout: page
+title: Past Members
+permalink: /past/
+---
+
+<div class="members-page">
+  <h2>2014 - 2015</h2>
+
+  <h2>Executive team</h2>
+  <ul class="members-list">
+    {% for member in site.data.members-20142015.execs %}
+      {% include member.html %}
+    {% endfor %}
+  </ul>
+
+  <h2>Senior team</h2>
+  <ul class="members-list">
+    {% for member in site.data.members-20142015.seniors %}
+      {% include member.html %}
+    {% endfor %}
+  </ul>
+
+  <h2>Junior team</h2>
+  <ul class="members-list">
+    {% for member in site.data.members-20142015.juniors %}
+      {% include member.html %}
+    {% endfor %}
+  </ul>
+
+  <h2>Media team</h2>
+  <ul class="members-list">
+    {% for member in site.data.members-20142015.media %}
+      {% include member.html %}
+    {% endfor %}
+  </ul>
+</div>
