@@ -19,10 +19,6 @@ html { box-sizing: border-box; }
   background-color: #d5d5d5;
 }
 
-::-moz-selection {
-  background-color: #d5d5d5;
-}
-
 html, body { height: 100%; }
 
 body {
@@ -66,6 +62,28 @@ th, tr:nth-child(even) {
 
 /* Layout Styles */
 /* ----------------------------------------------------------*/
+
+/* Accessibility */
+.accessibility-aid {
+  height: 1px;
+  width: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  position: absolute;
+  margin: 0;
+
+  &:focus {
+    height: auto;
+    width: auto;
+    clip: auto;
+    z-index: 1;
+    top: 0;
+
+    color: #fff;
+    padding: 0.5em 1em;
+    font-weight: 600;
+  }
+}
 
 /* Site header */
 
@@ -314,7 +332,7 @@ th, tr:nth-child(even) {
 .responsive-iframe {
   border-width: 0;
   width: 100%;
-  height: 600px;
+  height: 500px;
 }
 
 
@@ -595,7 +613,15 @@ ul.members-list {
   }
 
   ul,
-  ol { padding-left: 20px; }
+  ol {
+    padding-left: 20px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
 }
 
 .post {
@@ -722,7 +748,7 @@ ul.members-list {
 /* Store */
 /* ----------------------------------------------------------*/
 
-.store-left table {
+#store table {
   width: 100%;
   margin-bottom: 2em;
   table-layout: fixed;
@@ -731,24 +757,12 @@ ul.members-list {
 .store-left,
 .store-right {
   display: inline-block;
-  width: 49%;
   vertical-align: top;
+  width: 49%;
 }
 
-.shirt-form {
-  display: block;
-  margin: 0 auto;
-  padding: 0;
-  border: 0;
-  width: 500px;
-  height: 700px;
-}
-
-.bitpay-form {
-  input.bitpay-logo {
-    display: block;
-    margin: 0 auto;
-  }
+.store-right {
+  padding-left: 1%;
 }
 
 
@@ -820,16 +834,6 @@ ul.members-list {
 /* Media queries */
 /* ----------------------------------------------------------*/
 
-@media screen and (max-width: 1200px) {
-
-  .store-left,
-  .store-right {
-    display: block !important;
-    width: auto !important;
-  }
-
-}
-
 @media screen and (max-width: 750px) {
 
   .wrap, #hero-text { width: 100%; }
@@ -845,8 +849,11 @@ ul.members-list {
     margin-bottom: 30px;
   }
 
-  ul.slideshow-slides li a aside {
-    max-width: 65%;
+  .store-left,
+  .store-right {
+    display: block;
+    padding: 0 !important;
+    width: 100%;
   }
 
 }
@@ -866,7 +873,7 @@ ul.members-list {
     position: fixed;
     right: 8px;
     top: 8px;
-    z-index: 10;
+    z-index: 1000000;
   }
 
   .site-nav .menu-icon {
@@ -910,8 +917,6 @@ ul.members-list {
     padding: 5px 10px 5px 20px;
     margin: 0;
   }
-
-  .slideshow-content { display: none; }
 
   .post-header  h1 { font-size: 36px; }
   .post-content h2 { font-size: 28px; }
