@@ -907,7 +907,9 @@ ul.members-list {
     margin-bottom: 5px;
   }
 
-  .site-nav:hover .trigger { display: block; }
+  body.showmenu .trigger {
+    display: block;
+  }
 
   .site-nav .page-link {
     display: block;
@@ -940,7 +942,7 @@ ul.members-list {
 
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dppx) {
 
   .side-header .wrap {
     background-image: image-url('logo@2x.png') !important;

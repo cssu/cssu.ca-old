@@ -72,8 +72,15 @@
   /** Menu icon */
 
   document.getElementById('mobile-menu-icon').addEventListener('click', function (e) {
-    e.preventDefault();
-    return false;
+    e.stopPropagation();
+
+    document.body.className = 'showmenu';
+  }, false);
+
+  document.body.addEventListener('click', function(e) {
+    e.stopPropagation();
+
+    document.body.className = '';
   }, false);
 
 })();
