@@ -19,6 +19,6 @@ Sign up for the competition here: [HackerRank World Cup](https://www.hackerrank.
 
 Join the official competition facebook event group for updates and cool stuff in general: [HackerRank World Cup Event](https://www.facebook.com/events/844786522284013/)
 
-Join our UofT facebook event group: [HackerRank World Cup at UofT](https://www.facebook.com/events/1478276689166392/)
+Join our UofT facebook event group: [HackerRank World Cup at UofT](https://www.facebook.com/events/908375415923984/)
 
 You can participate in-person or remotely. In either case, fill out [this form](http://goo.gl/forms/I8r9dQlVzL) so we know you participated.
