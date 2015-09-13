@@ -1,10 +1,10 @@
 # There should only be 4 slides!
 # Pictures go in /img/slides/ and should be .jpg files.
 
-- title: SmartWeek 2014
-  text:  An industry-focused IoT conference being held right here at UofT
-  link:  /events/smartweek
-  pic:   smartweek_banner
+- title: Amongst the best
+  text:  UofT DCS is one of the top 10 in the world
+  link:  http://web.cs.toronto.edu/news/current/DCSTop10.htm
+  pic:   awesome
 
 - title: 50th Anniversary
   text:  It's the Department of Computer Science's 50th anniversary!

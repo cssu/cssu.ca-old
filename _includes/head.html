@@ -8,33 +8,34 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %} - CSSU</title>
 
-  <meta property="og:url" content="http://cssu.cdf.toronto.edu/">
+  <meta property="og:url" content="https://cssu.ca/">
   <meta property="og:title" content="Computer Science Student Union">
-  <meta property="og:image" content="http://cssu.cdf.toronto.edu/img/icon-light.png">
+  <meta property="og:image" content="{{ site.url }}{% asset_path icon-light.png %}">
   <meta property="og:description" content="The Computer Science Student Union, or CSSU for short, represents over 1200 Computer Science students who are either taking a Computer Science course or are part of a Computer Science POSt at the University of Toronto St. George campus.">
   <meta property="og:type" content="website">
 
-  <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="57x57" href="{% asset_path favicon/apple-touch-icon-57x57.png %}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{% asset_path favicon/apple-touch-icon-114x114.png %}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{% asset_path favicon/apple-touch-icon-72x72.png %}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{% asset_path favicon/apple-touch-icon-144x144.png %}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{% asset_path favicon/apple-touch-icon-60x60.png %}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{% asset_path favicon/apple-touch-icon-120x120.png %}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{% asset_path favicon/apple-touch-icon-76x76.png %}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{% asset_path favicon/apple-touch-icon-152x152.png %}">
   <meta name="apple-mobile-web-app-title" content="CSSU">
-  <link rel="icon" type="image/png" href="/img/favicon/favicon-196x196.png" sizes="196x196">
-  <link rel="icon" type="image/png" href="/img/favicon/favicon-160x160.png" sizes="160x160">
-  <link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16">
-  <link rel="icon" type="image/png" href="/img/favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="{% asset_path favicon/favicon-196x196.png %}" sizes="196x196">
+  <link rel="icon" type="image/png" href="{% asset_path favicon/favicon-160x160.png %}" sizes="160x160">
+  <link rel="icon" type="image/png" href="{% asset_path favicon/favicon-96x96.png %}" sizes="96x96">
+  <link rel="icon" type="image/png" href="{% asset_path favicon/favicon-16x16.png %}" sizes="16x16">
+  <link rel="icon" type="image/png" href="{% asset_path favicon/favicon-32x32.png %}" sizes="32x32">
   <meta name="msapplication-TileColor" content="#171a21">
-  <meta name="msapplication-TileImage" content="/img/favicon/mstile-144x144.png">
+  <meta name="msapplication-TileImage" content="{% asset_path favicon/mstile-144x144.png %}">
   <meta name="application-name" content="CSSU">
+  <meta name="theme-color" content="#0d1117">
 
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
   <link rel="author" href="/humans.txt">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  {% stylesheet main %}
 
   <!--[if lt IE 9]>
     <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script>

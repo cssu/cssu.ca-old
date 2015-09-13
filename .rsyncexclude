@@ -4,6 +4,8 @@
 # Files ignored from _site/
 /Gemfile
 /Gemfile.lock
+/Rakefile
+/Procfile
 
 # Files preserved in htdocs
 /gallery/

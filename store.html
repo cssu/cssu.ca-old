@@ -6,36 +6,42 @@ permalink: /store/
 
 <p>Come by the CSSU office to check out our wide selection of drinks and snacks!<p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Drink</th>
-      <th>Price</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for drink in site.data.store-prices.drinks %}
-    <tr>
-      <td>{{ drink.name }}</td>
-      <td>{{ drink.price }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+<div id="store">
+  <section class="store-left">
+    <table>
+      <thead>
+        <tr>
+          <th>Drink</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for drink in site.data.store-prices.drinks %}
+        <tr>
+          <td>{{ drink.name }}</td>
+          <td>{{ drink.price }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
 
-<table>
-  <thead>
-    <tr>
-      <th>Snack</th>
-      <th>Price</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for snack in site.data.store-prices.snacks %}
-    <tr>
-      <td>{{ snack.name }}</td>
-      <td>{{ snack.price }}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
+  <section class="store-right">
+    <table>
+      <thead>
+        <tr>
+          <th>Snack</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for snack in site.data.store-prices.snacks %}
+        <tr>
+          <td>{{ snack.name }}</td>
+          <td>{{ snack.price }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </section>
+</div>

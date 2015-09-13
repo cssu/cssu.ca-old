@@ -2,12 +2,13 @@
 var slide = 1;
 
 // For the auto-rotating slideshow
-var interval;
+var interval = null;
 
 // The DOM elements
 var slideshow = document.getElementById('slideshow'),
     slides    = document.getElementsByClassName('slideshow-slide'),
     cards     = document.getElementsByClassName('slideshow-card'),
+    pause     = document.getElementById('slideshow-pause'),
     prev      = document.getElementById('slideshow-prev'),
     next      = document.getElementById('slideshow-next');
 
@@ -44,11 +45,17 @@ function startSlideshow() {
   interval = setInterval(nextSlide, 3750);
 }
 
-// Stop the auto-rotating on mouse hover
-slideshow.onmouseover = function() {
-  clearInterval(interval);
-}
-slideshow.onmouseout = startSlideshow;
+// Handle play/pause button
+pause.onclick = function() {
+  if (interval) {
+    clearInterval(interval);
+    interval = null;
+    this.addClass('paused');
+  } else {
+    startSlideshow();
+    this.removeClass('paused');
+  }
+};
 
 startSlideshow();
 
@@ -59,11 +66,11 @@ Element.prototype.addClass = function(className) {
     this.classList.add(className);
   else
     this.className += ' ' + className;
-}
+};
 
 Element.prototype.removeClass = function(className) {
   if (this.classList)
     this.classList.remove(className);
   else
     this.className = this.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
-}
+};

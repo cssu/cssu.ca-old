@@ -17,11 +17,11 @@
 
 // Previous/next buttons
 .slideshow-nav {
-  @include v(transition, opacity 0.3s);
   cursor: pointer;
   display: table-cell;
   opacity: 0.5;
   text-align: center;
+  transition: opacity 0.3s;
   vertical-align: middle;
   width: 30px;
 
@@ -38,13 +38,66 @@
   height: 450px;
 }
 
+// Pause button
+#slideshow-pause {
+  background-color: rgba($grey, 0.8);
+  bottom: 5em;
+  cursor: pointer;
+  display: block;
+  height: 40px;
+  left: 3em;
+  position: absolute;
+  text-indent: -3000em;
+  transition: background-color 0.25s;
+  width: 40px;
+  z-index: 1000;
+
+  &:hover {
+    background-color: $grey;
+  }
+
+  &::before,
+  &::after {
+    background-color: #fff;
+    border-radius: 2px;
+    content: ' ';
+    display: inline-block;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    width: 3px;
+  }
+
+  &::before {
+    left: 12px;
+  }
+
+  &::after {
+    right: 12px;
+  }
+
+  &.paused::before {
+    background-color: transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #fff;
+    border-top: 10px solid transparent;
+    height: 0;
+    left: 16px;
+    width: 0;
+  }
+
+  &.paused::after {
+    display: none;
+  }
+}
+
 // The individual slide
 .slideshow-slide {
-  @include v(transition, opacity 0.3s);
-  opacity: 0;
   height: calc(100% - 3.5em);
-  position: absolute;
   list-style: none;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 0.3s;
   width: calc(100% - 60px);
   z-index: 0;
 }
@@ -60,22 +113,23 @@
 
   &:hover {
     .slideshow-slide-info {
+      background-color: $grey;
       transform: translateX(1em);
     }
   }
 }
 
 .slideshow-slide-info {
-  @include v(transition, transform 0.25s);
-  background-color: $grey;
+  background-color: rgba($grey, 0.8);
   bottom: 2em;
   color: #fff;
   max-width: 40%;
   padding: 1.5em;
   position: absolute;
   right: 2em;
+  transition: background-color 0.25s, transform 0.25s;
 
-  hgroup {
+  .slide-title {
     display: table-cell;
     padding-right: 2em;
 
@@ -98,7 +152,7 @@
     vertical-align: middle;
 
     .slide-arrow {
-      @include v(border-radius, 50%);
+      border-radius: 50%;
       border: 1px solid #fff;
       height: 2em;
       padding-left: 0.75em;
@@ -145,5 +199,55 @@
     .slideshow-card:nth-child(#{$i}) {
       background-color: $dark-grey;
     }
+  }
+}
+
+// Media queries
+@media screen and (max-width: 750px) {
+  ul.slideshow-slides li a aside {
+    max-width: 65%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #slideshow,
+  #slides {
+    width: 100%;
+  }
+
+  #slideshow,
+  #slideshow-slides {
+    height: 300px;
+  }
+
+  #slideshow-pause {
+    left: inherit;
+    right: 1em;
+    top: 1em;
+  }
+
+  .slideshow-slide {
+    height: 100%;
+    width: 100%;
+  }
+
+  .slideshow-slide-info {
+    max-width: 100%;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+
+    .slideshow-slide-content:hover & {
+      transform: none;
+    }
+  }
+
+  .slide-title {
+    width: calc(100% - 2em);
+  }
+
+  .slideshow-nav,
+  #slideshow-cards {
+    display: none;
   }
 }

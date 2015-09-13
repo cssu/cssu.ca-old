@@ -4,6 +4,7 @@ title:  "It's a new year and a new CSSU!"
 author: "Jonathan Webb"
 date:   2014-07-19 12:00:00
 categories: news
+tags: cssu
 ---
 
 We're about to start a new school year with a new CSSU and a new website; I thought it would be a great opportunity to discuss our objectives and focus for the upcoming year and to give some insight into my thought process and philosophy when making decisions.
