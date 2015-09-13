@@ -6,8 +6,11 @@ permalink: /awards/
 
 <p> Below are the various awards the CSSU gives out each year. </p>
 
-<h1>Presidents' Choice Award</h1>
-
-<h1>Professor Award</h1>
-
-<h1>TA Award</h1>
+<div class="members-page">
+	<h1>Presidents' Choice Award</h1>
+	<ul class="members-list">
+		{% for member in site.data.awards.presidents_choice %}
+			{% include member.html %}
+			{% endfor %}
+	</ul>
+</div>

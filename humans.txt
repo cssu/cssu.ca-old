@@ -3,10 +3,11 @@
 
 # TEAM
 
-    Eugene Cheung   -- Web Developer & Designer -- @arkon
-    Spencer Elliott -- Web Developer & Ops      -- @spe_
-    Jonathan Webb   -- CSSU President           -- @jwebbed
-    Nicholas Goh    -- CSSU Vice President      -- @NickGoh_
+    Eugene Cheung   -- Web Developer & Designer (2014-2015) -- @arkon
+    Spencer Elliott -- Web Developer & Ops      (2014-2015) -- @spe_
+    Jonathan Webb   -- CSSU President           (2014-2015) -- @jwebbed
+    Nicholas Goh    -- CSSU Vice President      (2014-2015) -- @NickGoh_
+    Adam Gordon     -- CSSU Treasurer           (2015-2016)
 
 # TECHNOLOGY COLOPHON
 
