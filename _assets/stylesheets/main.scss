@@ -1,25 +1,12 @@
 @import 'core';
-@import 'slideshow';
 
 
 /* Base */
 /* ----------------------------------------------------------*/
 
-html { box-sizing: border-box; }
-
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
-  margin: 0;
-  padding: 0;
-}
-
 ::selection {
   background-color: #d5d5d5;
 }
-
-html, body { height: 100%; }
 
 body {
   background-color: #d5d5d5;
@@ -64,6 +51,7 @@ th, tr:nth-child(even) {
 /* ----------------------------------------------------------*/
 
 /* Accessibility */
+
 .accessibility-aid {
   height: 1px;
   width: 1px;
