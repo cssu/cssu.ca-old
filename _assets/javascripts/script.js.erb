@@ -11,7 +11,7 @@
 
   /** Google Map in footer */
 
-  var homeLatLng = new google.maps.LatLng(43.6594888, -79.39761349999998);
+  var homeLatLng = new google.maps.LatLng(43.659291, -79.397370);
 
   function init_map() {
     var style = [
@@ -61,7 +61,7 @@
       icon     : pin
     });
 
-    infowindow = new google.maps.InfoWindow({ content:'<b>CSSU</b><br/>BA 2283' });
+    infowindow = new google.maps.InfoWindow({ content:'<b>CSSU</b><br/>BA 2250' });
     google.maps.event.addListener(marker, 'click', function() { infowindow.open(map, marker); });
     google.maps.event.addDomListener(window, 'resize', function() { map.setCenter(homeLatLng); });
   }
