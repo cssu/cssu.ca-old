@@ -29,13 +29,9 @@ snacks:
     price: $1.00
   - name:  Chips
     price: $0.75
-<<<<<<< HEAD
   - name:  Ice Cream Sandwich
-=======
-  - name:  Ice Cream Sandwiche
->>>>>>> draft
     price: $0.75
-  - name: Popscicle
+  - name:  Popsicle
     price: $0.50
-  - name: Freezee
+  - name:  Freezee
     price: $0.25
