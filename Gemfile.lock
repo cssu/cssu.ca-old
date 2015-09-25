@@ -101,7 +101,6 @@ GEM
     uglifier (2.7.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
-    wdm (0.1.1)
     yajl-ruby (1.2.1)
 
 PLATFORMS
@@ -115,7 +114,6 @@ DEPENDENCIES
   jekyll-tagging
   rake
   uglifier
-  wdm (~> 0.1.0)
 
 BUNDLED WITH
    1.10.6
