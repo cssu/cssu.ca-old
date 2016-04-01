@@ -16,10 +16,10 @@
   link:  http://web.cs.toronto.edu/news/current/DCSTop10.htm
   pic:   awesome
 
-- title: CSSU Wiki
-  text:  Learn about academic and social life around the department
-  link:  /w/
-  pic:   wiki
+# - title: CSSU Wiki
+#   text:  Learn about academic and social life around the department
+#   link:  /w/
+#   pic:   wiki
 
 - title: CDF Labs app
   text:  Check the availability of CDF machines right from your Android device!
