@@ -1,10 +1,15 @@
 # There should only be 4 slides!
-# Pictures go in /img/slides/ and should be .jpg files.
+# Pictures go in _assets/imgges/slides/ and should be .jpg files.
 
-- title: Hack Night
-  text:  It’s time. CSSU Hack Nights are here!
-  link:  https://www.facebook.com/events/900341646679779/
-  pic:   hacknight
+- title: Games Night
+  text:  Join us for the last games night!
+  link:  /events/2016/04/01/gamesnight/
+  pic:   gamesnight
+
+- title: End of Year Dinner
+  text:  It's almost over join us to celebrate another great year.
+  link:  /events/2016/04/08/eoy-dinner/
+  pic:   eoy-dinner
 
 - title: Amongst the best
   text:  UofT DCS is one of the top 10 in the world

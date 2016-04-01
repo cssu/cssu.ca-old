@@ -12,26 +12,14 @@ drinks:
   - name:  Root Beer
     price: $0.75
   - name:  Arizona Iced Tea
-    price: $1.00
-  - name:  Orange Juice
-    price: $1.00
-  - name:  Apple Juice
-    price: $1.00
-  - name:  Nestea
-    price: $1.00
+    price: $1.25
   - name:  Red Bull
     price: $2.50
 
 snacks:
   - name:  Chocolate
     price: $1.25
-  - name:  Candies
-    price: $1.00
   - name:  Chips
-    price: $0.75
+    price: $0.75 (2 for $1.00)
   - name:  Ice Cream Sandwich
     price: $0.75
-  - name:  Popsicle
-    price: $0.50
-  - name:  Freezie
-    price: $0.25

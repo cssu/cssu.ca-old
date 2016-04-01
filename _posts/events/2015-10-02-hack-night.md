@@ -3,7 +3,7 @@ layout: post
 title: Hack Night
 description: CSSU Hack Nights are here!
 date: 2015-10-02
-expiry: 2015-10-14
+expiry_date: 2015-10-14
 categories: events
 ---
 
