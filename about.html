@@ -36,23 +36,9 @@ permalink: /about/
     {% endfor %}
   </ul>
 
-  <h2>Senior team</h2>
+  <h2>Council</h2>
   <ul class="members-list">
-    {% for member in site.data.members.seniors %}
-      {% include member.html %}
-    {% endfor %}
-  </ul>
-
-  <h2>Junior team</h2>
-  <ul class="members-list">
-    {% for member in site.data.members.juniors %}
-      {% include member.html %}
-    {% endfor %}
-  </ul>
-
-  <h2>Media team</h2>
-  <ul class="members-list">
-    {% for member in site.data.members.media %}
+    {% for member in site.data.members.council %}
       {% include member.html %}
     {% endfor %}
   </ul>

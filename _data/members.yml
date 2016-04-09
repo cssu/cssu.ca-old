@@ -2,20 +2,16 @@ execs:
   - name:  Amanda Bell
     role:  President
     email: amandaj.bell@mail.utoronto.ca
-    pic:   amanda
+    pic:   2015/amanda
 
   - name:  Ivan Zhang
     role:  Vice President
     email: zhilin.zhang@mail.utoronto.ca
-    pic:   ivan
+    pic:   2015/ivan
 
   - name:  Adam Gordon
     role:  Treasurer
     email: ag@adamgordon.ca
-    pic:   adam
+    pic:   2015/adam
 
-seniors: []
-
-juniors: []
-
-media: []
+council: []

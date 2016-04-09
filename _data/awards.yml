@@ -1,8 +1,30 @@
+teaching_awards:
+  - name:  Abdallah Farraj
+    year:  2015-2016
+    pic:   blank
+
+  - name:  Amir Chinaei
+    year:  2015-2016
+    pic:   blank
+
+  - name:  Michael Guerzhoy
+    year:  2015-2016
+    pic:   blank
+
+ta_awards:
+  - name:  Felipe Orozco 
+    year:  2015-2016
+    pic:   blank
+
+  - name:  Boris Ivanovic
+    year:  2014-2015
+    pic:   blank
+
 presidents_choice:
   - name:  Jason Harrison
     year:  2013-2014
-    pic:   20142015/jason
+    pic:   awards/jason
 
   - name:  Chris Long
     year:  2014-2015
-    pic:   20142015/chris
+    pic:   awards/chris
