@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Events
-permalink: "/events/"
+permalink: /events/
 ---
 
-{% unless site.categories['events'] == nil %}
+{% if site.categories['events'] %}
   <ul class="posts page-list">
     {% for post in site.categories['events'] reversed %}
       {% include post-item.html %}
@@ -15,4 +15,6 @@ permalink: "/events/"
     <h3>Tags</h3>
     {% category_tag_cloud events %}
   </div>
-{% endunless %}
+{% else %}
+  <p>No upcoming events; stay tuned!</p>
+{% endif %}
