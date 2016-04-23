@@ -17,14 +17,14 @@ permalink: /about/
   <h1>Style</h1>
 </header>
 
-<p>If you're interested in the style guidelines for the CSSU, you can refer to the official <a href="/style/">style guide</a>.</p>
+<p>If you're interested in the style guidelines for the CSSU, you can refer to the official <a href="/about/branding/">style guide</a>.</p>
 
 
 <header class="post-header">
   <h1>Members</h1>
 </header>
 
-<p><a href="/past/">You can find lists of past members here</a>.</p>
+<p><a href="/about/pastmembers/">You can find lists of past members here</a>.</p>
 
 <div class="members-page">
   <h2>2015 - 2016</h2>
@@ -32,13 +32,6 @@ permalink: /about/
   <h2>Executive team</h2>
   <ul class="members-list">
     {% for member in site.data.members.execs %}
-      {% include member.html %}
-    {% endfor %}
-  </ul>
-
-  <h2>Council</h2>
-  <ul class="members-list">
-    {% for member in site.data.members.council %}
       {% include member.html %}
     {% endfor %}
   </ul>
