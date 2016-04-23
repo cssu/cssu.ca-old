@@ -76,16 +76,27 @@
 
   /** Menu icon */
 
-  document.getElementById('mobile-menu-icon').addEventListener('click', function (e) {
+  var closeMenu = function (e) {
     e.stopPropagation();
-
-    document.body.className = (document.body.className === 'showmenu') ? '' : 'showmenu';
-  }, false);
-
-  document.body.addEventListener('click', function(e) {
-    e.stopPropagation();
+    e.preventDefault();
 
     document.body.className = '';
-  }, false);
+    document.body.removeEventListener('click', closeMenu);
+  };
+
+  document.getElementById('mobile-menu-icon').addEventListener('click', function (e) {
+    e.stopPropagation();
+    e.preventDefault();
+
+    var isMenuOpen = document.body.className === 'showmenu';
+
+    document.body.className = isMenuOpen ? '' : 'showmenu';
+
+    if (isMenuOpen) {
+      document.body.removeEventListener('click', closeMenu);
+    } else {
+      document.body.addEventListener('click', closeMenu);
+    }
+  });
 
 })();
