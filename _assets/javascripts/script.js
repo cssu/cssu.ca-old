@@ -1,10 +1,12 @@
+'use strict';
+
 (function() {
 
   /** Web font */
 
   WebFont.load({
     custom: {
-      families: ['Nexa Light', 'Open Sans']
+      families: ['Open Sans', 'Nexa Light']
     }
   });
 
@@ -47,11 +49,14 @@
     var map = new google.maps.Map(
       document.getElementById('gmap_canvas'),
       {
-        disableDefaultUI : true,
-        zoom             : 17,
-        center           : homeLatLng,
-        mapTypeId        : google.maps.MapTypeId.ROADMAP,
-        styles           : style
+        mapTypeControl    : false,
+        streetViewControl : false,
+        scaleControl      : false,
+        scrollwheel       : false,
+        zoom              : 17,
+        center            : homeLatLng,
+        mapTypeId         : google.maps.MapTypeId.ROADMAP,
+        styles            : style
       }
     );
 
@@ -61,7 +66,7 @@
       icon     : pin
     });
 
-    infowindow = new google.maps.InfoWindow({ content:'<b>CSSU</b><br/>BA 2250' });
+    var infowindow = new google.maps.InfoWindow({ content:'<b>CSSU</b><br/>BA 2250' });
     google.maps.event.addListener(marker, 'click', function() { infowindow.open(map, marker); });
     google.maps.event.addDomListener(window, 'resize', function() { map.setCenter(homeLatLng); });
   }

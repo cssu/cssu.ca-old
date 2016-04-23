@@ -1,3 +1,5 @@
+'use strict';
+
 // To keep track of which slide we're on (1 through 4)
 var slide = 1;
 
