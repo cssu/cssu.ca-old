@@ -3,10 +3,6 @@ source 'https://rubygems.org'
 # Ruby version
 ruby '2.2.1'
 
-# Enable file watching in Windows. See http://jekyllrb.com/docs/windows/#auto-regeneration
-require 'rbconfig'
-gem 'wdm', '~> 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i
-
 # Jekyll static site generator
 gem 'jekyll', require: false
 

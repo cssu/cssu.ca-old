@@ -1,6 +1,9 @@
 # Generated static site
 _site
 
+# Asset cache
+.asset-cache
+
 # OS Files
 Thumbs.db
 .DS_Store

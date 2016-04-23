@@ -20,7 +20,7 @@ module Jekyll
       category_posts = site.categories[@category]
 
       active_tag_data.select { |tag, _|
-        category_posts.any? { |post| post.tags.include? tag }
+        category_posts.any? { |post| post.data['tags'].include? tag }
       }.map { |tag, set|
         tag_link(tag, tag_url(tag), :class => "set-#{set}")
       }.join(' ')
