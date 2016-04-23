@@ -1,6 +1,8 @@
 'use strict';
 
-// To keep track of which slide we're on (1 through 4)
+(function(){
+
+// To keep track of which slide we're on
 var slide = 1;
 
 // For the auto-rotating slideshow
@@ -15,36 +17,36 @@ var slideshow = document.getElementById('slideshow'),
     next      = document.getElementById('slideshow-next');
 
 // Handle the cards -- show the respective card using the CSS classes
-// .slide-1 would show the first slide, slide-2 for the second, and so on.
-for (var i = 0; i < cards.length; i++) {
+// .slide-1 would show the first slide, slide-2 for the second, and so on
+for (var i = 0, len = cards.length; i < len; i++) {
   cards[i].onclick = (function(index) {
     return function() {
-      slideshow.removeClass('slide-' + slide);
+      slideshow.classList.remove('slide-' + slide);
       slide = index + 1;
-      slideshow.addClass('slide-' + slide);
+      slideshow.classList.add('slide-' + slide);
     };
   })(i);
 }
 
 // Handle the navigation buttons, again manipulating the CSS classes
 prev.onclick = function() {
-  slideshow.removeClass('slide-' + slide);
-  slide = slide - 1 > 0 ? slide - 1 : 4;
-  slideshow.addClass('slide-' + slide);
+  slideshow.classList.remove('slide-' + slide);
+  slide = slide - 1 > 0 ? slide - 1 : cards.length;
+  slideshow.classList.add('slide-' + slide);
 };
 
 // This is a separate function so it can be used for the auto-rotating function
 function nextSlide() {
-  slideshow.removeClass('slide-' + slide);
-  slide = slide + 1 < 5 ? slide + 1 : 1;
-  slideshow.addClass('slide-' + slide);
+  slideshow.classList.remove('slide-' + slide);
+  slide = slide + 1 <= cards.length ? slide + 1 : 1;
+  slideshow.classList.add('slide-' + slide);
 }
 
 next.onclick = nextSlide;
 
 // Handle the auto-rotating functionality of the slideshow
 function startSlideshow() {
-  interval = setInterval(nextSlide, 3750);
+  interval = setInterval(nextSlide, 4000);
 }
 
 // Handle play/pause button
@@ -52,27 +54,13 @@ pause.onclick = function() {
   if (interval) {
     clearInterval(interval);
     interval = null;
-    this.addClass('paused');
+    this.classList.add('paused');
   } else {
     startSlideshow();
-    this.removeClass('paused');
+    this.classList.remove('paused');
   }
 };
 
 startSlideshow();
 
-
-// These are for IE support
-Element.prototype.addClass = function(className) {
-  if (this.classList)
-    this.classList.add(className);
-  else
-    this.className += ' ' + className;
-};
-
-Element.prototype.removeClass = function(className) {
-  if (this.classList)
-    this.classList.remove(className);
-  else
-    this.className = this.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
-};
+})();
