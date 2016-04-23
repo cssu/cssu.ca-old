@@ -5,8 +5,11 @@
   /** Web font */
 
   WebFont.load({
+    google: {
+      families: ['Open Sans:300,400,600']
+    },
     custom: {
-      families: ['Open Sans', 'Nexa Light']
+      families: ['Nexa Light']
     }
   });
 
