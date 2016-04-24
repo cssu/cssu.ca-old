@@ -49,8 +49,10 @@ title: Computer Science Student Union
     <a href="/about/"><h1>Your 2015 - 2016 team</h1></a>
     <div class="members">
       <ul class="members-list">
-        {% for member in site.data.members.execs %}
-          {% include member.html %}
+        {% for team in site.data.members %}
+          {% for member in team.people %}
+            {% include member.html %}
+          {% endfor %}
         {% endfor %}
       </ul>
     </div>
