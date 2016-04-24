@@ -45,22 +45,20 @@ function nextSlide() {
 next.onclick = nextSlide;
 
 // Handle the auto-rotating functionality of the slideshow
-function startSlideshow() {
-  interval = setInterval(nextSlide, 4000);
+function toggleSlideshow() {
+  if (interval) {
+    pause.classList.add('paused');
+    clearInterval(interval);
+    interval = null;
+  } else {
+    pause.classList.remove('paused');
+    interval = setInterval(nextSlide, 4000);
+  }
 }
 
 // Handle play/pause button
-pause.onclick = function() {
-  if (interval) {
-    clearInterval(interval);
-    interval = null;
-    this.classList.add('paused');
-  } else {
-    startSlideshow();
-    this.classList.remove('paused');
-  }
-};
+pause.onclick = toggleSlideshow;
 
-startSlideshow();
+toggleSlideshow();
 
 })();
