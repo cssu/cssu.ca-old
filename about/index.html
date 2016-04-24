@@ -27,9 +27,9 @@ permalink: /about/
 <p><a href="/about/pastmembers/">You can find lists of past members here</a>.</p>
 
 <div class="members-page">
-  <h2>2015 - 2016</h2>
+  <h2>{{ site.data.members[0].year }}</h2>
 
-  {% for team in site.data.members %}
+  {% for team in site.data.members[0].teams %}
     <h2>{{ team.name }}</h2>
     <ul class="members-list">
       {% for member in team.people %}

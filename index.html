@@ -46,10 +46,10 @@ title: Computer Science Student Union
   </div>
 
   <div id="home-members">
-    <a href="/about/"><h1>Your 2015 - 2016 team</h1></a>
+    <a href="/about/"><h1>Your {{ site.data.members[0].year }} team</h1></a>
     <div class="members">
       <ul class="members-list">
-        {% for team in site.data.members %}
+        {% for team in site.data.members[0].teams %}
           {% for member in team.people %}
             {% include member.html %}
           {% endfor %}

@@ -4,15 +4,17 @@ title: Past Members
 permalink: /about/pastmembers/
 ---
 
-<div class="members-page">
-  <h2>2014 - 2015</h2>
+{% for year in site.data.members %}
+  <div class="members-page">
+    <h2>{{ year.year }}</h2>
 
-  {% for team in site.data.members-20142015 %}
-    <h2>{{ team.name }}</h2>
-    <ul class="members-list">
-      {% for member in team.people %}
-        {% include member.html %}
-      {% endfor %}
-    </ul>
-  {% endfor %}
-</div>
+    {% for team in year.teams %}
+      <h2>{{ team.name }}</h2>
+      <ul class="members-list">
+        {% for member in team.people %}
+          {% include member.html %}
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+{% endfor %}
