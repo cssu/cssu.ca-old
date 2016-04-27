@@ -83,7 +83,10 @@ var showMenuClass = 'showmenu';
 
 var closeMenu = function (e) {
   e.stopPropagation();
-  e.preventDefault();
+
+  if (!e.toElement.classList.contains('nav-menu-link')) {
+    e.preventDefault();
+  }
 
   document.body.classList.remove(showMenuClass);
   document.body.removeEventListener('click', closeMenu);
