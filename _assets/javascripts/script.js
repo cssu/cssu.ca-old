@@ -80,11 +80,12 @@ google.maps.event.addDomListener(window, 'load', init_map);
 /** Menu icon */
 
 var showMenuClass = 'showmenu';
+var elMenu = document.getElementById('mobile-menu');
 
 var closeMenu = function (e) {
   e.stopPropagation();
 
-  if (!e.toElement.classList.contains('nav-menu-link')) {
+  if (!elMenu.contains(e.target)) {
     e.preventDefault();
   }
 

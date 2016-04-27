@@ -17,14 +17,14 @@
         </svg>
       </a>
 
-      <div class='trigger'>
+      <div id='mobile-menu' class='trigger'>
         {% for link in site.navigation %}
           {% assign current = nil %}
           {% if page.url contains link.url %}
             {% assign current = 'current' %}
           {% endif %}
 
-          <a class='page-link nav-menu-link {{ current }}' href='{{ link.url | prepend: site.baseurl }}'>{{ link.title }}</a>
+          <a class='page-link {{ current }}' href='{{ link.url | prepend: site.baseurl }}'>{{ link.title }}</a>
         {% endfor %}
       </div>
     </nav>
