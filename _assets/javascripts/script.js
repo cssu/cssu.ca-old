@@ -106,4 +106,15 @@ document.getElementById('mobile-menu-icon').addEventListener('click', function (
   }
 });
 
+var scrollTop = function() {
+  var delay = 20
+  if (document.body.scrollTop!=0){
+    window.scrollBy(0, -50);
+    var timeOut = setTimeout(scrollTop, 10);
+  }
+  else clearTimeout(timeOut);
+};
+
+document.getElementById('scroll_top_btn').addEventListener('click', scrollTop);
+
 })();
