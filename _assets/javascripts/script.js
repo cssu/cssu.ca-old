@@ -111,7 +111,7 @@ document.getElementById('mobile-menu-icon').addEventListener('click', function (
 
 var scrollTop = function () {
   if (document.body.scrollTop !== 0) {
-    window.scrollBy(0, -50);
+    window.scrollBy(0, -75);
     requestAnimationFrame(scrollTop);
   }
 };
