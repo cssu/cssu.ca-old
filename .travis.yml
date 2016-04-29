@@ -2,11 +2,21 @@ language: ruby
 script: bundle exec jekyll build
 
 deploy:
-  provider: heroku
-  api_key:
-    secure: kjEOnUD0Ny9VrrS6o96c6pyl7uSHsNMNar28RImo0+a4CJKiN4Kj6b+5TjTxMdo8pp4ppwT3+9/6ydmEPjsffWT8iOYc4MzXhq3ex+WH0u2hRI6bXDJg8zwBSRKGmCxg8Cza2ImChqARo6y8FrMaTLxZrFZtadN+H2O7U4rRCyo=
-  app: cssu
-  strategy: api
-  on:
-    branch: draft
-    repo: cssu/cssu.ca
+  # Deploy the draft branch to draft.cssu.ca on Heroku
+  - provider: heroku
+    api_key:
+      secure: kjEOnUD0Ny9VrrS6o96c6pyl7uSHsNMNar28RImo0+a4CJKiN4Kj6b+5TjTxMdo8pp4ppwT3+9/6ydmEPjsffWT8iOYc4MzXhq3ex+WH0u2hRI6bXDJg8zwBSRKGmCxg8Cza2ImChqARo6y8FrMaTLxZrFZtadN+H2O7U4rRCyo=
+    app: cssu
+    strategy: api
+    on:
+      branch: draft
+      repo: cssu/cssu.ca
+
+  # Deploy the master branch to cssu.ca on CDF
+  - provider: script
+    script: deploy.sh
+    # Prevent cleaning up the built '_site' directory
+    skip_cleanup: true
+    on:
+      branch: master
+      repo: cssu/cssu.ca
