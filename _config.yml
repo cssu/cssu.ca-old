@@ -8,7 +8,15 @@ github_username:   cssu
 facebook_username: UofTCSSU
 
 # Build settings
-exclude: ['README.md', 'vendor']
+exclude: [
+  'deploy.sh',
+  'Gemfile',
+  'Gemfile.lock',
+  'Rakefile',
+  'README.md',
+  'Procfile',
+  'vendor',  # Travis CI installs gems to vendor/bundle/
+]
 markdown: redcarpet
 permalink: pretty
 
