@@ -15,6 +15,7 @@ exclude: [
   'Rakefile',
   'README.md',
   'Procfile',
+  'vendor',  # Travis CI installs gems to vendor/bundle/
 ]
 markdown: redcarpet
 permalink: pretty
