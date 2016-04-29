@@ -1,3 +1,22 @@
+- year: 2016 - 2017
+  teams:
+  - name: Executive team
+    people:
+    - name:  Hanchen Wang
+      role:  President
+      email: hanchen.wang@mail.utoronto.ca
+      pic:   20162017/hanchen
+
+    - name:  Emily Choy
+      role:  Vice President
+      email: placeholder@mail.utoronto.ca
+      pic:   20162017/emily
+
+    - name:  Adam Gordon
+      role:  Treasurer
+      email: ag@adamgordon.ca
+      pic:   20162017/adam
+
 - year: 2015 - 2016
   teams:
   - name: Executive team
