@@ -5,16 +5,17 @@ permalink: /about/pastmembers/
 ---
 
 {% for year in site.data.members %}
-  <div class="members-page">
-    <h2>{{ year.year }}</h2>
-
-    {% for team in year.teams %}
-      <h2>{{ team.name }}</h2>
-      <ul class="members-list">
-        {% for member in team.people %}
-          {% include member.html %}
-        {% endfor %}
-      </ul>
-    {% endfor %}
-  </div>
+  {% if year.year != site.data.members[0].year %}
+    <div class="members-page">
+      <h2>{{ year.year }}</h2>
+      {% for team in year.teams %}
+        <h2>{{ team.name }}</h2>
+        <ul class="members-list">
+          {% for member in team.people %}
+            {% include member.html %}
+          {% endfor %}
+        </ul>
+      {% endfor %}
+    </div>
+  {% endif %}
 {% endfor %}
