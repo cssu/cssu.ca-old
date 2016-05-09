@@ -17,7 +17,7 @@ ta_awards:
     pic:   awards/felipe
 
   - name:  Boris Ivanovic
-    year:  2014-2015
+    year:  2015-2016
     pic:   blank
 
 presidents_choice:
@@ -28,3 +28,7 @@ presidents_choice:
   - name:  Chris Long
     year:  2014-2015
     pic:   awards/chris
+
+  - name: Taamannae Taabassum
+    year: 2015-2016
+    pic: awards/tammy
