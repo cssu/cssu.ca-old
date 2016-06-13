@@ -21,6 +21,14 @@ ta_awards:
     pic:   awards/boris
 
 presidents_choice:
+  - name:  Jason Harrison
+    year:  2013-2014
+    pic:   awards/jason
+
+  - name:  Chris Long
+    year:  2014-2015
+    pic:   awards/chris
+
   - name: Taamannae Taabassum
     year: 2015-2016
     pic: awards/tammy
