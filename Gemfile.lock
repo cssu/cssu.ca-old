@@ -69,6 +69,3 @@ DEPENDENCIES
   rake
   redcarpet
   uglifier
-
-BUNDLED WITH
-   1.11.2
