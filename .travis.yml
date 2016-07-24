@@ -5,7 +5,7 @@ deploy:
   # Deploy the draft branch to draft.cssu.ca on Heroku
   - provider: heroku
     api_key:
-      secure: kjEOnUD0Ny9VrrS6o96c6pyl7uSHsNMNar28RImo0+a4CJKiN4Kj6b+5TjTxMdo8pp4ppwT3+9/6ydmEPjsffWT8iOYc4MzXhq3ex+WH0u2hRI6bXDJg8zwBSRKGmCxg8Cza2ImChqARo6y8FrMaTLxZrFZtadN+H2O7U4rRCyo=
+      secure: re+1hSGuZyAeVuK/7vimbPLiL55aj7uqFIdpp07lRjD7Y1CkpQTBZi2RkngK+iUZninK2dgS5sp6KV2mlJLhB4YNQ7v890/aRhPV97JWLQUbpqSDk0QczSKbw0pLpSBAVKMRkA/8XMcWTzbZobdlxLPfUv13zwaDUyEEjW7sMto=
     app: cssu
     strategy: api
     on:
