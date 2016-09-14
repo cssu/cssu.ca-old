@@ -16,6 +16,3 @@ gem 'rake'
 
 # Tag cloud and per-tag pages
 gem 'jekyll-tagging'
-
-# Markdown compilation
-gem 'redcarpet'

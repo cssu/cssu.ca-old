@@ -18,7 +18,7 @@
       </a>
 
       <div id='mobile-menu' class='trigger'>
-        {% for link in site.navigation %}
+        {% for link in site.data.nav %}
           {% assign current = nil %}
           {% if page.url contains link.url %}
             {% assign current = 'current' %}

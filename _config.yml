@@ -2,9 +2,9 @@
 title: CSSU
 email: cssu@cdf.toronto.edu
 url: https://cssu.ca
-description: "University of Toronto Computer Science Student Union"
-twitter_username:  cssu
-github_username:   cssu
+description: University of Toronto Computer Science Student Union
+twitter_username: cssu
+github_username: cssu
 facebook_username: UofTCSSU
 
 # Build settings
@@ -17,31 +17,6 @@ exclude: [
   'Procfile',
   'vendor',  # Travis CI installs gems to vendor/bundle/
 ]
-markdown: redcarpet
-permalink: pretty
-
-# redcarpet settings
-redcarpet:
-  extensions: []
-
-# Site nav
-navigation:
- - title: Events
-   url: /events/
- - title: News
-   url: /news/
- - title: Store
-   url: /store/
- - title: Sponsors
-   url: /sponsors/
- - title: CS Frosh - Sign Up
-   url: /frosh_sign_ups/
- - title: Awards
-   url: /awards/
- - title: Wiki
-   url: /w/
- - title: About
-   url: /about/
 
 # Enable asset processing
 assets:

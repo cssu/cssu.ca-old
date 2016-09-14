@@ -3,7 +3,7 @@
 
 # TEAM
 
-    Eugene Cheung   -- Web Developer & Designer (2014-2015) -- @arkon
+    Eugene Cheung   -- Web Developer & Designer (2014-2015)
     Spencer Elliott -- Web Developer & Ops      (2014-2015) -- @spe_
     Jonathan Webb   -- CSSU President           (2014-2015) -- @jwebbed
     Nicholas Goh    -- CSSU Vice President      (2014-2015) -- @NickGoh_
