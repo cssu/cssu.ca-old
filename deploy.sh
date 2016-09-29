@@ -20,7 +20,7 @@ chmod 600 .travis/deploy_key
 ssh-add .travis/deploy_key
 
 # Copy the static site to CDF, preserving the gallery and wiki directories
-echo "Copying static site to dbsrv1.cdf.toronto.edu:/space/data/www/cssu/htdocs via rsync..."
+echo "Copying static site to dbsrv1.cdf.toronto.edu:/data/www/cssu/htdocs via rsync..."
 rsync \
   --archive \
   --compress \
@@ -29,4 +29,4 @@ rsync \
   --exclude="/w/" \
   --verbose \
   _site/ \
-  cssuwww@dbsrv1.cdf.toronto.edu:/space/data/www/cssu/htdocs
+  cssuwww@dbsrv1.cdf.toronto.edu:/data/www/cssu/htdocs
