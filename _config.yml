@@ -1,6 +1,6 @@
 # Site settings
 title: CSSU
-email: cssu@cdf.toronto.edu
+email: cssu@teach.cs.toronto.edu
 url: https://cssu.ca
 description: University of Toronto Computer Science Student Union
 twitter_username: cssu
@@ -22,8 +22,8 @@ exclude: [
 assets:
   autoprefixer:
     browsers:
-      - "last 2 versions"
-      - "IE > 9"
+      - 'last 2 versions'
+      - 'IE > 9'
   js_compressor:  uglifier
   css_compressor: sass
 
