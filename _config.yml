@@ -20,6 +20,10 @@ exclude: [
 
 # Enable asset processing
 assets:
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
   js_compressor:  uglifier
   css_compressor: sass
 
