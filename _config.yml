@@ -9,6 +9,7 @@ facebook_username: UofTCSSU
 
 # Build settings
 exclude: [
+  'bin',
   'deploy.sh',
   'Gemfile',
   'Gemfile.lock',
