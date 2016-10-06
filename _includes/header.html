@@ -24,7 +24,7 @@
             {% assign current = 'current' %}
           {% endif %}
 
-          <a class='page-link {{ current }}' href='{{ link.url | prepend: site.baseurl }}'>{{ link.title }}</a>
+          <a class='page-link {{ current }}' href='{{ link.url }}'>{{ link.title }}</a>
         {% endfor %}
       </div>
     </nav>
