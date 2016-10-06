@@ -12,7 +12,7 @@ deploy:
       branch: draft
       repo: cssu/cssu.ca
 
-  # Deploy the master branch to cssu.ca on CDF
+  # Deploy the master branch to cssu.ca on CS Teaching Labs
   - provider: script
     script: ./deploy.sh
     # Prevent cleaning up the built '_site' directory

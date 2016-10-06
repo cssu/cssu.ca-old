@@ -4,9 +4,9 @@ set -euo pipefail
 IFS=$'\n\t'
 
 # Add dbsrv1 to known_hosts
-echo "Adding dbsrv1.cdf.toronto.edu to ~/.ssh/known_hosts..."
+echo "Adding dbsrv1.teach.cs.toronto.edu to ~/.ssh/known_hosts..."
 cat << EOF >> ~/.ssh/known_hosts
-dbsrv1.cdf.toronto.edu ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAydP6bdmyTALluMTn4xEs+Fu8OAFDbyV93owVVNGxerSvNijXRt7BuvaCY13mXtCyJ2BsDzNYZ5kR/+FFCIv5e6/3Y5W4yjkwRZ5/Drt5ZK2fJtmeRYyVOztQHSyWIY9KBJmrcGpDPpK6LY6kseR2djWBfwGLCejSKXWsZ5+Oz/0=
+dbsrv1.teach.cs.toronto.edu ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAydP6bdmyTALluMTn4xEs+Fu8OAFDbyV93owVVNGxerSvNijXRt7BuvaCY13mXtCyJ2BsDzNYZ5kR/+FFCIv5e6/3Y5W4yjkwRZ5/Drt5ZK2fJtmeRYyVOztQHSyWIY9KBJmrcGpDPpK6LY6kseR2djWBfwGLCejSKXWsZ5+Oz/0=
 EOF
 
 # Decrypt deploy key
@@ -19,8 +19,8 @@ eval "$(ssh-agent -s)"
 chmod 600 .travis/deploy_key
 ssh-add .travis/deploy_key
 
-# Copy the static site to CDF, preserving the gallery and wiki directories
-echo "Copying static site to dbsrv1.cdf.toronto.edu:/data/www/cssu/htdocs via rsync..."
+# Copy the static site to CS Teaching Labs, preserving the gallery and wiki directories
+echo "Copying static site to dbsrv1.teach.cs.toronto.edu:/data/www/cssu/htdocs via rsync..."
 rsync \
   --archive \
   --compress \
@@ -29,4 +29,4 @@ rsync \
   --exclude="/w/" \
   --verbose \
   _site/ \
-  cssuwww@dbsrv1.cdf.toronto.edu:/data/www/cssu/htdocs
+  cssuwww@dbsrv1.teach.cs.toronto.edu:/data/www/cssu/htdocs
