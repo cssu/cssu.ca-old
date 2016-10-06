@@ -1,15 +1,13 @@
 <section id="slideshow" class="slide-1">
-
-  <a class="slideshow-nav" id="slideshow-prev" aria-label="Previous slide">
+  <button class="slideshow-nav" id="slideshow-prev" title="Previous slide" aria-hidden="true">
     <svg width="6px" height="10px" xmlns="http://www.w3.org/2000/svg">
       <line y2="0" x2="6" y1="5" x1="0" stroke-width="1" stroke="#FFF"/>
       <line y2="10" x2="6" y1="5" x1="0" stroke-width="1" stroke="#FFF"/>
     </svg>
-  </a>
+  </button>
 
   <div id="slides">
-
-    <a id="slideshow-pause">Pause</a>
+    <button id="slideshow-pause" aria-hidden="true">Pause</button>
 
     <ul id="slideshow-slides">
       {% for slide in site.data.slides %}
@@ -39,16 +37,14 @@
         <li class="slideshow-card">{{ slide.title }}</li>
       {% endfor %}
     </ul>
-
   </div>
 
-  <a class="slideshow-nav" id="slideshow-next" aria-label="Next slide">
+  <button class="slideshow-nav" id="slideshow-next" title="Next slide" aria-hidden="true">
     <svg width="6px" height="10px" xmlns="http://www.w3.org/2000/svg">
       <line y2="5" x2="6" y1="0" x1="0" stroke-width="1" stroke="#FFF"/>
       <line y2="10" x2="0" y1="5" x1="6" stroke-width="1" stroke="#FFF"/>
     </svg>
-  </a>
-
+  </button>
 </section>
 
 {% javascript slideshow %}
