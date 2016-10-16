@@ -54,18 +54,19 @@ th, tr:nth-child(even) {
 
 .accessibility-aid {
   height: 1px;
-  width: 1px;
-  clip: rect(1px, 1px, 1px, 1px);
+  margin: 0;
+  opacity: 0;
   overflow: hidden;
   position: absolute;
-  margin: 0;
+  white-space: nowrap;
+  width: 1px;
 
   &:focus {
     height: auto;
-    width: auto;
-    clip: auto;
-    z-index: 1;
+    opacity: 1;
     top: 0;
+    width: auto;
+    z-index: 1;
 
     color: #fff;
     padding: 0.5em 1em;
