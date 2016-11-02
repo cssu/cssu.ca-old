@@ -6,7 +6,7 @@ permalink: /events/
 
 {% if site.categories['events'] %}
   <ul class="posts page-list">
-    {% for post in site.categories['events'] reversed %}
+    {% for post in site.categories['events'] %}
       {% include post-item.html %}
     {% endfor %}
   </ul>
