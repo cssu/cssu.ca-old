@@ -24,7 +24,7 @@ title: Computer Science Student Union
         <a href="/events/"><h1>Events</h1></a>
         <ul class="posts">
           {% if site.categories['events'] %}
-            {% assign events = site.categories['events'] | sort: 'date' %}
+            {% assign events = site.categories['events'] %}
             {% for post in events limit: 4 %}
               <li>
                 <a href="{{ post.url | prepend: site.baseurl }}">
