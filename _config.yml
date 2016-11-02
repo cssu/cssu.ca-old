@@ -7,6 +7,9 @@ twitter_username: cssu
 github_username: cssu
 facebook_username: UofTCSSU
 
+# Show "future" posts
+future: true
+
 # Build settings
 exclude: [
   'bin',
