@@ -6,22 +6,8 @@ title: Computer Science Student Union
 <div class="home">
   <div id="home-row">
     <div id="home-row-inner">
-      <div id="home-news">
-        <a href="/news/"><h1>News</h1></a>
-        <ul class="posts">
-          {% for post in site.categories['news'] limit:4 %}
-            <li>
-              <a href="{{ post.url | prepend: site.baseurl }}">
-                <p class="post-link">{{ post.title }}</p>
-                <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
-              </a>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-
       <div id="home-events">
-        <a href="/events/"><h1>Events</h1></a>
+        <a href="/events/"><h1>Upcoming Events</h1></a>
         <ul class="posts">
           {% if site.categories['events'] %}
             {% assign events = site.categories['events'] %}
@@ -40,6 +26,20 @@ title: Computer Science Student Union
           {% else %}
             <li class="empty">No upcoming events; stay tuned!</li>
           {% endif %}
+        </ul>
+      </div>
+
+      <div id="home-news">
+        <a href="/news/"><h1>Recent News</h1></a>
+        <ul class="posts">
+          {% for post in site.categories['news'] limit:4 %}
+            <li>
+              <a href="{{ post.url | prepend: site.baseurl }}">
+                <p class="post-link">{{ post.title }}</p>
+                <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
+              </a>
+            </li>
+          {% endfor %}
         </ul>
       </div>
     </div>
