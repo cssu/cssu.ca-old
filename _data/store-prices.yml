@@ -1,8 +1,6 @@
 drinks:
   - name:  Coca-Cola
     price: $0.75
-  - name:  Coke Zero
-    price: $0.75
   - name:  Sprite
     price: $0.75
   - name:  Canada Dry
@@ -13,8 +11,8 @@ drinks:
     price: $0.75
   - name:  Arizona Iced Tea
     price: $1.25
-  - name:  Red Bull
-    price: $2.50
+  - name:  Soylent Coffiest
+    price: $5.00
 
 snacks:
   - name:  Chocolate
@@ -22,4 +20,4 @@ snacks:
   - name:  Chips
     price: $0.75 (2 for $1.00)
   - name:  Ice Cream Sandwich
-    price: $0.75
+    price: $0.50
