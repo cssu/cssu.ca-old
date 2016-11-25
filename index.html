@@ -32,14 +32,26 @@ title: Computer Science Student Union
       <div id="home-news">
         <a href="/news/"><h1>Recent News</h1></a>
         <ul class="posts">
+          {% assign has_posts = false %}
           {% for post in site.categories['news'] limit:4 %}
-            <li>
-              <a href="{{ post.url | prepend: site.baseurl }}">
-                <p class="post-link">{{ post.title }}</p>
-                <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
-              </a>
-            </li>
+            {% comment %}
+              This logic is used to hide posts older than 30 days. Requires a site rebuild to work.
+            {% endcomment %}
+            {% assign expires = post.date | date: "%s" | plus: 2592000 | date: "%s" %}
+            {% assign current_time = site.time | date: "%s" %}
+            {% if expires > current_time %}
+              {% assign has_posts = true %}
+              <li>
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                  <p class="post-link">{{ post.title }}</p>
+                  <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
+                </a>
+              </li>
+            {% endif %}
           {% endfor %}
+          {% unless has_posts %}
+            <li class="empty"><a href="/news/">Check out the archives!</a></li>
+          {% endunless %}
         </ul>
       </div>
     </div>
