@@ -16,6 +16,56 @@
       email: ag@adamgordon.ca
       pic:   20162017/adam
 
+  - name: Web Design & Development
+    people:
+      - name: Eugene Cheung
+      - name: Abrar Hussain
+      - name: Allan Chang
+      - name: Helen Su
+
+  - name: Logistics & Volunteering
+    people:
+      - name: Christina Chen
+      - name: Michael Liu
+      - name: Alaa Ahmed
+      - name: Christopher Zhu
+      - name: Daniel Visca
+      - name: David Wen
+      - name: Haider Nadeem
+      - name: Kyle Kim
+      - name: Tim Chris
+
+  - name: Secretary & Admin
+    people:
+      - name: Theodor Ciausu
+      - name: Christopher Mckerracher
+      - name: Mark Wang
+      - name: Ryan Apilado
+      - name: Sarah Yu
+
+  - name: Social Events & Planning
+    people:
+      - name: Eric Snyder
+      - name: Jena Choi
+      - name: Rasagya Monga
+      - name: Sharon Hogan
+      - name: Sina Ghaffari
+      - name: Zhenyao She
+
+  - name: Public Relations
+    people:
+      - name: Victoria Bukta
+      - name: Charles Huang
+      - name: Cindy Wang
+      - name: Jedid Ahn
+      - name: Justin Park
+
+  - name: Executive Assistants
+    people:
+      - name: Allen Hsiao
+      - name: George Oushalkas
+      - name: Jonathan Webb
+
 - year: 2015 - 2016
   teams:
   - name: Executive team
