@@ -11,7 +11,7 @@ drinks:
     price: $0.75
   - name:  Arizona Iced Tea
     price: $1.25
-  - name:  Soylent Coffiest
+  - name:  Coffiest
     price: $5.00
 
 snacks:
