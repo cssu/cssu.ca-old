@@ -1,5 +1,5 @@
 <section id="slideshow" class="slide-1">
-  <button class="slideshow-nav" id="slideshow-prev" title="Previous slide" aria-hidden="true">
+  <button type="button" class="slideshow-nav" id="slideshow-prev" title="Previous slide" aria-hidden="true">
     <svg width="6px" height="10px" xmlns="http://www.w3.org/2000/svg">
       <line y2="0" x2="6" y1="5" x1="0" stroke-width="1" stroke="#FFF"/>
       <line y2="10" x2="6" y1="5" x1="0" stroke-width="1" stroke="#FFF"/>
@@ -7,7 +7,7 @@
   </button>
 
   <div id="slides">
-    <button id="slideshow-pause" aria-hidden="true">Pause</button>
+    <button type="button" id="slideshow-pause" aria-hidden="true">Pause</button>
 
     <ul id="slideshow-slides">
       {% for slide in site.data.slides %}
@@ -39,7 +39,7 @@
     </ul>
   </div>
 
-  <button class="slideshow-nav" id="slideshow-next" title="Next slide" aria-hidden="true">
+  <button type="button" class="slideshow-nav" id="slideshow-next" title="Next slide" aria-hidden="true">
     <svg width="6px" height="10px" xmlns="http://www.w3.org/2000/svg">
       <line y2="5" x2="6" y1="0" x1="0" stroke-width="1" stroke="#FFF"/>
       <line y2="10" x2="0" y1="5" x1="6" stroke-width="1" stroke="#FFF"/>
