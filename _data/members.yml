@@ -19,52 +19,91 @@
   - name: Web Design & Development
     people:
       - name: Eugene Cheung
+        role: Web Design & Development Team Lead
+        pic:  20162017/eugene
+
       - name: Abrar Hussain
+        pic:  20162017/abrar
+
       - name: Allan Chang
+
       - name: Helen Su
 
   - name: Logistics & Volunteering
     people:
       - name: Christina Chen
+        role: Logistics & Volunteering Team Lead
+        pic:  20162017/christina
+
       - name: Michael Liu
+        role: Logistics & Volunteering Team Lead
+
       - name: Alaa Ahmed
+
       - name: Christopher Zhu
+
       - name: Daniel Visca
+
       - name: David Wen
+
       - name: Haider Nadeem
+
       - name: Kyle Kim
+
       - name: Tim Chris
 
   - name: Secretary & Admin
     people:
       - name: Theodor Ciausu
+        role: Secretary & Admin Team Lead
+        pic:  20162017/theo
+
       - name: Christopher Mckerracher
+
       - name: Mark Wang
+
       - name: Ryan Apilado
+
       - name: Sarah Yu
 
   - name: Social Events & Planning
     people:
       - name: Eric Snyder
+        role: Social Events & Planning Team Lead
+
       - name: Jena Choi
+
       - name: Rasagya Monga
+
       - name: Sharon Hogan
+        pic:  20162017/sharon
+
       - name: Sina Ghaffari
+
       - name: Zhenyao She
 
   - name: Public Relations
     people:
       - name: Victoria Bukta
+        role: Public Relations Team Lead
+        pic:  20162017/vicky
+
       - name: Charles Huang
+
       - name: Cindy Wang
+
       - name: Jedid Ahn
+
       - name: Justin Park
 
   - name: Executive Assistants
     people:
       - name: Allen Hsiao
+
       - name: George Oushalkas
+
       - name: Jonathan Webb
+        pic:  20162017/jon
 
 - year: 2015 - 2016
   teams:
