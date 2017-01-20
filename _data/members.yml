@@ -26,8 +26,10 @@
         pic:  20162017/abrar
 
       - name: Allan Chang
+        pic:  20162017/allan
 
       - name: Helen Su
+        pic:  20162017/helen
 
   - name: Logistics & Volunteering
     people:
@@ -37,20 +39,27 @@
 
       - name: Michael Liu
         role: Logistics & Volunteering Team Lead
+        pic:  20162017/michael
 
       - name: Alaa Ahmed
+        pic:  20162017/alaa
 
       - name: Christopher Zhu
+        pic:  20162017/chriszhu
 
       - name: Daniel Visca
 
       - name: David Wen
+        pic:  20162017/david
 
       - name: Haider Nadeem
+        pic:  20162017/haider
 
       - name: Kyle Kim
+        pic:  20162017/kyle
 
-      - name: Tim Chris
+      - name: Tim Cosby
+        pic:  20162017/tim
 
   - name: Secretary & Admin
     people:
@@ -59,26 +68,34 @@
         pic:  20162017/theo
 
       - name: Christopher Mckerracher
+        pic:  20162017/chris
 
       - name: Mark Wang
+        pic:  20162017/mark
 
       - name: Ryan Apilado
+        pic:  20162017/ryan
 
       - name: Sarah Yu
+        pic:  20162017/sarah
 
   - name: Social Events & Planning
     people:
       - name: Eric Snyder
         role: Social Events & Planning Team Lead
+        pic:  20162017/eric
 
       - name: Jena Choi
+        pic:  20162017/jena
 
       - name: Rasagya Monga
+        pic:  20162017/rasagya
 
       - name: Sharon Hogan
         pic:  20162017/sharon
 
       - name: Sina Ghaffari
+        pic:  20162017/sina
 
       - name: Zhenyao She
 
@@ -91,16 +108,24 @@
       - name: Charles Huang
 
       - name: Cindy Wang
+        pic:  20162017/cindy
 
       - name: Jedid Ahn
+        pic:  20162017/jed
 
       - name: Justin Park
+        pic:  20162017/justin
 
   - name: Executive Assistants
     people:
       - name: Allen Hsiao
+        pic:  20162017/allen
 
       - name: George Oushalkas
+        pic:  20162017/george
+
+      - name: Jacob Reinertson
+        pic:  20162017/jacob
 
       - name: Jonathan Webb
         pic:  20162017/jon
