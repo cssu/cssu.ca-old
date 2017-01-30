@@ -1,0 +1,21 @@
+generic:
+  - name: Generic hoodie (emblem)
+    by: CSSU
+    img: /downloads/apparel2017/generic_hoodie_circle.png
+
+  - name: Generic hoodie (text)
+    by: CSSU
+    img: /downloads/apparel2017/generic_hoodie_text.png
+
+  - name: Generic tee (emblem)
+    by: CSSU
+    img: /downloads/apparel2017/generic_tee_circle.png
+
+  - name: Generic tee (text)
+    by: CSSU
+    img: /downloads/apparel2017/generic_tee_text.png
+
+others:
+  - name: Test
+    by: Someone
+    img: /downloads/apparel2017/generic_tee_text.png

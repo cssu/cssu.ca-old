@@ -1,0 +1,11 @@
+.apparel_design {
+  border: 1px solid $grey;
+  display: inline-block;
+  max-width: 20em;
+  padding: 0.5em;
+  vertical-align: top;
+
+  figcaption {
+    margin: 1em 0;
+  }
+}
