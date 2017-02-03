@@ -1,32 +1,125 @@
 generic:
-  - name: Generic hoodie (emblem)
+  - name: DCS emblem
     artist: CSSU
     img: /downloads/apparel2017/generic_hoodie_circle.png
     tags:
       - Hoodie
+      - T-shirt
 
-  - name: Generic hoodie (text)
+  - name: DCS text
     artist: CSSU
     img: /downloads/apparel2017/generic_hoodie_text.png
     tags:
       - Hoodie
-
-  - name: Generic tee (emblem)
-    artist: CSSU
-    img: /downloads/apparel2017/generic_tee_circle.png
-    tags:
       - T-shirt
 
-  - name: Generic tee (text)
-    artist: CSSU
-    img: /downloads/apparel2017/generic_tee_text.png
+  - name: DCS text (small)
+    artist: Theresa Ma
+    img: /downloads/apparel2017/dcs.png
     tags:
+      - Hoodie
       - T-shirt
 
 others:
-  - name: Test
-    artist: Someone
-    img: /downloads/apparel2017/generic_tee_text.png
+  - name: 8-Bit
+    artist: Eugene Cheung
+    img: /downloads/apparel2017/8bit.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: Address
+    artist: Ailsa Fang
+    img: /downloads/apparel2017/address.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: ASCII
+    artist: Eugene Cheung
+    img: /downloads/apparel2017/ascii.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: Binary
+    artist: Eugene Cheung
+    img: /downloads/apparel2017/binary.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: Binary
+    artist: Eugene Cheung
+    img: /downloads/apparel2017/binary.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: Circuit
+    artist: Yida Zhang
+    img: /downloads/apparel2017/circuit.png
+    tags:
+      - T-shirt
+
+  - name: Class of 16-17 UTSG
+    artist: Ivan Zhang
+    img: /downloads/apparel2017/class_hoodie.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: Cyberpunk
+    artist: Eugene Cheung
+    img: /downloads/apparel2017/cyberpunk.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: git gud
+    artist: Eugene Cheung
+    img: /downloads/apparel2017/gitgud.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: Glitch
+    artist: Eugene Cheung
+    img: /downloads/apparel2017/glitch.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: Hotel Bahen
+    artist: Eugene Cheung
+    img: /downloads/apparel2017/hotel_bahen.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: NAND Cat
+    artist: Yuch Chen
+    img: /downloads/apparel2017/nand_cat.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: Posterized
+    artist: John Orji
+    img: /downloads/apparel2017/posterized.png
+    tags:
+      - T-shirt
+
+  - name: Test Case Magic
+    artist: Ailsa Fang
+    img: /downloads/apparel2017/test_case_magic.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: Test Cases
+    artist: Ailsa Fang
+    img: /downloads/apparel2017/test_cases.png
     tags:
       - Hoodie
       - T-shirt

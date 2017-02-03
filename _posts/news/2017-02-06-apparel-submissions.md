@@ -17,6 +17,8 @@ You can see all of the designs below.
 
 - Illustrations shown here may not represent the final product. Keep in mind that these may be rough ideas, and will be polished prior to printing.
 - Designs that use a single colour will be cheaper to manufacture.
+- Names were made up for the purpose of easier identification when voting.
+- Click an image to see a larger version.
 
 
 ## Generic designs
