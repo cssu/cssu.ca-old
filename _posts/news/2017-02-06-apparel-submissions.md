@@ -8,9 +8,15 @@ categories: news
 
 The [apparel contest](/news/2016/12/24/apparel-contest.html) has entered the voting stage!
 
-## Voting instructions
+**Vote here for your favourite designs: (TODO)**
 
-Lorem ipsum...
+You can see all of the designs below.
+
+
+## Notes
+
+- Illustrations shown here may not represent the final product. Keep in mind that these may be rough ideas, and will be polished prior to printing.
+- Designs that use a single colour will be cheaper to manufacture.
 
 
 ## Generic designs

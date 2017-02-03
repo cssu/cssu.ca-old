@@ -1,11 +1,42 @@
+:root {
+  counter-reset: apparel-counter;
+}
+
 .apparel_design {
-  border: 1px solid $grey;
+  border: 1px solid $light-grey;
+  border-radius: $radius;
   display: inline-block;
   max-width: 20em;
   padding: 0.5em;
   vertical-align: top;
 
   figcaption {
-    margin: 1em 0;
+    margin-top: 1em;
+  }
+}
+
+.apparel_design__name {
+  font-weight: 700;
+
+  &::before {
+    counter-increment: apparel-counter;
+    content: counter(apparel-counter) '. ';
+  }
+}
+
+.apparel_design__artist {
+  font-size: 0.85em;
+  font-style: italic;
+}
+
+.apparel_design__tags {
+  margin-top: 0.5em;
+
+  span {
+    background: $light-grey;
+    border-radius: $radius;
+    display: inline-block;
+    font-size: 0.85em;
+    padding: 0.15em 0.5em;
   }
 }

@@ -1,8 +1,15 @@
 <figure class="apparel_design">
-  <img src="{{ design.img }}" alt="">
+  <a href="{{ design.img }}">
+    <img src="{{ design.img }}" alt="">
+  </a>
 
   <figcaption>
-    <p><strong>{{ design.name }}</strong></p>
-    <p><em>By {{ design.by }}</em></p>
+    <p class="apparel_design__name">{{ design.name }}</p>
+    <p class="apparel_design__artist">By: {{ design.artist }}</p>
+    <div class="apparel_design__tags">
+      {% for tag in design.tags %}
+        <span>{{ tag }}</span>
+      {% endfor %}
+    </div>
   </figcaption>
 </figure>
