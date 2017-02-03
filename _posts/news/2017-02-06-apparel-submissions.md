@@ -16,7 +16,9 @@ You can see all of the designs below.
 ## Notes
 
 - Illustrations shown here may not represent the final product. Keep in mind that these may be rough ideas, and will be polished prior to printing.
-- Designs that use a single colour will be cheaper to manufacture.
+- Single colour designs will be cheaper.
+- Single-sided designs will be cheaper.
+- "Large" designs might not be possible to print.
 - Names were made up for the purpose of easier identification when voting.
 - Click an image to see a larger version.
 

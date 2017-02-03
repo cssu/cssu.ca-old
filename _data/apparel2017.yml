@@ -49,13 +49,6 @@ others:
       - Hoodie
       - T-shirt
 
-  - name: Binary
-    artist: Eugene Cheung
-    img: /downloads/apparel2017/binary.png
-    tags:
-      - Hoodie
-      - T-shirt
-
   - name: Circuit
     artist: Yida Zhang
     img: /downloads/apparel2017/circuit.png
