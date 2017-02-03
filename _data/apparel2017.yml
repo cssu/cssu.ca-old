@@ -57,7 +57,14 @@ others:
 
   - name: Class of 16-17 UTSG
     artist: Ivan Zhang
-    img: /downloads/apparel2017/class_hoodie.png
+    img: /downloads/apparel2017/class_utsg.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: Clique
+    artist: Ben Shaft
+    img: /downloads/apparel2017/clique.png
     tags:
       - Hoodie
       - T-shirt
