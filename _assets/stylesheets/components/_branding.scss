@@ -1,5 +1,6 @@
 .branding-colour {
   color: $white;
+  display: inline-block;
   padding: 1em;
   text-align: center;
   width: 10em;
@@ -19,5 +20,10 @@
 
   #branding-colour__light-grey {
     background-color: $light-grey;
+    color: $dark-grey;
+  }
+
+  #branding-colour__lighter-grey {
+    background-color: $lighter-grey;
     color: $dark-grey;
   }
