@@ -7,7 +7,7 @@
 }
 
 ::selection {
-  background-color: #d5d5d5;
+  background-color: $light-grey;
 }
 
 html,
@@ -20,9 +20,9 @@ html {
 }
 
 body {
-  background-color: #d5d5d5;
+  background-color: $light-grey;
   display: table;
-  font: 400 16px/1.5em 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font: 400 16px/1.5em $fonts;
   width: 100%;
 }
 

@@ -1,0 +1,291 @@
+/* Base */
+/* ----------------------------------------------------------*/
+
+
+/* Utility */
+
+.wrap {
+  margin: 0 auto;
+  max-width: 2000px;
+  padding: 0 30px;
+  width: 85%;
+  zoom: 1;
+}
+
+
+/* Layout Styles */
+/* ----------------------------------------------------------*/
+
+/* Accessibility */
+
+.accessibility-aid {
+  height: 1px;
+  margin: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+
+  &:focus {
+    height: auto;
+    opacity: 1;
+    top: 0;
+    width: auto;
+    z-index: 1;
+
+    color: $white;
+    padding: 0.5em 1em;
+    font-weight: 600;
+  }
+}
+
+/* Site header */
+
+.site-header {
+  background: $dark-grey;
+  color: $white;
+  display: table-row;
+  width: 100%;
+
+  .wrap {
+    background: transparent image-url('logo.png') no-repeat right 30px center;
+    background-size: 165px 165px;
+    min-height: 150px;
+    padding-bottom: 3em;
+    padding-top: 3em;
+  }
+}
+
+.site-logo,
+.site-logo:hover,
+.site-logo:visited {
+  display: block;
+  color: $white;
+  text-decoration: none;
+}
+
+  .site-logo__title {
+    font-family: 'Nexa Light';
+    font-size: 46px;
+    line-height: 56px;
+    letter-spacing: 4px;
+    z-index: 1;
+  }
+
+  .site-logo__subtitle {
+    color: #bebfbf;
+  }
+
+.site-nav {
+  margin-top: 2em;
+
+  .menu-icon { display: none; }
+
+  .page-link {
+    border-bottom: 1px solid transparent;
+    color: $white;
+    font-size: 1.25em;
+    font-weight: 300;
+    margin-right: 20px;
+    padding: 0.25em 0;
+    transition: border-color 0.3s;
+
+    &:hover {
+      border-color: $white;
+      text-decoration: none;
+    }
+  }
+
+  .current {
+    border-color: $white;
+  }
+}
+
+
+/* Site footer */
+
+.site-footer {
+  background-color: $grey;
+  display: table-row;
+  width: 100%;
+
+  .wrap {
+    background-color: $mid-grey;
+    color: $white;
+    display: table;
+    height: 100%;
+    padding: 0;
+  }
+}
+
+.footer-info,
+.footer-map {
+  display: table-cell;
+  width: 50%;
+}
+
+.footer-info {
+  padding: 3em 30px;
+  vertical-align: middle;
+
+  .top {
+    border-radius: 50%;
+    border: 1px solid $white;
+    color: $white;
+    display: block;
+    font-size: 0.9em;
+    height: 2em;
+    margin-bottom: 2em;
+    opacity: 0.4;
+    text-align: center;
+    text-decoration: none;
+    transition: opacity 0.3s;
+    width: 2em;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+  .footer-heading {
+    font: 300 2.5em 'Nexa Light';
+    letter-spacing: 1px;
+  }
+
+  .footer-contact {
+    li {
+      list-style: none;
+      font-weight: 300;
+      margin: 0.5em 0;
+    }
+  }
+
+  .footer-social {
+    margin: 1.5em 0 3em 0;
+
+    li {
+      border-radius: 50%;
+      border: 1px solid $white;
+      display: inline-block;
+      height: 42px;
+      list-style: none;
+      margin-right: 0.5em;
+      transition: background-color 0.4s ease;
+      width: 42px;
+
+      &:hover {
+        background-color: lighten($mid-grey, 10%);
+      }
+    }
+
+    a {
+      position: relative;
+
+      &::after {
+        background: #242424;
+        bottom: 300%;
+        color: $white;
+        content: attr(title);
+        left: 0;
+        padding: 5px 15px;
+        position: absolute;
+        transition: all 0.4s ease;
+        white-space: nowrap;
+        opacity: 0;
+        z-index: -1;
+      }
+
+      &::before {
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-top: 20px solid #242424;
+        bottom: 300%;
+        content: "";
+        height: 0;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        transition: all 0.4s ease;
+        width: 0;
+        z-index: -1;
+      }
+
+      &:hover::after {
+        bottom: 250%;
+      }
+
+      &:hover::before {
+        bottom: 210%;
+      }
+
+      &:hover::after,
+      &:hover::before {
+        opacity: 1;
+        z-index: 1;
+      }
+    }
+  }
+
+  .footer-uoft a {
+    background-size: 275px 18px !important;
+    background: transparent image-url('uoft.png') no-repeat;
+    display: block;
+    height: 18px;
+    opacity: 0.4;
+    transition: opacity 0.3s;
+    text-indent: -10000em;
+    width: 275px;
+
+    &:hover {
+      opacity: 1;
+      text-decoration: none;
+    }
+  }
+
+.footer-map {
+  height: 100%;
+  vertical-align: top;
+  width: 100%;
+
+  .gm-style img {
+    background: none !important;
+    max-width: none !important;
+  }
+
+  .gm-style-iw {
+    color: #000;
+    display: block;
+    height: auto !important;
+    line-height: 18px;
+    overflow: hidden !important;
+    white-space: nowrap;
+    width: 100% !important;
+  }
+
+  #gmap_canvas {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+
+/* Page Content styles */
+/* ----------------------------------------------------------*/
+
+.page-content {
+  display: table-row;
+  height: 100%;
+
+  .wrap {
+    background-color: $white;
+    height: 100%;
+  }
+}
+
+.responsive-iframe {
+  border-width: 0;
+  width: 100%;
+  height: 500px;
+}

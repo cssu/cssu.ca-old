@@ -1,15 +1,14 @@
-<a href='#content' tabindex='0' class='accessibility-aid'>Skip to content</a>
+<a href="#content" tabindex="0" class="accessibility-aid">Skip to content</a>
 
-<header class='site-header'>
-  <div class='wrap'>
-
-    <a class='site-logo' href='{{ site.baseurl }}/'>
-      <p class='site-logo__title'>{{ site.title }}</p>
-      <p class='site-logo__subtitle'>University of Toronto Computer Science Student Union</p>
+<header class="site-header">
+  <div class="wrap">
+    <a class="site-logo" href="{{ site.baseurl }}/">
+      <p class="site-logo__title">{{ site.title }}</p>
+      <p class="site-logo__subtitle">University of Toronto Computer Science Student Union</p>
     </a>
 
-    <nav class='site-nav'>
-      <a id='mobile-menu-icon' class='menu-icon' href='#'>
+    <nav class="site-nav">
+      <a id="mobile-menu-icon" class="menu-icon" href="#">
         <span>Menu</span>
 
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 15">
@@ -17,17 +16,16 @@
         </svg>
       </a>
 
-      <div id='mobile-menu' class='trigger'>
+      <div id="mobile-menu" class="trigger">
         {% for link in site.data.nav %}
           {% assign current = nil %}
           {% if page.url contains link.url %}
-            {% assign current = 'current' %}
+            {% assign current = "current" %}
           {% endif %}
 
-          <a class='page-link {{ current }}' href='{{ link.url }}'>{{ link.title }}</a>
+          <a class="page-link {{ current }}" href="{{ link.url }}">{{ link.title }}</a>
         {% endfor %}
       </div>
     </nav>
-
   </div>
 </header>
