@@ -1,0 +1,235 @@
+/* Home styles */
+/* ----------------------------------------------------------*/
+
+.home {
+  padding-bottom: 1.5em;
+  width: 100%;
+
+  h1 {
+    background-color: $grey;
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding: 0.75em;
+    width: 100%;
+  }
+}
+
+#hero-text {
+  background-color: #e1e1e1;
+  margin: 0 auto;
+  max-width: 2000px;
+  padding: 3.5em 1em;
+  text-align: center;
+  width: 85%;
+
+  @include narrow {
+    width: 100%;
+  }
+
+  span {
+    display: block;
+    font-size: 2.25em;
+    font-weight: 300;
+    line-height: 1.2em;
+    margin-bottom:  1.5em;
+
+    strong {
+      font-weight: 600;
+    }
+  }
+
+  p {
+    a {
+      border-bottom: 1px dotted $dark-grey;
+      color: $dark-grey;
+      font-weight: 600;
+
+      &:hover { text-decoration: none; }
+    }
+
+    & + p {
+      margin-top: 1em;
+    }
+  }
+}
+
+#home-row {
+  display: table;
+  padding-top: 1.5em;
+  width: 100%;
+}
+
+  #home-row-inner {
+    display: table-row;
+  }
+
+  #home-news,
+  #home-events {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+
+    @include narrow {
+      display: block !important;
+      padding: 0 !important;
+      width: 100% !important;
+    }
+
+    & > a:hover {
+      text-decoration: none;
+    }
+
+    .empty {
+      min-height: 0 !important;
+      text-align: center;
+    }
+  }
+
+  #home-news {
+    padding-left: 15px;
+  }
+
+  #home-events {
+    padding-right: 15px;
+
+    @include narrow {
+      margin-bottom: 30px;
+    }
+
+    li { min-height: 5em; }
+
+    .event-date {
+      background-color: $grey;
+      color: #fff;
+      float: left;
+      height: 5em;
+      margin-right: 15px;
+      text-align: center;
+      padding: 10px;
+      width: 5em;
+
+      .event-month {
+        font-size: 1em;
+        margin-bottom: 5px;
+        text-transform: uppercase;
+      }
+
+      .event-day { font-size: 2.25em; }
+    }
+  }
+
+  #home-row .posts {
+    background-color: #e1e1e1;
+    padding: 20px;
+
+    li + li { margin-top: 20px; }
+
+    a { color: $grey; }
+  }
+
+.posts {
+  list-style-type: none;
+
+  li + li { margin-top: 1.5em; }
+
+  .post-link {
+    color: $grey;
+    display: block;
+    font-size: 24px;
+    line-height: 1;
+    margin-bottom: 0.5em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
+
+.page-list {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+ul.members-list {
+  a {
+    color: $grey;
+
+    &:hover { text-decoration: none; }
+  }
+
+  li {
+    display: inline-block;
+    padding: 0.75em;
+    transition: background-color 0.3s;
+    vertical-align: top;
+
+    &:hover { background-color: #eee; }
+
+    img {
+      background-color: #eee;
+      border-radius: 50%;
+      border: none;
+      display: block;
+      height: 5.5em;
+      margin: 0 auto 0.5em;
+      object-fit: cover;
+      width: 5.5em;
+    }
+  }
+}
+
+  .member-name { font-weight: 600; }
+
+  .member-role { font-weight: 300; }
+
+#home-members {
+  margin-top: 30px;
+  width: 100%;
+
+  & > a:hover {
+    text-decoration: none;
+  }
+}
+
+  .members {
+    background-color: #e1e1e1;
+    text-align: center;
+    overflow-x: auto;
+    width: 100%;
+
+    ul {
+      max-width: 0;  // This prevents it from being too wide
+      padding: 20px;
+      white-space: nowrap;
+      width: auto;
+    }
+
+    li {
+      min-width: 10em;
+    }
+  }
+
+.members-page {
+  text-align: center;
+
+  a { color: $grey; }
+
+  ul {
+    margin: 0 !important;
+    padding: 0 !important;
+
+    & + h2 {
+      margin-top: 2em;
+    }
+
+    li {
+      width: 11em;
+    }
+  }
+
+  + .members-page {
+    border-top: 1px solid #eee;
+    margin-top: 2em;
+  }
+}

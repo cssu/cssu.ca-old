@@ -10,6 +10,15 @@
   padding: 0 30px;
   width: 85%;
   zoom: 1;
+
+  @include narrow {
+    width: 100%;
+  }
+
+  @include mobile {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 }
 
 
@@ -54,6 +63,10 @@
     min-height: 150px;
     padding-bottom: 3em;
     padding-top: 3em;
+
+    @include mobile {
+      background-image: none;
+    }
   }
 }
 
@@ -80,7 +93,52 @@
 .site-nav {
   margin-top: 2em;
 
-  .menu-icon { display: none; }
+  @include mobile {
+    background-color: $white;
+    border: 1px solid lighten($dark-grey, 50%);
+    margin-top: 0;
+    position: fixed;
+    right: 8px;
+    top: 8px;
+    z-index: 1000000;
+  }
+
+  .menu-icon {
+    color: $dark-grey;
+    display: none;
+    float: right;
+    font-size: 16px;
+    line-height: 33px;
+    padding: 0 0.5em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 96px;
+
+    &:hover { text-decoration: none; }
+
+    span,
+    svg {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    span { margin-right: 0.5em; }
+
+    svg { width: 18px; height: 15px; }
+
+    @include mobile {
+      display: block;
+    }
+  }
+
+  .trigger {
+    @include mobile {
+      border-top: 1px solid lighten($dark-grey, 50%);
+      clear: both;
+      display: none;
+      margin-bottom: 5px;
+    }
+  }
 
   .page-link {
     border-bottom: 1px solid transparent;
@@ -95,10 +153,25 @@
       border-color: $white;
       text-decoration: none;
     }
+
+    @include mobile {
+      display: block;
+      color: $black;
+      text-align: right;
+      line-height: 1.25;
+      padding: 5px 10px 5px 20px;
+      margin: 0;
+    }
   }
 
   .current {
     border-color: $white;
+  }
+}
+
+body.showmenu .trigger {
+  @include mobile {
+    display: block;
   }
 }
 
@@ -128,6 +201,12 @@
 .footer-info {
   padding: 3em 30px;
   vertical-align: middle;
+
+  @include mobile {
+    display: block;
+    padding: 3.5em 12px 2em;
+    width: 100%;
+  }
 
   .top {
     border-radius: 50%;
@@ -248,6 +327,12 @@
   height: 100%;
   vertical-align: top;
   width: 100%;
+
+  @include mobile {
+    display: block;
+    height: 300px;
+    width: 100%;
+  }
 
   .gm-style img {
     background: none !important;

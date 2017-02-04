@@ -1,0 +1,37 @@
+/* Store */
+/* ----------------------------------------------------------*/
+
+#store table {
+  width: 100%;
+  margin-bottom: 2em;
+  table-layout: fixed;
+}
+
+.store-left,
+.store-right {
+  display: inline-block;
+  vertical-align: top;
+  width: 49%;
+
+  @include narrow {
+    display: block;
+    padding: 0 !important;
+    width: 100%;
+  }
+}
+
+.store-right {
+  padding-left: 1%;
+}
+
+
+/* Typeform Styles */
+
+.typeform-widget {
+  height: 700px;
+  width: 100%;
+
+  @include mobile {
+    height: 300px !important;
+  }
+}
