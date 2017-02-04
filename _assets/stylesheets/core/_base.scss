@@ -22,7 +22,7 @@ html {
 body {
   background-color: $light-grey;
   display: table;
-  font: 400 16px/1.5em $fonts;
+  font: 400 16px/1.5em $fonts-body;
   width: 100%;
 }
 
@@ -41,12 +41,12 @@ h6 {
 }
 
 a {
-  color: #2a7ae2;
+  color: $grey;
   cursor: pointer;
   text-decoration: none;
 
   &:hover {
-    color: #000;
+    color: $black;
     text-decoration: underline;
   }
 
