@@ -1,26 +1,23 @@
-/* Style guide */
-/* ----------------------------------------------------------*/
-
-.style-colour {
+.branding-colour {
   color: $white;
   padding: 1em;
   text-align: center;
   width: 10em;
 }
 
-  #style-colour__dark-grey {
+  #branding-colour__dark-grey {
     background-color: $dark-grey;
   }
 
-  #style-colour__mid-grey {
+  #branding-colour__mid-grey {
     background-color: $mid-grey;
   }
 
-  #style-colour__grey {
+  #branding-colour__grey {
     background-color: $grey;
   }
 
-  #style-colour__light-grey {
+  #branding-colour__light-grey {
     background-color: $light-grey;
     color: $dark-grey;
   }

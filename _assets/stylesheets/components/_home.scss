@@ -1,13 +1,10 @@
-/* Home styles */
-/* ----------------------------------------------------------*/
-
 .home {
   padding-bottom: 1.5em;
   width: 100%;
 
   h1 {
     background-color: $grey;
-    color: #fff;
+    color: $white;
     font-size: 1.5em;
     font-weight: 300;
     padding: 0.75em;
@@ -101,7 +98,7 @@
 
     .event-date {
       background-color: $grey;
-      color: #fff;
+      color: $white;
       float: left;
       height: 5em;
       margin-right: 15px;

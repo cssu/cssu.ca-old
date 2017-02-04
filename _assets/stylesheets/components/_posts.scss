@@ -1,7 +1,6 @@
-/* Post styles */
-/* ----------------------------------------------------------*/
-
-.post { padding: 1.5em 0; }
+.post {
+  padding: 1.5em 0;
+}
 
 .post-header {
   margin: 10px 0 30px;
@@ -91,10 +90,10 @@
 
   /* terminal */
   pre.terminal {
-    border-radius: 3px;
-    border: 1px solid #000;
     background-color: #333;
-    color: #fff;
+    border: 1px solid $dark-grey;
+    border-radius: 3px;
+    color: $white;
   }
 
   pre.terminal code { background-color: #333; }

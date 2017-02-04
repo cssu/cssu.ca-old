@@ -26,9 +26,7 @@ body {
   width: 100%;
 }
 
-
 // Text
-
 h1,
 h2,
 h3,
@@ -55,9 +53,7 @@ a {
   }
 }
 
-
 // Tables
-
 th,
 td {
   border: 1px solid lighten($grey, 50%);
@@ -71,4 +67,21 @@ th {
 th,
 tr:nth-child(even) {
   background-color: lighten($grey, 80%);
+}
+
+// Typeform
+.typeform-widget {
+  height: 700px;
+  width: 100%;
+
+  @include mobile {
+    height: 300px !important;
+  }
+}
+
+// iframes
+.responsive-iframe {
+  border-width: 0;
+  height: 500px;
+  width: 100%;
 }
