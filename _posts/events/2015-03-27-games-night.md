@@ -7,7 +7,7 @@ expiry_date: 2015-03-28
 categories: events
 ---
 
-{% image 2015-03-27-games-night-banner.png %}
+<img src="/downloads/posts/2015-03-27-games-night-banner.png" alt="">
 
 On March 27th, join us in Bahen to relax and play some of your favorite video/board games. We will also be running a Smash tournament during the night so be sure to come sign up!
 
