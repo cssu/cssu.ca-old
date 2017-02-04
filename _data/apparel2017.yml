@@ -69,6 +69,13 @@ others:
       - Hoodie
       - T-shirt
 
+  - name: CSSU Circuit
+    artist: Courtney Siu
+    img: /downloads/apparel2017/cssu_circuit.png
+    tags:
+      - Hoodie
+      - T-shirt
+
   - name: Cyberpunk
     artist: Eugene Cheung
     img: /downloads/apparel2017/cyberpunk.png
@@ -95,6 +102,18 @@ others:
     img: /downloads/apparel2017/hotel_bahen.png
     tags:
       - Hoodie
+      - T-shirt
+
+  - name: International (Hoodie)
+    artist: Nigel Rock Fong
+    img: /downloads/apparel2017/international_hoodie.png
+    tags:
+      - Hoodie
+
+  - name: International (Tee)
+    artist: Nigel Rock Fong
+    img: /downloads/apparel2017/international_tee.png
+    tags:
       - T-shirt
 
   - name: NAND Cat
