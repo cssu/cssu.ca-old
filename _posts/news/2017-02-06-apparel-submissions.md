@@ -6,7 +6,7 @@ date: 2017-02-06 00:00:00
 categories: news
 ---
 
-The [apparel contest](/news/2016/12/24/apparel-contest.html) has entered the voting stage!
+The [apparel contest]({% post_url /news/2016-12-24-apparel-contest %}) has entered the voting stage!
 
 **Vote here for your favourite designs: (TODO)**
 
