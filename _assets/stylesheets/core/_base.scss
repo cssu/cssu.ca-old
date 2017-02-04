@@ -39,24 +39,23 @@ h6 {
 }
 
 a {
-  color: $grey;
+  color: $blue;
   cursor: pointer;
   text-decoration: none;
 
   &:hover {
-    color: $black;
     text-decoration: underline;
   }
 
   &:visited {
-    color: #205caa;
+    color: $dark-blue;
   }
 }
 
 // Tables
 th,
 td {
-  border: 1px solid lighten($grey, 50%);
+  border: 1px solid $light-grey;
   padding: 0.25em 0.5em;
 }
 
@@ -66,7 +65,7 @@ th {
 
 th,
 tr:nth-child(even) {
-  background-color: lighten($grey, 80%);
+  background-color: $lighter-grey;
 }
 
 // Typeform

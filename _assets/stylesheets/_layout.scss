@@ -1,18 +1,17 @@
 // Content wrapper
 .wrap {
   margin: 0 auto;
-  max-width: 2000px;
-  padding: 0 30px;
+  max-width: 125em;
+  padding: 0 2em;
   width: 85%;
-  zoom: 1;
 
   @include narrow {
     width: 100%;
   }
 
   @include mobile {
-    padding-left: 12px;
-    padding-right: 12px;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
   }
 }
 
@@ -47,9 +46,9 @@
   width: 100%;
 
   .wrap {
-    background: transparent image-url('cssu.svg') no-repeat right 30px center;
-    background-size: 165px 165px;
-    min-height: 150px;
+    background: transparent image-url('cssu.svg') no-repeat right 2em center;
+    background-size: 10em 10em;
+    min-height: 9em;
     padding-bottom: 3em;
     padding-top: 3em;
 
@@ -68,15 +67,15 @@
 }
 
   .site-logo__title {
-    font-family: 'Nexa Light';
-    font-size: 46px;
-    line-height: 56px;
+    font-family: $fonts-logo;
+    font-size: 2.875em;
+    line-height: 3.5rem;
     letter-spacing: 4px;
     z-index: 1;
   }
 
   .site-logo__subtitle {
-    color: #bebfbf;
+    color: $light-grey;
   }
 
 .site-nav {
@@ -84,11 +83,11 @@
 
   @include mobile {
     background-color: $white;
-    border: 1px solid lighten($dark-grey, 50%);
+    border: 1px solid $light-grey;
     margin-top: 0;
     position: fixed;
-    right: 8px;
-    top: 8px;
+    right: 0.5em;
+    top: 0.5em;
     z-index: 1000000;
   }
 
@@ -96,14 +95,19 @@
     color: $dark-grey;
     display: none;
     float: right;
-    font-size: 16px;
-    line-height: 33px;
+    line-height: 2em;
     padding: 0 0.5em;
     text-align: center;
     text-transform: uppercase;
-    width: 96px;
+    width: 6em;
 
-    &:hover { text-decoration: none; }
+    @include mobile {
+      display: block;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
 
     span,
     svg {
@@ -111,18 +115,19 @@
       vertical-align: middle;
     }
 
-    span { margin-right: 0.5em; }
+    span {
+      margin-right: 0.5em;
+    }
 
-    svg { width: 18px; height: 15px; }
-
-    @include mobile {
-      display: block;
+    svg {
+      height: 15px;
+      width: 18px;
     }
   }
 
   .trigger {
     @include mobile {
-      border-top: 1px solid lighten($dark-grey, 50%);
+      border-top: 1px solid $light-grey;
       clear: both;
       display: none;
       margin-bottom: 5px;
@@ -134,9 +139,9 @@
     color: $white;
     font-size: 1.25em;
     font-weight: 300;
-    margin-right: 20px;
+    margin-right: 1.25em;
     padding: 0.25em 0;
-    transition: border-color 0.3s;
+    transition: background-color 0.3s, border-color 0.3s;
 
     &:hover {
       border-color: $white;
@@ -150,6 +155,10 @@
       line-height: 1.25;
       padding: 5px 10px 5px 20px;
       margin: 0;
+
+      &:hover {
+        background-color: $lighter-grey;
+      }
     }
   }
 
@@ -186,7 +195,7 @@ body.showmenu .trigger {
 }
 
 .footer-info {
-  padding: 3em 30px;
+  padding: 3em 2em;
   vertical-align: middle;
 
   @include mobile {
@@ -196,8 +205,8 @@ body.showmenu .trigger {
   }
 
   .top {
-    border-radius: 50%;
     border: 1px solid $white;
+    border-radius: 50%;
     color: $white;
     display: block;
     font-size: 0.9em;
@@ -216,7 +225,7 @@ body.showmenu .trigger {
 }
 
   .footer-heading {
-    font: 300 2.5em 'Nexa Light';
+    font: 300 2.5em $fonts-logo;
     letter-spacing: 1px;
   }
 
@@ -232,13 +241,13 @@ body.showmenu .trigger {
     margin: 1.5em 0 3em 0;
 
     li {
-      border-radius: 50%;
       border: 1px solid $white;
+      border-radius: 50%;
       display: inline-block;
       height: 42px;
       list-style: none;
       margin-right: 0.5em;
-      transition: background-color 0.4s ease;
+      transition: background-color 0.3s ease;
       width: 42px;
 
       &:hover {
@@ -250,7 +259,7 @@ body.showmenu .trigger {
       position: relative;
 
       &::after {
-        background: #242424;
+        background: $grey;
         bottom: 300%;
         color: $white;
         content: attr(title);
@@ -268,7 +277,7 @@ body.showmenu .trigger {
         border-right: 20px solid transparent;
         border-top: 20px solid #242424;
         bottom: 300%;
-        content: "";
+        content: '';
         height: 0;
         left: 0;
         opacity: 0;

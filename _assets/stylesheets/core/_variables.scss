@@ -1,10 +1,15 @@
-$black      : #000;
-$dark-grey  : #0d1117;
-$mid-grey   : #18191a;
-$grey       : #262626;
-$light-grey : #d5d5d5;
-$white      : #fff;
+$black        : #000;
+$dark-grey    : #0d1117;
+$mid-grey     : #18191a;
+$grey         : #262626;
+$light-grey   : #d0d0d0;
+$lighter-grey : #efefef;
+$white        : #fff;
 
-$fonts-body : 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+$blue         : #2a7ae2;
+$dark-blue    : darken($blue, 15%);
 
-$radius     : 5px;
+$fonts-body   : 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+$fonts-logo   : 'Nexa Light';
+
+$radius       : 0.35rem;
