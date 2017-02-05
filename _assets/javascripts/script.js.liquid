@@ -33,11 +33,11 @@ function init_map() {
     }
   ];
 
-  var url  = '/{% asset_path 'pin.png' %}';
+  var url  = '{{ site.baseurl }}{% asset_path 'pin.png' %}';
   var size = new google.maps.Size(32, 38);
 
   if (window.devicePixelRatio > 1.5) {
-    url  = '/{% asset_path 'pin@2x.png' %}';
+    url  = '{{ site.baseurl }}{% asset_path 'pin@2x.png' %}';
     size = new google.maps.Size(64, 76);
   }
 
