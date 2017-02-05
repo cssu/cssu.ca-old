@@ -28,9 +28,16 @@ others:
       - Hoodie
       - T-shirt
 
-  - name: Address
+  - name: Address (CSSU)
     artist: Ailsa Fang
-    img: /downloads/apparel2017/address.png
+    img: /downloads/apparel2017/address_cssu.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: Address (DCS)
+    artist: Ailsa Fang
+    img: /downloads/apparel2017/address_dcs.png
     tags:
       - Hoodie
       - T-shirt
@@ -72,6 +79,13 @@ others:
   - name: CSSU Circuit
     artist: Courtney Siu
     img: /downloads/apparel2017/cssu_circuit.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: CSSU Emblem
+    artist: Lisa Guo
+    img: /downloads/apparel2017/cssu_emblem.png
     tags:
       - Hoodie
       - T-shirt
@@ -119,6 +133,13 @@ others:
   - name: NAND Cat
     artist: Yuch Chen
     img: /downloads/apparel2017/nand_cat.png
+    tags:
+      - Hoodie
+      - T-shirt
+
+  - name: Pointer
+    artist: Lisa Guo
+    img: /downloads/apparel2017/pointer.jpg
     tags:
       - Hoodie
       - T-shirt
