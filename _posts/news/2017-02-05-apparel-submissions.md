@@ -8,11 +8,7 @@ categories: news
 
 The [apparel contest]({% post_url /news/2016-12-24-apparel-contest %}) has entered the voting stage!
 
-**Vote here for your favourite designs:**
-- Hoodie: *coming soon*
-- T-shirt: *coming soon*
-
-Some important things to keep in mind:
+Before voting, keep in mind some important things:
 - Illustrations shown here may not represent the final product. Keep in mind that these may be rough ideas, and will be polished prior to printing.
 - Single colour designs will be cheaper.
 - Single-sided designs will be cheaper.
@@ -20,6 +16,10 @@ Some important things to keep in mind:
 - Names were made up for the purpose of easier identification when voting.
 
 You can see all of the designs below. You can see the full-sized image by clicking on it.
+
+**Vote here for your favourite designs:**
+- Hoodie: <https://strawpoll.com/8eexzaw>
+- T-shirt: <https://strawpoll.com/ry33w16>
 
 
 ## Generic designs
