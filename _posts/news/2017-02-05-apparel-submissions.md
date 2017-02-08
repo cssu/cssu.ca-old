@@ -21,6 +21,8 @@ You can see all of the designs below. You can see the full-sized image by clicki
 - Hoodie: <https://strawpoll.com/8eexzaw>
 - T-shirt: <https://strawpoll.com/ry33w16>
 
+**Voting is now over!** Details about preordering/sales will be made available soon.
+
 
 ## Generic designs
 
