@@ -1,3 +1,20 @@
+preorders:
+  - name: Cyberpunk
+    price: $30
+    img: /downloads/apparel2017/preorders/cyberpunk.png
+
+  - name: DCS
+    price: $30
+    img: /downloads/apparel2017/preorders/dcs.png
+
+  - name: Hotel Bahen
+    price: $15
+    img: /downloads/apparel2017/preorders/hotel_bahen.png
+
+  - name: International
+    price: $20
+    img: /downloads/apparel2017/preorders/international.png
+
 generic:
   - name: DCS emblem
     artist: CSSU

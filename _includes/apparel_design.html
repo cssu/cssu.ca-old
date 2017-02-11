@@ -5,11 +5,18 @@
 
   <figcaption>
     <p class="apparel_design__name">{{ design.name }}</p>
-    <p class="apparel_design__artist">By: {{ design.artist }}</p>
-    <div class="apparel_design__tags">
-      {% for tag in design.tags %}
-        <span>{{ tag }}</span>
-      {% endfor %}
-    </div>
+    {% if design.artist %}
+      <p class="apparel_design__desc">By: {{ design.artist }}</p>
+    {% endif %}
+    {% if design.price %}
+      <p class="apparel_design__desc">Price: {{ design.price }}</p>
+    {% endif %}
+    {% if design.tags %}
+      <div class="apparel_design__tags">
+        {% for tag in design.tags %}
+          <span>{{ tag }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
   </figcaption>
 </figure>
