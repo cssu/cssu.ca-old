@@ -20,4 +20,9 @@ Now that [voting]({% post_url /news/2017-02-05-apparel-submissions %}) is over, 
   {% include apparel_design.html %}
 {% endfor %}
 
+## Sizing guides
+- [Hoodies](http://www.entripy.com/MiscSizingGuides/SizingGuideDetail?productId=511)
+- [Hotel Bahen t-shirt](http://www.entripy.com/MiscSizingGuides/SizingGuideDetail?productId=580)
+- [International long sleeve tee](http://www.entripy.com/MiscSizingGuides/SizingGuideDetail?productId=2479)
+
 <small>*The above mockups are meant to represent the designs, final products may not be exactly as shown!*</small>
