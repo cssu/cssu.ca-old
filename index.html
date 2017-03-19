@@ -10,8 +10,8 @@ title: Computer Science Student Union
         <a href="/events/"><h1>Upcoming Events</h1></a>
         <ul class="posts">
           {% if site.categories['events'] %}
-            {% assign events = site.categories['events'] %}
-            {% for post in events limit: 4 %}
+            {% assign events = site.categories['events'] | limit:4 %}
+            {% for post in events %}
               <li>
                 <a href="{{ post.url | prepend: site.baseurl }}">
                   <div class="event-date">
