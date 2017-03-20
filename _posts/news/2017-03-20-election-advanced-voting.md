@@ -7,7 +7,7 @@ categories: news
 ---
 
 An advanced voting form is now available:
-[https://docs.google.com/document/d/1elSM1Z6u_a-pkIFjuuB599ZQ_pPYUmp3htg3l7iHeBg/edit?usp=sharing](download here).
+[download here](https://docs.google.com/document/d/1elSM1Z6u_a-pkIFjuuB599ZQ_pPYUmp3htg3l7iHeBg/edit?usp=sharing).
 
 Please print off the form, complete it, and contact the CRO at [xtina.chen@mail.utoronto.ca](mailto:xtina.chen@mail.utoronto.ca) after the conclusion of the nomination period but no less than 48 hours before the start of the voting period to arrange for pick-up of your ballot. At pick-up, you will be asked for your TCard to verify identity and eligibility.
 
