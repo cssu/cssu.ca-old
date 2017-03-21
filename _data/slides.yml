@@ -1,17 +1,12 @@
 # There should only be a maximum of 4 slides
-# Pictures go in _assets/images/slides/ and should be .jpg files
+# Pictures go in _assets/images/slides/
 
 - title: Amongst the best
   text:  UofT DCS is one of the top 10 in the world
   link:  http://web.cs.toronto.edu/news/current/DCSTop10.htm
-  pic:   awesome
-
-- title: CSSU Wiki
-  text:  Learn about academic and social life around the department
-  link:  http://cssu.teach.cs.toronto.edu/w/
-  pic:   wiki
+  pic:   awesome.jpg
 
 - title: CS Teaching Labs app
   text:  Check the availability of CS Teaching Lab machines right from your Android device!
   link:  https://play.google.com/store/apps/details?id=me.echeung.cdflabs
-  pic:   app
+  pic:   app.jpg
