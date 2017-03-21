@@ -15,7 +15,7 @@ title: Computer Science Student Union
           {% for post in site.categories['events'] limit:4 %}
             {% assign expired = post.expiry_date | date: "%s" %}
             {% if expired > current_time %}
-              {% assign has_posts = true %}
+              {% assign has_events = true %}
               <li>
                 <a href="{{ post.url | prepend: site.baseurl }}">
                   <div class="event-date">
