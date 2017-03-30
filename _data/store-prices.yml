@@ -19,5 +19,7 @@ snacks:
     price: $1.25
   - name:  Chips
     price: $0.75 (2 for $1.00)
+  - name:  Pizza Pops
+    price: 2 for $1.00
   - name:  Ice Cream Sandwich
     price: $0.50
