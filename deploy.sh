@@ -25,6 +25,7 @@ rsync \
   --archive \
   --compress \
   --delete \
+  --exclude="/data/" \
   --exclude="/gallery/" \
   --exclude="/w/" \
   --verbose \
