@@ -11,14 +11,27 @@ teaching_awards:
     year:  2015-2016
     pic:   awards/michael
 
+  - name:  Bogdan Simion
+    year:  2016-2017
+
+  - name:  Yashar Ganjali
+    year:  2016-2017
+
 ta_awards:
-  - name:  Felipe Orozco 
+  - name:  Felipe Orozco
     year:  2015-2016
     pic:   awards/felipe
 
   - name:  Boris Ivanovic
     year:  2015-2016
     pic:   awards/boris
+
+  - name:  Felipe Orozco
+    year:  2016-2017
+    pic:   awards/felipe
+
+  - name:  Colin Chartier
+    year:  2016-2017
 
 presidents_choice:
   - name:  Jason Harrison
@@ -29,6 +42,10 @@ presidents_choice:
     year:  2014-2015
     pic:   awards/chris
 
-  - name: Taamannae Taabassum
-    year: 2015-2016
-    pic: awards/tammy
+  - name:  Taamannae Taabassum
+    year:  2015-2016
+    pic:   awards/tammy
+
+  - name:  Theodor Ciausu
+    year:  2016-2017
+    pic:   awards/theo
