@@ -6,6 +6,7 @@ permalink: /store/
 
 Come by the CSSU office to check out our wide selection of drinks and snacks!
 
+<!--
 ## Status
 
 <table>
@@ -27,6 +28,7 @@ Come by the CSSU office to check out our wide selection of drinks and snacks!
 
 
 ## For sale
+-->
 
 <div id="store">
   <section class="store-left">

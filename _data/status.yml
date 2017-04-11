@@ -3,8 +3,8 @@
 - item: Soylent
   status: false
 - item: Ice cream sandwiches
-  status: true
-- item: Pizza pops
-  status: true
-- item: Snacks
   status: false
+- item: Pizza pops
+  status: false
+- item: Snacks
+  status: true
