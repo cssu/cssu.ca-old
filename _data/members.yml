@@ -1,3 +1,20 @@
+- year: 2017 - 2018
+  teams:
+  - name: Executive team
+    people:
+    - name:  Arseniy Ivanoc
+      role:  President
+      email: president@cssu.ca
+      pic:   20172018/arseniy
+
+    - name:  Cheryl Lao
+      role:  Vice President
+      pic:   20172018/cheryl
+
+    - name:  Haider Nadeem
+      role:  Treasurer
+      pic:   20172018/haider
+
 - year: 2016 - 2017
   teams:
   - name: Executive team
