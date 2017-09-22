@@ -2,9 +2,9 @@
 layout: post
 title:  "GET​ ​UP TO​ ​98%​ ​OFF​ ​ON​ ​.TECH​ ​DOMAINS!"
 author: "Cheryl Lao"
-date:   2014-07-19 12:00:00
+date:   2017-09-22 12:00:00
 categories: news
-tags: cssu promo
+tags: cssu
 ---
 
 GET​ ​UP TO​ ​98%​ ​OFF​ ​ON​ ​.TECH​ ​DOMAINS!
