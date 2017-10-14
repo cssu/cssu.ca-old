@@ -4,7 +4,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 # Add dbsrv1 and earth to known_hosts
-echo "Adding dbsrv1.teach.cs.toronto.edu to ~/.ssh/known_hosts..."
+echo "Adding dbsrv1.teach.cs.toronto.edu and earth.teach.cs.toronto.edu to ~/.ssh/known_hosts..."
 cat << EOF >> ~/.ssh/known_hosts
 dbsrv1.teach.cs.toronto.edu ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAIEAydP6bdmyTALluMTn4xEs+Fu8OAFDbyV93owVVNGxerSvNijXRt7BuvaCY13mXtCyJ2BsDzNYZ5kR/+FFCIv5e6/3Y5W4yjkwRZ5/Drt5ZK2fJtmeRYyVOztQHSyWIY9KBJmrcGpDPpK6LY6kseR2djWBfwGLCejSKXWsZ5+Oz/0=
 earth.teach.cs.toronto.edu ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDeUqiO3bSvipvLzrxvBKpmYBUomCHyiYehK/zRaCzl735Gf1Sm2fByRRBXXE5Nwx7HgXKy65M3ryA3L5HoT3xmnsZWrzBm7g7239yLvS+GwSNK5z0Y0I3yJN2DENNdy9bdEMA/FJsP/JysoKLucX8AN7XE14Dwq46rBD5gfvej0v0eqEJXSWnBax4osnQsuwbqUu/5xaNZ6CAyM/Pi6XpBQxI174jnDJiDgrLNSEHKrb2vv8ga/f8GrUbmuzEb0D2Dug9XlsRiLP1egRIZJKVUtbujKbhvrteKFJKeN/GuAAblbfo5MWex4mIzCHTF/zgk6n6xmValDBlBSUr5HAyf

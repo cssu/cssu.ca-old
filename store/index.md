@@ -68,15 +68,4 @@ Come by the CSSU office to check out our wide selection of drinks and snacks!
       </tbody>
     </table>
   </section>
-  
-  
-  <p>GET​ ​UP TO​ ​98%​ ​OFF​ ​ON​ ​.TECH​ ​DOMAINS!<br>
-  .tech is offering a Special Promo Offer on standard .tech domains for the members of the CSSU community! Cool, eh?<br>
-  Get your .tech​ domain -<br>
-  1. Go to - www.get.tech - and select a standard domain<br>
-  2. Use coupon code - cssu17​ - at the checkout<br>
-  3. Get a domain for 1 year at $0.99 or for 5 years at $24.99 only<br>
-  <br>
-  If you have any questions, you can drop an email - techsquad@get.tech</p>
-
 </div>
