@@ -19,28 +19,18 @@ eval "$(ssh-agent -s)"
 chmod 600 .travis/deploy_key
 ssh-add .travis/deploy_key
 
-# Copy the static site to the a temporary location on CS Teaching Labs dbsrv1 server
-echo "Copying static site to dbsrv1.teach.cs.toronto.edu:/data/www/cssu/htdocs via rsync..."
+# Copy the static site to the CS Teaching Labs, preserving the gallery and wiki directories
+# We proxy through dbsrv1 to earth since earth isn't accessible outside of the Teaching Labs network
+# For more info on proxying, see: https://superuser.com/a/1115998
+echo "Copying static site to earth.teach.cs.toronto.edu:/data/www/cssu/htdocs via rsync..."
 rsync \
+  -e 'ssh -o "ProxyCommand ssh -A cssuwww@dbsrv1.teach.cs.toronto.edu -W %h:%p"' \
   --archive \
   --compress \
   --delete \
+  --exclude="/data/" \
+  --exclude="/gallery/" \
+  --exclude="/w/" \
   --verbose \
   _site/ \
-  cssuwww@dbsrv1.teach.cs.toronto.edu:/u/cssuwww/tmpsite
-
-# Copy the files from dbsrv1 to earth (since earth is only accessible from within the CS Teaching Labs network),
-# preserving the gallery and wiki directories
-ssh cssuwww@dbsrv1.teach.cs.toronto.edu /bin/bash << EOF
-  cd /u/cssuwww/tmpsite
-  rsync \
-    --archive \
-    --compress \
-    --delete \
-    --exclude="/data/" \
-    --exclude="/gallery/" \
-    --exclude="/w/" \
-    --verbose \
-    . \
-    cssuwww@earth.teach.cs.toronto.edu:/data/www/cssu/htdocs
-EOF
+  cssuwww@earth.teach.cs.toronto.edu:/data/www/cssu/htdocs
