@@ -1,0 +1,11 @@
+---
+layout: page
+title: Clubs
+permalink: /clubs/
+---
+
+<ul class="posts page-list">
+  {% for post in site.categories['clubs'] %}
+    {% include post-item.html %}
+  {% endfor %}
+</ul>
