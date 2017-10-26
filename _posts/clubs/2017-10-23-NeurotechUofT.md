@@ -7,6 +7,5 @@ categories: clubs
 
 NeurotechUofT is the first undergraduate student club at the University of Toronto devoted to driving undergraduate neurotechnology innovation. They work on neurotech research and development projects suggested and lead by the members of the club. In addition, they provide the tech to help start your own project, and workshops to help you become the ultimate neurotech ninja!
 
-[Website](http://www.neurotechuoft.github.io)
-
+[Website](http://www.neurotechuoft.github.io) |
 [Facebook](http://www.facebook.com/NeurotechUofT)
