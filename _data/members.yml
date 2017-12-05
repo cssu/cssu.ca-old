@@ -2,14 +2,14 @@
   teams:
   - name: Executive team
     people:
-    - name:  Cheryl Lao
-      role:  Interim President
-      email: president@cssu.ca
-      pic:   20172018/cheryl
-
     - name:  David Ansermino
-      role:  Interim Vice President
+      role:  President
+      email: president@cssu.ca
       pic:   20172018/david
+      
+    - name:  Cheryl Lao
+      role:  Vice President
+      pic:   20172018/cheryl
 
     - name:  Haider Nadeem
       role:  Treasurer
