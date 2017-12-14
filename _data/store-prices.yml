@@ -1,25 +1,42 @@
 drinks:
-  - name:  Coca-Cola
-    price: $0.75
-  - name:  Sprite
-    price: $0.75
-  - name:  Canada Dry
-    price: $0.75
-  - name:  Fanta
-    price: $0.75
-  - name:  Root Beer
-    price: $0.75
-  - name:  Arizona Iced Tea
+  - name:  Pop
+    price: $1.00
+  - name:  Arizona
     price: $1.25
-  - name:  Soylent/Coffiest
-    price: $5.00
+  - name:  Jarritos
+    price: $2.00
+  - name:  Monster
+    price: $3.00
+  - name:  Starbucks Mocha
+    price: $3.00
+  - name:  Perrier
+    price: $1.50
+  - name:  Coconut Water
+    price: $2.00
+  - name:  Juice Boxes
+    price: $0.75
+  - name:  Tea Bag
+    price: $0.25
 
 snacks:
-  - name:  Chocolate
-    price: $1.25
+  - name:  Cliff Bar
+    price: $2.00
+  - name:  Cliff Protein Bar
+    price: $2.25
   - name:  Chips
-    price: $0.75 (2 for $1.00)
-  - name:  Pizza Pops
-    price: 2 for $1.00
+    price: $1.00
+  - name:  Skittles
+    price: $1.50
+  - name:  Chocolates
+    price: $1.50
+  - name:  Tootsie Rolls
+    price: $0.25
+  - name:  Maynards
+    price: $1.50
+  - name:  Pocky
+    price: $2.00
   - name:  Ice Cream Sandwich
-    price: $0.50
+    price: $0.25
+  - name:  Gum
+    price: $1.25
+    
