@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "TorontoAI x CSSU - Neural Networks in TensorFlow"
-date: 2018-01-02
-expiry_date: 2018-09-02
+date: 2018-01-18
+expiry_date: 2018-01-19
 categories: events cssu
 tags: cssu
 ---
