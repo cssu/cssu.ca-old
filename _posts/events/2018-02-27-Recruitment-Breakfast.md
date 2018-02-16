@@ -13,5 +13,6 @@ Companies Attending:
 - Flybits
 - Accenture
 - FDM Group
+- Bloomberg
 
 More companies to be announced! Keep checking back for more information.
