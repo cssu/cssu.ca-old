@@ -14,5 +14,6 @@ Companies Attending:
 - Accenture
 - FDM Group
 - Bloomberg
+- Intel
 
 More companies to be announced! Keep checking back for more information.
