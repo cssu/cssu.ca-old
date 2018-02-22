@@ -15,5 +15,6 @@ Companies Attending:
 - FDM Group
 - Bloomberg
 - Intel
+- Loopio
 
 More companies to be announced! Keep checking back for more information.
