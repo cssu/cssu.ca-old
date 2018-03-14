@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  CSSU Election: 2018 - 2019
+title:  CSSU Election (2018 - 2019)
 author: Farzan Haq
 date:   2018-03-14 19:30:00
 categories: news
