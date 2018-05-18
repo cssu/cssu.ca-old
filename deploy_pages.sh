@@ -23,7 +23,6 @@ cd ..
 
 echo  Clean out existing contents
 rm -rf gh_pages_repo/**/* || true
-bun
 echo Copy in jekyll site
 cp -r _site/ gh_pages_repo/
 
