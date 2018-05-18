@@ -15,6 +15,7 @@ exclude: [
   'bin',
   'deploy.sh',
   'deploy_pages.sh',
+  'out',
   'Gemfile',
   'Gemfile.lock',
   'Rakefile',
