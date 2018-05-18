@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Ruby version
-ruby '2.3.1'
+ruby '2.3.3'
 
 # Jekyll static site generator
 gem 'jekyll', require: false
