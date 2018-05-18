@@ -21,10 +21,10 @@ cd out
 git checkout "$TARGET_BRANCH"
 cd ..
 
-# Clean out existing contents
-rm -rf out/**/* || exit 0
+echo  Clean out existing contents
+rm -rf out/**/* || true
 
-# Copy in jekyll site
+echo Copy in jekyll site
 cp -r _site/ out/
 
 # Now let's go have some fun with the cloned repo
