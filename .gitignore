@@ -1,5 +1,6 @@
 # Generated static site
 _site
+out
 
 # Asset cache
 .asset-cache
