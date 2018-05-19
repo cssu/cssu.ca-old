@@ -1,3 +1,34 @@
+- year: 2018 - 2019
+  teams:
+  - name: Executive team
+    people:
+    - name:  David Ansermino
+      role:  President
+      email: president@cssu.ca
+      pic:   20172018/david
+      
+    - name:  Calvin Luo
+      role:  Vice President
+
+    - name:  Taylor Stinson
+      role:  Treasurer
+    
+    - name:  Ignas Panero Armoska
+      role: Director of Social Events
+      pic:   20172018/ignas
+    
+    - name:  Asic Qian Chen
+      role:  Director of Academic Events
+    
+    - name: Lisa Guo
+      role: Director of Internal Communications
+      pic:   20172018/lisa
+      
+  - name: General Council
+    people:
+    - name:  You!
+      role: General Council Applications are Open Now
+
 - year: 2017 - 2018
   teams:
   - name: Executive team
