@@ -16,19 +16,18 @@ chmod 600 .travis/deploy_pages_key
 ssh-add .travis/deploy_pages_key
 
 # Clone the existing gh-pages for this repo into out/
-git clone "$TARGET_REPO" out
-cd out
+git clone "$TARGET_REPO" gh_pages_repo
+cd gh_pages_repo
 git checkout "$TARGET_BRANCH"
 cd ..
 
-# Clean out existing contents
-rm -rf out/**/* || exit 0
-
-# Copy in jekyll site
-cp -r _site/ out/
+echo  Clean out existing contents
+rm -rf gh_pages_repo/**/* || true
+echo Copy in jekyll site
+cp -r _site/ gh_pages_repo/
 
 # Now let's go have some fun with the cloned repo
-cd out
+cd gh_pages_repo
 git config user.name "Travis CI"
 
 # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
@@ -43,4 +42,4 @@ git add -A .
 git commit -m "Deploy to GitHub Pages: ${SHA}"
 
 # Now that we're all set up, we can push.
-git push "$TARGET_REPO" "$TARGET_BRANCH"
+git push origin "$TARGET_BRANCH"
