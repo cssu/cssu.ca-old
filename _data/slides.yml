@@ -1,9 +1,5 @@
 # There should only be a maximum of 4 slides
 # Pictures go in _assets/images/slides/
-# - title: CS Apparel
-#   text:  Get your hoodies and shirts at the CSSU!
-#   link:  https://cssu.ca/news/2017/03/13/apparel.html
-#   pic:   apparel.jpg
 
 - title: Room 2250 Podcast
   text:  Haider and Chris talk UofT, CS, and Toronto lifestyle
