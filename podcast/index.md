@@ -6,11 +6,15 @@ permalink: /podcast/
 
 The CSSU is proud to announce their very own podcast: Room 2250!
 
-This podcast will be for all UofT students discussing topics relating to UofT and Toronto with a lens of a computer science student.
+This podcast is for all UofT students discussing topics relating to UofT and Toronto with a lens of a computer science student.
 
-The podcast will be hosted by CSSU treasurer Haider Nadeem and his co-host Christopher Mckerracher and will run every other weekend. We will be bringing on alumni, students and faculty for questions and their thoughts on the important subject matter like the best places to study, eat and make friends on campus and in Toronto.
+The podcast was hosted by CSSU treasurer Haider Nadeem and his co-host Christopher Mckerracher. We brought on alumni, students and faculty for questions and their thoughts on the important subject matter like the best places to study, eat and make friends on campus and in Toronto.
 
-We encourage all students, graduate or undergraduate, CS or non-CS, or anyone else who would listen in to tune in every other weekend!
+We encourage all students, graduate or undergraduate, CS or non-CS, or anyone else who would listen in to tune in!
+
+Big thanks goes out to Haider and Christopher for their fantastic work on the podcast this past year. All of the episodes are linked below if you want to listen.
+
+Stay tuned for information on when Room 2250 is coming back!
 
 Made possible by Vic Records.
 
