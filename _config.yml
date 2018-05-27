@@ -13,7 +13,6 @@ future: true
 # Build settings
 exclude: [
   'bin',
-  'deploy.sh',
   'deploy_pages.sh',
   'out',
   'Gemfile',
