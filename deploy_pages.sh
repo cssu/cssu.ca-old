@@ -4,7 +4,7 @@ set -euo pipefail
 IFS=$'\n\t'
 
 SOURCE_BRANCH="master"
-TARGET_BRANCH="master"
+TARGET_BRANCH="gh-pages"
 TARGET_REPO="git@github.com:cssu/cssu.ca.git"
 SHA="$(git rev-parse --verify HEAD)"
 
@@ -25,21 +25,13 @@ git checkout "$TARGET_BRANCH"
 cd ..
 
 echo  Clean out existing contents
-rm -rf gh_pages_repo/**/* || true
-rm -f gh_pages_repo/.gitignore || true
 
 echo Copy in jekyll site
-cp -r _site/ gh_pages_repo/
+rsync -av --exclude ".git" --delete _site/ gh_pages_repo/
 
 # Now let's go have some fun with the cloned repo
 cd gh_pages_repo
 git config user.name "Travis CI"
-
-# If there are no changes to the compiled out (e.g. this is a README update) then just bail.
-if git diff --quiet; then
-    echo "No changes to the output on this push; exiting."
-    exit 0
-fi
 
 # Commit the "changes", i.e. the new version.
 # The delta will show diffs between new and old versions.
