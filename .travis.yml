@@ -12,10 +12,10 @@ deploy:
       branch: draft
       repo: cssu/cssu.ca
 
-#  - provider: script
-#    script: ./deploy_pages.sh
-#    # Prevent cleaning up the built '_site' directory
-#    skip_cleanup: true
-#    on:
-#      branch: master
-#      repo: cssu/cssu.ca
+  - provider: script
+    script: ./deploy_pages.sh
+    # Prevent cleaning up the built '_site' directory
+    skip_cleanup: true
+    on:
+      branch: master
+      repo: cssu/cssu.ca

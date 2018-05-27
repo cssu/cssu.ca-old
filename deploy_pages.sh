@@ -5,15 +5,18 @@ IFS=$'\n\t'
 
 SOURCE_BRANCH="master"
 TARGET_BRANCH="master"
-TARGET_REPO="git@github.com:cssu/cssu.github.io.git"
+TARGET_REPO="git@github.com:cssu/cssu.ca.git"
 SHA="$(git rev-parse --verify HEAD)"
 
-# Get the deploy key by using Travis's stored variables to decrypt deploy_key.enc
-openssl aes-256-cbc -K $encrypted_79f4b640b727_key -iv $encrypted_79f4b640b727_iv -in .travis/deploy_pages_key.enc -out .travis/deploy_pages_key -d
+# Decrypt deploy key
+echo "Decrypting deploy key to .travis/deploy_key..."
+openssl aes-256-cbc -K $encrypted_d7c771f4f1c5_key -iv $encrypted_d7c771f4f1c5_iv -in .travis/deploy_key.enc -out .travis/deploy_key -d
 
+# Add deploy key to SSH agent
+echo "Adding deploy key .travis/deploy_key to ssh-agent..."
 eval "$(ssh-agent -s)"
-chmod 600 .travis/deploy_pages_key
-ssh-add .travis/deploy_pages_key
+chmod 600 .travis/deploy_key
+ssh-add .travis/deploy_key
 
 # Clone the existing gh-pages for this repo into out/
 git clone "$TARGET_REPO" gh_pages_repo
@@ -23,6 +26,8 @@ cd ..
 
 echo  Clean out existing contents
 rm -rf gh_pages_repo/**/* || true
+rm -f gh_pages_repo/.gitignore || true
+
 echo Copy in jekyll site
 cp -r _site/ gh_pages_repo/
 
