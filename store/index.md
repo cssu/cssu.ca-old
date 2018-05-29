@@ -79,7 +79,7 @@ Come by the CSSU office to check out our wide selection of drinks and snacks! Cl
         {% if drink.flavor == true %}
         <tr>
           <td>
-            <p class="collapse" style="font-weight: bold">&#8627;{{ drink.name }}</p>
+            <p class="collapse" style="font-weight: bold">&#8627; {{ drink.name }}</p>
               <div class="panel">
                 <ul>
                 {% for flavor in drink.flavors %}
