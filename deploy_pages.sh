@@ -24,9 +24,7 @@ cd gh_pages_repo
 git checkout "$TARGET_BRANCH"
 cd ..
 
-echo  Clean out existing contents
-
-echo Copy in jekyll site
+echo Clean out existing contents and copy in Jekyll site
 rsync -av --exclude ".git" --delete _site/ gh_pages_repo/
 
 # Now let's go have some fun with the cloned repo

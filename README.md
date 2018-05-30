@@ -12,6 +12,6 @@ See <https://github.com/cssu/cssu.ca/wiki/Development>
 
 ### Deploying
 
-See <https://github.com/cssu/cssu.ca/wiki/Deploying-to-CDF>
+See <https://github.com/cssu/cssu.ca/wiki/Deploying-to-GitHub-Pages>
 
 [jekyll]: http://jekyllrb.com/ "Jekyll"
