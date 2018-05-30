@@ -13,6 +13,7 @@ snacks:
       - name: Ruffles All-Dressed
   - name: Shrimp Chips
     price: $2.00
+    flavor: false
   - name: Chocolate
     price: $1.50
     flavor: true
