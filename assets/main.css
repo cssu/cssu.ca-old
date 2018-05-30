@@ -1581,3 +1581,18 @@ ul.members-list li {
 
 .store-right {
   padding-left: 1%; }
+
+.collapse {
+  width: 100%;
+  cursor: pointer;
+  text-align: left;
+  transition: 0.4s; }
+
+.active, .collapse:hover {
+  background-color: #eeebeb; }
+
+.panel {
+  padding: 0 5px;
+  font-size: 13px;
+  display: none;
+  overflow: hidden; }
