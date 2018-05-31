@@ -4,7 +4,7 @@ title: Store
 permalink: /store/
 ---
 
-Come by the CSSU office to check out our wide selection of drinks and snacks! Click on the bold items for a list of flavors that we sell. If you have suggestions let us know.
+Come by the CSSU office to check out our wide selection of drinks and snacks! Click on the bold items for a list of flavours that we sell. If you have suggestions let us know.
 
 <div id="store">
   <section class="store-left">
@@ -19,12 +19,12 @@ Come by the CSSU office to check out our wide selection of drinks and snacks! Cl
         {% for snack in site.data.store-prices.snacks %}
         <tr>
           <td>
-            {% if snack.flavor %}
+            {% if snack.flavours %}
             <p class="store-item-collapsable">{{ snack.name }}</p>
             <div class="store-item-collapsable-panel">
               <ul>
-                {% for flavor in snack.flavors %}
-                <li>{{ flavor.name }}</li>
+                {% for flavour in snack.flavours %}
+                <li>{{ flavour.name }}</li>
                 {% endfor %}
               </ul>
             </div>
@@ -51,12 +51,12 @@ Come by the CSSU office to check out our wide selection of drinks and snacks! Cl
         {% for drink in site.data.store-prices.drinks %}
         <tr>
           <td>
-            {% if drink.flavor %}
+            {% if drink.flavours %}
             <p class="store-item-collapsable">{{ drink.name }}</p>
             <div class="store-item-collapsable-panel">
               <ul>
-                {% for flavor in drink.flavors %}
-                <li>{{ flavor.name }}</li>
+                {% for flavour in drink.flavours %}
+                <li>{{ flavour.name }}</li>
                 {% endfor %}
               </ul>
             </div>
