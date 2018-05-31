@@ -20,8 +20,8 @@ Come by the CSSU office to check out our wide selection of drinks and snacks! Cl
         <tr>
           <td>
             {% if snack.flavor %}
-            <p class="collapse" style="font-weight: bold">&#8627; {{ snack.name }}</p>
-            <div class="panel">
+            <p class="store-item-collapsable">{{ snack.name }}</p>
+            <div class="store-item-collapsable-panel">
               <ul>
                 {% for flavor in snack.flavors %}
                 <li>{{ flavor.name }}</li>
@@ -52,8 +52,8 @@ Come by the CSSU office to check out our wide selection of drinks and snacks! Cl
         <tr>
           <td>
             {% if drink.flavor %}
-            <p class="collapse" style="font-weight: bold">&#8627; {{ drink.name }}</p>
-            <div class="panel">
+            <p class="store-item-collapsable">{{ drink.name }}</p>
+            <div class="store-item-collapsable-panel">
               <ul>
                 {% for flavor in drink.flavors %}
                 <li>{{ flavor.name }}</li>
@@ -74,9 +74,8 @@ Come by the CSSU office to check out our wide selection of drinks and snacks! Cl
 
 <script>
   /** Store Collapse Feature by Borna*/
-  var coll = document.getElementsByClassName("collapse");
-  var i;
-  for (i = 0; i < coll.length; i++) {
+  var coll = document.getElementsByClassName("store-item-collapsable");
+  for (var i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
       this.classList.toggle("active");
       var panel = this.nextElementSibling;
