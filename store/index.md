@@ -17,31 +17,28 @@ Come by the CSSU office to check out our wide selection of drinks and snacks! Cl
       </thead>
       <tbody>
         {% for snack in site.data.store-prices.snacks %}
-        {% if snack.flavor == true %}
         <tr>
           <td>
+            {% if snack.flavor %}
             <p class="collapse" style="font-weight: bold">&#8627; {{ snack.name }}</p>
-              <div class="panel">
-                <ul>
+            <div class="panel">
+              <ul>
                 {% for flavor in snack.flavors %}
-                <li>{{flavor.name}}</li>
+                <li>{{ flavor.name }}</li>
                 {% endfor %}
-                </ul>
-              </div>
+              </ul>
+            </div>
+            {% else %}
+            {{ snack.name }}
+            {% endif %}
           </td>
-          <td>{{snack.price}}</td>
-        </tr>
-        {% endif %}
-        {% if snack.flavor == false %}
-        <tr>
-          <td>{{ snack.name }}</td>
           <td>{{ snack.price }}</td>
         </tr>
-        {% endif %}
         {% endfor %}
       </tbody>
     </table>
   </section>
+
   <section class="store-right">
     <table>
       <thead>
@@ -52,27 +49,23 @@ Come by the CSSU office to check out our wide selection of drinks and snacks! Cl
       </thead>
       <tbody>
         {% for drink in site.data.store-prices.drinks %}
-        {% if drink.flavor == true %}
         <tr>
           <td>
+            {% if drink.flavor %}
             <p class="collapse" style="font-weight: bold">&#8627; {{ drink.name }}</p>
-              <div class="panel">
-                <ul>
+            <div class="panel">
+              <ul>
                 {% for flavor in drink.flavors %}
-                <li>{{flavor.name}}</li>
+                <li>{{ flavor.name }}</li>
                 {% endfor %}
-                </ul>
-              </div>
+              </ul>
+            </div>
+            {% else %}
+            {{ drink.name }}
+            {% endif %}
           </td>
-          <td>{{drink.price}}</td>
-        </tr>
-        {% endif %}
-        {% if drink.flavor == false %}
-        <tr>
-          <td>{{ drink.name }}</td>
           <td>{{ drink.price }}</td>
         </tr>
-        {% endif %}
         {% endfor %}
       </tbody>
     </table>
