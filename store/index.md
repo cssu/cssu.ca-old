@@ -6,30 +6,6 @@ permalink: /store/
 
 Come by the CSSU office to check out our wide selection of drinks and snacks! Click on the bold items for a list of flavors that we sell. If you have suggestions let us know.
 
-<!--
-## Status
-
-<table>
-  <thead>
-    <tr>
-      <th>Item</th>
-      <th>Available</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for item in site.data.status %}
-    <tr>
-      <td>{{ item.item }}</td>
-      <td>{% if item.status %}✅{% else %}❌{% endif %}</td>
-    </tr>
-    {% endfor %}
-  </tbody>
-</table>
-
-
-## For sale
--->
-
 <div id="store">
   <section class="store-left">
     <table>
