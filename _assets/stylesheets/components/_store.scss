@@ -21,20 +21,24 @@
   padding-left: 1%;
 }
 
-.collapse {    
-  width: 100%; 
-  cursor: pointer; 
-  text-align: left; 
-  transition: 0.4s;    
-} 
+.store-item-collapsable {
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.4s;
+  width: 100%;
 
-.active, .collapse:hover {
-  background-color: rgb(238, 235, 235);
-} 
+  &::before {
+    content: '↳';
+    margin-right: 0.5em;
+  }
 
-.panel {    
-  padding: 0 5px; 
-  font-size: 13px; 
-  display: none; 
-  overflow: hidden
+  &.active,
+  &:hover {
+    background-color: #eeebeb;
+  }
 }
+
+  .store-item-collapsable-panel {
+    display: none;
+    padding: 0 0.5em;
+  }

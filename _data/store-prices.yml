@@ -1,8 +1,7 @@
 snacks:
   - name: Chips
     price: $1.00 <br> 2 for $1.50
-    flavor: true
-    flavors:
+    flavours:
       - name: Miss Vickie's Jalepeno
       - name: Miss Vickie's Salt and Vinegar
       - name: Sun Chips Harvest Cheese
@@ -13,11 +12,9 @@ snacks:
       - name: Ruffles All-Dressed
   - name: Shrimp Chips
     price: $2.00
-    flavor: false
   - name: Chocolate
     price: $1.50
-    flavor: true
-    flavors:
+    flavours:
       - name: Coffee Crisp
       - name: Cookies 'n' Creme
       - name: Kit Kat
@@ -30,8 +27,7 @@ snacks:
       - name: Snickers
   - name: Candy
     price: $1.50
-    flavor: true
-    flavors:
+    flavours:
       - name: Cherry Blasters
       - name: Fuzzy Peach
       - name: Sour Patch Kids
@@ -40,67 +36,56 @@ snacks:
       - name: Sour Skittles
   - name: Hi-Chew
     price: $1.50
-    flavor: true
-    flavors:
+    flavours:
       - name: Grape
       - name: Green Apple
       - name: Mango
       - name: Strawberry
   - name: Made Good Granola Minis
     price: $1.50
-    flavor: true
-    flavors:
+    flavours:
       - name: Chocolate Chip
       - name: Mixed Berry
   - name: Pocky
     price: $2.00
-    flavor: true
-    flavors:
+    flavours:
       - name: Chocolate
       - name: Strawberry
   - name: Nutella & Go
     price: $2.00
-    flavor: false
   - name: Clif Organic ZBar
     price: $1.00
-    flavor: true
-    flavors:
+    flavours:
       - name: Chocolate Brownie
       - name: Iced Oatmeal Cookie
   - name: Clif Energy Bar
     price: $2.00
-    flavor: true
-    flavors:
+    flavours:
       - name: Chocolate Chip
       - name: Chocolate Almond Fudge
       - name: Crunchy Peanut Butter
   - name: Clif Protein Bar
     price: $2.25
-    flavor: true
-    flavors:
+    flavours:
       - name: Chocolate
       - name: Chocolate Peanut Butter
       - name: Chocolate Mint
   - name: Pepperoni Sticks
     price: $1.50 <br> 2 for $2.50
-    flavor: true
-    flavors:
+    flavours:
       - name: Original
       - name: Spicy
   - name: Jamaican Patties
     price: $2.00
-    flavor: false
   - name: Ice Cream Sandwich
     price: $0.50
-    flavor: true
-    flavors:
+    flavours:
       - name: Chocolate
       - name: Chocolatey Chip
       - name: Vanilla
   - name: Freezies
     price: $0.50
-    flavor: true
-    flavors:
+    flavours:
       - name: Blue Raspberry
       - name: Cherry
       - name: Cream Soda
@@ -109,16 +94,14 @@ snacks:
       - name: Watermelon
   - name: Gum
     price: $1.25
-    flavor: true
-    flavors:
+    flavours:
       - name: Excel Peppermint
       - name: Excel Polar Ice
 
 drinks:
   - name: Pop
     price: $1.00
-    flavor: true
-    flavors:
+    flavours:
       - name: Coke
       - name: Coke Zero
       - name: Diet Coke
@@ -127,23 +110,19 @@ drinks:
       - name: Sprite
   - name: Arizona
     price: $1.25
-    flavor: true
-    flavors:
+    flavours:
       - name: Green Tea
-      - name: Iced Tea 
+      - name: Iced Tea
       - name: Mango
       - name: Fruit Punch
       - name: Half & Half
   - name: Perrier
     price: $1.50
-    flavor: false
   - name: Coconut Water
     price: $2.00
-    flavor: false
   - name: Jarritos
     price: $2.00
-    flavor: true
-    flavors:
+    flavours:
       - name: Mango
       - name: Mexican Cola
       - name: Lime
@@ -151,13 +130,10 @@ drinks:
       - name: Grapefruit
   - name: Energy Drinks
     price: $1.75
-    flavor: true
-    flavors:
+    flavours:
       - name: Monster
       - name: Red Rave
   - name: Starbucks Mocha
     price: $3.00
-    flavor: false
   - name: Juice Boxes
     price: $0.75
-    flavor: false
