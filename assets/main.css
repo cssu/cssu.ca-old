@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -1582,17 +1583,17 @@ ul.members-list li {
 .store-right {
   padding-left: 1%; }
 
-.collapse {
-  width: 100%;
+.store-item-collapsable {
   cursor: pointer;
-  text-align: left;
-  transition: 0.4s; }
+  font-weight: 700;
+  transition: 0.4s;
+  width: 100%; }
+  .store-item-collapsable::before {
+    content: '↳';
+    margin-right: 0.5em; }
+  .store-item-collapsable.active, .store-item-collapsable:hover {
+    background-color: #eeebeb; }
 
-.active, .collapse:hover {
-  background-color: #eeebeb; }
-
-.panel {
-  padding: 0 5px;
-  font-size: 13px;
+.store-item-collapsable-panel {
   display: none;
-  overflow: hidden; }
+  padding: 0 0.5em; }
