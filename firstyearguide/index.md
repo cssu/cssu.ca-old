@@ -8,7 +8,7 @@ By: Anujan M, Clara S and the CSSU Team
 First and foremost on behalf of the CSSU I would like to congratulate you on getting an acceptance into CS here at UofT St. George. (If not - well, we hope you are considering it or we hope you get an acceptance). This is a collection of FAQ (Frequently Asked Questions) that I think all first years (and everyone at CS here) should know. University is daunting, especially coming into it for the first time. I hope this guide gives you a lot of information and tips to make sure that you are successful (and makes you laugh along the way). If there is anything you want to add or edit on this guide, send us a quick email.
 
 Table of Contents
-1. [What is the CSSU? (Ice Cream Sandwiches and Video Games)](#what-is-the-cssu?)
+1. [What is the CSSU? (Ice Cream Sandwiches and Video Games)](#what-is-the-cssu)
 2. [Common Terms that you should know (or Uni is just full of acronyms that change)](#common-terms-that-you-should-know)
 3. [Course Enrollment (or how to make a schedule that doesn't kill you)](#course-enrollment)
 4. [Course Tips (or how to actually succeed in those courses and GET HELP)](#course-tips)
@@ -163,7 +163,7 @@ Click on any of the links to go there:
 - [ArtSci Site](http://www.artsci.utoronto.ca/current) for all official ArtSci Info Including Exam Schedules
 - [UofT Reddit](https://www.reddit.com/r/UofT/)
 - [CS Career Questions Reddit](https://www.reddit.com/r/cscareerquestions/)
-Also read the department emails that you get they have awesome information.
+- Also read the department emails that you get they have awesome information.
 
 ## Finances
 
