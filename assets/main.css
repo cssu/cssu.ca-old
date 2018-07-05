@@ -619,6 +619,7 @@ tr:nth-child(even) {
     color: #fff;
     display: table;
     height: 100%;
+    overflow: hidden;
     padding: 0; }
 
 .footer-info,
@@ -660,8 +661,7 @@ tr:nth-child(even) {
   margin: 0.5em 0; }
 
 .footer-social {
-  margin: 1.5em 0 3em 0;
-  overflow: hidden; }
+  margin: 1.5em 0 3em 0; }
   .footer-social li {
     border: 1px solid #fff;
     border-radius: 50%;
