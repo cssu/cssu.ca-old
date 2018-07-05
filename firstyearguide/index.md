@@ -194,7 +194,7 @@ Click on any of the links to go there:
 - [Services and Resources](https://newstudentguide.artsci.utoronto.ca/index.php/resources/)
 - [UofT Reddit](https://www.reddit.com/r/UofT/)
 - [CS Career Questions Reddit](https://www.reddit.com/r/cscareerquestions/)
-- Also read the department emails that you get as they have awesome information.
+- Also, read the department emails that you get as they have awesome information.
 
 ## Finances
 
