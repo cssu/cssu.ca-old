@@ -1,7 +1,7 @@
 ---
 layout: page
 title: First Year's Guide to CS
-permalink: /firstyearcs
+permalink: /firstyearcs/
 ---
 By: Anujan M, Clara S, and the CSSU Team
 
