@@ -12,16 +12,16 @@ This is a collection of Frequently Asked Question (FAQs) which we think all firs
 University can be daunting, especially in your first-year. We hope this guide gives you some information and tips on how to make sure that you are successful on your first-year here (and we hope this guide makes you laugh along the way). If there is anything you want to add or edit on this guide, please send the CSSU a quick email.
 
 ## Table of Contents
-1. [What is the CSSU? (Ice Cream Sandwiches and Video Games)](#what-is-the-cssu)
-2. [Common Terms that you should know (or Uni is just full of acronyms that change all the time)](#common-terms-that-you-should-know)
-3. [Course Enrolment (or how to make a schedule that doesn't overburden you)](#course-enrolment)
-4. [Course Tips (or how to actually succeed in those courses and GET HELP)](#course-tips)
-5. [Program Admission (Formerly Subject POSt) (AKA most speculative/invisible monster to terrorize students in all of Canada or even the world)](#admission-to-a-program-minor-major-specialist)
-6. [Mental health (Really important to read and understand, it's real and we need to talk about it)](#mental-health)
-7. [How to get involved? (or how to get a balance in your life, have fun and make friends)](#how-to-get-involved)
-8. [Jobs/Internships/PEY (or how and when to get some real-world experience)](#jobs-internships-and-pey-co-op)
-9. [Links to Know (KEEP THESE HANDY)](#important-links)
-10. [Finances (Why CS costs more and how to reduce these costs)](#finances)
+1. [What is the CSSU?](#what-is-the-cssu) (Ice Cream Sandwiches and Video Games)
+2. [Common Terms that you should know](#common-terms-that-you-should-know) (or Uni is just full of acronyms that change all the time)
+3. [Course Enrolment](#course-enrolment) (or how to make a schedule that doesn't overburden you)
+4. [Course Tips](#course-tips) (or how to actually succeed in those courses and GET HELP)
+5. [Program Admission (Formerly Subject POSt)](#admission-to-a-program-minor-major-specialist) (AKA most speculative/invisible monster to terrorize students in all of Canada or even the world)
+6. [Mental health](#mental-health) (Really important to read and understand, it's real and we need to talk about it)
+7. [How to get involved?](#how-to-get-involved) (or how to get a balance in your life, have fun and make friends)
+8. [Jobs/Internships/PEY](#jobs-internships-and-pey-co-op) (or how and when to get some real-world experience)
+9. [Links to Know](#important-links) (KEEP THESE HANDY)
+10. [Finances](#finances) (Why CS costs more and how to reduce these costs)
 11. [Parting Words](#parting-words)
 
 ## What Is The CSSU?
@@ -81,23 +81,18 @@ For all your official program questions and concerns, make your way up to the 4t
 
 So the first rule of CS is to be lazy (when coding) and to avoid remaking the wheel (or the print statement). Since the Faculty of Arts & Science has already videotaped, asked, and subtitled videos on how course enrolment works and on great tips for University, we are just going to link them here. These star some of the best CS students we’ve ever had the pleasure of knowing, and their advice is actually really great. Stars Former CSSU General Council Member, TA, and Frosh Organizer **Lana**; Current CSSU Vice President, UofT Hacks President, and TA **Calvin**; and 2017 Canadian Undergraduate Computer Science Conference co-chair and TA **Felipe**. 
 
-Click on the Video Thumbnail to Watch the video on Youtube (It does have subtitles so yay)
+Click on the title to watch the video on Youtube (It does have subtitles so yay)
 
-**Preparing for course enrolment and what you should know**
-[![Intro](http://img.youtube.com/vi/MNn98NhAza8/0.jpg)](http://www.youtube.com/watch?v=MNn98NhAza8)
+[**Preparing for course enrolment and what you should know**](http://www.youtube.com/watch?v=MNn98NhAza8)
 <!-- <a href="http://www.youtube.com/watch?feature=player_embedded&v=MNn98NhAza8" target="_blank"><img src="http://img.youtube.com/vi/MNn98NhAza8/0.jpg" alt="Preparing to Enrol Video" width="240" height="180" border="10" /></a> -->
 
-**Avoiding Burnout (and how to move on from failure) with Felipe**
-[![Burnout](http://img.youtube.com/vi/FzrPswwkZFs/0.jpg)](http://www.youtube.com/watch?v=FzrPswwkZFs)
+[**Avoiding Burnout (and how to move on from failure) with Felipe**](http://www.youtube.com/watch?v=FzrPswwkZFs)
 
-**Getting to explore different fields and how that's important with Calvin**
-[![Exploring Different Fields](http://img.youtube.com/vi/YgUDhDLpZAo/0.jpg)](http://www.youtube.com/watch?v=YgUDhDLpZAo)
+[**Getting to explore different fields and how that's important with Calvin**](http://www.youtube.com/watch?v=YgUDhDLpZAo)
 
-**UofT time and how you can have two classes back to back without the need for teleportation with Lana**
-[![UofT Time](http://img.youtube.com/vi/Sq54k8gbN8w/0.jpg)](http://www.youtube.com/watch?v=Sq54k8gbN8w)
+[**UofT time and how you can have two classes back to back without the need for teleportation with Lana**](http://www.youtube.com/watch?v=Sq54k8gbN8w)
 
-**Calvin’s Insider Tips**
-[![Insider Tips](http://img.youtube.com/vi/RW_Mr85HFto/0.jpg)](http://www.youtube.com/watch?v=RW_Mr85HFto)
+[**Calvin’s Insider Tips**](http://www.youtube.com/watch?v=RW_Mr85HFto)
 
 For more important videos with more tips and information about university and course enrollment check out the ArtSci Youtube channel [here](https://www.youtube.com/channel/UCXRrb_NqDU5IN2ensLpWbcg/videos)
 
@@ -106,7 +101,7 @@ For more important videos with more tips and information about university and co
 #### CSC108 vs CSC148
 
 So many students ask whether they can skip CSC108 and just do CSC148. The answer is really dependent on you and your abilities, and you won’t be favored for admission to the program if you take CSC148 during first semester instead of second semester. If you’re new to programming, you should take CSC108 since it’s for beginners, and will give you the required preparation for CSC148. If you’re experienced with programming, you might want to talk with someone at the Undergraduate Office to see if you will benefit from skipping CSC108. If you do end up directly progressing to CSC148, there are ramp-up sessions held during the beginning of the semester to help you brush up on the contents of 108. 
-Alternatively, you could also take a look at a [past final](http://www.cs.toronto.edu/dcs/ugdocs/csc108.pdf) from 108, or look at the ramp up slides online to get an overview of CSC108. If you feel like you don’t understand it completely, you might want to take CSC108. (Think about the best thing for you as a student – it’s about learning the material to the best of your abilities, not about ‘saving’ a half credit). Both courses are in Python, so even if you’re familiar in Java, you might want to take CSC108 just to get familiar with Python. Consider your options well. Note that even if you take CSC148 and then decide that you're not ready for it after taking a few classes, you can drop down to CSC108 if spaces are still available in that course. If you do decide to take CSC108, note that there are three different versions of the course offered to you (mastery, online, and in-class). Try and find the one that best suits your experience and your comfort level. [Click here for more details on 108’s options](http://www.teach.cs.toronto.edu/~csc108h/winter/choosing.shtml). Also look on the department’s [page](http://web.cs.toronto.edu/program/ugrad/courses_ug/1st.htm) for more info on how to choose your first-year CS courses.
+Alternatively, you could also take a look at a [past final](http://www.cs.toronto.edu/dcs/ugdocs/csc108.pdf) from 108, or look at the ramp up slides online to get an overview of CSC108. If you feel like you don’t understand it completely, you might want to take CSC108. (Think about the best thing for you as a student – it’s about learning the material to the best of your abilities, not about ‘saving’ a half credit). Both courses are in Python, so even if you’re familiar in Java, you might want to take CSC108 just to get familiar with Python. Consider your options well. Note that even if you take CSC148 and then decide that you're not ready for it after taking a few classes, you can drop down to CSC108 if spaces are still available in that course. If you do decide to take CSC108, note that there are three different versions of the course offered to you (mastery, online, and in-class). Try and find the one that best suits your experience and your comfort level. Click [here](http://www.teach.cs.toronto.edu/~csc108h/winter/choosing.shtml) for more details on 108’s options. Also look on the department’s [page](http://web.cs.toronto.edu/program/ugrad/courses_ug/1st.htm) for more info on how to choose your first-year CS courses.
 
 #### Which Math Course Should I Take?
 
@@ -199,7 +194,7 @@ Click on any of the links to go there:
 - [Services and Resources](https://newstudentguide.artsci.utoronto.ca/index.php/resources/)
 - [UofT Reddit](https://www.reddit.com/r/UofT/)
 - [CS Career Questions Reddit](https://www.reddit.com/r/cscareerquestions/)
-- Also read the department emails that you get they have awesome information.
+- Also, read the department emails that you get as they have awesome information.
 
 ## Finances
 
