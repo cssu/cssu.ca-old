@@ -16,7 +16,7 @@ University can be daunting, especially in your first-year. We hope this guide gi
 2. [Common Terms that you should know](#common-terms-that-you-should-know) (or Uni is just full of acronyms that change all the time)
 3. [Course Enrolment](#course-enrolment) (or how to make a schedule that doesn't overburden you)
 4. [Course Tips](#course-tips) (or how to actually succeed in those courses and GET HELP)
-5. [Program Admission (Formerly Subject POSt)](#admission-to-a-program-minor-major-specialist) (AKA most speculative/invisible monster to terrorize students in all of Canada or even the world)
+5. [Program Admission (Formerly Subject POSt)](#admission-to-a-program) (AKA most speculative/invisible monster to terrorize students in all of Canada or even the world)
 6. [Mental health](#mental-health) (Really important to read and understand, it's real and we need to talk about it)
 7. [How to get involved?](#how-to-get-involved) (or how to get a balance in your life, have fun and make friends)
 8. [Jobs/Internships/PEY](#jobs-internships-and-pey-co-op) (or how and when to get some real-world experience)
@@ -77,7 +77,7 @@ As one of the best places for you to get official help in first and second year 
 
 For all your official program questions and concerns, make your way up to the 4th floor of Bahen to visit the undergrad office for CS. You can ask them questions ranging from program admission to financial situations, or anything to do with the CS program at all, and they will be willing to help you out. If you need any CS advice, the office is a great place to get the official answers to all/most of your questions.
 
-## Course Enrollment
+## Course Enrolment
 
 So the first rule of CS is to be lazy (when coding) and to avoid remaking the wheel (or the print statement). Since the Faculty of Arts & Science has already videotaped, asked, and subtitled videos on how course enrolment works and on great tips for University, we are just going to link them here. These star some of the best CS students we’ve ever had the pleasure of knowing, and their advice is actually really great. Stars Former CSSU General Council Member, TA, and Frosh Organizer **Lana**; Current CSSU Vice President, UofT Hacks President, and TA **Calvin**; and 2017 Canadian Undergraduate Computer Science Conference co-chair and TA **Felipe**. 
 
@@ -142,7 +142,7 @@ So you’ve gotten into the courses you like, and you’ve planned out your time
 
    Also, make sure that your code runs on the lab computers (this may sound crazy, but people have submitted assignments that error out because (1) they didn’t submit the right file or it had an error, or (2) their computer inputted a random non ASCII character and the lab couldn't parse that file, resulting in a 0 because it didn’t run). So, how do you prevent this? It’s simple – submit early, download your code off of MarkUs to a lab computer, and run it! If it runs in the lab, it will run while grading. Even if it runs on your computer fine, that is not a valid reason for it to run properly while grading – **IT MUST WORK ON THE LAB COMPUTERS AS WELL**. Also, check your language settings on your computer – non-english characters have been known to mess-up the file, rendering it unrunnable on the lab computers (its weird, we know, but you should opt to be safe, rather than sorry).
 
-## Admission to a program (Minor/Major/Specialist)
+## Admission to a program
 
 Ok, now for the big CS elephant in the room – admission to a program, which is declaring your Minor, Major or Specialist in Computer Science in second-year. 
 
