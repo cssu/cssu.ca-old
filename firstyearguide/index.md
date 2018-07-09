@@ -14,7 +14,7 @@ University can be daunting, especially in your first-year. We hope this guide gi
 ## Table of Contents
 1. [What is the CSSU?](#what-is-the-cssu) (Ice Cream Sandwiches and Video Games)
 2. [Common Terms that you should know](#common-terms-that-you-should-know) (or Uni is just full of acronyms that change all the time)
-3. [Course Enrolment](#course-enrolment) (or how to make a schedule that doesn't overburden you)
+3. [Course Enrollment](#course-enrollment) (or how to make a schedule that doesn't overburden you)
 4. [Course Tips](#course-tips) (or how to actually succeed in those courses and GET HELP)
 5. [Program Admission (Formerly Subject POSt)](#admission-to-a-program) (AKA most speculative/invisible monster to terrorize students in all of Canada or even the world)
 6. [Mental health](#mental-health) (Really important to read and understand, it's real and we need to talk about it)
@@ -77,13 +77,13 @@ As one of the best places for you to get official help in first and second year 
 
 For all your official program questions and concerns, make your way up to the 4th floor of Bahen to visit the undergrad office for CS. You can ask them questions ranging from program admission to financial situations, or anything to do with the CS program at all, and they will be willing to help you out. If you need any CS advice, the office is a great place to get the official answers to all/most of your questions.
 
-## Course Enrolment
+## Course Enrollment
 
-So the first rule of CS is to be lazy (when coding) and to avoid remaking the wheel (or the print statement). Since the Faculty of Arts & Science has already videotaped, asked, and subtitled videos on how course enrolment works and on great tips for University, we are just going to link them here. These star some of the best CS students we’ve ever had the pleasure of knowing, and their advice is actually really great. Stars Former CSSU General Council Member, TA, and Frosh Organizer **Lana**; Current CSSU Vice President, UofT Hacks President, and TA **Calvin**; and 2017 Canadian Undergraduate Computer Science Conference co-chair and TA **Felipe**. 
+So the first rule of CS is to be lazy (when coding) and to avoid remaking the wheel (or the print statement). Since the Faculty of Arts & Science has already videotaped, asked, and subtitled videos on how course enrollment works and on great tips for University, we are just going to link them here. These star some of the best CS students we’ve ever had the pleasure of knowing, and their advice is actually really great. Stars Former CSSU General Council Member, TA, and Frosh Organizer **Lana**; Current CSSU Vice President, UofT Hacks President, and TA **Calvin**; and 2017 Canadian Undergraduate Computer Science Conference co-chair and TA **Felipe**. 
 
 Click on the title to watch the video on Youtube (It does have subtitles so yay)
 
-[**Preparing for course enrolment and what you should know**](https://www.youtube.com/watch?v=MNn98NhAza8)
+[**Preparing for course enrollment and what you should know**](https://www.youtube.com/watch?v=MNn98NhAza8)
 
 [**Avoiding Burnout (and how to move on from failure) with Felipe**](https://www.youtube.com/watch?v=FzrPswwkZFs)
 
@@ -93,7 +93,7 @@ Click on the title to watch the video on Youtube (It does have subtitles so yay)
 
 [**Calvin’s Insider Tips**](https://www.youtube.com/watch?v=RW_Mr85HFto)
 
-For more important videos with more tips and information about university and course enrolment check out the ArtSci Youtube channel [here](https://www.youtube.com/channel/UCXRrb_NqDU5IN2ensLpWbcg/videos)
+For more important videos with more tips and information about university and course enrollment check out the ArtSci Youtube channel [here](https://www.youtube.com/channel/UCXRrb_NqDU5IN2ensLpWbcg/videos)
 
 ## Course Tips
 
