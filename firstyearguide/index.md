@@ -93,7 +93,7 @@ Click on the title to watch the video on Youtube (It does have subtitles so yay)
 
 [**Calvin’s Insider Tips**](https://www.youtube.com/watch?v=RW_Mr85HFto)
 
-For more important videos with more tips and information about university and course enrollment check out the ArtSci Youtube channel [here](https://www.youtube.com/channel/UCXRrb_NqDU5IN2ensLpWbcg/videos)
+For more important videos with more tips and information about university and course enrolment check out the ArtSci Youtube channel [here](https://www.youtube.com/channel/UCXRrb_NqDU5IN2ensLpWbcg/videos)
 
 ## Course Tips
 
