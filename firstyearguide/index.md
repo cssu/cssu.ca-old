@@ -5,7 +5,7 @@ permalink: /firstyearcs/
 ---
 By: Anujan M, Clara S, and the CSSU Team
 
-First and foremost, on behalf of the Computer Science Student Union (CSSU), we would like to congratulate students who have received an offer of admission to Computer Science at the University of Toronto St. George campus. (If not, well, we hope you are considering it – or we hope that you get an acceptance!). If you've accepted welcome we're glad to have you!
+First and foremost, on behalf of the Computer Science Student Union (CSSU), we would like to congratulate students who have received an offer of admission to Computer Science at the University of Toronto St. George campus. (If not, well, we hope you are considering it – or we hope that you get an acceptance!). We're happy to have you!
 
 This is a collection of Frequently Asked Question (FAQs) which we think all first-year undergraduates (and everyone in the program, in general) should know. 
 
@@ -235,7 +235,7 @@ You can apply for it and plan out your finances with their financial calculator 
 
 The good news is that you can qualify for University of Toronto Financial Aid (UTAPS), and the great thing about this program is that you don’t have to do anything after your first-year – it justs uses your OSAP data including your family income and other things (if you are from another province/country check the UTAPS site for instructions on how to apply and criteria). If your OSAP data is low enough, you can get extra money (free money) paid towards your tuition. However, you won’t know this magical amount till late September/early October, though it can be pretty substantial in certain cases ($4,000+ depending on need). 
 
-There are also lots of scholarships if you qualify for them (check Google’s scholarships, or visit the UGO for more details on computer science undergraduate scholarships visit [here](http://www.artsci.utoronto.ca/current/scholarships/scholarships-by-department/undergraduate-scholarships-computer-science)). Also, check out your college for more financial aid (bursaries) and scholarships. Your college registrar is there to help you out, too! 
+There are also lots of scholarships available for you, so you should definitely check if you qualify for them (check Google’s scholarships, or visit the UGO for more details on computer science undergraduate scholarships. Alternatively, you can also visit [here](http://www.artsci.utoronto.ca/current/scholarships/scholarships-by-department/undergraduate-scholarships-computer-science) for more details). Also, consider checking out your college registrar for more financial aid options (bursaries and scholarships!).
 
 ## Parting Words
 
