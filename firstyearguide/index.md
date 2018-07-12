@@ -5,7 +5,7 @@ permalink: /firstyearcs/
 ---
 By: Anujan M, Clara S, and the CSSU Team
 
-First and foremost, on behalf of the Computer Science Student Union (CSSU), we would like to congratulate students who have received an offer of admission to Computer Science at the University of Toronto St. George campus. (If not, well, we hope you are considering it – or we hope that you get an acceptance!)
+First and foremost, on behalf of the Computer Science Student Union (CSSU), we would like to congratulate students who have received an offer of admission to Computer Science at the University of Toronto St. George campus. (If not, well, we hope you are considering it – or we hope that you get an acceptance!). If you've accepted welcome we're glad to have you!
 
 This is a collection of Frequently Asked Question (FAQs) which we think all first-year undergraduates (and everyone in the program, in general) should know. 
 
@@ -62,10 +62,10 @@ Piazza is what many courses use as a course forum, where people can post questio
 
 **Teaching Labs**
 
-The teaching labs refer to not only the actual labs in Bahen, but also to the whole system through which you are interacting with the department (MarkUs, SSH, PCRS). At the beginning of the year, you'll get an email asking you to set up your Teaching Labs account. It is very important that you: 
+The teaching labs refer to not only the actual labs in Bahen, but also to the whole online system through which you are interacting with the department (MarkUs, SSH (_Remote Lab Connections_), PCRS). At the beginning of the year, you'll get an email asking you to set up your Teaching Labs account. It is very important that you: 
 1. don't lose the email  
 2. don't forget the password you set it with.
-This is the most used login you'll need at U of T (after your UTORid login for ACORN). Also know that as a CS student you get access to the labs (and Bahen) 24/7 with your T-Card.
+This is the most used login you'll need at U of T (after your UTORid login for ACORN). Also know that as a CS student you get access to the labs (and Bahen) 24/7 with your T-Card. For more information about the labs visit [their site](https://www.teach.cs.toronto.edu/)
 
 
 **Help Centre**
@@ -150,23 +150,37 @@ So you’ve gotten into the courses you like, and you’ve planned out your time
 
    When it comes to assignments, don’t start the day before – this doesn’t only make you extremely stressed, but also gives you no time to ask questions about the assignments if you get stuck. Start early, make a list of questions to ask, and go to office hours to get those questions cleared up. Also, don’t copy off of other students – plagiarism is bad, like – it's [serious business](http://www.artsci.utoronto.ca/osai/The-rules/what-is-academic-misconduct). The department has very high-tech tools to catch you, and they will. It's never worth it. If something comes up and you need help, talk to your prof and they will try their best to help you. 
 
-   Also, make sure that your code runs on the lab computers (this may sound crazy, but people have submitted assignments that error out because (1) they didn’t submit the right file or it had an error, or (2) their computer inputted a random non ASCII character and the lab couldn't parse that file, resulting in a 0 because it didn’t run). So, how do you prevent this? It’s simple – submit early, download your code off of MarkUs to a lab computer, and run it! If it runs in the lab, it will run while grading. Even if it runs on your computer fine, that is not a valid reason for it to run properly while grading – **IT MUST WORK ON THE LAB COMPUTERS AS WELL**. Also, check your language settings on your computer – non-english characters have been known to mess-up the file, rendering it unrunnable on the lab computers (its weird, we know, but you should opt to be safe, rather than sorry).
+   Also, make sure that your code runs on the lab computers (this may sound crazy, but people have submitted assignments that error out because of the following two things):
+   1. They didn’t submit the right file or it had an error, or
+   2. Their computer inputted a random non ASCII character and the lab couldn't parse that file, resulting in a 0 because it didn’t run. 
+   
+   So, how do you prevent this? It’s simple – submit early, download your code off of MarkUs to a lab computer, and run it! If it runs in the lab, it will run while grading. Even if it runs on your computer fine, that is not a valid reason for it to run properly while grading – **IT MUST WORK ON THE LAB COMPUTERS AS WELL**. Also, check your language settings on your computer – non-english characters have been known to mess-up the file, rendering it unrunnable on the lab computers (its weird, we know, but you should opt to be safe, rather than sorry).
+
+   Another important thing is copyrights and sharing your code. Most people think after their done their assignment they can post it on their Github and use it for their portfolio. The thing is many times these assignments have a lot of starter code and sometimes the profs would like to reuse the assignments. **Always ask for permission before posting assignments on public places (aka Github).** Otherwise you could be dinged for plagarism even if you didn't commit it yourself.
 
 ## Admission to a program
 
-Ok, now for the big CS elephant in the room – admission to a program, which is declaring your Minor, Major or Specialist in Computer Science in second-year. 
+Ok, now for the big CS elephant in the room – admission to the program, which is declaring your Minor, Major or Specialist in Computer Science in second-year. 
 
 Here at St. George, the Faculty of Arts & Science has this policy in which it encourages the exploration of different fields, and makes it easy for students to switch majors and subjects after their first-year. This is the reason why you can’t choose your Majors/Minors until the end of first-year. The issue with Computer Science admission is that there are not enough resources/spaces to give every student who wants to choose CS after their first-year a spot, so the department has to institute a certain cut-off average as a requirement for students to get into the program. 
 
 The requirements as quoted from the ArtSci Calendar are:
 
-- Completion of at least 4.0 FCEs including CSC148H1 (with a minimum grade of 70%) and CSC165H1/​ CSC240H1 (with a minimum grade of 70%); AND
+- _Completion of at least 4.0 FCEs including CSC148H1 (with a minimum grade of 70%) and CSC165H1/​ CSC240H1 (with a minimum grade of 70%); AND_
 
-- An average of the grades in CSC148H1 and CSC165H1/​ CSC240H1 that meets the department's annual cutoff. CSC240H1 grades will be adjusted to account for the course's greater difficulty. 
+- _An average of the grades in CSC148H1 and CSC165H1/​ CSC240H1 that meets the department's annual cutoff. CSC240H1 grades will be adjusted to account for the course's greater difficulty._
 
-- Note that the cutoff changes from year to year, depending on the current capacity of the program and the pool of applicants. 
+- _Note that the cutoff changes from year to year, depending on the current capacity of the program and the pool of applicants._
 
-So after reading this, most students panic and ask: “What's the cutoff?” Well, we wish we could give you an answer, and we wish that the department could give an answer, but it’s not that easy. The cutoff is not an arbitrary number, say 60 or 75, like some other programs. In reality, the cutoff for CS is the top x of student averages from 148 and 165 that are applied to the CS program, where x is the number of spots in the program for that year. The specialist/major cutoff for 2018 was 83 for in stream students and 86 for out of stream students. For the CS minor, the cutoff was 80 for both in stream and out of stream students. This may go up or down in the upcoming years depending on future circumstances. This is high. Is it impossible, no. So is it doable? Yes, but only if you put a lot of work and effort into the required courses. The number of program spaces has remained relatively constant over the last two years, and there are always more program spaces available than the number of students in the first-year computer science admission stream. So it is technically possible for everyone to get admitted, if they do well enough. There is no reason to be scared, as the instructors are not there to weed students out. They are there instead, to make sure that you are prepared, and that you understand the content well. These two courses (CSC148 and CSC165) are an important base. If you don't find their content to be conceptually appealing, it’s possible that you might not enjoy your upper-year CS courses at U of T as well. Always keep your options open. As mentioned in course enrolment section, take some breadth courses, and maybe you'll enjoy them and will want to pursue them further. The great thing about U of T  is that it has a plethora of awesome programs which you can choose from.
+So after reading this, most students panic and ask: “What's the cutoff?” Well, we wish we could give you an answer, and we wish that the department could give an answer, but it’s not that easy. 
+
+- The cutoff is not an arbitrary number, say 60 or 75, like some other programs. In reality, the cutoff for CS is the top x of student averages from 148 and 165 that are applied to the CS program, where x is the number of spots in the program for that year. 
+- The specialist/major cutoff for 2018 was 83 for in stream students and 86 for out of stream students. For the CS minor, the cutoff was 80 for both in stream and out of stream students. This may go up or down in the upcoming years depending on future circumstances. 
+- This is high. Is it impossible, no. So is it doable? Yes, but only if you put a lot of work and effort into the required courses. 
+- The number of program spaces has remained relatively constant over the last two years, and there are always more program spaces available than the number of students in the first-year computer science admission stream. So it is technically possible for everyone to get admitted, if they do well enough. 
+- There is no reason to be scared, as the instructors are not there to weed students out. They are there instead, to make sure that you are prepared, and that you understand the content well. 
+- These two courses (CSC148 and CSC165) are an important base. If you don't find their content to be conceptually appealing, it’s possible that you might not enjoy your upper-year CS courses at U of T as well. 
+- Always keep your options open. As mentioned in course enrolment section, take some breadth courses, and maybe you'll enjoy them and will want to pursue them further. The great thing about U of T is that it has a plethora of awesome programs which you can choose from.
 
 For more info visit the [CS Department Admissions Page](http://web.cs.toronto.edu/program/ugrad/admission.htm)
 
@@ -200,12 +214,15 @@ The Professional Experience Year Co-op Program, administered by the Engineering 
 
 Click on any of the links to go there:
 - [CS Community Slack](https://uoftcscommunity.slack.com)
+- [Department Discourse Page](https://bb.teach.cs.toronto.edu/)
 - [ArtSci Site](http://www.artsci.utoronto.ca/current)
 - [ArtSci Guide to First Year](https://newstudentguide.artsci.utoronto.ca/)
 - [Services and Resources](https://newstudentguide.artsci.utoronto.ca/index.php/resources/)
 - [UofT Reddit](https://www.reddit.com/r/UofT/)
 - [CS Career Questions Reddit](https://www.reddit.com/r/cscareerquestions/)
 - Also, read the department emails that you get as they have awesome information.
+
+**_Disclaimer_**: On Reddit the most vocal are the ones who complain and often failed. You can still find lots of good information and discussion but you need to pay attention and avoid the trolls/edgey comments. Make sure you are well informed.
 
 ## Finances
 
