@@ -156,7 +156,7 @@ So you’ve gotten into the courses you like, and you’ve planned out your time
    
    So, how do you prevent this? It’s simple – submit early, download your code off of MarkUs to a lab computer, and run it! If it runs in the lab, it will run while grading. Even if it runs on your computer fine, that is not a valid reason for it to run properly while grading – **IT MUST WORK ON THE LAB COMPUTERS AS WELL**. Also, check your language settings on your computer – non-english characters have been known to mess-up the file, rendering it unrunnable on the lab computers (its weird, we know, but you should opt to be safe, rather than sorry).
 
-   Another important thing is copyrights and sharing your code. Most people think after their done their assignment they can post it on their Github and use it for their portfolio. The thing is many times these assignments have a lot of starter code and sometimes the profs would like to reuse the assignments. **Always ask for permission before posting assignments on public places (aka Github).** Otherwise you could be dinged for plagarism even if you didn't commit it yourself.
+   Another important thing to keep in mind is the ethics of copyright and code sharing. Most students think that after they have completed their assignments, they can post it on their Githubs and add it to their portfolios. The reason why this might not be such a good idea is because these assignments have a lot of starter code prepared by your professors, and sometimes profs like to reuse these assignments. You should always ask for the permission of your professors before posting your assignments on public platforms like Github. Otherwise, you could be held accountable for plagarism even if you didn't commit it yourself - as a student taking the same course in later years might find your assignment and copy it.
 
 ## Admission to a program
 
@@ -174,7 +174,7 @@ The requirements as quoted from the ArtSci Calendar are:
 
 So after reading this, most students panic and ask: “What's the cutoff?” Well, we wish we could give you an answer, and we wish that the department could give an answer, but it’s not that easy. 
 
-- The cutoff is not an arbitrary number, say 60 or 75, like some other programs. In reality, the cutoff for CS is the top x of student averages from 148 and 165 that are applied to the CS program, where x is the number of spots in the program for that year. 
+- The cutoff is not an arbitrary number, say 60 or 75, like some other programs. In reality, the cutoff for CS is the top x of student averages from 148 and 165 that have applied to the CS program, where x is the number of spots in the program for that year. 
 - The specialist/major cutoff for 2018 was 83 for in stream students and 86 for out of stream students. For the CS minor, the cutoff was 80 for both in stream and out of stream students. This may go up or down in the upcoming years depending on future circumstances. 
 - This is high. Is it impossible, no. So is it doable? Yes, but only if you put a lot of work and effort into the required courses. 
 - The number of program spaces has remained relatively constant over the last two years, and there are always more program spaces available than the number of students in the first-year computer science admission stream. So it is technically possible for everyone to get admitted, if they do well enough. 
@@ -222,7 +222,7 @@ Click on any of the links to go there:
 - [CS Career Questions Reddit](https://www.reddit.com/r/cscareerquestions/)
 - Also, read the department emails that you get as they have awesome information.
 
-**_Disclaimer_**: On Reddit the most vocal are the ones who complain and often failed. You can still find lots of good information and discussion but you need to pay attention and avoid the trolls/edgey comments. Make sure you are well informed.
+**_Disclaimer_**: On Reddit, the most vocal accounts often tend to be those of students who are misinformed. You can still find lots of good information and discussions on the UofT subreddit, but you need to learn how to filter through the misinformed comments and avoid the trolls. Always make sure you are well informed.
 
 ## Finances
 
