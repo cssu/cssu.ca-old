@@ -153,7 +153,7 @@ So you’ve gotten into the courses you like, and you’ve planned out your time
    Also, make sure that your code runs on the lab computers (this may sound crazy, but people have submitted assignments that error out because of the following two things):
    1. They didn’t submit the right file or it had an error, or
    2. Their computer inputted a random non ASCII character and the lab couldn't parse that file, resulting in a 0 because it didn’t run. 
-   3. The Teach CS machines are Linux. If you write your code on a Mac or Windows machine, or even a Linux machine with a different configuration your code may depend on libraries or encoding that do not match the teach.cs machines and not run.
+   3. The Teach CS machines are Linux. If you write your code on a Mac or Windows machine, or even a Linux machine with a different configuration your code may depend on libraries or encoding that do not match the teach.cs machines and will not run.
    
    So, how do you prevent this? It’s simple – submit early, download your code off of MarkUs to a lab computer, and run it! If it runs in the lab, it will run while grading. Even if it runs on your computer fine, that is not a valid reason for it to run properly while grading – **IT MUST WORK ON THE LAB COMPUTERS AS WELL**. Also, check your language settings on your computer – non-english characters have been known to mess-up the file, rendering it unrunnable on the lab computers (its weird, we know, but you should opt to be safe, rather than sorry).
 
