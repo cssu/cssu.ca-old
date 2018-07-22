@@ -6,24 +6,24 @@
       role:  President
       email: president@cssu.ca
       pic:   20172018/david
-      
+
     - name:  Calvin Luo
       role:  Vice President
 
     - name:  Taylor Stinson
       role:  Treasurer
-    
+
     - name:  Ignas Panero Armoska
       role: Director of Social Events
-      pic:   20172018/ignas
-    
+      pic:   20182019/ignas
+
     - name:  Asic Qian Chen
       role:  Director of Academic Events
-    
+
     - name: Lisa Guo
       role: Director of Internal Communications
       pic:   20172018/lisa
-      
+
   - name: General Council
     people:
     - name:  You!
@@ -37,7 +37,7 @@
       role:  President
       email: president@cssu.ca
       pic:   20172018/david
-      
+
     - name:  Cheryl Lao
       role:  Vice President
       pic:   20172018/cheryl
@@ -45,7 +45,7 @@
     - name:  Haider Nadeem
       role:  Treasurer
       pic:   20172018/haider
-      
+
   - name: General Council
     people:
     - name:  Aleksa Zatezalo
@@ -55,7 +55,7 @@
 
     - name:  Ignas Panero Armoska
       pic:   20172018/ignas
-    
+
     - name:  Jevin Sidhu
       pic:   20172018/jevin
 
@@ -63,16 +63,16 @@
 
     - name:  Lana El Sanyoura
       pic:   20172018/lana
-      
+
     - name:  Lisa Guo
       pic:   20172018/lisa
-      
+
     - name:  Nicole Alli
       pic:   20172018/nicole
-      
+
     - name:  Sonata Katt
       pic:   20172018/sonata
-      
+
     - name:  Farzan Haq
       role:  Webmaster
       pic:   20172018/farzan
