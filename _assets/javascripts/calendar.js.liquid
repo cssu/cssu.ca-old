@@ -54,8 +54,8 @@ function appendEvent(event, dateStart, dateEnd, description, time) {
         str = str + "<p>Location: " + event.location + "</p>";
     }
     if (time){
-        str = str + "<p>Starts at: " + dateStart.toLocaleTimeString('en-US') + "</p>";
-        str = str + "<p>Ends at: " + dateEnd.toLocaleTimeString('en-US') + "</p>";
+        str = str + "<p>From " + dateStart.toLocaleTimeString('en-US');
+        str = str + " to " + dateEnd.toLocaleTimeString('en-US') + "</p>";
     }
     str = str + "</li>";
     $element.append(str);
