@@ -1,0 +1,60 @@
+var API_KEY = 'AIzaSyAZRDe_DuPP4BUS7hqkkdFeAVv_O2yQgIk'
+var CAL_ID = '0fqfmmqnmb20kn6qibaqflsbo0@group.calendar.google.com'
+var SCOPES = ["https://www.googleapis.com/auth/calendar.readonly"];
+
+/**
+ * Load Google Calendar client library. List upcoming events
+ * once client library is loaded.
+ */
+function loadCalendarApi() {
+    window.gapi_onload = function() { gapi.auth.authorize(); }
+    gapi.client.setApiKey(API_KEY);
+    gapi.client.load('calendar', 'v3', listUpcomingEvents);
+}
+
+function listUpcomingEvents() {
+    var request = gapi.client.calendar.events.list({
+    'calendarId': CAL_ID,
+    'timeMin': (new Date()).toISOString(),
+    'showDeleted': false,
+    'singleEvents': true,
+    'maxResults': 4,
+    'orderBy': 'startTime'
+    });
+
+    request.execute(function(resp) {
+        var events = resp.items;
+        if (events.length > 0) {
+        for (i = 0; i < events.length; i++) {
+            var event = events[i];
+            var start = event.start.dateTime;
+            var end = event.end.dateTime;
+            var time = true;
+            if (!start) {
+                start = event.start.date;
+                time = false;
+            }
+            appendEvent(event.summary, new Date(start), new Date(end), event.description, time);
+        }
+        } else {
+            $("#events").append("<li class='empty'>No upcoming events; stay tuned!</li>");
+        }
+    });
+}
+
+function appendEvent(event, dateStart, dateEnd, description, time) {
+    var $element = $( "#events" );
+    var str = "<li><div class='event-date'><p class='event-month'>" + dateStart.toLocaleString("en-us", { month: "short" }) + "</p><p class='event-day'>"+ dateStart.getDate() + "</p></div><p class='post-link'>" + event + "</p>";
+    if (description != undefined){
+        str = str + "<p>" + description + "</p>";
+    }
+    if (event.location != undefined){
+        str = str + "<p>Location: " + event.location + "</p>";
+    }
+    if (time){
+        str = str + "<p>Starts at: " + dateStart.toLocaleTimeString('en-US') + "</p>";
+        str = str + "<p>Ends at: " + dateEnd.toLocaleTimeString('en-US') + "</p>";
+    }
+    str = str + "</li>";
+    $element.append(str);
+}
