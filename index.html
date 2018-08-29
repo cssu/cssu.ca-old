@@ -10,27 +10,8 @@ title: Computer Science Student Union
     <div id="home-row-inner">
       <div id="home-events">
         <a href="/events/"><h1>Upcoming Events</h1></a>
-        <ul class="posts">
-          {% assign has_events = false %}
-          {% for post in site.categories['events'] limit:4 %}
-            {% assign expired = post.expiry_date | date: "%s" %}
-            {% if expired > current_time %}
-              {% assign has_events = true %}
-              <li>
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                  <div class="event-date">
-                    <p class="event-month">{{ post.date | date: "%b" }}</p>
-                    <p class="event-day">{{ post.date | date: "%-d" }}</p>
-                  </div>
-                  <p class="post-link">{{ post.title }}</p>
-                  <p>{{ post.description | strip_html | truncatewords: 25 }}</p>
-                </a>
-              </li>
-            {% endif %}
-          {% endfor %}
-          {% unless has_events %}
-            <li class="empty">No upcoming events; stay tuned!</li>
-          {% endunless %}
+        <ul class="posts" id="events">
+            <li class='empty'>Loading Calendar</li>
         </ul>
       </div>
 
@@ -74,3 +55,6 @@ title: Computer Science Student Union
     </div>
   </div>
 </div>
+
+<script src="https://apis.google.com/js/client:plusone.js?onload=loadCalendarApi" async defer></script>
+{% javascript calendar %}
