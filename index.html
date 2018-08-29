@@ -245,24 +245,8 @@
     <div id="home-row-inner">
       <div id="home-events">
         <a href="/events/"><h1>Upcoming Events</h1></a>
-        <ul class="posts">
-          
-          
-            
-            
-          
-            
-            
-          
-            
-            
-          
-            
-            
-          
-          
-            <li class="empty">No upcoming events; stay tuned!</li>
-          
+        <ul class="posts" id="events">
+            <li class='empty'>Loading Calendar</li>
         </ul>
       </div>
 
@@ -446,6 +430,8 @@
   </div>
 </div>
 
+<script src="https://apis.google.com/js/client:plusone.js?onload=loadCalendarApi" async defer></script>
+<script type="text/javascript" src="/assets/calendar.js"></script>
       </div>
     </div>
 
