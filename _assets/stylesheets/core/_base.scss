@@ -78,15 +78,12 @@ tr:nth-child(even) {
   }
 }
 
-// iframes
-.responsive-iframe {
-  border-width: 0;
-  height: 500px;
-  width: 100%;
-}
-
 // Helpers
 .center {
   margin: 0 auto;
   text-align: center;
+}
+
+.hidden {
+  display: none;
 }
