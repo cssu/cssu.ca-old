@@ -28,7 +28,7 @@ function listUpcomingEvents() {
 
     request.execute(function(resp) {
         var events = resp.items;
-        
+
         for (var i = 0; i < events.length; i++) {
             var event = events[i];
             if (event.start.dateTime) {
@@ -48,9 +48,9 @@ function appendTimeEvent(event) {
     var startTime = new Date(event.start.dateTime);
     var endTime = new Date(event.end.dateTime);
     var element = document.getElementById("events");
-    var str = "<div class='event-date'><p class='event-month'>" + 
-                startTime.toLocaleString("en-us", { month: "short" }) + 
-                "</p><p class='event-day'>"+ startTime.getDate() + 
+    var str = "<div class='event-date'><p class='event-month'>" +
+                startTime.toLocaleString("en-us", { month: "short" }) +
+                "</p><p class='event-day'>"+ startTime.getDate() +
                 "</p></div><p class='post-link'>" + event.summary + "</p>";
     var eventNode = document.createElement("li");
     eventNode.innerHTML = str;
@@ -64,9 +64,9 @@ function appendTimeEvent(event) {
         loc.appendChild(document.createTextNode("Location: " + event.location));
         eventNode.appendChild(loc);
     }
-    
+
     var time = document.createElement("p");
-        time.appendChild(document.createTextNode("From " + startTime.toLocaleTimeString('en-US') + 
+        time.appendChild(document.createTextNode("From " + startTime.toLocaleTimeString('en-US') +
                                                     " to " + endTime.toLocaleTimeString('en-US') ));
         eventNode.appendChild(time);
     element.appendChild(eventNode);
