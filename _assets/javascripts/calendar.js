@@ -1,6 +1,6 @@
 'use strict';
 
-var API_KEY = 'AIzaSyAZRDe_DuPP4BUS7hqkkdFeAVv_O2yQgIk';
+var API_KEY = 'AIzaSyC76S4FpNgutMZmF5q_EGwo-JEEJUARlHw';
 var CAL_ID = '0fqfmmqnmb20kn6qibaqflsbo0@group.calendar.google.com';
 var SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
 
@@ -77,7 +77,7 @@ function _createEventEl(date, summary, description, location) {
 
   var eventDateEl = _createElement('div', {'class': 'event-date'});
   eventDateEl.appendChild(_createElement('p', {'class': 'event-month'}, date.toLocaleString('en-US', {month: 'short'})));
-  eventDateEl.appendChild(_createElement('p', {'class': 'event-day'}, date.getDate()));
+  eventDateEl.appendChild(_createElement('p', {'class': 'event-day'}, date.getUTCDate()));
   eventEl.appendChild(eventDateEl);
 
   eventEl.appendChild(_createElement('p', {'class': 'post-link'}, summary));
