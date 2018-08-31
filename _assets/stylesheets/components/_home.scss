@@ -118,9 +118,7 @@
 
   #home-row .posts {
     background-color: #e1e1e1;
-    padding: 20px;
-
-    li + li { margin-top: 20px; }
+    padding: 1em;
 
     a { color: $grey; }
   }
@@ -128,7 +126,13 @@
 .posts {
   list-style-type: none;
 
-  li + li { margin-top: 1.5em; }
+  li {
+    margin-bottom: 1em;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 
   .post-link {
     color: $grey;
