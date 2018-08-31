@@ -1,6 +1,6 @@
 'use strict';
 
-var API_KEY = 'AIzaSyC76S4FpNgutMZmF5q_EGwo-JEEJUARlHw';
+var API_KEY = 'AIzaSyAZRDe_DuPP4BUS7hqkkdFeAVv_O2yQgIk';
 var CAL_ID = '0fqfmmqnmb20kn6qibaqflsbo0@group.calendar.google.com';
 var SCOPES = ['https://www.googleapis.com/auth/calendar.readonly'];
 
