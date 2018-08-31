@@ -77,7 +77,7 @@ function _createEventEl(date, summary, description, location) {
 
   var eventDateEl = _createElement('div', {'class': 'event-date'});
   eventDateEl.appendChild(_createElement('p', {'class': 'event-month'}, date.toLocaleString('en-US', {month: 'short'})));
-  eventDateEl.appendChild(_createElement('p', {'class': 'event-day'}, date.getDate()));
+  eventDateEl.appendChild(_createElement('p', {'class': 'event-day'}, date.getUTCDate()));
   eventEl.appendChild(eventDateEl);
 
   eventEl.appendChild(_createElement('p', {'class': 'post-link'}, summary));
