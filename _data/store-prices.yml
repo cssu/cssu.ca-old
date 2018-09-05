@@ -10,8 +10,8 @@ snacks:
       - name: Lay's Classic
       - name: Doritos Nacho Cheese
       - name: Ruffles All-Dressed
-  - name: Shrimp Chips
-    price: $2.00
+  - name: Smartfood Popcorn
+    price: $1.25
   - name: Chocolate
     price: $1.50
     flavours:
@@ -138,6 +138,8 @@ drinks:
     flavours:
       - name: Monster
       - name: Red Rave
+  - name: Red Bull
+    price: $2.50
   - name: Starbucks Mocha
     price: $3.00
   - name: Juice Boxes
