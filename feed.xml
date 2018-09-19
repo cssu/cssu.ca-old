@@ -5,9 +5,24 @@
     <description>University of Toronto Computer Science Student Union</description>
     <link>https://cssu.ca/</link>
     <atom:link href="https://cssu.ca/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 19 Sep 2018 00:44:25 +0000</pubDate>
-    <lastBuildDate>Wed, 19 Sep 2018 00:44:25 +0000</lastBuildDate>
+    <pubDate>Wed, 19 Sep 2018 01:07:25 +0000</pubDate>
+    <lastBuildDate>Wed, 19 Sep 2018 01:07:25 +0000</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>First Year Rep Applications Now Open</title>
+        <description>&lt;p&gt;Do you see yourself here, helping positively impact the CS community at UofT? If your a First Year apply to be a CSSU First Year Rep now!&lt;/p&gt;
+
+&lt;p&gt;Applications for First Year Rep for the 2018-2019 year are now available &lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSd651jSV44d8brpO6_06onjM9hsliddr5PN75xe8t3j7J-mJg/viewform&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Sep 2018 20:30:00 +0000</pubDate>
+        <link>https://cssu.ca/news/2018/09/18/first-year-rep-applications.html</link>
+        <guid isPermaLink="true">https://cssu.ca/news/2018/09/18/first-year-rep-applications.html</guid>
+        
+        
+        <category>news</category>
+        
+      </item>
     
       <item>
         <title>CSSU Screening: The Martian</title>
@@ -232,31 +247,6 @@ Where: Sultan’s Tent, 49 Front St E, Toronto, ON M5E 1B3&lt;/p&gt;
         <pubDate>Fri, 26 Jan 2018 00:00:00 +0000</pubDate>
         <link>https://cssu.ca/events/cssu/2018/01/26/Karaoke-Games-Night.html</link>
         <guid isPermaLink="true">https://cssu.ca/events/cssu/2018/01/26/Karaoke-Games-Night.html</guid>
-        
-        <category>cssu</category>
-        
-        
-        <category>events</category>
-        
-        <category>cssu</category>
-        
-      </item>
-    
-      <item>
-        <title>TorontoAI x CSSU - Neural Networks in TensorFlow</title>
-        <description>&lt;p&gt;The CSSU is proud to welcome TorontoAI to UofT! TorontoAI (torontoai.org) will be presenting a seminar on how to implement neural networks in TensorFlow.&lt;/p&gt;
-
-&lt;p&gt;Professor Sanja Fidler will also be in attendance to talk about some of her work in the field of AI. Learn more about what she does &lt;a href=&quot;http://www.cs.utoronto.ca/~fidler/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;This is intended to be both a high level introduction as well as an exploration of applied techniques so consider bringing your laptop to follow along!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.eventbrite.com/e/torontoai-x-cssu-neural-networks-in-tensorflow-tickets-41406033561&quot;&gt;Click here&lt;/a&gt; to purchase tickets for this event.&lt;/p&gt;
-
-&lt;p&gt;NOTE: Student ID will be required with tickets at the door. If you are not a student please &lt;a href=&quot;https://www.meetup.com/Toronto-AI/events/245997433/&quot;&gt;click here&lt;/a&gt; for alternative admission.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
-        <link>https://cssu.ca/events/cssu/2018/01/18/Neural-Networks-Tensorflow.html</link>
-        <guid isPermaLink="true">https://cssu.ca/events/cssu/2018/01/18/Neural-Networks-Tensorflow.html</guid>
         
         <category>cssu</category>
         
