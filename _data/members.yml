@@ -7,8 +7,10 @@
       email: president@cssu.ca
       pic:   20172018/david
 
+
     - name:  Calvin Luo
       role:  Vice President
+      pic:   20182019/calvin
 
     - name:  Taylor Stinson
       role:  Treasurer
@@ -36,10 +38,11 @@
       role: International Student Liason
       pic:   20182019/peiyu
 
+
   - name: General Council
     people:
-    - name:  You!
-      role: General Council Applications are Open Now
+    - name: General Council
+      role: Coming Soon!
 
 - year: 2017 - 2018
   teams:
