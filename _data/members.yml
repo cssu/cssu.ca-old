@@ -24,6 +24,18 @@
       role: Director of Internal Communications
       pic:   20172018/lisa
 
+    - name: Sonia Zaldana
+      role: Secretary
+      pic:   20182019/sonia
+
+    - name: Jeremy Yang
+      role: General Council Member
+      pic:   20182019/jeremy
+
+    - name: Peiyu Yu
+      role: International Student Liason
+      pic:   20182019/peiyu
+
   - name: General Council
     people:
     - name:  You!
