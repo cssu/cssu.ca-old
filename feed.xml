@@ -5,8 +5,8 @@
     <description>University of Toronto Computer Science Student Union</description>
     <link>https://cssu.ca/</link>
     <atom:link href="https://cssu.ca/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 26 Sep 2018 13:06:23 +0000</pubDate>
-    <lastBuildDate>Wed, 26 Sep 2018 13:06:23 +0000</lastBuildDate>
+    <pubDate>Thu, 27 Sep 2018 00:29:54 +0000</pubDate>
+    <lastBuildDate>Thu, 27 Sep 2018 00:29:54 +0000</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -44,6 +44,21 @@
       </item>
     
       <item>
+        <title>TechXplore</title>
+        <description>&lt;p&gt;TechXplore is a University of Toronto student-run club that operates to provide students with tutorial-style hands-on learning for tech-based projects (i.e. Java, Python, R Programming, 3D Modelling &amp;amp; Printing, etc.). We host a series of events and training modules to help our peers develop a passion and skill-set to succeed in technology-inclined industries.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;contact.techxplore@gmail.com&quot;&gt;Email&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Oct 2018 12:00:00 +0000</pubDate>
+        <link>https://cssu.ca/clubs/2018/10/23/TechXplore.html</link>
+        <guid isPermaLink="true">https://cssu.ca/clubs/2018/10/23/TechXplore.html</guid>
+        
+        
+        <category>clubs</category>
+        
+      </item>
+    
+      <item>
         <title>The Review of Undergraduate Computer Science (RUCS)</title>
         <description>&lt;p&gt;The Review of Undergraduate Computer Science (RUCS) is an open-access, non-archival publication based at the University of Toronto that features the best of research work conducted by undergraduate students.&lt;/p&gt;
 
@@ -54,6 +69,37 @@
         <pubDate>Tue, 23 Oct 2018 12:00:00 +0000</pubDate>
         <link>https://cssu.ca/clubs/2018/10/23/RUCS.html</link>
         <guid isPermaLink="true">https://cssu.ca/clubs/2018/10/23/RUCS.html</guid>
+        
+        
+        <category>clubs</category>
+        
+      </item>
+    
+      <item>
+        <title>Project Include (PI)</title>
+        <description>&lt;p&gt;A non profit student initiative aimed at making coding accessible to all children, irrespective of their financial status, race, gender, etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/projectincludeskule/&quot;&gt;Facebook&lt;/a&gt; |
+&lt;a href=&quot;info@projectinclude.ca&quot;&gt;Email&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Oct 2018 12:00:00 +0000</pubDate>
+        <link>https://cssu.ca/clubs/2018/10/23/PI.html</link>
+        <guid isPermaLink="true">https://cssu.ca/clubs/2018/10/23/PI.html</guid>
+        
+        
+        <category>clubs</category>
+        
+      </item>
+    
+      <item>
+        <title>National Society of Black Engineers - Uoft Chapter (NSBE)</title>
+        <description>&lt;p&gt;With more than 23,000 members worldwide, the National Society of Black Engineers (NSBE), founded in 1975, is the largest student-managed non-profit organization in the world. NSBE has more than 300 chapters on college and university campuses and more than 80 Alumni Extension chapters and interest groups in the U.S., Africa, Asia, Canada, Europe and the Caribbean.   The National Society of Black Engineers Uoft Chapter offers its members leadership training, professional development, mentoring opportunities, career placement services and more. NSBE Uoft also supports students outside of the engineering field who may operate in the engineering industry such as students who may work in computer science, humanities, life sciences, social sciences and so many more. NSBE believes in fostering a safe place for minority students who contribute to all aspects of the industry.  Follow us on facebook at https://www.facebook.com/NSBEUofT and on instagram and twitter at nsbeuoft.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/NSBEUofT&quot;&gt;Facebook&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 23 Oct 2018 12:00:00 +0000</pubDate>
+        <link>https://cssu.ca/clubs/2018/10/23/NSBE.html</link>
+        <guid isPermaLink="true">https://cssu.ca/clubs/2018/10/23/NSBE.html</guid>
         
         
         <category>clubs</category>
@@ -163,78 +209,6 @@ Where: Sultan’s Tent, 49 Front St E, Toronto, ON M5E 1B3&lt;/p&gt;
         <pubDate>Thu, 29 Mar 2018 00:00:00 +0000</pubDate>
         <link>https://cssu.ca/events/cssu/2018/03/29/Semi-Formal.html</link>
         <guid isPermaLink="true">https://cssu.ca/events/cssu/2018/03/29/Semi-Formal.html</guid>
-        
-        <category>cssu</category>
-        
-        
-        <category>events</category>
-        
-        <category>cssu</category>
-        
-      </item>
-    
-      <item>
-        <title>CSSU Star Trek Screening</title>
-        <description>&lt;p&gt;We may have popcorn, we may have your favourite star trek episode on a big screen, and we might even make you live long and prosper.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.facebook.com/events/171688480125267/&quot;&gt;Click Here&lt;/a&gt; for more details.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
-        <link>https://cssu.ca/events/cssu/2018/03/16/Star-Trek.html</link>
-        <guid isPermaLink="true">https://cssu.ca/events/cssu/2018/03/16/Star-Trek.html</guid>
-        
-        <category>cssu</category>
-        
-        
-        <category>events</category>
-        
-        <category>cssu</category>
-        
-      </item>
-    
-      <item>
-        <title>CSSU Election (2018 - 2019)</title>
-        <description>&lt;p&gt;Its that time of the year to elect new executives for the CSSU! In addition to executive positions offered in past years we have added 4 new elected positions – Director of Social Events, Director of Academic Events, Director of Internal Relations and Director of External Relations.&lt;/p&gt;
-
-&lt;p&gt;IMPORTANT DATES:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Nomination Period: Wednesday, March 14th to Tuesday, March 20th&lt;/li&gt;
-  &lt;li&gt;Campaign Period: Wednesday, March 21st to Tuesday, March 27th&lt;/li&gt;
-  &lt;li&gt;Election Day: Wednesday, March 28th&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Roya Shams will be the CRO presiding over this year’s elections. All other election announcements will be made on the official CSSU Facebook group by the CRO.&lt;/p&gt;
-
-&lt;p&gt;For more information on each position and the election process please consult the &lt;a href=&quot;http://bit.ly/2FF0lBW&quot;&gt;CSSU constitution&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you are interested in running for a position please fill out the nomination form &lt;a href=&quot;http://bit.ly/2GoTwWj&quot;&gt;found here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;If you have any questions you can reach the CRO at roya.shams.zadeh.amiri@mail.utoronto.ca&lt;/p&gt;
-</description>
-        <pubDate>Wed, 14 Mar 2018 19:30:00 +0000</pubDate>
-        <link>https://cssu.ca/news/2018/03/14/elections.html</link>
-        <guid isPermaLink="true">https://cssu.ca/news/2018/03/14/elections.html</guid>
-        
-        
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>CSSU x DCS Town Hall</title>
-        <description>&lt;p&gt;Have questions about POST? Wondering what resources are available for you? Want to know more about the CS program?&lt;/p&gt;
-
-&lt;p&gt;Join us for a conversation with several faculty members of the Department of Computer Science, including Francois Pitt, Danny Heap, David Liu, Estina Boddie and Beatrix Doma, this Friday March 2nd from 5PM to 7PM in BA1200! Pizza will also be served courtesy of the DCS, who are sponsoring this event!&lt;/p&gt;
-
-&lt;p&gt;This is your chance to ask any questions you have about CS at UofT. This could include questions on courses, study spaces, research opportunities, or program requirements. Take this time to share any concerns effecting your experience and make your voice heard! Our objective is to generate discussion and gather input for the continued improvement of DCS.&lt;/p&gt;
-
-&lt;p&gt;So get your questions ready and don’t forget to drop by!
-&lt;a href=&quot;https://www.facebook.com/events/782684001933439/?ti=cl&quot;&gt;Click Here&lt;/a&gt; to be directed to the event.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 02 Mar 2018 00:00:00 +0000</pubDate>
-        <link>https://cssu.ca/events/cssu/2018/03/02/Town-Hall.html</link>
-        <guid isPermaLink="true">https://cssu.ca/events/cssu/2018/03/02/Town-Hall.html</guid>
         
         <category>cssu</category>
         
