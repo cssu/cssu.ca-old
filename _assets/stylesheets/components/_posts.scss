@@ -143,3 +143,25 @@
     margin-top: 2em;
   }
 }
+
+form { 
+  font-size:1.2em; 
+  margin: 2em auto;
+  padding:1em;
+  align-self: center;
+  width:90%;
+}
+
+input, select, textarea {outline:none;}
+
+
+/* Text Input */
+input[type='text'] {
+  padding: .25em;
+  width:50%;
+}
+
+input[type='email'] {
+  padding: .25em;
+  width: 50%;
+}

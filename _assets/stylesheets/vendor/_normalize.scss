@@ -291,6 +291,7 @@ html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button; /* 2 */
+  padding: 0.2em;
 }
 
 /**
