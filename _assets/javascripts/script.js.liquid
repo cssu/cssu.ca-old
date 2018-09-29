@@ -87,10 +87,9 @@ var closeMenu = function (e) {
 
   if (!elMenu.contains(e.target)) {
     e.preventDefault();
+    document.body.classList.remove(showMenuClass);
+    document.body.removeEventListener('click', closeMenu);
   }
-
-  document.body.classList.remove(showMenuClass);
-  document.body.removeEventListener('click', closeMenu);
 };
 
 document.getElementById('mobile-menu-icon').addEventListener('click', function (e) {

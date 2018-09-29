@@ -18,13 +18,33 @@
 
       <div id="mobile-menu" class="trigger">
         {% for link in site.data.nav %}
+          {% if link.children %}
+          <a class="page-link drop" onclick="">{{ link.title }} ▾</a>
+          <ul class="nav-dropdown">
+            {% for child in link.children %}
+              {% assign current = nil %}
+              {% if page.url contains link.url %}
+                {% assign current = "current" %}
+              {% endif %}
+              <a class="page-link {{ current }}" href="{{ child.url }}">{{ child.title }}</a>
+            {% endfor %}
+          </ul>
+          {% else %}
           {% assign current = nil %}
           {% if page.url contains link.url %}
             {% assign current = "current" %}
           {% endif %}
 
           <a class="page-link {{ current }}" href="{{ link.url }}">{{ link.title }}</a>
+          {% endif %}
         {% endfor %}
+
+        <!-- <a class="page-link drop" href="cssu.ca">Head2 ▾</a>
+          <ul class="nav-dropdown">
+              <li><a class="page-link " href="#!">Web</a></li>
+              <li><a class="page-link " href="#!">Web</a></li>
+              <li><a class="page-link " href="#!">Graphic2 Design2</a></li>
+          </ul> -->
       </div>
     </nav>
   </div>

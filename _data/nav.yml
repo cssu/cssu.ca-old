@@ -7,14 +7,16 @@
 - title: Store
   url: /store/
 
-- title: 1st Year Guide
-  url: /firstyearcs/
+- title: Resources
+  children:
+    - title: 1st Year Guide
+      url: /firstyearcs/
 
-- title: Podcast
-  url: /podcast/
-  
-- title: Yearbook
-  url: /yearbook/
+    - title: Podcast
+      url: /podcast/
+      
+    - title: Yearbook
+      url: /yearbook/
   
 - title: Clubs
   url: /clubs/
@@ -27,3 +29,6 @@
   
 - title: About
   url: /about/
+
+- title: Feedback
+  url: /feedback/

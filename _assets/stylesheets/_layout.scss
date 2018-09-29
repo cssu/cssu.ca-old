@@ -81,6 +81,25 @@
 .site-nav {
   margin-top: 2em;
 
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul li {
+    min-width: 190px;
+    a {
+      padding: 15px;
+      line-height: 20px;
+    }
+  }
+
+  li {
+    position: relative;
+  }
+  
+
   @include mobile {
     background-color: $white;
     border: 1px solid $light-grey;
@@ -133,6 +152,20 @@
       margin-bottom: 5px;
     }
   }
+  .nav-dropdown {
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    display: none;
+    padding-top: 0.5rem;
+
+    @include mobile {
+      position: relative;
+    }
+  }
+
+  .page-link.drop:hover + .nav-dropdown {display: block;}
+  .nav-dropdown:hover {display: block;}
 
   .page-link {
     border-bottom: 1px solid transparent;
