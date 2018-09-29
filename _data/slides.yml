@@ -1,9 +1,9 @@
 # There should only be a maximum of 4 slides
 # Pictures go in _assets/images/slides/
 
-- title: First Year Rep Applications
-  text: Apply Now!
-  link: /news/2018/09/18/first-year-rep-applications
+- title: First Year Guide to CS
+  text: Available to Read Now!
+  link: /firstyearcs
   pic: awesome.jpg
 
 - title: 2017-2018 Yearbook
