@@ -13,6 +13,7 @@
 
     - name:  Taylor Stinson
       role:  Treasurer
+      pic:   20182019/taylor
 
     - name:  Ignas Panero Armoska
       role: Director of Social Events
@@ -38,6 +39,14 @@
     - name: Peiyu Yu
       role: International Student Liason
       pic:   20182019/peiyu
+
+    - name: Rooney Gao
+      role: First Year Liason
+      pic:   20182019/rooney
+
+    - name: Kevin Hu
+      role: International Student Liason
+      pic:   20182019/Kevin
 
 - year: 2017 - 2018
   teams:
