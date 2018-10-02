@@ -255,7 +255,8 @@ html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-  /* 2 */ }
+  /* 2 */
+  padding: 0.2em; }
 
 /**
  * Remove the inner border and padding in Firefox.
@@ -542,6 +543,17 @@ tr:nth-child(even) {
 
 .site-nav {
   margin-top: 2em; }
+  .site-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .site-nav ul li {
+    min-width: 190px; }
+    .site-nav ul li a {
+      padding: 15px;
+      line-height: 20px; }
+  .site-nav li {
+    position: relative; }
   @media (max-width: 600px) {
     .site-nav {
       background-color: #fff;
@@ -580,6 +592,19 @@ tr:nth-child(even) {
       clear: both;
       display: none;
       margin-bottom: 5px; } }
+  .site-nav .nav-dropdown {
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+    display: none;
+    padding-top: 0.5rem; }
+    @media (max-width: 600px) {
+      .site-nav .nav-dropdown {
+        position: relative; } }
+  .site-nav .page-link.drop:hover + .nav-dropdown {
+    display: block; }
+  .site-nav .nav-dropdown:hover {
+    display: block; }
   .site-nav .page-link {
     border-bottom: 1px solid transparent;
     color: #fff;
@@ -1364,6 +1389,27 @@ ul.members-list li {
 
   .tag-cloud {
     margin-top: 2em; } }
+form {
+  font-size: 1.2em;
+  margin: 2em auto;
+  padding: 1em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 90%; }
+
+input, select, textarea {
+  outline: none; }
+
+/* Text Input */
+input[type='text'] {
+  padding: .25em;
+  width: 50%; }
+
+input[type='email'] {
+  padding: .25em;
+  width: 50%; }
+
 .slideshow-content {
   background-color: #262626; }
 
