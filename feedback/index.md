@@ -4,7 +4,7 @@ title: Feedback Form
 permalink: /feedback/
 ---
 
-This is where you can provide us (the CSSU) with your feedback/concerns. Feel free to leave your name and email if you want to be contacted otherwise you can remain anonymous.
+This is where you can provide us (the CSSU) with your feedback/concerns. Feel free to leave your name and email if you want to be contacted or you can omit them for the sake of anonymity
 
 <form action="https://formspree.io/cssu@teach.cs.toronto.edu" method="POST">
     <label>Name:</label> <input type="text" name="name"><br><br>
