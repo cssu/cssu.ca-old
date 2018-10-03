@@ -36,17 +36,25 @@
       role: General Council Member
       pic:   20182019/jeremy
 
+    - name: Ben Prystawski
+      role: General Council Member
+      pic:   20182019/ben
+
+    - name: Marco Angeli
+      role: General Council Member
+      pic:   20182019/marco
+
     - name: Peiyu Yu
       role: International Student Liason
       pic:   20182019/peiyu
 
-    - name: Rooney Gao
-      role: First Year Liason
-      pic:   20182019/rooney
-
     - name: Kevin Hu
       role: International Student Liason
       pic:   20182019/Kevin
+
+    - name: Rooney Gao
+      role: First Year Liason
+      pic:   20182019/rooney
 
 - year: 2017 - 2018
   teams:
