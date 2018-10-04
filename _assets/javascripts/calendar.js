@@ -55,8 +55,8 @@ function appendTimeEvent(event) {
   var endTime = new Date(event.end.dateTime);
   var eventEl = _createEventEl(startTime, event.summary, event.description, event.location);
   eventEl.appendChild(_createElement('p', null,
-      'From ' + startTime.toLocaleTimeString('en-US') +
-      ' to ' + endTime.toLocaleTimeString('en-US')));
+      'From ' + _formatTime(startTime) +
+      ' to ' + _formatTime(endTime)));
   eventsListEl.appendChild(eventEl);
 }
 
@@ -76,7 +76,7 @@ function _createEventEl(date, summary, description, location) {
   var eventEl = _createElement('li');
 
   var eventDateEl = _createElement('div', {'class': 'event-date'});
-  eventDateEl.appendChild(_createElement('p', {'class': 'event-month'}, date.toLocaleString('en-US', {month: 'short'})));
+  eventDateEl.appendChild(_createElement('p', {'class': 'event-month'}, _formatMonth(date)));
   eventDateEl.appendChild(_createElement('p', {'class': 'event-day'}, date.getUTCDate()));
   eventEl.appendChild(eventDateEl);
 
@@ -111,4 +111,18 @@ function _createElement(type, attrs, text) {
   }
 
   return el;
+}
+
+/**
+ * Formats a date object's time value as "h:mm tt".
+ */
+function _formatTime(date) {
+  return date.toLocaleTimeString('en-us', { hour: '2-digit', minute: '2-digit' });
+}
+
+/**
+ * Formats a date object's month value as "MMM".
+ */
+function _formatMonth(date) {
+  return date.toLocaleString('en-us', { month: 'short' })
 }
