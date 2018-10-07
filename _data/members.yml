@@ -31,6 +31,18 @@
     - name: Sonia Zaldana
       role: Secretary
       pic:   20182019/sonia
+    
+    - name: Peiyu Yu
+      role: International Student Liason
+      pic:   20182019/peiyu
+
+    - name: Kevin Hu
+      role: International Student Liason
+      pic:   20182019/Kevin
+
+    - name: Rooney Gao
+      role: First Year Liason
+      pic:   20182019/rooney
 
     - name: Jeremy Yang
       role: General Council Member
@@ -43,18 +55,15 @@
     - name: Marco Angeli
       role: General Council Member
       pic:   20182019/marco
-
-    - name: Peiyu Yu
-      role: International Student Liason
-      pic:   20182019/peiyu
-
-    - name: Kevin Hu
-      role: International Student Liason
-      pic:   20182019/Kevin
-
-    - name: Rooney Gao
-      role: First Year Liason
-      pic:   20182019/rooney
+    
+    - name: Clara Silwal
+      role: General Council Member
+    
+    - name: Ren Zhang
+      role: General Council Member
+    
+    - name: Elliot Ford
+      role: General Council Member
 
 - year: 2017 - 2018
   teams:
