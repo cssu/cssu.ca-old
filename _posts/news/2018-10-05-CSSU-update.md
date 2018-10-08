@@ -3,7 +3,7 @@ layout: post
 title:  CSSU Blog: Hello World
 author: Anujan M
 date:   2018-10-05 20:30:00
-categories: blog
+categories: news
 ---
 So hopefully you've been getting into the swing of things, whether your a first year or finishing up your degree on behalf of the CSSU I hope you've been had a great first month back. The CSSU has also been busy this past month prepping lots of great events and things for you to make the most of your experience here at UofT.
 
