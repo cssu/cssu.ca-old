@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  CSSU Blog: A new beginning
+title:  CSSU Blog: Hello World
 author: Anujan M
 date:   2018-10-05 20:30:00
 categories: blog
@@ -11,7 +11,7 @@ My name is Anujan and I'm this year's CSSU webmaster, this past summer myself al
 
 My goal in these posts is to give you a "one-stop" shop for all the DCS, UofT and interesting news that will hopefully make you aware of whats happing and will happen. Information is spread out through a lot of different locations and hopefully I can bring some really interesting things to your attention. While this won't be fully comprehensive, I think I can try my best :).
 
-This "Blog" will hopefully be published every week with the CS news you need to know about, upcoming events and tips and tricks. In upcoming posts I hope to add lots of interesting content whether guest writers, interviews and maybe a space for readers like you to submit your content.
+This "Blog" will hopefully be published every week on cssu.ca with the CS news you need to know about, upcoming events and tips and tricks. In upcoming posts I hope to add lots of interesting content whether guest writers, interviews and maybe a space for readers like you to submit your content.
 
 Without further ado, let's get into the content:
 
@@ -40,6 +40,6 @@ If your in the CS POST you get 600 pages a year of free printing in the labs at 
 - [See which labs are free and which are not](https://www.teach.cs.toronto.edu/usage/usage.html)
 - [If you need to update/get a mirror for fast Linux installations UofT hosts mirrors of all the popular Linux flavors](http://mirror.utoronto.ca/)
 
-Hope this was a great read and informative to you. If you have any feedback feel free to email us, comment on the facebook post or come to the CSSU to talk to us.
+Hope this was a great read and informative to you. If you have any feedback feel free to email us, comment on the facebook/reddit post or come to the CSSU to talk to us.
 
 Happy Thanksgiving from all of us at the CSSU! 
