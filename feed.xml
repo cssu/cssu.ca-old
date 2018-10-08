@@ -5,8 +5,8 @@
     <description>University of Toronto Computer Science Student Union</description>
     <link>https://cssu.ca/</link>
     <atom:link href="https://cssu.ca/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 08 Oct 2018 14:08:31 +0000</pubDate>
-    <lastBuildDate>Mon, 08 Oct 2018 14:08:31 +0000</lastBuildDate>
+    <pubDate>Mon, 08 Oct 2018 19:07:38 +0000</pubDate>
+    <lastBuildDate>Mon, 08 Oct 2018 19:07:38 +0000</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
     
       <item>
@@ -107,6 +107,60 @@
       </item>
     
       <item>
+        <title></title>
+        <description>&lt;p&gt;So hopefully you’ve been getting into the swing of things, whether your a first year or finishing up your degree on behalf of the CSSU I hope you’ve been had a great first month back. The CSSU has also been busy this past month prepping lots of great events and things for you to make the most of your experience here at UofT.&lt;/p&gt;
+
+&lt;p&gt;My name is Anujan and I’m this year’s CSSU webmaster, this past summer myself along with Clara wrote the CSSU’s &lt;a href=&quot;www.cssu.ca/firstyearcs&quot;&gt;First Year Guide to CS&lt;/a&gt;, we’ve received a tremendous response from students both incoming first years and current students. We’ve heard the feedback and hope that we can update and build on that guide going forward and create more great content for all CS students. This series of news posts are a part of that effort.&lt;/p&gt;
+
+&lt;p&gt;My goal in these posts is to give you a “one-stop” shop for all the DCS, UofT and interesting news that will hopefully make you aware of whats happing and will happen. Information is spread out through a lot of different locations and hopefully I can bring some really interesting things to your attention. While this won’t be fully comprehensive, I think I can try my best :).&lt;/p&gt;
+
+&lt;p&gt;This “Blog” will hopefully be published every week on cssu.ca with the CS news you need to know about, upcoming events and tips and tricks. In upcoming posts I hope to add lots of interesting content whether guest writers, interviews and maybe a space for readers like you to submit your content.&lt;/p&gt;
+
+&lt;p&gt;Without further ado, let’s get into the content:&lt;/p&gt;
+
+&lt;h2 id=&quot;news&quot;&gt;News:&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;From the &lt;a href=&quot;http://web.cs.toronto.edu/news/current/U_of_T_s_Michelle_Craig_wins_prestigious_OCUFA_teaching_award.htm&quot;&gt;CS Department&lt;/a&gt;, Professor Michelle Craig has been named one of Ontario’s most outstanding university teachers by the Ontario Confederation of University Faculty Associations (OCUFA) for the 2017-2018 year. Professor Craig has taught many CS courses at the undergrad level such as CSC343 and CSC209. She is also one of the creators of the PCRS C modules which is used in CSC209 to supplement learning in the course though preparatory videos and exercises. If you see her around please congratulate her on this wonderful achievement.&lt;/li&gt;
+  &lt;li&gt;The University of Toronto is currently reviewing all Convocations and a group of CS students has spearheaded a campaign to get the university to add a CS convocation similar to Rotman’s and the DCS’s 50th anniversary convocation. You can read the full petition and sign &lt;a href=&quot;https://www.change.org/p/university-of-toronto-convocation-review-committee-let-cs-graduate-together&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Konrad Group is offering two $2,000 scholarships to third and fourth year Computer Science students. The Digital Innovation Scholarship is open to undergraduate students in the computer science field who are interested in pursuing a career in digital technology. The Women in Technology Scholarship was designed for female undergraduate Computer Science student who’s interested in pursuing a career in digital technology. For more information visit &lt;a href=&quot;http://web.cs.toronto.edu/news/events/konrad_awards_2018-19.htm?DateTime=636758244000000000&amp;amp;PageMode=View&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;While it seemed to have been a slow CS news week here at UofT, I thought I would share some “recent” achievements of CS undergrads to possibly inspire you.&lt;/li&gt;
+  &lt;li&gt;Samin Khan (4th Year CS Student) this summer won Microsoft’s Imagine Cup along with his teammate from UOIT. Imagine Cup is a worldwide competition where students pitch new ideas and products that can help people. Read more &lt;a href=&quot;http://web.cs.toronto.edu/news/current/global_innovation_competition.htm?DateTime=636707014200000000&amp;amp;PageMode=View&quot;&gt;here&lt;/a&gt; for Nina’s Interview with him about his experience, inspiration and whats he’s doing next.&lt;/li&gt;
+  &lt;li&gt;Along with him another undergraduate student who’s done some cool things this summer is Lana El Sanyoura (finished her 3rd year and will being her final year in 2019 after PEY) (also full disclosure Lana was a member of the CSSU last year as noted in the article). She interned at MIT-IBM Watson AI Lab within IBM Research in Cambridge, Massachusetts working with leading AI researchers and professors. You can read her interview by Nina &lt;a href=&quot;http://web.cs.toronto.edu/news/current/U_of_T_computer_science_undergrad_interns_at_MIT-IBM_Watson_AI_Lab.htm?DateTime=636718267800000000&amp;amp;PageMode=View&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;events&quot;&gt;Events&lt;/h2&gt;
+
+&lt;h3 id=&quot;upcoming-events&quot;&gt;Upcoming events:&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Oct 9th 4-5pm BA7231 How to Network Workshop: Need help navigating the basics of networking and meeting new people? Learn how in a session led by U of T’s Mentorship and Peer Programs. Pizza will be provided. Register &lt;a href=&quot;http://web.cs.toronto.edu/news/events/Talking_to_New_People_Registration__Oct_9.htm&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Oct 10th 10am-1pm Pancake Breakfast: Its a CSSU tradition at this point come down and have some delicious free pancakes (either as breakfast, lunch or snack). New this year Apple Cinnamon Pancakes (They actually taste good)&lt;/li&gt;
+  &lt;li&gt;Oct 10th 1-3pm BA5250 Microsoft Office Hours: Microsoft is coming back to UofT and they’re holding office hours where you and go talk to them about anything from recruitment, job experience and lots of other great things. Register &lt;a href=&quot;http://clnx.utoronto.ca&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Oct 16th 12-2pm DCIL Talent Tuesday - Data Science: Department of Computer Science Innovation Lab is hosting this event where you can meet industry and startup mentors who can help guide you in your future career plans.&lt;/li&gt;
+  &lt;li&gt;For a full list of events visit the CSSU Facebook Page or the DCS &lt;a href=&quot;http://web.cs.toronto.edu/news/events.htm&quot;&gt;events page&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tip-of-the-week&quot;&gt;Tip of the week&lt;/h2&gt;
+&lt;p&gt;If your in the CS POST you get 600 pages a year of free printing in the labs at Bahen (and only Bahen) note the printers are are the 2nd and 3rd floor labs.&lt;/p&gt;
+
+&lt;h2 id=&quot;interesting-links&quot;&gt;Interesting Links&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.teach.cs.toronto.edu/usage/usage.html&quot;&gt;See which labs are free and which are not&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mirror.utoronto.ca/&quot;&gt;If you need to update/get a mirror for fast Linux installations UofT hosts mirrors of all the popular Linux flavors&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Hope this was a great read and informative to you. If you have any feedback feel free to email us, comment on the facebook/reddit post or come to the CSSU to talk to us.&lt;/p&gt;
+
+&lt;p&gt;Happy Thanksgiving from all of us at the CSSU!&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Oct 2018 19:07:38 +0000</pubDate>
+        <link>https://cssu.ca/2018/10/08/2018-10-05-CSSU-update.html</link>
+        <guid isPermaLink="true">https://cssu.ca/2018/10/08/2018-10-05-CSSU-update.html</guid>
+        
+        
+      </item>
+    
+      <item>
         <title>First Year Rep Applications Now Open</title>
         <description>&lt;p&gt;Do you see yourself here, helping positively impact the CS community at UofT? If you’re a First Year apply to be a CSSU First Year Rep now!&lt;/p&gt;
 
@@ -161,61 +215,6 @@ Where: BA7321&lt;/p&gt;
         
         
         <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Midnight in Morocco: CSSU Semi-Formal</title>
-        <description>&lt;p&gt;Come and celebrate with the Computer Science Student Union’s Semi-formal Dinner and Dance: Midnight in Morocco!&lt;/p&gt;
-
-&lt;p&gt;Experience the charm of French-Moroccan cuisine as you dance in the antique candle-lit Berber room.&lt;/p&gt;
-
-&lt;p&gt;With music courtesy of AI DJs (thanks to Rave and Crowdplay) and a human DJ too, this formal is the perfect way to get together with all your friends before PEY, graduation or just to celebrate the end of another fantastic year of school!&lt;/p&gt;
-
-&lt;p&gt;When: Thursday, March 29th, 2018
-Where: Sultan’s Tent, 49 Front St E, Toronto, ON M5E 1B3&lt;/p&gt;
-
-&lt;p&gt;Doors open at 7PM, Dinner will be served at 8PM&lt;/p&gt;
-
-&lt;p&gt;Tickets: $45 on Eventbrite&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Plus credit processing fees of $3.86&lt;/li&gt;
-  &lt;li&gt;Please note that there are no refunds&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;em&gt;LAST DAY TO BUY TICKETS IS THURSDAY MARCH 22nd at MIDNIGHT&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Dress Code: Semi-formal attire&lt;/p&gt;
-
-&lt;p&gt;Food &amp;amp; Drinks:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;3-course meal (choices available on ticket)&lt;/li&gt;
-  &lt;li&gt;1 drink ticket from the bar&lt;/li&gt;
-  &lt;li&gt;Cash Bar is available&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;General Information:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Coat check will be provided&lt;/li&gt;
-  &lt;li&gt;Attendees 19+ must have valid ID to receive a stamp&lt;/li&gt;
-  &lt;li&gt;Vegetarian, Vegan, and Halal options are available&lt;/li&gt;
-  &lt;li&gt;Non-CS students welcome&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.eventbrite.com/e/cssu-semi-formal-dinner-and-dance-midnight-in-morocco-tickets-43506451969&quot;&gt;Click here to purchase your tickets!&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;For inquiries about allergies, accessibility or anything else, please email us at utcssu@gmail.com&lt;/p&gt;
-</description>
-        <pubDate>Thu, 29 Mar 2018 00:00:00 +0000</pubDate>
-        <link>https://cssu.ca/events/cssu/2018/03/29/Semi-Formal.html</link>
-        <guid isPermaLink="true">https://cssu.ca/events/cssu/2018/03/29/Semi-Formal.html</guid>
-        
-        <category>cssu</category>
-        
-        
-        <category>events</category>
-        
-        <category>cssu</category>
         
       </item>
     
