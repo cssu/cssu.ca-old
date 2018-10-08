@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  CSSU Blog: Hello World
+title:  CSSU Blog - Hello World
 author: Anujan M
 date:   2018-10-05 20:30:00
 categories: news
