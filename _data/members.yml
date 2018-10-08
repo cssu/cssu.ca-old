@@ -43,6 +43,10 @@
     - name: Rooney Gao
       role: First Year Liason
       pic:   20182019/rooney
+    
+    - name: Ren Zhang
+      role: First Year Liason
+      pic: 20182019/ren
 
     - name: Jeremy Yang
       role: General Council Member
@@ -57,9 +61,6 @@
       pic:   20182019/marco
     
     - name: Clara Silwal
-      role: General Council Member
-    
-    - name: Ren Zhang
       role: General Council Member
     
     - name: Elliot Ford
