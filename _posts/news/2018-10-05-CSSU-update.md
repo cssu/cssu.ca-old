@@ -7,7 +7,7 @@ categories: news
 ---
 So hopefully you've been getting into the swing of things, whether your a first year or finishing up your degree on behalf of the CSSU I hope you've been had a great first month back. The CSSU has also been busy this past month prepping lots of great events and things for you to make the most of your experience here at UofT.
 
-My name is Anujan and I'm this year's CSSU webmaster, this past summer myself along with Clara wrote the CSSU's [First Year Guide to CS](www.cssu.ca/firstyearcs), we've received a tremendous response from students both incoming first years and current students. We've heard the feedback and hope that we can update and build on that guide going forward and create more great content for all CS students. This series of news posts are a part of that effort.
+My name is Anujan and I'm this year's CSSU webmaster, this past summer myself along with Clara wrote the CSSU's [First Year Guide to CS](https://www.cssu.ca/firstyearcs), we've received a tremendous response from students both incoming first years and current students. We've heard the feedback and hope that we can update and build on that guide going forward and create more great content for all CS students. This series of news posts are a part of that effort.
 
 My goal in these posts is to give you a "one-stop" shop for all the DCS, UofT and interesting news that will hopefully make you aware of whats happing and will happen. Information is spread out through a lot of different locations and hopefully I can bring some really interesting things to your attention. While this won't be fully comprehensive, I think I can try my best :).
 
@@ -34,7 +34,7 @@ Without further ado, let's get into the content:
 - For a full list of events visit the CSSU Facebook Page or the DCS [events page](http://web.cs.toronto.edu/news/events.htm)
 
 ## Tip of the week
-If your in the CS POST you get 600 pages a year of free printing in the labs at Bahen (and only Bahen) note the printers are are the 2nd and 3rd floor labs.
+If your in the CS POST you get 600 pages a year of free printing in the labs at Bahen (and only Bahen) note the printers are on the 2nd and 3rd floor labs.
 
 ## Interesting Links
 - [See which labs are free and which are not](https://www.teach.cs.toronto.edu/usage/usage.html)
