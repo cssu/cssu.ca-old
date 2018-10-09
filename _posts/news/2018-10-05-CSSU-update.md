@@ -5,7 +5,7 @@ author: Anujan M
 date:   2018-10-05 20:30:00
 categories: news
 ---
-So hopefully you've been getting into the swing of things, whether your a first year or finishing up your degree on behalf of the CSSU I hope you've been had a great first month back. The CSSU has also been busy this past month prepping lots of great events and things for you to make the most of your experience here at UofT.
+So hopefully you've been getting into the swing of things, whether you're a first year or finishing up your degree on behalf of the CSSU I hope you've been had a great first month back. The CSSU has also been busy this past month prepping lots of great events and things for you to make the most of your experience here at UofT.
 
 My name is Anujan and I'm this year's CSSU webmaster, this past summer myself along with Clara wrote the CSSU's [First Year Guide to CS](https://www.cssu.ca/firstyearcs), we've received a tremendous response from students both incoming first years and current students. We've heard the feedback and hope that we can update and build on that guide going forward and create more great content for all CS students. This series of news posts are a part of that effort.
 
