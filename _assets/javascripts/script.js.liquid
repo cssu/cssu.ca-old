@@ -74,7 +74,7 @@ function init_map() {
   google.maps.event.addDomListener(window, 'resize', function() { map.setCenter(homeLatLng); });
 }
 
-google.maps.event.addDomListener(window, 'load', init_map);
+/** google.maps.event.addDomListener(window, 'load', init_map); */
 
 
 /** Menu icon */
