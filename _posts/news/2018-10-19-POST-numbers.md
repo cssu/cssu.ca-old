@@ -21,7 +21,8 @@ The following chart was provided after requests to the department for more concr
        <tr>
          <td><br>
          </td>
-         <td colspan="6" align="center">2018 Admission statistics</td>
+         <td colspan="6" align="center">2018 Admission statistics First Round</td>
+         <td colspan="6" align="center">2018 Admission statistics Second Round</td>
          <td colspan="5" align="center">2017 Major + Spec. statistics</td>
        </tr>
        <tr>
@@ -30,9 +31,11 @@ The following chart was provided after requests to the department for more concr
          <td colspan="2" align="center">Minor Only</td>
          <td colspan="2" align="center">Data Science</td>
          <td colspan="2" align="center">Major + Spec.</td>
+         <td colspan="2" align="center">Minor Only</td>
+         <td colspan="2" align="center">Data Science</td>
+         <td colspan="2" align="center">Major + Spec.</td>
          <td colspan="2" align="center">First Round</td>
          <td colspan="2" align="center">Second Round</td>
-         <td align="center">Transfer</td>
        </tr>
        <tr>
          <td><br>
@@ -47,6 +50,11 @@ The following chart was provided after requests to the department for more concr
          <td>Offers</td>
          <td>Apply</td>
          <td>Offers</td>
+         <td>Apply</td>
+         <td>Offers</td>
+         <td>Apply</td>
+         <td>Offers</td>
+         <td>Apply</td>
          <td>Offers</td>
        </tr>
        <tr>
@@ -57,6 +65,12 @@ The following chart was provided after requests to the department for more concr
          <td>2</td>
          <td>360</td>
          <td>197</td>
+         <td>78</td>
+         <td>35</td>
+         <td>24</td>
+         <td>4</td>
+         <td>146</td>
+         <td>49</td>
          <td>268</td>
          <td>148</td>
          <td>57</td>
@@ -70,6 +84,12 @@ The following chart was provided after requests to the department for more concr
          <td>14</td>
          <td>428</td>
          <td>122</td>
+         <td>186</td>
+         <td>79</td>
+         <td>63</td>
+         <td>6</td>
+         <td>253</td>
+         <td>62</td>
          <td>411</td>
          <td>155</td>
          <td>272</td>
@@ -83,11 +103,16 @@ The following chart was provided after requests to the department for more concr
          <td>16</td>
          <td>788</td>
          <td>319</td>
+         <td>264</td>
+         <td>114</td>
+         <td>87</td>
+         <td>10</td>
+         <td>399</td>
+         <td>111</td>
          <td>679</td>
          <td>303</td>
          <td>329</td>
          <td>65</td>
-         <td>38</td>
        </tr>
      </tbody>
    </table>
@@ -127,7 +152,7 @@ The following is the number of applications versus offers for the major and spec
    </tbody>
 </table>
 
-There used to be the cutoff averages for those years posted on the department site. The department now feels that this is not indicative of what the average will be in the coming years and is a bad indicator so at their request we are not including it.
+There used to be the cutoff averages for those years posted on the department site. The department now feels that this is not indicative of what the average will be in the coming years as noted in reasons above. The cutoff is basically the average of the last student to get into the POST at that given time.
 
 We would like to thank Francois and the department for their help in giving us these numbers and their permission to release them to the public. Francois also talked on last years [Room 2250 Episode](https://soundcloud.com/room-2250/s1e2-the-pitt-questions) about the POST if you want further information.
 
