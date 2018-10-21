@@ -20,7 +20,7 @@ The department is taking steps to increase its faculty size and teaching capacit
 
 Admissions is split into two rounds, one following the close of the winter session and another following the close of the summer session.
 
-The following chart was provided after requests to the department for more concrete information. This comparison is between 2017 and 2018's Round 1.
+The following chart was provided after requests to the department for more concrete information. This comparison is between 2017 and 2018.
 
 <table cellpadding="2" border="1">
      <tbody>
@@ -127,7 +127,7 @@ The following chart was provided after requests to the department for more concr
 
 There is typically a predetermined number of positions available in the program each year (Major + Spec., see table below). The total number of offers should exceed that slightly as not every offer is accepted. Transfer students have also been excluded above. Note that not all students in CMP1 decided to pursue a CS Major/Specialist. 
 
-The following is the number of applications versus offers for the major and specialist program over the years as taken from the [department site](http://web.cs.toronto.edu/program/ugrad/admission.htm). (Note that some of the numbers do not match the table above, this has been noted and will be addressed)
+The following is the number of applications versus offers for the major and specialist program over the years as taken from the [department site](http://web.cs.toronto.edu/program/ugrad/admission.htm).
 
 <table cellspacing="3" cellpadding="3">
    <tbody align="right">
@@ -158,7 +158,7 @@ The following is the number of applications versus offers for the major and spec
    </tbody>
 </table>
 
-There used to be the cutoff averages for these years posted on the department site. The department now feels that this is not a beneficial indicator for students. If one year of applicants were to do especially poor (or CSC165 and CSS148 were especially difficult) the cutoff for that year would sink. If another were to do especially well it would rise. While many may take comfort in having a definite goal, these historical cutoffs may not represent the current requirements for the program. The cutoff is basically the average of the student with the lowest marks to get into the program at that given time. If you would like to know historical cutoff averages please get in touch with us.
+There used to be the cutoff averages for these years posted on the department site. The department now feels that this is not a beneficial indicator for students. If one year of applicants were to do especially poor (or CSC165 and CSC148 were especially difficult) the cutoff for that year would sink. If another were to do especially well it would rise. While many may take comfort in having a definite goal, these historical cutoffs may not represent the current requirements for the program. The cutoff is basically the average of the student with the lowest marks to get into the program at that given time. If you would like to know historical cutoff averages please get in touch with us.
 
 We would like to thank Francois Pitt and the department for their help in giving us these numbers and their permission to release them to the public. Francois also talked on last years [Room 2250 Episode](https://soundcloud.com/room-2250/s1e2-the-pitt-questions) about the program if you want further information.
 
