@@ -125,7 +125,7 @@ The following chart was provided after requests to the department for more concr
 
 (This is the first year of Data Science, a joint program with CS and Stats.)
 
-There is typically a predetermined number of positions available in the program each year (Major + Spec., see table below). The total number of offers should exceed that slightly as not every offer is accepted. Transfer students have also been excluded above. Note that not all students in CMP1 decided to pursue a CS Major/Specialist. Also note that as not all students in CMP1 decided to pursue a CS Major/Specialist. 
+There is typically a predetermined number of positions available in the program each year (Major + Spec., see table below). The total number of offers should exceed that slightly as not every offer is accepted. Transfer students have also been excluded above. Note that not all students in CMP1 decided to pursue a CS Major/Specialist. 
 
 The following is the number of applications versus offers for the major and specialist program over the years as taken from the [department site](http://web.cs.toronto.edu/program/ugrad/admission.htm). (Note that some of the numbers do not match the table above, this has been noted and will be addressed)
 
