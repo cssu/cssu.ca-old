@@ -6,15 +6,21 @@ date:   2018-10-19
 categories: news
 ---
 
-As many of you know the CS POSt is one of the most stressful things for new CS students at St. George. Every year since 2014, there has been a cutoff average between CSC165 and CSC148 that determines the students who get into the POST.
+* The University of Toronto now uses the term 'program' in replacement of 'POSt', `POSt ≡ program`
 
-There is a lot of misinformation about why it exists and how it works. We want to give you a full picture, and more data to make sure that you are informed. We hope this information will help you understand the situation better and make choices from a more informed perspective. 
+As many of you know the CS program is one of the most stressful things for new CS students at St. George. Every year since 2014, there has been a cutoff -- an average of CSC165 and CSC148 marks -- that determines the students who get into the program. There is some misinformation about why it exists and how it works. We hope here to give you a fuller picture, and as much data as possible to allow you to make informed decisions.
 
-The main reason that we have rigorous admission limitations is a lack of space and a lack of professors. The department lacks the resources in terms of space and time for courses that can fit everyone that is interested, and there is also a shortage of faculty. There is also the instream vs out-of-stream factor. When applying from highschool you were allowed to apply to the CS stream (CMP1); this stream had a higher admission average than most other direct from high school programs at UofT. The problem is you are not "in the program" untill you get into the POST at the end of your first year. (This is why you are not charged deregulated CS Fees in your first year but "general" artsci fees.) Beyond the students who are in-stream (CMP1) any students who has taken CSC165 and CSC148 are allowed to apply to the POST. There are many students who explore CS courses, find that they enjoy it much more than the program they are currently in, and decide to get pursue this field of study. As seen in the chart this is a sizeable number of those who apply to POSt.
+The main reason that we have rigorous admission requirements is a limitation of space and instructors. The department lacks the resources to operate courses that can fit everyone who is interested. These bounds are for the most part handed down from the Faculty of Arts and Science and not decided by the department itself.
 
-The department is taking steps to increase its faculty size and teaching capacity to try and accept more students, but continuously increasing cutoff is only a reflection of the quality and success of students applying. The gist of how these cutoffs are calculated is basically such: Take the top x number of students in decreasing order of their averages between the two courses (where x is the number of spots in the program for the following year).
+The admissions process uses an in-stream/out-stream categorization system. When applying from highschool you are allowed to apply to the CS stream (CMP1). The CMP1 stream has a higher admission average than most and in turn offers mild leniency when applying to the program. What many applicants fail to understand is that you are not in the program until you apply and accept an offer after completing CSC148 and CSC165 (this is also why you are not charged deregulated CS Fees in your first year but "general" artsci fees). Beyond the students who are in-stream (CMP1), any students who has taken CSC165 and CSC148 are allowed to apply to the program. There are many students who explore CS courses, find that they enjoy it, and decide to pursue it as one of their fields of study. As seen in the chart below this make up a sizeable number of the overall applicants to the program.
 
-The following chart was provided after requests to the department for more concrete information. This comparison is between 2017 and 2018's Round 1. As of publishing we didn't get Round 2 for 2018.
+The department is taking steps to increase its faculty size and teaching capacity to try and accept more students, but the continuously increasing cutoff is only a reflection of the continuously increasing quality and competitiveness of students applying. The gist of how these cutoffs are calculated is basically such: 
+1. Sort applicants in decreasing order of their averages (CSC148 & CSC165)
+2. Select top `n` students, where `n` is the number of spots in the program for the following year
+
+Admissions is split into two rounds, one following the close of the winter session and another following the close of the summer session.
+
+The following chart was provided after requests to the department for more concrete information. This comparison is between 2017 and 2018.
 
 <table cellpadding="2" border="1">
      <tbody>
@@ -117,11 +123,11 @@ The following chart was provided after requests to the department for more concr
      </tbody>
    </table>
 
-(Data Science is included due to the fact that it is a joint program with CS and Stats. This is the first year of it so there is a small cohort.)
+(This is the first year of Data Science, a joint program with CS and Stats.)
 
-Also note that not all students in CMP1 decided to pursue a CS Major/Specialist. 
+There is typically a predetermined number of positions available in the program each year (Major + Spec., see table below). The total number of offers should exceed that slightly as not every offer is accepted. Transfer students have also been excluded above. Note that not all students in CMP1 decided to pursue a CS Major/Specialist. 
 
-The following is the number of applications versus offers for the major and specialist program over the years as taken from the [department site](http://web.cs.toronto.edu/program/ugrad/admission.htm). (Note that some of the numbers do not match the table above this has been noted and will be addressed)
+The following is the number of applications versus offers for the major and specialist program over the years as taken from the [department site](http://web.cs.toronto.edu/program/ugrad/admission.htm).
 
 <table cellspacing="3" cellpadding="3">
    <tbody align="right">
@@ -152,8 +158,8 @@ The following is the number of applications versus offers for the major and spec
    </tbody>
 </table>
 
-There used to be the cutoff averages for those years posted on the department site. The department now feels that this is not indicative of what the average will be in the coming years as noted in reasons above. The cutoff is basically the average of the last student to get into the POST at that given time.
+There used to be the cutoff averages for these years posted on the department site. The department now feels that this is not a beneficial indicator for students. If one year of applicants were to do especially poor (or CSC165 and CSC148 were especially difficult) the cutoff for that year would sink. If another were to do especially well it would rise. While many may take comfort in having a definite goal, these historical cutoffs may not represent the current requirements for the program. The cutoff is basically the average of the student with the lowest marks to get into the program at that given time. If you would like to know historical cutoff averages please get in touch with us.
 
-We would like to thank Francois and the department for their help in giving us these numbers and their permission to release them to the public. Francois also talked on last years [Room 2250 Episode](https://soundcloud.com/room-2250/s1e2-the-pitt-questions) about the POST if you want further information.
+We would like to thank Francois Pitt and the department for their help in giving us these numbers and their permission to release them to the public. Francois also talked on last years [Room 2250 Episode](https://soundcloud.com/room-2250/s1e2-the-pitt-questions) about the program if you want further information.
 
-If we get more information, we will update this post. We hope this has helped you and if you have any feedback feel free to let us know.
+If we get more information, we will update this post. We hope this has helped you and if you have any feedback feel free to let us know. Feel free to open a PR on [Github](https://github.com/cssu/cssu.ca/blob/draft/_posts/news/2018-10-19-POST-numbers.md) if you would like to contribute :) 
