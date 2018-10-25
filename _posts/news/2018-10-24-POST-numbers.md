@@ -162,4 +162,4 @@ There used to be the cutoff averages for these years posted on the department si
 
 We would like to thank Francois Pitt and the department for their help in giving us these numbers and their permission to release them to the public. Francois also talked on last years [Room 2250 Episode](https://soundcloud.com/room-2250/s1e2-the-pitt-questions) about the program if you want further information.
 
-If we get more information, we will update this post. We hope this has helped you and if you have any feedback feel free to let us know. Feel free to open a PR on [Github](https://github.com/cssu/cssu.ca/blob/draft/_posts/news/2018-10-19-POST-numbers.md) if you would like to contribute :) 
+If we get more information, we will update this post. We hope this has helped you and if you have any feedback feel free to let us know. Feel free to open a PR on [Github](https://github.com/cssu/cssu.ca/blob/draft/_posts/news/2018-10-24-POST-numbers.md) if you would like to contribute :) 
