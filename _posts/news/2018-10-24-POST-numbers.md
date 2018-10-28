@@ -22,106 +22,108 @@ Admissions is split into two rounds, one following the close of the winter sessi
 
 The following chart was provided after requests to the department for more concrete information. This comparison is between 2017 and 2018.
 
-<table cellpadding="2" border="1">
-     <tbody>
-       <tr>
-         <td><br>
-         </td>
-         <td colspan="6" align="center">2018 Admission statistics First Round</td>
-         <td colspan="6" align="center">2018 Admission statistics Second Round</td>
-         <td colspan="5" align="center">2017 Major + Spec. statistics</td>
-       </tr>
-       <tr>
-         <td><br>
-         </td>
-         <td colspan="2" align="center">Minor Only</td>
-         <td colspan="2" align="center">Data Science</td>
-         <td colspan="2" align="center">Major + Spec.</td>
-         <td colspan="2" align="center">Minor Only</td>
-         <td colspan="2" align="center">Data Science</td>
-         <td colspan="2" align="center">Major + Spec.</td>
-         <td colspan="2" align="center">First Round</td>
-         <td colspan="2" align="center">Second Round</td>
-       </tr>
-       <tr>
-         <td><br>
-         </td>
-         <td>Apply</td>
-         <td>Offers</td>
-         <td>Apply</td>
-         <td>Offers</td>
-         <td>Apply</td>
-         <td>Offers</td>
-         <td>Apply</td>
-         <td>Offers</td>
-         <td>Apply</td>
-         <td>Offers</td>
-         <td>Apply</td>
-         <td>Offers</td>
-         <td>Apply</td>
-         <td>Offers</td>
-         <td>Apply</td>
-         <td>Offers</td>
-       </tr>
-       <tr>
-         <td>CMP1</td>
-         <td>53</td>
-         <td>15</td>
-         <td>28</td>
-         <td>2</td>
-         <td>360</td>
-         <td>197</td>
-         <td>78</td>
-         <td>35</td>
-         <td>24</td>
-         <td>4</td>
-         <td>146</td>
-         <td>49</td>
-         <td>268</td>
-         <td>148</td>
-         <td>57</td>
-         <td>10</td>
-       </tr>
-       <tr>
-         <td>Other</td>
-         <td>218</td>
-         <td>81</td>
-         <td>85</td>
-         <td>14</td>
-         <td>428</td>
-         <td>122</td>
-         <td>186</td>
-         <td>79</td>
-         <td>63</td>
-         <td>6</td>
-         <td>253</td>
-         <td>62</td>
-         <td>411</td>
-         <td>155</td>
-         <td>272</td>
-         <td>55</td>
-       </tr>
-       <tr>
-         <td>Total</td>
-         <td>271</td>
-         <td>96</td>
-         <td>113</td>
-         <td>16</td>
-         <td>788</td>
-         <td>319</td>
-         <td>264</td>
-         <td>114</td>
-         <td>87</td>
-         <td>10</td>
-         <td>399</td>
-         <td>111</td>
-         <td>679</td>
-         <td>303</td>
-         <td>329</td>
-         <td>65</td>
-       </tr>
-     </tbody>
-   </table>
+<div style="overflow-x:auto; width:95vw;">
+  <table cellpadding="2" border="1">
+      <tbody>
+        <tr>
+          <td><br>
+          </td>
+          <td colspan="6" align="center">2018 Admission statistics First Round</td>
+          <td colspan="6" align="center">2018 Admission statistics Second Round</td>
+          <td colspan="5" align="center">2017 Major + Spec. statistics</td>
+        </tr>
+        <tr>
+          <td><br>
+          </td>
+          <td colspan="2" align="center">Minor Only</td>
+          <td colspan="2" align="center">Data Science</td>
+          <td colspan="2" align="center">Major + Spec.</td>
+          <td colspan="2" align="center">Minor Only</td>
+          <td colspan="2" align="center">Data Science</td>
+          <td colspan="2" align="center">Major + Spec.</td>
+          <td colspan="2" align="center">First Round</td>
+          <td colspan="2" align="center">Second Round</td>
+        </tr>
+        <tr>
+          <td><br>
+          </td>
+          <td>Apply</td>
+          <td>Offers</td>
+          <td>Apply</td>
+          <td>Offers</td>
+          <td>Apply</td>
+          <td>Offers</td>
+          <td>Apply</td>
+          <td>Offers</td>
+          <td>Apply</td>
+          <td>Offers</td>
+          <td>Apply</td>
+          <td>Offers</td>
+          <td>Apply</td>
+          <td>Offers</td>
+          <td>Apply</td>
+          <td>Offers</td>
+        </tr>
+        <tr>
+          <td>CMP1</td>
+          <td>53</td>
+          <td>15</td>
+          <td>28</td>
+          <td>2</td>
+          <td>360</td>
+          <td>197</td>
+          <td>78</td>
+          <td>35</td>
+          <td>24</td>
+          <td>4</td>
+          <td>146</td>
+          <td>49</td>
+          <td>268</td>
+          <td>148</td>
+          <td>57</td>
+          <td>10</td>
+        </tr>
+        <tr>
+          <td>Other</td>
+          <td>218</td>
+          <td>81</td>
+          <td>85</td>
+          <td>14</td>
+          <td>428</td>
+          <td>122</td>
+          <td>186</td>
+          <td>79</td>
+          <td>63</td>
+          <td>6</td>
+          <td>253</td>
+          <td>62</td>
+          <td>411</td>
+          <td>155</td>
+          <td>272</td>
+          <td>55</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>271</td>
+          <td>96</td>
+          <td>113</td>
+          <td>16</td>
+          <td>788</td>
+          <td>319</td>
+          <td>264</td>
+          <td>114</td>
+          <td>87</td>
+          <td>10</td>
+          <td>399</td>
+          <td>111</td>
+          <td>679</td>
+          <td>303</td>
+          <td>329</td>
+          <td>65</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
 
 (This is the first year of Data Science, a joint program with CS and Stats.)
 
@@ -129,6 +131,7 @@ There is typically a predetermined number of positions available in the program 
 
 The following is the number of applications versus offers for the major and specialist program over the years as taken from the [department site](http://web.cs.toronto.edu/program/ugrad/admission.htm).
 
+<div style="overflow-x:auto; width:95vw;">
 <table cellspacing="3" cellpadding="3">
    <tbody align="right">
        <tr>
@@ -157,6 +160,7 @@ The following is the number of applications versus offers for the major and spec
        </tr>
    </tbody>
 </table>
+</div>
 
 There used to be the cutoff averages for these years posted on the department site. The department now feels that this is not a beneficial indicator for students. If one year of applicants were to do especially poor (or CSC165 and CSC148 were especially difficult) the cutoff for that year would sink. If another were to do especially well it would rise. While many may take comfort in having a definite goal, these historical cutoffs may not represent the current requirements for the program. The cutoff is basically the average of the student with the lowest marks to get into the program at that given time. If you would like to know more please get in touch with us.
 
