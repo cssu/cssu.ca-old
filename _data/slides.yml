@@ -1,5 +1,9 @@
 # There should only be a maximum of 4 slides
 # Pictures go in _assets/images/slides/
+- title: Room 2250 Podcast Season 2
+  text:  Anam and ____ talk UofT, CS, and Toronto lifestyle
+  link:  /podcast
+  pic:   podcast_s2.png
 
 - title: First Year Guide to CS
   text: Available to Read Now!
@@ -10,8 +14,3 @@
   text: The Yearbook is now available for viewing!
   link: /yearbook
   pic: yearbook_banner.png
-
-- title: Room 2250 Podcast
-  text:  Haider and Chris talk UofT, CS, and Toronto lifestyle
-  link:  /podcast
-  pic:   podcast.jpg
