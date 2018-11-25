@@ -14,7 +14,7 @@ future: true
 exclude: [
   'bin',
   'deploy_pages.sh',
-  'out',
+  'out/',
   'Gemfile',
   'Gemfile.lock',
   'Rakefile',
