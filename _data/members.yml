@@ -2,22 +2,16 @@
   teams:
   - name: Executive team
     people:
-    - name:  David Ansermino
-      role:  President
-      email: president@cssu.ca
-      pic:   20182019/david
-
     - name:  Calvin Luo
-      role:  Vice President
+      role:  Vice President and Acting President
       pic:   20182019/calvin
 
     - name:  Taylor Stinson
       role:  Treasurer
       pic:   20182019/taylor
 
-    - name:  Ignas Panero Armoska
+    - name:  Victor Li
       role: Director of Social Events
-      pic:   20182019/ignas
 
     - name:  Asic Qian Chen
       role:  Director of Academic Events
@@ -25,49 +19,9 @@
     - name: Lisa Guo
       role: Director of Internal Communications
       pic:   20182019/lisa
-
-  - name: General Council
-    people:
-    - name: Sonia Zaldana
-      role: Secretary
-      pic:   20182019/sonia
     
-    - name: Peiyu Yu
-      role: International Student Liason
-      pic:   20182019/peiyu
-
-    - name: Kevin Hu
-      role: International Student Liason
-      pic:   20182019/Kevin
-
-    - name: Rooney Gao
-      role: First Year Liason
-      pic:   20182019/rooney
-    
-    - name: Ren Zhang
-      role: First Year Liason
-      pic: 20182019/ren
-
-    - name: Jeremy Yang
-      role: General Council Member
-      pic:   20182019/jeremy
-
-    - name: Ben Prystawski
-      role: General Council Member
-      pic:   20182019/ben
-
-    - name: Marco Angeli
-      role: General Council Member
-      pic:   20182019/marco
-    
-    - name: Clara Silwal
-      role: General Council Member
-    
-    - name: Elliot Ford
-      role: General Council Member
-    
-    - name: Borna Salman
-      role: Store Manager
+    - name:  Ibrahim Hasan
+      role:  Director of External Communications
 
 - year: 2017 - 2018
   teams:
