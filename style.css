@@ -1,0 +1,780 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: PaperLaunch
+	Template URI: http://www.deliciousthemes.com
+	Description: A Coming Soon Template
+	Author: Madalin Tudose
+	Author URI: http://www.deliciousthemes.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+	
+	All files, unless otherwise stated, are released under the GNU General Public License
+	version 3.0 (http://www.gnu.org/licenses/gpl-3.0.html)
+
+-----------------------------------------------------------------------------------
+
+	1.	CSS Reset & Clearfix
+	2.	Document Setup (body, common classes, structure etc)
+	3.	Main Content Styles
+		3.1. Countdown
+		3.2. Forms
+		3.3. Social Links
+	4.	Button Styles
+	5.	Tipsy Plugin - https://github.com/jaz303/tipsy
+
+-----------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	1.	CSS Reset & Clearfix - http://meyerweb.com/eric/tools/css/reset/
+/*-----------------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+label{
+	position:absolute;
+	left:-9999px;
+}
+
+input,textarea {
+	font:inherit;
+	resize:none;
+	background:#fff;
+	color:#a5a5a5;
+}
+
+[placeholder]:active,
+[placeholder]:focus{
+	cursor:text;
+	color:#a5a5a5;
+}
+
+.clear {
+	clear:both;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	2.	Document Setup (body, common classes, structure etc)
+/*-----------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'CopseRegular';
+    src: url('fonts/copse/Copse-Regular-webfont.eot');
+    src: url('fonts/copse/Copse-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/copse/Copse-Regular-webfont.woff') format('woff'),
+         url('fonts/copse/Copse-Regular-webfont.ttf') format('truetype'),
+         url('fonts/copse/Copse-Regular-webfont.svg#CopseRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font: 12px/20px 'CopseRegular', CopseRegular, Helvetica, Arial, sans-serif;
+	background:url(images/backgrounds/noise.png) repeat scroll 0 0;
+	margin:0;
+	padding:0;
+	color:#818181;
+}
+
+#wrapper {
+	width:806px;
+	margin:0 auto;
+	padding:100px 0;
+}
+
+a {
+	text-decoration:none;
+}
+
+a:hover {
+	text-decoration:none;
+}
+
+a.logo {
+	text-align:center;
+	display:block;
+	margin-bottom:35px;
+	filter: opacity(30%);
+}
+
+p.copyright {
+	clear:both;
+	text-align:center;
+	margin:15px 0;
+	text-shadow: 0 1px 1px rgba(255,255,255,0.7);
+}
+
+#book {
+	position:relative;
+}
+
+.top-page {
+	background:url(images/top-paper.png) no-repeat left top;
+	width:806px;
+	height:24px;
+	position:relative;
+}
+
+.content-page {
+	background:url(images/row.png) repeat-y left top;
+	width:806px;
+	height:435px;
+	position:relative;
+}
+
+.bottom-page {
+	background:url(images/bottom-paper.png) no-repeat left top;
+	width:806px;
+	height:55px;
+}
+
+.top-spiral {
+	position:absolute;
+	background:url(images/spiral.png) no-repeat scroll 0 0;
+	width:38px;
+	height:89px;
+	left:-9px;
+	top:61px;
+}
+
+.bottom-spiral {
+	position:absolute;
+	background:url(images/spiral.png) no-repeat scroll 0 0;
+	width:38px;
+	height:89px;
+	left:-9px;
+	top:293px;
+}
+
+.row {
+	width:100%;
+	height:29px;
+	clear:both;
+}
+
+h2 {
+	font-family: 'CopseRegular', CopseRegular, Helvetica, Arial, sans-serif;
+	font-size:28px;
+	text-align:center;
+	height:29px;
+	line-height:32px;
+	font-weight:normal;
+	text-shadow: 1px 1px 0px #e1e1e1;
+	position:relative;
+}
+
+h3 {
+	font-family:Georgia;
+	font-size:18px;
+	font-style:italic;
+	text-align:center;
+	height:29px;
+	line-height:38px;
+	font-weight:normal;
+	color:#a5a5a5;
+}
+
+h4 {
+	font-family:Georgia;
+	font-size:14px;
+	font-style:italic;
+	text-align:center;
+	height:29px;
+	line-height:38px;
+	font-weight:normal;
+	color:#a5a5a5;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	3.	Main Content Styles
+/*-----------------------------------------------------------------------------------*/
+
+	/*----- 3.1. Countdown -----*/
+
+#countdown {
+	float:left;
+	padding:21px 0 10px 105px;
+	position:relative;
+}
+
+.hasCountdown {
+	height:115px;
+}
+
+.item {
+	float:left;
+	text-align:center;
+	margin:0 24px;
+	width:100px;
+	height:100px;
+	border:1px solid #e5e5e5;	
+	background:#fdfdfd url(images/form-pattern.png) repeat scroll 0 0;
+	-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);		
+}
+
+.item span {
+	font-size:16px;
+	clear:both;
+	color:#a5a5a5;
+}
+
+.item p {
+	text-align:center;
+	margin-bottom:10px;
+	font-size:48px;
+	height:60px;
+	line-height:64px;
+}
+
+	/*----- 3.2. Forms -----*/
+	
+.form-wrapper {
+	clear:both;
+	width:470px;
+	border:1px solid #e5e5e5;
+	background:#fdfdfd url(images/form-pattern.png) repeat scroll 0 0;
+	-moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);	
+	padding:8px;
+	margin-left: 160px;
+	overflow:hidden;
+	position:relative;
+}
+	
+.in-touch {
+	margin-top:40px;
+}
+.email-list {
+	margin-top:13px;
+}
+form#subscribe, form#cform {
+	margin:0;
+	padding:0;
+}
+
+#cform {
+	position:relative;
+	display:none;
+}
+
+#message, #mesaj { margin: 0; padding: 0; }
+
+input#semail {
+	width:293px;
+	height:18px;
+	padding:10px 36px 10px 15px;
+	border:1px solid #e5e5e5;
+	font-size:14px;
+	float:left;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;	
+	
+}
+
+input#name, input#email, input#phone, input#subject  {
+	width:214px;
+	height:18px;
+	padding:10px 0 10px 15px;
+	margin-bottom:8px;
+	border:1px solid #e5e5e5;
+	font-size:14px;
+	float:left;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;	
+}
+
+input#name, input#phone {
+	margin-right:8px;
+}
+
+input#verify {
+	width:38px;
+	height:18px;
+	padding:10px 0 10px 15px;
+	border:1px solid #e5e5e5;
+	font-size:14px;
+	float:left;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;	
+}
+
+input#submit, input#ssubmit {
+	position:relative;
+	border-radius: 2px 2px 2px 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;		
+	box-shadow: #e3e3e3 0 1px 1px;		
+	-moz-box-shadow:
+		0px 1px 1px rgba(000,000,000,0.1),
+		inset 0px 1px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 1px rgba(000,000,000,0.1),
+		inset 0px 1px 1px rgba(255,255,255,0.7);				
+	font-size: 14px;
+	float:right;
+	margin-left: 6px;
+	padding:0 10px;
+	height:40px;
+	cursor:pointer;	
+	line-height:36px;
+	behavior: url(PIE.htc);		
+}
+
+input#ssubmit {
+	width:118px;
+}
+
+textarea#comments {
+	width:438px;
+	height:100px;
+	padding:10px 15px;
+	margin-bottom:8px;
+	border:1px solid #e5e5e5;
+	font-size:14px;	
+	float:left;
+	resize: none;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;		
+}
+
+#captcha {
+	float:left;
+	position:relative;
+}
+
+#captcha span {
+	float:left;
+	height:38px;
+	line-height:38px;
+	margin-right:10px;
+	font-size:14px;
+}
+
+.loader {
+	position:relative;
+	float: right;
+	margin-top: 12px;	
+	
+}
+
+.subscribe-loader {
+	position:absolute;
+	left:325px;
+	top: 20px;	
+	
+}
+
+.error_message {
+	text-align:center;
+	color:red;
+	padding:10px 0;
+}
+
+#success_page {
+	text-align:center;
+	padding:10px 0;
+}
+#ribbon {
+	position:absolute;
+	background:url(images/ribbon.png) no-repeat scroll left top;
+	width:70px;
+	height:45px;
+	top:45px;
+	right:-64px;
+	display:block;
+	text-indent:-9999px;
+	z-index:100;
+	cursor:pointer;
+}
+
+	/*----- 3.3. Social Links -----*/
+	
+ul.social {
+	position:relative;
+	text-align:center;
+	padding-top:10px;
+}
+
+ul.social li {
+	display:inline;
+	margin:0 13px;
+}
+
+ul.social li a {
+	text-indent:-9999px;
+	width:24px;
+	height:24px;
+	display:inline-block;
+}
+li a.facebook {
+	background:url(images/social/facebook.png) no-repeat scroll center center;
+}
+li a.twitter {
+	background:url(images/social/twitter.png) no-repeat scroll center center;
+}
+li a.youtube {
+	background:url(images/social/youtube.png) no-repeat scroll center center;
+}
+li a.skype {
+	background:url(images/social/skype.png) no-repeat scroll center center;
+}
+li a.dribbble {
+	background:url(images/social/dribbble.png) no-repeat scroll center center;
+}
+li a.digg {
+	background:url(images/social/digg.png) no-repeat scroll center center;
+}
+li a.delicious {
+	background:url(images/social/delicious.png) no-repeat scroll center center;
+}
+li a.vimeo {
+	background:url(images/social/vimeo.png) no-repeat scroll center center;
+}
+li a.dropbox {
+	background:url(images/social/dropbox.png) no-repeat scroll center center;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	4.	Button Styles
+/*-----------------------------------------------------------------------------------*/
+
+.orange {
+	text-shadow: 1px 1px 0px #ffe8b2;	
+	color: #7c5d1b;
+	border: 1px solid #d6a437;	
+    background: #febd4b; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fed970) to(#febd4b)); /*old webkit*/
+    background: -webkit-linear-gradient(#fed970, #febd4b); /*new webkit*/
+    background: -moz-linear-gradient(#fed970, #febd4b); /*gecko*/
+    background: -ms-linear-gradient(#fed970, #febd4b); /*IE10*/
+    background: -o-linear-gradient(#fed970, #febd4b); /*opera 11.10+*/
+    background: linear-gradient(#fed970, #febd4b); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#fed970, #febd4b);	/*PIE*/	
+}
+
+.orange:hover {
+	color: #7c5d1b;
+	border: 1px solid #d6a437;	
+    background: #febd4b; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#febd4b) to(#fed970)); /*old webkit*/
+    background: -webkit-linear-gradient(#febd4b, #fed970); /*new webkit*/
+    background: -moz-linear-gradient(#febd4b, #fed970); /*gecko*/
+    background: -ms-linear-gradient(#febd4b, #fed970); /*IE10*/
+    background: -o-linear-gradient(#febd4b, #fed970); /*opera 11.10+*/
+    background: linear-gradient(#febd4b, #fed970); /*future CSS3 browsers*/
+    -pie-background: linear-gradient(#febd4b, #fed970); /*PIE*/	
+}
+
+.yellow {
+	text-shadow: 1px 1px 0px #fff0b3;	
+	color: #897931;
+	border: 1px solid #dac34b;	
+    background: #fedb5e; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#feed7a) to(#fedb5e)); /*old webkit*/
+    background: -webkit-linear-gradient(#feed7a, #fedb5e); /*new webkit*/
+    background: -moz-linear-gradient(#feed7a, #fedb5e); /*gecko*/
+    background: -ms-linear-gradient(#feed7a, #fedb5e); /*IE10*/
+    background: -o-linear-gradient(#feed7a, #fedb5e); /*opera 11.10+*/
+    background: linear-gradient(#feed7a, #fedb5e); /*future CSS3 browsers*/		
+	-pie-background: linear-gradient(#feed7a, #fedb5e);	/*PIE*/		
+}
+
+.yellow:hover {
+	text-shadow: 1px 1px 0px #fff0b3;	
+	color: #897931;
+	border: 1px solid #dac34b;	
+    background: #feed7a; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fedb5e) to(#feed7a)); /*old webkit*/
+    background: -webkit-linear-gradient(#fedb5e, #feed7a); /*new webkit*/
+    background: -moz-linear-gradient(#fedb5e, #feed7a); /*gecko*/
+    background: -ms-linear-gradient(#fedb5e, #feed7a); /*IE10*/
+    background: -o-linear-gradient(#fedb5e, #feed7a); /*opera 11.10+*/
+    background: linear-gradient(#fedb5e, #feed7a); /*future CSS3 browsers*/		
+	-pie-background: linear-gradient(#fedb5e, #feed7a);	/*PIE*/		
+}
+
+.red {
+	text-shadow: 1px 1px 0px #dc5653;	
+	color: #fff;
+	border: 1px solid #dc5653;	
+    background: #fe5d62; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fe8781) to(#fe5d62)); /*old webkit*/
+    background: -webkit-linear-gradient(#fe8781, #fe5d62); /*new webkit*/
+    background: -moz-linear-gradient(#fe8781, #fe5d62); /*gecko*/
+    background: -ms-linear-gradient(#fe8781, #fe5d62); /*IE10*/
+    background: -o-linear-gradient(#fe8781, #fe5d62); /*opera 11.10+*/
+    background: linear-gradient(#fe8781, #fe5d62); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#fe8781, #fe5d62);	/*PIE*/			
+}
+
+.red:hover {
+	text-shadow: 1px 1px 0px #dc5653;	
+	color: #fff;
+	border: 1px solid #dc5653;	
+    background: #fe8781; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fe5d62) to(#fe8781)); /*old webkit*/
+    background: -webkit-linear-gradient(#fe5d62, #fe8781); /*new webkit*/
+    background: -moz-linear-gradient(#fe5d62, #fe8781); /*gecko*/
+    background: -ms-linear-gradient(#fe5d62, #fe8781); /*IE10*/
+    background: -o-linear-gradient(#fe5d62, #fe8781); /*opera 11.10+*/
+    background: linear-gradient(#fe5d62, #fe8781); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#fe5d62, #fe8781);	/*PIE*/			
+}
+
+.purple {
+	text-shadow: 1px 1px 0px #8e3b86;	
+	color: #fff;
+	border: 1px solid #dc53ce;	
+    background: #f264eb; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#fd81eb) to(#f264eb)); /*old webkit*/
+    background: -webkit-linear-gradient(#fd81eb, #f264eb); /*new webkit*/
+    background: -moz-linear-gradient(#fd81eb, #f264eb); /*gecko*/
+    background: -ms-linear-gradient(#fd81eb, #f264eb); /*IE10*/
+    background: -o-linear-gradient(#fd81eb, #f264eb); /*opera 11.10+*/
+    background: linear-gradient(#fd81eb, #f264eb); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#fd81eb, #f264eb);	/*PIE*/			
+}
+
+.purple:hover {
+	text-shadow: 1px 1px 0px #8e3b86;	
+	color: #fff;
+	border: 1px solid #dc53ce;	
+    background: #fd81eb; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#f264eb) to(#fd81eb)); /*old webkit*/
+    background: -webkit-linear-gradient(#f264eb, #fd81eb); /*new webkit*/
+    background: -moz-linear-gradient(#f264eb, #fd81eb); /*gecko*/
+    background: -ms-linear-gradient(#f264eb, #fd81eb); /*IE10*/
+    background: -o-linear-gradient(#f264eb, #fd81eb); /*opera 11.10+*/
+    background: linear-gradient(#f264eb, #fd81eb); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#f264eb, #fd81eb);	/*PIE*/		
+}
+
+.green {
+	text-shadow: 1px 1px 0px #d6f3ae;	
+	color: #405922;
+	border: 1px solid #86be46;	
+    background: #a7e059; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#baf765) to(#a7e059)); /*old webkit*/
+    background: -webkit-linear-gradient(#baf765, #a7e059); /*new webkit*/
+    background: -moz-linear-gradient(#baf765, #a7e059); /*gecko*/
+    background: -ms-linear-gradient(#baf765, #a7e059); /*IE10*/
+    background: -o-linear-gradient(#baf765, #a7e059); /*opera 11.10+*/
+    background: linear-gradient(#baf765, #a7e059); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#baf765, #a7e059);	/*PIE*/			
+}
+
+.green:hover {
+	text-shadow: 1px 1px 0px #d6f3ae;	
+	color: #405922;
+	border: 1px solid #86be46;	
+    background: #baf765; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#a7e059) to(#baf765)); /*old webkit*/
+    background: -webkit-linear-gradient(#a7e059, #baf765); /*new webkit*/
+    background: -moz-linear-gradient(#a7e059, #baf765); /*gecko*/
+    background: -ms-linear-gradient(#a7e059, #baf765); /*IE10*/
+    background: -o-linear-gradient(#a7e059, #baf765); /*opera 11.10+*/
+    background: linear-gradient(#a7e059, #baf765); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#a7e059, #baf765);	/*PIE*/			
+}
+
+.blue {
+	text-shadow: 1px 1px 0px #b3e8f9;	
+	color: #2f5869;
+	border: 1px solid #4bb6da;	
+    background: #5ccded; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#7ad6fc) to(#5ccded)); /*old webkit*/
+    background: -webkit-linear-gradient(#7ad6fc, #5ccded); /*new webkit*/
+    background: -moz-linear-gradient(#7ad6fc, #5ccded); /*gecko*/
+    background: -ms-linear-gradient(#7ad6fc, #5ccded); /*IE10*/
+    background: -o-linear-gradient(#7ad6fc, #5ccded); /*opera 11.10+*/
+    background: linear-gradient(#7ad6fc, #5ccded); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#7ad6fc, #5ccded);	/*PIE*/			
+}
+
+.blue:hover {
+	text-shadow: 1px 1px 0px #b3e8f9;	
+	color: #2f5869;
+	border: 1px solid #4bb6da;	
+    background: #7ad6fc; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#5ccded) to(#7ad6fc)); /*old webkit*/
+    background: -webkit-linear-gradient(#5ccded, #7ad6fc); /*new webkit*/
+    background: -moz-linear-gradient(#5ccded, #7ad6fc); /*gecko*/
+    background: -ms-linear-gradient(#5ccded, #7ad6fc); /*IE10*/
+    background: -o-linear-gradient(#5ccded, #7ad6fc); /*opera 11.10+*/
+    background: linear-gradient(#5ccded, #7ad6fc); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#5ccded, #7ad6fc);	/*PIE*/		
+}
+
+.darkblue {
+	text-shadow: 1px 1px 0px #003865;	
+	color: #fff;
+	border: 1px solid #00457c;	
+    background: #0065b5; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#0087cd) to(#0065b5)); /*old webkit*/
+    background: -webkit-linear-gradient(#0087cd, #0065b5); /*new webkit*/
+    background: -moz-linear-gradient(#0087cd, #0065b5); /*gecko*/
+    background: -ms-linear-gradient(#0087cd, #0065b5); /*IE10*/
+    background: -o-linear-gradient(#0087cd, #0065b5); /*opera 11.10+*/
+    background: linear-gradient(#0087cd, #0065b5); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#0087cd, #0065b5);	/*PIE*/			
+}
+
+.darkblue:hover {
+	text-shadow: 1px 1px 0px #003865;	
+	color: #fff;
+	border: 1px solid #00457c;	
+    background: #0087cd; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#0065b5) to(#0087cd)); /*old webkit*/
+    background: -webkit-linear-gradient(#0065b5, #0087cd); /*new webkit*/
+    background: -moz-linear-gradient(#0065b5, #0087cd); /*gecko*/
+    background: -ms-linear-gradient(#0065b5, #0087cd); /*IE10*/
+    background: -o-linear-gradient(#0065b5, #0087cd); /*opera 11.10+*/
+    background: linear-gradient(#0065b5, #0087cd); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#0065b5, #0087cd);	/*PIE*/			
+}
+
+.white {
+	text-shadow: 1px 1px 0px #f8f8f8;	
+	color: #5b5b5b;
+	border: 1px solid #d3d3d3;	
+    background: #ededed; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#f9f9f9) to(#ededed)); /*old webkit*/
+    background: -webkit-linear-gradient(#f9f9f9, #ededed); /*new webkit*/
+    background: -moz-linear-gradient(#f9f9f9, #ededed); /*gecko*/
+    background: -ms-linear-gradient(#f9f9f9, #ededed); /*IE10*/
+    background: -o-linear-gradient(#f9f9f9, #ededed); /*opera 11.10+*/
+    background: linear-gradient(#f9f9f9, #ededed); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#f9f9f9, #ededed);	/*PIE*/			
+}
+
+.white:hover {
+	text-shadow: 1px 1px 0px #f8f8f8;	
+	color: #5b5b5b;
+	border: 1px solid #d3d3d3;	
+    background: #f9f9f9; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#ededed) to(#f9f9f9)); /*old webkit*/
+    background: -webkit-linear-gradient(#ededed, #f9f9f9); /*new webkit*/
+    background: -moz-linear-gradient(#ededed, #f9f9f9); /*gecko*/
+    background: -ms-linear-gradient(#ededed, #f9f9f9); /*IE10*/
+    background: -o-linear-gradient(#ededed, #f9f9f9); /*opera 11.10+*/
+    background: linear-gradient(#ededed, #f9f9f9); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#ededed, #f9f9f9);	/*PIE*/		
+}
+
+.black {
+	text-shadow: 1px 1px 0px #363636;	
+	color: #fff;
+	border: 1px solid #505050;	
+    background: #616161; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#848484) to(#616161)); /*old webkit*/
+    background: -webkit-linear-gradient(#848484, #616161); /*new webkit*/
+    background: -moz-linear-gradient(#848484, #616161); /*gecko*/
+    background: -ms-linear-gradient(#848484, #616161); /*IE10*/
+    background: -o-linear-gradient(#848484, #616161); /*opera 11.10+*/
+    background: linear-gradient(#848484, #616161); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#848484, #616161);	/*PIE*/		
+}
+
+.black:hover {
+	text-shadow: 1px 1px 0px #363636;	
+	color: #fff;
+	border: 1px solid #505050;	
+    background: #848484; /*fallback for non-CSS3 browsers*/
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(#616161) to(#848484)); /*old webkit*/
+    background: -webkit-linear-gradient(#616161, #848484); /*new webkit*/
+    background: -moz-linear-gradient(#616161, #848484); /*gecko*/
+    background: -ms-linear-gradient(#616161, #848484); /*IE10*/
+    background: -o-linear-gradient(#616161, #848484); /*opera 11.10+*/
+    background: linear-gradient(#616161, #848484); /*future CSS3 browsers*/	
+	-pie-background: linear-gradient(#616161, #848484);	/*PIE*/			
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	5.	Tipsy Plugin - https://github.com/jaz303/tipsy
+/*-----------------------------------------------------------------------------------*/
+
+
+.tipsy { font-size: 11px; position: absolute; padding: 8px 5px; z-index: 100000; }
+  .tipsy-inner { background-color: #afafaf; color: #FFF; max-width: 200px; padding: 1px 10px 0 10px; text-align: center; }
+
+  /* Rounded corners */
+  .tipsy-inner { border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; }
+  
+
+  .tipsy-inner { box-shadow: 1px 1px 2px #e7e7e7; -webkit-box-shadow: 1px 1px 2px #e7e7e7; -moz-box-shadow: 1px 1px 2px #e7e7e7; }
+  
+  .tipsy-arrow { position: absolute; width: 0; height: 0; line-height: 0; border: 5px dashed #afafaf;top:29px}
+  
+  /* Rules to colour arrows */
+  .tipsy-arrow-n { border-bottom-color: #afafaf; }
+  .tipsy-arrow-s { border-top-color: #afafaf; }
+  .tipsy-arrow-e { border-left-color: #afafaf; }
+  .tipsy-arrow-w { border-right-color: #afafaf; }
+  
+	.tipsy-n .tipsy-arrow { top: 0px; left: 50%; margin-left: -5px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-nw .tipsy-arrow { top: 0; left: 10px; border-bottom-style: solid; border-top: none; border-left-color: transparent; border-right-color: transparent;}
+    .tipsy-ne .tipsy-arrow { top: 0; right: 10px; border-bottom-style: solid; border-top: none;  border-left-color: transparent; border-right-color: transparent;}
+  .tipsy-s .tipsy-arrow { bottom: 0; left: 50%; margin-left: -5px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-sw .tipsy-arrow { bottom: 0; left: 10px; border-top-style: solid; border-bottom: none;  border-left-color: transparent; border-right-color: transparent; }
+    .tipsy-se .tipsy-arrow { bottom: 0; right: 10px; border-top-style: solid; border-bottom: none; border-left-color: transparent; border-right-color: transparent; }
+  .tipsy-e .tipsy-arrow { right: 0; top: 50%; margin-top: -5px; border-left-style: solid; border-right: none; border-top-color: transparent; border-bottom-color: transparent; }
+  .tipsy-w .tipsy-arrow { left: 0; top: 50%; margin-top: -5px; border-right-style: solid; border-left: none; border-top-color: transparent; border-bottom-color: transparent; }
+
+  
