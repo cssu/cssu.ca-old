@@ -1,61 +1,75 @@
----
-layout: home
-title: Computer Science Student Union
----
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
 
-{% assign current_time = site.time | date: "%s" %}
+<title>CSSU - New Website Coming Soon</title> 
 
-<div class="home">
-  <div id="home-row">
-    <div id="home-row-inner">
-      <div id="home-events">
-        <a href="/events/"><h1>Upcoming Events</h1></a>
-        <ul class="posts" id="events">
-          <li class="empty" id="events--loading">Loading events...</li>
-          <li class="empty hidden" id="events--empty">No upcoming events; stay tuned!</li>
-        </ul>
-      </div>
+<link rel="stylesheet" href="style.css" type="text/css" media="screen">
 
-      <div id="home-news">
-        <a href="/news/"><h1>Recent News</h1></a>
-        <ul class="posts">
-          {% assign has_posts = false %}
-          {% for post in site.categories['news'] limit:4 %}
-            {% comment %}
-              This logic is used to hide posts older than 30 days. Requires a site rebuild to work.
-            {% endcomment %}
-            {% assign expired = post.date | date: "%s" | plus: 2592000 | date: "%s" %}
-            {% if expired > current_time %}
-              {% assign has_posts = true %}
-              <li>
-                <a href="{{ post.url | prepend: site.baseurl }}">
-                  <p class="post-link">{{ post.title }}</p>
-                  <p>{{ post.content | strip_html | truncatewords: 25 }}</p>
-                </a>
-              </li>
-            {% endif %}
-          {% endfor %}
-          {% unless has_posts %}
-            <li class="empty"><a href="/news/">Check out the archives!</a></li>
-          {% endunless %}
-        </ul>
-      </div>
-    </div>
-  </div>
+<script type="text/javascript" src="js/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="js/jquery.countdown.js"></script>
+<script type="text/javascript" src="js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="js/jquery.subscribe.js"></script>
+<script type="text/javascript" src="js/jquery.contact.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
 
-  <div id="home-members">
-    <a href="/about/"><h1>Your {{ site.data.members[0].year }} team</h1></a>
-    <div class="members">
-      <ul class="members-list">
-        {% for team in site.data.members[0].teams %}
-          {% for member in team.people %}
-            {% include member.html %}
-          {% endfor %}
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
+</head> 
+ 
+<body> 
+	<div id="wrapper">
+		<header>
+			<a class="logo" href="index.html"><img src="images/logo.png" alt="logo" title="logo" /></a>
+		</header>
+		
+		<div id="book">			
+			<div class="top-page"></div>
+			
+			<div class="content-page">
+				<div class="top-spiral"></div>
+				<div class="bottom-spiral"></div>
+				
+				<div id="cform">
+					<div class="row"></div>
+					<h3>Get in touch with us:</h3>
+					<div class="form-wrapper in-touch">
+						<div id="message"></div>
+					</div><!--end form-wrapper-->
+				</div><!--end cform-->
+			
+				<div id="home">
+					<div class="row"></div>
+					<h2>Our new website is currently under construction!</h2>					
+					<div class="row"></div>
+					<div class="row"></div>
+					<h3>We`re working hard and believe we`ll launch the website in:</h3>
+					
+					<div id="countdown"></div>	
+					<div class="clear"></div>
+					<div class="row"></div>
+				</div><!--end home-->
+				
+			</div><!--end content-page-->
+			
+			<div class="bottom-page">
+				<ul class="social">
+				<!-- Change the # with the link to your social page. -->
+					<li><a class="facebook tooltip" href="https://www.facebook.com/UofTCSSU/" title="Facebook"></a></li>
+					
+<!-- You can add to social list buttons for digg, delicious, vimeo and dropbox. Just delete the brackets from below -->
+			<!--	<li><a class="digg tooltip" href="#" title="Digg"></a></li>
+					<li><a class="delicious tooltip" href="#" title="Delicious"></a></li>
+					<li><a class="vimeo tooltip" href="#" title="Vimeo"></a></li>
+					<li><a class="dropbox tooltip" href="#" title="DropBox"></a></li>		
+			-->
+				</ul>
+			</div><!--end bottom-page-->
+		</div><!--end book-->
+		
+		<p class="copyright">Copyright &copy; CSSU - All Rights Reserved</p>
+		
+	</div><!--end wrapper-->
+<script type="text/javascript" src="js/jquery.placeholder.js"></script>	<!-- placeholder html5 tag support for IE and Old Browsers -->
+</body> 
+</html>
 
-<script src="https://apis.google.com/js/client:plusone.js?onload=loadCalendarApi" async defer></script>
-{% javascript calendar %}
