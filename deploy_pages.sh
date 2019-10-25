@@ -3,7 +3,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-SOURCE_BRANCH="master"
+SOURCE_BRANCH="draft-deploy"
 TARGET_BRANCH="gh-pages"
 TARGET_REPO="git@github.com:cssu/cssu.ca.git"
 SHA="$(git rev-parse --verify HEAD)"
