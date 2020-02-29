@@ -49,7 +49,7 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
     rack (1.6.5)
-    rake (12.0.0)
+    rake (12.3.3)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
